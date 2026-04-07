@@ -9,6 +9,48 @@ const BADGE = {
   dep:      { label: 'Deprecated', bg: 'rgba(100,100,100,0.18)', color: '#cccccc' },
 }
 
+function DetailPanel({ detail, url }) {
+  const labelStyle = { fontSize: '12px', fontWeight: '700', color: '#888888', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '4px' }
+  const sectionStyle = { marginBottom: '12px' }
+
+  return (
+    <div style={{ fontSize: '14px', color: '#cccccc', lineHeight: 1.7 }}>
+      {detail.intro && (
+        <div style={sectionStyle}>
+          <p style={{ margin: 0, color: '#e5e5e5' }}>{detail.intro}</p>
+        </div>
+      )}
+      {detail.features && detail.features.length > 0 && (
+        <div style={sectionStyle}>
+          <div style={labelStyle}>주요 기능</div>
+          <ul style={{ margin: 0, paddingLeft: '18px' }}>
+            {detail.features.map((f, i) => (
+              <li key={i} style={{ marginBottom: '2px' }}>{f}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {detail.usage && (
+        <div style={sectionStyle}>
+          <div style={labelStyle}>사용법</div>
+          <p style={{ margin: 0 }}>{detail.usage}</p>
+        </div>
+      )}
+      {detail.notes && (
+        <div style={sectionStyle}>
+          <div style={labelStyle}>기타</div>
+          <p style={{ margin: 0 }}>{detail.notes}</p>
+        </div>
+      )}
+      <a href={url} target="_blank" rel="noopener noreferrer"
+        style={{ display: 'inline-block', marginTop: '4px', fontSize: '13px', color: '#60a5fa', textDecoration: 'none' }}
+        onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+        onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+      >{url}</a>
+    </div>
+  )
+}
+
 export default function ItemRow({ item, isFav, onToggleFav }) {
   const [open, setOpen] = useState(false)
   const [hovered, setHovered] = useState(false)
@@ -80,12 +122,18 @@ export default function ItemRow({ item, isFav, onToggleFav }) {
       {/* 펼침 상세 */}
       {open && (
         <div style={{ padding: '14px 20px 14px 44px', background: '#282829', borderTop: '1px solid #404042' }}>
-          <p style={{ fontSize: '15px', color: '#ffffff', lineHeight: 1.7, margin: 0 }}>{item.desc}</p>
-          <a href={item.url} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', marginTop: '8px', fontSize: '13px', color: '#60a5fa', textDecoration: 'none' }}
-            onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
-            onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
-          >{item.url}</a>
+          {item.detail ? (
+            <DetailPanel detail={item.detail} url={item.url} />
+          ) : (
+            <>
+              <p style={{ fontSize: '15px', color: '#ffffff', lineHeight: 1.7, margin: 0 }}>{item.desc}</p>
+              <a href={item.url} target="_blank" rel="noopener noreferrer"
+                style={{ display: 'inline-block', marginTop: '8px', fontSize: '13px', color: '#60a5fa', textDecoration: 'none' }}
+                onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+                onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+              >{item.url}</a>
+            </>
+          )}
         </div>
       )}
     </div>

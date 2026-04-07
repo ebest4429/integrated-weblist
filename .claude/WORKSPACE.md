@@ -11,51 +11,55 @@
 | 항목 | 값 |
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
-| 현재 Phase | Hotfix — UI 전면 개선 |
-| 상태 | ✅ 완료 — UI 전면 개선 + 재배포 완료 |
-| 현재 플랜 | `.claude/plans/hotfix-2026-04-07-ui-overhaul.md` |
+| 현재 Phase | Phase 2 — detail 필드 순차 구현 |
+| 상태 | 🔄 사전 작업 완료 — 카테고리별 detail 순차 작성 단계 진입 |
+| 현재 플랜 | `.claude/plans/phase2-detail.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
 ---
 
 ## 남은 과제
 
-### 🔴 최우선 — session-read-tracker 검증 (다음 세션 시작 직후)
+### Phase 2 사전 작업
 
-세션 시작 후 3개 파일 Read → `.claude/.tracker.log` 생성 여부 확인:
+- ✅ P2-1. master-source.md → 그룹별 5개 파일 분리 + 인덱스 전환 완료
+  - master-source-ai / dev / marketing / creative / google.md 생성
+  - master-source.md → 인덱스 전환
+- ✅ P2-2. 각 파일에 detail 상태 열 추가 완료
+  - 5개 소스 파일 전체 테이블에 `| detail |` 열 추가, 전 행 🔲 초기화
+- ✅ P2-3. scripts/verify-detail.py 작성 완료
+  - 24개 카테고리 338개 항목 파싱, 소스 마커↔JSON detail 교차 검증
+- ✅ P2-4. gen-json.py detail 파싱 추가 완료
+  - split 파일 5개에서 읽기로 전환 (master-source.md 인덱스화로 인한 0 items 수정)
+  - 재생성 시 기존 JSON의 nameKo·detail 필드 보존
+- ✅ P2-5. ItemRow.jsx 펼침 영역 detail 표시 구현 완료
+  - DetailPanel 컴포넌트 추가 (intro·features·usage·notes)
+  - detail 없으면 기존 desc+URL 폴백 유지
+- ✅ P2-6. CONTEXT.md·RULES.md 데이터 워크플로우 업데이트 완료
+  - 데이터 소스 split 파일 구조 반영, detail 작업 흐름 추가
 
-- `stdin_len=0` 이면 → stdin 자체가 안 옴 → 트래킹 방식 근본 재설계 필요
-- `stdin_len>0` + `matched=none` 이면 → 경로 비교 문제 → normalize 추가 조정
-- `gate_cleared` 이면 → 정상 작동 확인 완료
+이후: 카테고리별 순차 detail 작성 (세션당 1카테고리, 총 24개)
+- P2-3. scripts/verify-detail.py 작성
+- P2-4. gen-json.py detail 파싱 추가
+- P2-5. ItemRow.jsx 펼침 영역 detail 표시 구현
+- P2-6. CONTEXT.md·RULES.md 데이터 워크플로우 업데이트
 
-보고서 위치: `c:/Users/admin/Project/Main-Project/project-init/.Source-Files/tracker-bug-report-20260407.md`
+이후 카테고리별 순차 작성 (세션당 1카테고리, 총 24개)
 
-### Hotfix UI — 다음 세션 이어서
+### 보류 — 점검-scope 갱신 문제
 
-- `npm run dev`로 실기기 확인 (텍스트 화이트 #ffffff, 리사이즈, 레이아웃)
-- 이상 없으면 `npm run deploy` 재배포
-
-### Phase 2 — 사전설계 완료, 대기 중
-
-사전설계: `.claude/plans/designs/phase2-detail.md`
-
-**핵심 내용:**
-- master-source.md → 그룹별 5개 파일 분리 (AI 생략 방지)
-- detail 필드 optional 추가 (소개·주요기능·사용법·기타)
-- verify-detail.py 검증 스크립트 도입
-- 카테고리 1개씩 순차 구현 (세션당 10~24개)
-
-Phase 1 완료 후 전환 절차 거쳐 활성화
+취지: /점검-연결 /점검-구현 실행 시 scope.md가 이전 프로젝트 내용으로 잔존하는 문제.
+원인 미조사. Phase 2 진행과 별개로 추후 해결.
+이슈 문서: `project-init/.Source-Files/점검-scope-갱신-미작동-문제.md`
 
 ---
 
 ## 진행 이력
 
-### 2026-04-07 Phase 1 시작 — 프로젝트 초기화 완료
+### 2026-04-07 Hotfix 완료 — UI 전면 개선 + 훅 구조 수정
 
 | 항목 | 내용 |
 |------|------|
-| 소스 프로젝트 | ai_resource_hub + google-ecosystem-map 데이터 분석 완료 |
-| 초기화 | CLAUDE.md·CONTEXT.md·RULES.md 재작성, 챗봇 플랜 아카이브 |
-| 플랜 작성 | weblist-master.md + phase1-build.md 신규 작성 |
-| index.html | 14카테고리 + 즐겨찾기 + 사이드바 리사이즈 구현 |
+| UI 개선 | 다크 테마·Pretendard·헤더 sticky·한글 검색·nameKo 추가 완료 |
+| 재배포 | GitHub Pages 재배포 완료 |
+| 훅 수정 | hooks/package.json 추가 (CommonJS/ESM 충돌 해결) |

@@ -27,11 +27,17 @@ AI·개발·콘텐츠 제작·마케팅·자동화에 필요한 서비스 링크
 
 | 경로 | 내용 |
 |------|------|
-| `.Source-Files/master-source.md` | **마스터 소스** — 24개 섹션 338개 서비스 테이블 (추가·수정 기준) |
-| `src/data/*.json` | 카테고리별 JSON (master-source.md에서 자동 생성) |
+| `.Source-Files/master-source.md` | 인덱스 — 그룹별 파일 링크 + 전체 현황 요약 (P2-1에서 인덱스로 전환) |
+| `.Source-Files/master-source-ai.md` | AI 관련 4섹션 60개 (서비스 추가·detail 작성 여기서) |
+| `.Source-Files/master-source-dev.md` | 개발 관련 4섹션 69개 |
+| `.Source-Files/master-source-marketing.md` | 마케팅·비즈니스 3섹션 47개 |
+| `.Source-Files/master-source-creative.md` | 크리에이티브 4섹션 42개 |
+| `.Source-Files/master-source-google.md` | 구글 생태계 9섹션 120개 |
+| `src/data/*.json` | 카테고리별 JSON (split 소스 파일에서 자동 생성) |
 | `.Source-Files/소스.md` | 원본 참조 메모 (소스 프로젝트 경로·추가 항목 URL) |
 
-> 서비스 추가/수정 → `master-source.md` 수정 → `python scripts/gen-json.py` 실행 → JSON 자동 갱신
+> 서비스 추가/수정 → 해당 그룹 `master-source-{그룹}.md` 수정 → `python scripts/gen-json.py` 실행 → JSON 자동 갱신
+> detail 작성 → 소스 파일 detail 열 ✅ 마킹 → `python scripts/gen-json.py` → `python scripts/verify-detail.py` 검증
 
 ---
 
@@ -96,10 +102,16 @@ integrated-weblist/
 │   ├── RULES.md
 │   └── WORKSPACE.md
 ├── .Source-Files/
-│   ├── master-source.md            # 전체 서비스 마스터 소스 (테이블)
+│   ├── master-source.md            # 인덱스 (P2-1에서 전환)
+│   ├── master-source-ai.md         # AI 관련 4섹션 60개
+│   ├── master-source-dev.md        # 개발 관련 4섹션 69개
+│   ├── master-source-marketing.md  # 마케팅·비즈니스 3섹션 47개
+│   ├── master-source-creative.md   # 크리에이티브 4섹션 42개
+│   ├── master-source-google.md     # 구글 생태계 9섹션 120개
 │   └── 소스.md                     # 원본 참조 메모
 ├── scripts/
-│   └── gen-json.py                 # master-source.md → JSON 자동 생성
+│   ├── gen-json.py                 # split 소스 파일 → JSON 자동 생성 (P2-4에서 split 읽기로 전환)
+│   └── verify-detail.py            # 소스 마커↔JSON detail 교차 검증 (P2-3 신규)
 ├── src/
 │   ├── data/
 │   │   ├── categories.js           # 전체 카테고리 + 그룹 인덱스
@@ -147,4 +159,4 @@ integrated-weblist/
 
 **badge 값:** `free` `paid` `freepaid` `open` `exp` `dep`
 
-**detail 필드:** optional — 없는 서비스는 desc만 표시. master-source.md 기준 카테고리별 순차 작성.
+**detail 필드:** optional — 없는 서비스는 desc만 표시. 그룹별 split 파일 기준 카테고리별 순차 작성.

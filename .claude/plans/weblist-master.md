@@ -1,6 +1,6 @@
 # 통합 웹 리소스 허브 — 마스터플랜
 
-**현재 활성 플랜:** `hotfix-2026-04-07-ui-overhaul.md`
+**현재 활성 플랜:** `phase2-detail.md`
 
 > 참조 소스: `ai_resource_hub/index.html`, `google-ecosystem-map/index.html`, `.Source-Files/소스.md`
 
@@ -21,7 +21,7 @@
 | Phase | 이름 | 플랜 파일 | 상태 |
 |-------|------|----------|------|
 | Phase 1 | 초기화 + Vite+React 구축 | `phase1-build.md` | ✅ 완료 |
-| Phase 2 | detail 필드 순차 구현 | *(사전설계: `designs/phase2-detail.md`)* | 🔲 대기 |
+| Phase 2 | detail 필드 순차 구현 | `phase2-detail.md` | 🔄 진행중 |
 
 ---
 
