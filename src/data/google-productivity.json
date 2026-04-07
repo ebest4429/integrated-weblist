@@ -1,0 +1,104 @@
+{
+  "id": "google-productivity",
+  "icon": "💼",
+  "title": "구글 생산성·워크스페이스",
+  "group": "google",
+  "items": [
+    {
+      "name": "Google Docs",
+      "url": "https://docs.google.com",
+      "desc": "실시간 다중 편집 클라우드 워드프로세서. Gemini AI 초안·요약·번역 통합",
+      "badge": "free"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "desc": "수식·피벗테이블·차트 클라우드 스프레드시트. AI 자연어 수식 자동 작성",
+      "badge": "free"
+    },
+    {
+      "name": "Google Slides",
+      "url": "https://slides.google.com",
+      "desc": "팀 동시 편집 프레젠테이션 도구. AI 슬라이드 레이아웃·이미지 자동 제안",
+      "badge": "free"
+    },
+    {
+      "name": "Google Drive",
+      "url": "https://drive.google.com",
+      "desc": "15GB 무료 클라우드 저장소. 파일 공유·버전 이력·오프라인·팀 드라이브",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Gmail",
+      "url": "https://gmail.com",
+      "desc": "15GB 저장·스마트 분류·스팸 필터·예약 발송·AI 작성 보조 이메일",
+      "badge": "free"
+    },
+    {
+      "name": "Google Calendar",
+      "url": "https://calendar.google.com",
+      "desc": "개인·팀 일정 통합 관리. Gmail 연동 예약 확인 자동 추가",
+      "badge": "free"
+    },
+    {
+      "name": "Google Meet",
+      "url": "https://meet.google.com",
+      "desc": "최대 1,000명 화상 회의. 실시간 자막·배경 흐림·녹화·AI 회의록",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Keep",
+      "url": "https://keep.google.com",
+      "desc": "텍스트·음성·이미지·체크리스트 메모. 위치·시간 기반 리마인더",
+      "badge": "free"
+    },
+    {
+      "name": "Google Forms",
+      "url": "https://forms.google.com",
+      "desc": "설문·퀴즈·등록 양식 무료 제작. 응답 데이터 Sheets 자동 수집",
+      "badge": "free"
+    },
+    {
+      "name": "Google Chat",
+      "url": "https://chat.google.com",
+      "desc": "채널 기반 팀 메시지. Spaces 프로젝트별 대화·Drive·Meet 연동",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Workspace",
+      "url": "https://workspace.google.com",
+      "desc": "Gmail·Drive·Meet·Docs 등 생산성 앱 기업 도메인 통합 구독",
+      "badge": "paid"
+    },
+    {
+      "name": "Google Sites",
+      "url": "https://sites.google.com",
+      "desc": "드래그앤드롭 팀 인트라넷·포트폴리오·프로젝트 허브 웹빌더",
+      "badge": "free"
+    },
+    {
+      "name": "Google Drawings",
+      "url": "https://drawings.google.com",
+      "desc": "다이어그램·플로우차트·조직도 협업 온라인 드로잉",
+      "badge": "free"
+    },
+    {
+      "name": "Google Tasks",
+      "url": "https://tasks.google.com",
+      "desc": "Gmail·Calendar 연동 할일 목록. 마감일·하위 작업 분류",
+      "badge": "free"
+    },
+    {
+      "name": "Google Voice",
+      "url": "https://voice.google.com",
+      "desc": "미국 전화번호 클라우드 관리. 통화·SMS·보이스메일 웹·모바일",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Contacts",
+      "url": "https://contacts.google.com",
+      "desc": "Google 계정 연동 주소록. 중복 제거·자동 병합·라벨 분류",
+      "badge": "free"
+    }
+  ]
+}

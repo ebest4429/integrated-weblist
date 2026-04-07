@@ -1,0 +1,152 @@
+{
+  "id": "dev-tools",
+  "icon": "💻",
+  "title": "개발 도구·코딩",
+  "group": "dev",
+  "items": [
+    {
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "desc": "AI 내장 VSCode 포크. 코드베이스 이해·자동완성·에이전트 모드",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Windsurf",
+      "url": "https://codeium.com/windsurf",
+      "desc": "Codeium AI 에디터. Cascade 에이전트로 복잡한 태스크 자율 처리",
+      "badge": "freepaid"
+    },
+    {
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "desc": "GitHub 공식 AI 코드 어시스턴트. VSCode·JetBrains·Neovim 통합",
+      "badge": "paid"
+    },
+    {
+      "name": "Bolt.new",
+      "url": "https://bolt.new",
+      "desc": "브라우저에서 풀스택 앱 생성·배포. StackBlitz 기반 즉시 실행",
+      "badge": "freepaid"
+    },
+    {
+      "name": "v0 by Vercel",
+      "url": "https://v0.dev",
+      "desc": "자연어로 React UI 컴포넌트 생성. Shadcn·Tailwind 기반",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Replit",
+      "url": "https://replit.com",
+      "desc": "온라인 IDE + AI 에이전트. 앱 즉시 배포·협업 코딩 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Lovable",
+      "url": "https://lovable.dev",
+      "desc": "자연어로 풀스택 웹앱 생성. Supabase 자동 연동·GitHub 연결",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Claude Code",
+      "url": "https://claude.ai/code",
+      "desc": "CLI 기반 AI 코딩 에이전트. 터미널에서 대규모 코드베이스 작업",
+      "badge": "free"
+    },
+    {
+      "name": "Mintlify",
+      "url": "https://mintlify.com",
+      "desc": "AI 기반 개발 문서 자동 생성·관리. GitHub 연동·버전 관리",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Postman AI",
+      "url": "https://postman.com",
+      "desc": "API 테스트 자동화 + AI 어시스턴트. 컬렉션·문서 자동화",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Pinokio",
+      "url": "https://pinokio.co",
+      "desc": "로컬 AI 앱 원클릭 설치·실행 브라우저. 오픈소스 AI 앱 관리",
+      "badge": "open"
+    },
+    {
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com",
+      "desc": "유틸리티 퍼스트 CSS 프레임워크. 빠른 UI 개발·디자인 시스템",
+      "badge": "open"
+    },
+    {
+      "name": "Docker",
+      "url": "https://docker.com",
+      "desc": "컨테이너 기반 앱 패키징·배포 플랫폼. 이식성·일관된 환경",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Puppeteer",
+      "url": "https://pptr.dev",
+      "desc": "Node.js 헤드리스 브라우저 제어 라이브러리. 테스트·스크래핑",
+      "badge": "open"
+    },
+    {
+      "name": "Playwright",
+      "url": "https://playwright.dev",
+      "desc": "크로스 브라우저 자동화 테스트 프레임워크. MS 오픈소스",
+      "badge": "open"
+    },
+    {
+      "name": "ngrok",
+      "url": "https://ngrok.com",
+      "desc": "로컬 서버를 외부 인터넷에 안전하게 노출. 터널링 도구",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Sentry",
+      "url": "https://sentry.io",
+      "desc": "앱 오류 추적·성능 모니터링. 실시간 에러 로그·알림",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Semgrep",
+      "url": "https://semgrep.dev",
+      "desc": "코드 보안 취약점 스캔. 정적 분석·SAST 도구",
+      "badge": "freepaid"
+    },
+    {
+      "name": "VS Code",
+      "url": "https://code.visualstudio.com",
+      "desc": "Microsoft 무료 오픈소스 코드 에디터. 확장 생태계 1위",
+      "badge": "open"
+    },
+    {
+      "name": "Android Studio",
+      "url": "https://developer.android.com/studio",
+      "desc": "IntelliJ 기반 Android 앱 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장",
+      "badge": "free"
+    },
+    {
+      "name": "Google IDX",
+      "url": "https://idx.google.com",
+      "desc": "브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Colab",
+      "url": "https://colab.research.google.com",
+      "desc": "GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Flutter",
+      "url": "https://flutter.dev",
+      "desc": "Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼",
+      "badge": "open"
+    },
+    {
+      "name": "TensorFlow",
+      "url": "https://tensorflow.org",
+      "desc": "딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크",
+      "badge": "open"
+    }
+  ]
+}

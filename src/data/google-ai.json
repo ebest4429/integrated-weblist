@@ -1,0 +1,80 @@
+{
+  "id": "google-ai",
+  "icon": "✨",
+  "title": "구글 AI·생성형",
+  "group": "google",
+  "items": [
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
+      "desc": "Google 최신 멀티모달 AI 어시스턴트. 텍스트·이미지·코드·음성 이해",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Flow",
+      "url": "https://flow.google",
+      "desc": "생성형 AI로 영화 장면 연출. 스토리보드→최종 영상 AI 보조",
+      "badge": "exp"
+    },
+    {
+      "name": "ImageFX",
+      "url": "https://aitestkitchen.withgoogle.com/tools/image-fx",
+      "desc": "Google Imagen 모델 텍스트→이미지. 사실적·예술적 이미지 생성",
+      "badge": "free"
+    },
+    {
+      "name": "Veo 3",
+      "url": "https://deepmind.google/technologies/veo/",
+      "desc": "Google DeepMind AI 동영상 생성. 물리적 사실감 고화질 영상",
+      "badge": "exp"
+    },
+    {
+      "name": "MusicFX",
+      "url": "https://aitestkitchen.withgoogle.com/tools/music-fx",
+      "desc": "텍스트로 음악 즉석 생성. 장르·분위기·악기 조합 자유 지정",
+      "badge": "free"
+    },
+    {
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "desc": "문서·PDF·링크 기반 AI 분석·요약·Q&A 개인 연구 노트 도우미",
+      "badge": "freepaid"
+    },
+    {
+      "name": "AI Studio",
+      "url": "https://aistudio.google.com",
+      "desc": "Gemini API 브라우저 테스트·프롬프트 설계 개발자 프로토타이핑",
+      "badge": "free"
+    },
+    {
+      "name": "AI Test Kitchen",
+      "url": "https://aitestkitchen.withgoogle.com",
+      "desc": "Google 출시 전 AI 기능 공개 실험실. 최신 AI 기술 선 체험",
+      "badge": "exp"
+    },
+    {
+      "name": "Gemini for Workspace",
+      "url": "https://workspace.google.com/intl/ko/products/gemini/",
+      "desc": "Gmail·Sheets·Slides·Docs 전반 통합 AI 어시스턴트",
+      "badge": "paid"
+    },
+    {
+      "name": "Project Astra",
+      "url": "https://deepmind.google/technologies/gemini/project-astra/",
+      "desc": "실시간 카메라·음성 입력 이해 차세대 AI 에이전트 프로젝트",
+      "badge": "exp"
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google",
+      "desc": "AlphaFold·Gemini·Veo 개발 Google 핵심 AI 연구소",
+      "badge": "free"
+    },
+    {
+      "name": "Google Opal",
+      "url": "https://opal.google",
+      "desc": "Google 실험적 AI 서비스",
+      "badge": "exp"
+    }
+  ]
+}

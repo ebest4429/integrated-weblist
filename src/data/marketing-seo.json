@@ -1,0 +1,134 @@
+{
+  "id": "marketing-seo",
+  "icon": "📣",
+  "title": "마케팅·광고·SEO",
+  "group": "marketing",
+  "items": [
+    {
+      "name": "Jasper AI",
+      "url": "https://jasper.ai",
+      "desc": "마케팅 특화 AI 카피라이팅. 브랜드 보이스 학습·팀 협업",
+      "badge": "paid"
+    },
+    {
+      "name": "Copy.ai",
+      "url": "https://copy.ai",
+      "desc": "SNS·광고·이메일 카피 자동 생성. 90개 이상 카피 템플릿",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Writesonic",
+      "url": "https://writesonic.com",
+      "desc": "SEO 최적화 블로그·광고 문구 생성. 실시간 검색 통합",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com",
+      "desc": "백링크·키워드·경쟁사 분석 SEO 도구. 업계 표준",
+      "badge": "paid"
+    },
+    {
+      "name": "Semrush",
+      "url": "https://semrush.com",
+      "desc": "SEO·광고·소셜 통합 마케팅 플랫폼. 키워드 리서치·감사",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Analytics 4",
+      "url": "https://analytics.google.com",
+      "desc": "웹사이트 트래픽·사용자 행동·전환 분석",
+      "badge": "free"
+    },
+    {
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "desc": "검색 노출·클릭·색인·오류 관리 무료 도구",
+      "badge": "free"
+    },
+    {
+      "name": "Google Ads",
+      "url": "https://ads.google.com",
+      "desc": "검색·디스플레이·유튜브·앱 광고 플랫폼",
+      "badge": "paid"
+    },
+    {
+      "name": "Meta Ads",
+      "url": "https://business.facebook.com",
+      "desc": "Facebook·Instagram·WhatsApp 광고 관리자",
+      "badge": "paid"
+    },
+    {
+      "name": "Naver 검색광고",
+      "url": "https://searchad.naver.com",
+      "desc": "네이버 검색광고·디스플레이·쇼핑광고 플랫폼",
+      "badge": "paid"
+    },
+    {
+      "name": "Kakao 모먼트",
+      "url": "https://moment.kakao.com",
+      "desc": "카카오 모먼트·키워드·카카오톡 채널 광고 플랫폼",
+      "badge": "paid"
+    },
+    {
+      "name": "Naver 서치어드바이저",
+      "url": "https://searchadvisor.naver.com",
+      "desc": "네이버 웹마스터 도구. 사이트 색인·검색 최적화 관리",
+      "badge": "free"
+    },
+    {
+      "name": "Bitly",
+      "url": "https://app.bitly.com",
+      "desc": "URL 단축·추적·분석 플랫폼. 링크 클릭 분석·QR 코드 생성",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Gamma",
+      "url": "https://gamma.app/create/generate",
+      "desc": "AI 기반 프레젠테이션·문서·웹페이지 자동 생성",
+      "badge": "freepaid"
+    },
+    {
+      "name": "bkit.ai",
+      "url": "https://www.bkit.ai",
+      "desc": "AI 마케팅 도구",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Merchant Center",
+      "url": "https://merchants.google.com",
+      "desc": "쇼핑몰 상품 데이터를 Google 검색·쇼핑·유튜브·지도 광고에 동기화",
+      "badge": "free"
+    },
+    {
+      "name": "Google Business Profile",
+      "url": "https://business.google.com",
+      "desc": "Google 지도·검색 내 비즈니스 등록·리뷰 관리·무료 운영",
+      "badge": "free"
+    },
+    {
+      "name": "Google AdSense",
+      "url": "https://adsense.google.com",
+      "desc": "웹사이트 Google 광고 게재 수익화 퍼블리셔 플랫폼",
+      "badge": "free"
+    },
+    {
+      "name": "Google Tag Manager",
+      "url": "https://tagmanager.google.com",
+      "desc": "마케팅·분석 태그를 코드 없이 웹사이트에 추가·관리",
+      "badge": "free"
+    },
+    {
+      "name": "Think with Google",
+      "url": "https://thinkwithgoogle.com",
+      "desc": "소비자 트렌드·마케팅 인사이트·업종별 데이터 리서치 허브",
+      "badge": "free"
+    },
+    {
+      "name": "PageSpeed Insights",
+      "url": "https://pagespeed.web.dev",
+      "desc": "웹 페이지 Core Web Vitals 분석·LCP·FID·CLS 개선 제안",
+      "badge": "free"
+    }
+  ]
+}

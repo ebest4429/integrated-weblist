@@ -1,0 +1,110 @@
+{
+  "id": "video-audio-ai",
+  "icon": "🎬",
+  "title": "영상·음성 AI",
+  "group": "ai",
+  "items": [
+    {
+      "name": "Sora",
+      "url": "https://sora.com",
+      "desc": "OpenAI 텍스트→영상. 고품질 리얼리즘·스토리보드 지원",
+      "badge": "paid"
+    },
+    {
+      "name": "Runway Gen-3",
+      "url": "https://runwayml.com",
+      "desc": "AI 영상 생성·편집·효과. 크리에이터·영상 제작자용",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Kling AI",
+      "url": "https://klingai.com",
+      "desc": "Kuaishou 고품질 영상 생성. 한국어 포함 다국어 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Pika Labs",
+      "url": "https://pika.art",
+      "desc": "텍스트·이미지→영상 변환. 간편한 UI, 빠른 생성",
+      "badge": "freepaid"
+    },
+    {
+      "name": "HeyGen",
+      "url": "https://heygen.com",
+      "desc": "AI 아바타 영상 제작. 다국어 립싱크·발표 자료 영상화",
+      "badge": "freepaid"
+    },
+    {
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "desc": "고품질 TTS·음성 클로닝. 다국어·실시간 스트리밍 API 제공",
+      "badge": "freepaid"
+    },
+    {
+      "name": "PlayHT",
+      "url": "https://play.ht",
+      "desc": "실시간 TTS API. 음성 클로닝·감정 표현·다국어 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Whisper",
+      "url": "https://openai.com/research/whisper",
+      "desc": "OpenAI 고정확도 음성→텍스트. 한국어 포함 다국어 오픈소스",
+      "badge": "open"
+    },
+    {
+      "name": "Suno",
+      "url": "https://suno.com",
+      "desc": "텍스트로 완성 노래 생성. 보컬·가사·반주 포함",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Udio",
+      "url": "https://udio.com",
+      "desc": "고품질 AI 음악 생성. 다양한 장르·세밀한 스타일 조정",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Veo 3",
+      "url": "https://deepmind.google/technologies/veo/",
+      "desc": "Google DeepMind AI 동영상 생성 모델. 텍스트→고화질 영상",
+      "badge": "exp"
+    },
+    {
+      "name": "Flow",
+      "url": "https://flow.google",
+      "desc": "생성형 AI 영화 장면 연출 크리에이터용 영상 제작 도구",
+      "badge": "exp"
+    },
+    {
+      "name": "MusicFX",
+      "url": "https://aitestkitchen.withgoogle.com/tools/music-fx",
+      "desc": "텍스트 프롬프트로 음악 즉석 생성. 장르·분위기·악기 조합 지정",
+      "badge": "free"
+    },
+    {
+      "name": "Higgsfield AI",
+      "url": "https://higgsfield.ai",
+      "desc": "AI 영상 생성 플랫폼. 고품질 영상 제작",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Vrew",
+      "url": "https://vrew.ai/ko",
+      "desc": "AI 기반 영상 편집 도구. 자막 자동 생성·음성 인식",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Vooster",
+      "url": "https://app.vooster.ai/ko/org",
+      "desc": "AI 음성 서비스 플랫폼",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Edimakor",
+      "url": "https://www.edimakor.net/kr",
+      "desc": "AI 영상 편집 소프트웨어. 자막·번역·편집 자동화",
+      "badge": "paid"
+    }
+  ]
+}

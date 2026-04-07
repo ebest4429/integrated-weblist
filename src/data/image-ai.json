@@ -1,0 +1,80 @@
+{
+  "id": "image-ai",
+  "icon": "🎨",
+  "title": "이미지·생성 AI",
+  "group": "ai",
+  "items": [
+    {
+      "name": "Midjourney",
+      "url": "https://midjourney.com",
+      "desc": "고품질 아트워크 생성. 다양한 스타일·아트 디렉션 지원",
+      "badge": "paid"
+    },
+    {
+      "name": "DALL-E 3",
+      "url": "https://openai.com/dall-e-3",
+      "desc": "OpenAI 텍스트→이미지. ChatGPT Plus 통합, 자연어 프롬프트",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Adobe Firefly",
+      "url": "https://firefly.adobe.com",
+      "desc": "Adobe 생태계 연동. 상업적 안전 이미지·Photoshop 내 생성 Fill",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Ideogram",
+      "url": "https://ideogram.ai",
+      "desc": "타이포그래피 포함 이미지 생성 강점. 로고·포스터 디자인",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Leonardo.ai",
+      "url": "https://leonardo.ai",
+      "desc": "게임·캐릭터 디자인 특화. 파인튜닝·LoRA 학습·일관된 캐릭터",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Flux (Black Forest Labs)",
+      "url": "https://blackforestlabs.ai",
+      "desc": "고품질 오픈소스 이미지 모델. API·로컬 실행 모두 지원",
+      "badge": "open"
+    },
+    {
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "desc": "로컬 실행 오픈소스 이미지 생성 모델. Stability AI 제공",
+      "badge": "open"
+    },
+    {
+      "name": "Civitai",
+      "url": "https://civitai.com",
+      "desc": "SD 모델·LoRA 공유 커뮤니티. 수천 개 커스텀 모델 탐색·다운로드",
+      "badge": "free"
+    },
+    {
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "desc": "노드 기반 SD 워크플로우 GUI. 고급 파이프라인 구성 가능",
+      "badge": "open"
+    },
+    {
+      "name": "Topaz Labs",
+      "url": "https://topazlabs.com",
+      "desc": "AI 이미지 업스케일링·노이즈 제거·선명화. 사진 후보정용",
+      "badge": "paid"
+    },
+    {
+      "name": "Clipdrop",
+      "url": "https://clipdrop.co",
+      "desc": "배경 제거·조명 편집·인페인팅 등 온라인 이미지 편집",
+      "badge": "freepaid"
+    },
+    {
+      "name": "ImageFX",
+      "url": "https://aitestkitchen.withgoogle.com/tools/image-fx",
+      "desc": "Google Imagen 모델 텍스트→이미지. 사실적·예술적 이미지 프롬프트 생성",
+      "badge": "free"
+    }
+  ]
+}

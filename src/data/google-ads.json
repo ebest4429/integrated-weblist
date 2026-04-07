@@ -1,0 +1,80 @@
+{
+  "id": "google-ads",
+  "icon": "📊",
+  "title": "구글 광고·비즈니스",
+  "group": "google",
+  "items": [
+    {
+      "name": "Google Ads",
+      "url": "https://ads.google.com",
+      "desc": "검색·유튜브·디스플레이·앱 세계 최대 디지털 광고 플랫폼",
+      "badge": "paid"
+    },
+    {
+      "name": "Google Analytics 4",
+      "url": "https://analytics.google.com",
+      "desc": "웹·앱 사용자 행동 이벤트 기반 분석. ML 예측 기능 포함",
+      "badge": "free"
+    },
+    {
+      "name": "Google Merchant Center",
+      "url": "https://merchants.google.com",
+      "desc": "쇼핑몰 상품 데이터 Google 검색·쇼핑·유튜브·지도 광고 동기화",
+      "badge": "free"
+    },
+    {
+      "name": "Google Business Profile",
+      "url": "https://business.google.com",
+      "desc": "Google 지도·검색 내 비즈니스 등록·리뷰·영업시간 무료 관리",
+      "badge": "free"
+    },
+    {
+      "name": "Google AdSense",
+      "url": "https://adsense.google.com",
+      "desc": "웹사이트 광고 게재 클릭·노출 기반 수익 창출 퍼블리셔 플랫폼",
+      "badge": "free"
+    },
+    {
+      "name": "Display & Video 360",
+      "url": "https://marketingplatform.google.com/about/display-video-360/",
+      "desc": "대형 광고주용 프로그래매틱 광고 구매·YouTube·서드파티 통합",
+      "badge": "paid"
+    },
+    {
+      "name": "Search Ads 360",
+      "url": "https://marketingplatform.google.com/about/search-ads-360/",
+      "desc": "여러 검색 엔진 광고 캠페인 통합 자동화·최적화 엔터프라이즈 도구",
+      "badge": "paid"
+    },
+    {
+      "name": "Google Tag Manager",
+      "url": "https://tagmanager.google.com",
+      "desc": "마케팅·분석 태그 코드 없이 웹사이트 추가·관리 시스템",
+      "badge": "free"
+    },
+    {
+      "name": "Looker",
+      "url": "https://cloud.google.com/looker",
+      "desc": "SQL 기반 데이터 모델링·셀프서비스 BI 기업용 분석 플랫폼",
+      "badge": "paid"
+    },
+    {
+      "name": "Google Partners",
+      "url": "https://partners.google.com",
+      "desc": "Google 광고 전문 대행사·컨설턴트 공식 인증·교육·혜택 프로그램",
+      "badge": "free"
+    },
+    {
+      "name": "Think with Google",
+      "url": "https://thinkwithgoogle.com",
+      "desc": "소비자 트렌드·마케팅 인사이트·업종별 데이터 마케터 리서치 허브",
+      "badge": "free"
+    },
+    {
+      "name": "Google Pay Business",
+      "url": "https://pay.google.com/intl/ko/about/business/",
+      "desc": "오프라인·온라인 결제·송금·충성도 프로그램 통합 Google 결제 솔루션",
+      "badge": "freepaid"
+    }
+  ]
+}

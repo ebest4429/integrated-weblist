@@ -1,0 +1,116 @@
+{
+  "id": "ai-platforms",
+  "icon": "🤖",
+  "title": "AI 플랫폼·챗봇",
+  "group": "ai",
+  "items": [
+    {
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
+      "desc": "OpenAI 대화형 AI. GPT-4o 기반 텍스트·이미지·코드 멀티모달 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "desc": "Anthropic AI 어시스턴트. 긴 문서 분석·코딩·창작 강점, MCP 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
+      "desc": "Google 멀티모달 AI. Google Workspace·검색과 깊은 연동",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Grok",
+      "url": "https://grok.x.ai",
+      "desc": "xAI 실시간 검색 AI. X(트위터) 통합, 최신 정보 기반 응답",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://perplexity.ai",
+      "desc": "AI 기반 검색 엔진. 출처 인용·실시간 검색, 리서치에 최적",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com",
+      "desc": "Microsoft 365 통합 AI. Word·Excel·Teams·Outlook 전반 지원",
+      "badge": "paid"
+    },
+    {
+      "name": "Mistral AI",
+      "url": "https://mistral.ai",
+      "desc": "유럽 오픈소스 LLM. 빠른 추론·가벼운 모델·API 제공",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co",
+      "desc": "오픈소스 AI 모델 허브. 수십만 모델·데이터셋·Spaces 호스팅",
+      "badge": "open"
+    },
+    {
+      "name": "Ollama",
+      "url": "https://ollama.ai",
+      "desc": "로컬 LLM 실행 도구. Llama·Mistral·Gemma 등 로컬 구동",
+      "badge": "open"
+    },
+    {
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "desc": "Google AI 리서치 노트. PDF·링크 업로드 후 분석·요약·Q&A",
+      "badge": "free"
+    },
+    {
+      "name": "Phind",
+      "url": "https://phind.com",
+      "desc": "개발자 특화 AI 검색. 코드 질문·기술 문서 검색 최적화",
+      "badge": "free"
+    },
+    {
+      "name": "Genspark",
+      "url": "https://genspark.ai",
+      "desc": "AI 슈퍼에이전트 검색 플랫폼. 실시간 웹 검색·스파크페이지 자동 생성·멀티 AI 통합",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Manus",
+      "url": "https://manus.im",
+      "desc": "중국발 완전 자율 AI 에이전트. 웹 검색·코딩·파일 처리·복잡한 태스크 자동 수행",
+      "badge": "freepaid"
+    },
+    {
+      "name": "chat.z.ai",
+      "url": "https://chat.z.ai",
+      "desc": "AI 채팅 서비스",
+      "badge": "free"
+    },
+    {
+      "name": "Qwen",
+      "url": "https://qwen.ai/home",
+      "desc": "Alibaba 오픈소스 LLM. 다국어 지원·코딩·수학 강점",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Kimi",
+      "url": "https://www.kimi.com",
+      "desc": "Moonshot AI 대화형 AI. 초장문 컨텍스트·한국어 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Flowith",
+      "url": "https://flowith.io/blank",
+      "desc": "AI 기반 협업·아이디어 플랫폼",
+      "badge": "freepaid"
+    },
+    {
+      "name": "abocado.ai",
+      "url": "https://abocado.ai/ko/ai/explore",
+      "desc": "AI 서비스 탐색 플랫폼",
+      "badge": "free"
+    }
+  ]
+}

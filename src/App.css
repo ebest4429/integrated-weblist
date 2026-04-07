@@ -1,0 +1,27 @@
+/* App.css — 전역 커스텀 스타일 (Tailwind 보완용) */
+
+/* 스크롤바 슬림 처리 */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-thumb { background: #4b5563; }
+  ::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+}
+
+/* 사이드바 리사이즈 핸들 */
+.resize-handle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  cursor: col-resize;
+  background: transparent;
+  transition: background 0.15s;
+}
+.resize-handle:hover {
+  background: #3b82f6;
+}

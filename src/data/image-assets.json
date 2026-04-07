@@ -1,0 +1,68 @@
+{
+  "id": "image-assets",
+  "icon": "🖼️",
+  "title": "️ 이미지 에셋·템플릿",
+  "group": "creative",
+  "items": [
+    {
+      "name": "Freepik",
+      "url": "https://freepik.com",
+      "desc": "고품질 벡터·PSD·PNG 템플릿 무료/프리미엄 제공. 방대한 라이브러리",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Unsplash",
+      "url": "https://unsplash.com",
+      "desc": "고해상도 무료 스톡 사진. 상업적 이용 가능·저작권 걱정 없음",
+      "badge": "free"
+    },
+    {
+      "name": "Pexels",
+      "url": "https://pexels.com",
+      "desc": "무료 스톡 이미지·영상. 고화질·상업적 이용 허용·라이선스 무료",
+      "badge": "free"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://pixabay.com",
+      "desc": "2백만+ 무료 이미지·일러스트·벡터. CC0 라이선스",
+      "badge": "free"
+    },
+    {
+      "name": "Shutterstock",
+      "url": "https://shutterstock.com",
+      "desc": "4억+ 프리미엄 스톡 이미지·벡터·일러스트. 업계 표준",
+      "badge": "paid"
+    },
+    {
+      "name": "Getty Images",
+      "url": "https://gettyimages.com",
+      "desc": "세계 최대 프리미엄 스톡 사진·에디토리얼 이미지 라이브러리",
+      "badge": "paid"
+    },
+    {
+      "name": "Envato Elements",
+      "url": "https://elements.envato.com",
+      "desc": "템플릿·폰트·이미지·영상·플러그인 무제한 다운로드 구독",
+      "badge": "paid"
+    },
+    {
+      "name": "Flaticon",
+      "url": "https://flaticon.com",
+      "desc": "1600만+ 아이콘·스티커·애니메이션. PNG·SVG·EPS 다운로드",
+      "badge": "freepaid"
+    },
+    {
+      "name": "VistaCreate",
+      "url": "https://create.vista.com",
+      "desc": "소셜미디어 맞춤 디자인 템플릿. 애니메이션 디자인 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "rawpixel",
+      "url": "https://rawpixel.com",
+      "desc": "무료·프리미엄 이미지·벡터·목업·PNG 배경제거 소스 제공",
+      "badge": "freepaid"
+    }
+  ]
+}

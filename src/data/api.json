@@ -1,0 +1,92 @@
+{
+  "id": "api",
+  "icon": "🔌",
+  "title": "주요 API",
+  "group": "dev",
+  "items": [
+    {
+      "name": "OpenAI API",
+      "url": "https://platform.openai.com",
+      "desc": "GPT-4o·o1·DALL-E·Whisper·TTS API. 가장 광범위한 AI API",
+      "badge": "paid"
+    },
+    {
+      "name": "Anthropic API",
+      "url": "https://anthropic.com/api",
+      "desc": "Claude 3.5 Sonnet·Haiku API. 200K 컨텍스트·MCP·Tool Use",
+      "badge": "paid"
+    },
+    {
+      "name": "Google AI Studio",
+      "url": "https://aistudio.google.com",
+      "desc": "Gemini API 무료 테스트·개발. Gemini Pro·Flash·임베딩 모델",
+      "badge": "free"
+    },
+    {
+      "name": "Groq",
+      "url": "https://groq.com",
+      "desc": "초고속 LLM 추론 API. Llama·Mixtral 호스팅·낮은 레이턴시",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Replicate",
+      "url": "https://replicate.com",
+      "desc": "오픈소스 AI 모델 API 실행. 이미지·영상·LLM 다양한 모델",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Together AI",
+      "url": "https://together.ai",
+      "desc": "오픈소스 모델 고속 API. 파인튜닝·배치 처리·저렴한 단가",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Stripe API",
+      "url": "https://stripe.com",
+      "desc": "결제 처리 API. 구독·단건결제·원화·웹훅 자동화",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Maps API",
+      "url": "https://developers.google.com/maps",
+      "desc": "지도·위치·경로·장소 검색 API. 앱 내 지도 기능 통합",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Resend",
+      "url": "https://resend.com",
+      "desc": "개발자 친화적 이메일 API. React 이메일 템플릿·빠른 발송",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Twilio",
+      "url": "https://twilio.com",
+      "desc": "SMS·전화·WhatsApp API. 인증 문자·알림 자동화",
+      "badge": "freepaid"
+    },
+    {
+      "name": "DeepL API",
+      "url": "https://deepl.com/pro-api",
+      "desc": "고품질 번역 API. 한국어 포함 30개 언어·높은 자연스러움",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google OAuth / Identity",
+      "url": "https://developers.google.com/identity",
+      "desc": "Google 계정 소셜 로그인 구현. OpenID Connect·OAuth 2.0 표준",
+      "badge": "free"
+    },
+    {
+      "name": "Alpha Vantage",
+      "url": "https://www.alphavantage.co",
+      "desc": "주식·암호화폐·외환 시세 데이터 API. 실시간·역사적 데이터",
+      "badge": "freepaid"
+    },
+    {
+      "name": "CoinMarketCap",
+      "url": "https://coinmarketcap.com/api/",
+      "desc": "암호화폐 시세·시가총액·거래량 데이터 API",
+      "badge": "freepaid"
+    }
+  ]
+}

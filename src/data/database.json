@@ -1,0 +1,86 @@
+{
+  "id": "database",
+  "icon": "🗄️",
+  "title": "️ 데이터베이스",
+  "group": "dev",
+  "items": [
+    {
+      "name": "Pinecone",
+      "url": "https://pinecone.io",
+      "desc": "관리형 벡터 DB. AI 검색·RAG·추천 시스템 구축 최적",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Weaviate",
+      "url": "https://weaviate.io",
+      "desc": "오픈소스 벡터 DB. 멀티모달 검색·GraphQL API 지원",
+      "badge": "open"
+    },
+    {
+      "name": "Qdrant",
+      "url": "https://qdrant.tech",
+      "desc": "고성능 오픈소스 벡터 검색 엔진. Rust 기반·빠른 처리 속도",
+      "badge": "open"
+    },
+    {
+      "name": "Chroma",
+      "url": "https://trychroma.com",
+      "desc": "경량 오픈소스 임베딩 DB. LangChain 연동·로컬 실행 가능",
+      "badge": "open"
+    },
+    {
+      "name": "Neon",
+      "url": "https://neon.tech",
+      "desc": "서버리스 PostgreSQL. 빠른 브랜치·스케일 투 제로 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Upstash",
+      "url": "https://upstash.com",
+      "desc": "서버리스 Redis·Kafka·벡터 DB. 엣지 친화적·저레이턴시",
+      "badge": "freepaid"
+    },
+    {
+      "name": "MongoDB Atlas",
+      "url": "https://mongodb.com/atlas",
+      "desc": "클라우드 NoSQL DB. 내장 Vector Search·Atlas App Services",
+      "badge": "freepaid"
+    },
+    {
+      "name": "PlanetScale",
+      "url": "https://planetscale.com",
+      "desc": "서버리스 MySQL. 브랜치 기반 DB 스키마 안전 관리",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Cloudflare D1",
+      "url": "https://developers.cloudflare.com/d1",
+      "desc": "엣지 SQLite DB. Workers 통합·전 세계 분산 배포",
+      "badge": "freepaid"
+    },
+    {
+      "name": "SQLite",
+      "url": "https://sqlite.org",
+      "desc": "경량 내장형 관계형 DB. 파일 기반·설치 불필요",
+      "badge": "open"
+    },
+    {
+      "name": "PostgreSQL",
+      "url": "https://www.postgresql.org",
+      "desc": "강력한 오픈소스 관계형 DB. 확장성·JSON 지원·풀 텍스트 검색",
+      "badge": "open"
+    },
+    {
+      "name": "Redis",
+      "url": "https://redis.io",
+      "desc": "인메모리 데이터 구조 스토어. 캐싱·세션·실시간 데이터 처리",
+      "badge": "open"
+    },
+    {
+      "name": "BigQuery",
+      "url": "https://cloud.google.com/bigquery",
+      "desc": "페타바이트 규모 데이터 SQL 초고속 분석 서버리스 데이터 웨어하우스",
+      "badge": "freepaid"
+    }
+  ]
+}

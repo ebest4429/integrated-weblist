@@ -1,0 +1,80 @@
+{
+  "id": "sound-assets",
+  "icon": "🎵",
+  "title": "사운드 에셋·템플릿",
+  "group": "creative",
+  "items": [
+    {
+      "name": "Freesound",
+      "url": "https://freesound.org",
+      "desc": "CC 라이선스 무료 사운드 이펙트·샘플 공유 커뮤니티",
+      "badge": "free"
+    },
+    {
+      "name": "Mixkit Sound",
+      "url": "https://mixkit.co/free-sound-effects",
+      "desc": "무료 음악·사운드 이펙트. 상업적 이용 가능·로열티 프리",
+      "badge": "free"
+    },
+    {
+      "name": "Pixabay Music",
+      "url": "https://pixabay.com/music",
+      "desc": "무료 배경음악·사운드 이펙트. CC0·유튜브 사용 가능",
+      "badge": "free"
+    },
+    {
+      "name": "Epidemic Sound",
+      "url": "https://epidemicsound.com",
+      "desc": "유튜브·소셜미디어용 프리미엄 배경음악·SFX 구독 서비스",
+      "badge": "paid"
+    },
+    {
+      "name": "Artlist",
+      "url": "https://artlist.io",
+      "desc": "영상 제작자용 로열티 프리 음악·SFX 연간 구독",
+      "badge": "paid"
+    },
+    {
+      "name": "Soundsnap",
+      "url": "https://soundsnap.com",
+      "desc": "25만+ 프리미엄 사운드 이펙트·루프·배경음악",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Pond5 Audio",
+      "url": "https://pond5.com/royalty-free-music",
+      "desc": "스톡 음악·SFX·보이스오버 마켓플레이스. 단건 구매 가능",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Storyblocks Audio",
+      "url": "https://storyblocks.com/audio",
+      "desc": "무제한 음악·SFX 구독. 영상 편집자·팟캐스트 제작자용",
+      "badge": "paid"
+    },
+    {
+      "name": "Uppbeat",
+      "url": "https://uppbeat.io",
+      "desc": "유튜브·틱톡 크리에이터용 무료+프리미엄 배경음악",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Bensound",
+      "url": "https://bensound.com",
+      "desc": "무료 로열티 프리 음악. 영상·프레젠테이션·팟캐스트 배경음",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Zapsplat",
+      "url": "https://zapsplat.com",
+      "desc": "10만+ 무료 사운드 이펙트·음악. 게임·앱·영상 제작용",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Adobe Stock Audio",
+      "url": "https://stock.adobe.com/audio",
+      "desc": "Adobe 생태계 연동 프리미엄 음악·SFX. Premiere 직접 연결",
+      "badge": "paid"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "google-education",
+  "icon": "🎓",
+  "title": "구글 교육·학습",
+  "group": "google",
+  "items": [
+    {
+      "name": "Google Classroom",
+      "url": "https://classroom.google.com",
+      "desc": "과제 배부·제출·채점·피드백 디지털화 LMS. Workspace Education 통합",
+      "badge": "free"
+    },
+    {
+      "name": "Google for Education",
+      "url": "https://edu.google.com",
+      "desc": "학교·대학 Workspace·Chromebook·Classroom 패키지 교육 기관 솔루션",
+      "badge": "freepaid"
+    },
+    {
+      "name": "CS First",
+      "url": "https://csfirst.withgoogle.com",
+      "desc": "9~14세 Scratch 기반 블록 코딩 무료 커리큘럼 구글 코딩 교육",
+      "badge": "free"
+    },
+    {
+      "name": "Grow with Google",
+      "url": "https://grow.google",
+      "desc": "디지털 마케팅·데이터 분석·AI·UX 디자인 실무 기술 무료 교육 허브",
+      "badge": "free"
+    },
+    {
+      "name": "Digital Garage",
+      "url": "https://learndigital.withgoogle.com",
+      "desc": "SEO·소셜미디어·이커머스 디지털 마케팅 무료 온라인 강좌·수료증",
+      "badge": "free"
+    },
+    {
+      "name": "AI Essentials",
+      "url": "https://grow.google/intl/en_us/ai-essentials/",
+      "desc": "AI 도구 활용·프롬프트 작성·업무 자동화 5시간 무료 입문 AI 과정",
+      "badge": "free"
+    },
+    {
+      "name": "Be Internet Awesome",
+      "url": "https://beinternetawesome.withgoogle.com",
+      "desc": "어린이 온라인 안전·개인정보·사이버 괴롭힘 예방 게임 교육",
+      "badge": "free"
+    },
+    {
+      "name": "Earth Education",
+      "url": "https://earth.google.com/education/",
+      "desc": "지리·환경·역사 수업 위성 이미지·3D 지구 체험형 학습 교육자 도구",
+      "badge": "free"
+    },
+    {
+      "name": "Applied Digital Skills",
+      "url": "https://applieddigitalskills.withgoogle.com",
+      "desc": "스프레드시트·프레젠테이션·이메일 Google 도구 실무 활용 영상 강의",
+      "badge": "free"
+    },
+    {
+      "name": "Google Career Certificates",
+      "url": "https://grow.google/certificates/",
+      "desc": "IT 지원·데이터 분석·UX 디자인·사이버 보안 6개월 취업 연계 자격증",
+      "badge": "freepaid"
+    }
+  ]
+}

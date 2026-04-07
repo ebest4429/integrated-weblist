@@ -57,6 +57,18 @@
 
 - ✅ `git init` + GitHub 레포 생성 + 첫 커밋 + push (https://github.com/ebest4429/integrated-weblist)
 
+### 6. Vite + React + Tailwind 프로젝트 구현
+
+- ✅ 6-1. 프로젝트 초기화 (`npm create vite@latest . -- --template react`)
+- ✅ 6-2. Tailwind CSS v4 설치 및 설정 (`@tailwindcss/vite`)
+- ✅ 6-3. 디렉토리 구조 생성 (`src/data/`, `src/components/`)
+- ✅ 6-4. JSON 데이터 파일 작성 — 24개 파일 338개 서비스 (gen-json.py 자동 생성)
+- ✅ 6-5. Sidebar / SidebarGroup 컴포넌트
+- ✅ 6-6. ItemList / ItemRow 컴포넌트 (아코디언 펼침 포함)
+- ✅ 6-7. 검색 기능 (실시간 필터링 — App.jsx)
+- ✅ 6-8. 즐겨찾기 (localStorage — App.jsx)
+- 🔲 6-9. GitHub Pages 배포 설정 (`vite build` + `gh-pages`)
+
 ---
 
 ## 완료 조건

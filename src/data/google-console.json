@@ -1,0 +1,80 @@
+{
+  "id": "google-console",
+  "icon": "🖥️",
+  "title": "️ 구글 관리 콘솔",
+  "group": "google",
+  "items": [
+    {
+      "name": "Google Admin Console",
+      "url": "https://admin.google.com",
+      "desc": "Workspace 사용자·기기·앱·보안 정책 중앙 관리 IT 관리자 콘솔",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Play Console",
+      "url": "https://play.google.com/console",
+      "desc": "Android 앱 출시·관리·매출·설치·리뷰·충돌 분석 개발자 대시보드",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "desc": "검색 노출·클릭·색인·코어 웹 바이탈 모니터링 웹마스터 도구",
+      "badge": "free"
+    },
+    {
+      "name": "Google Cloud Console",
+      "url": "https://console.cloud.google.com",
+      "desc": "GCP 리소스 생성·모니터링·IAM·결제 통합 관리 클라우드 인프라 포털",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Firebase Console",
+      "url": "https://console.firebase.google.com",
+      "desc": "Firebase 프로젝트 DB·인증·호스팅·크래시리틱스·원격 구성 통합 관리",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Ads Manager",
+      "url": "https://ads.google.com",
+      "desc": "Google Ads 캠페인·예산·입찰·성과 보고서 관리 광고주 중앙 콘솔",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Analytics Admin",
+      "url": "https://analytics.google.com",
+      "desc": "GA4 속성·데이터 스트림·사용자 권한·데이터 보관 설정 관리 패널",
+      "badge": "free"
+    },
+    {
+      "name": "AdMob Console",
+      "url": "https://admob.google.com",
+      "desc": "모바일 앱 내 광고 수익 관리·광고 단위·캠페인·수익 분석 콘솔",
+      "badge": "free"
+    },
+    {
+      "name": "Google API Console",
+      "url": "https://console.developers.google.com",
+      "desc": "Google API 사용 설정·API 키·OAuth·사용량 할당량 관리 개발자 포털",
+      "badge": "free"
+    },
+    {
+      "name": "Google Domains",
+      "url": "https://domains.google.com",
+      "desc": "도메인 등록·DNS 설정·이메일 포워딩·WHOIS 관리 도메인 콘솔",
+      "badge": "paid"
+    },
+    {
+      "name": "Tag Manager Console",
+      "url": "https://tagmanager.google.com",
+      "desc": "웹·앱 마케팅·분석 태그 코드 없이 추가·수정·게시 태그 관리 콘솔",
+      "badge": "free"
+    },
+    {
+      "name": "Looker Studio",
+      "url": "https://lookerstudio.google.com",
+      "desc": "다양한 소스 연결 인터랙티브 대시보드 무료 BI 도구",
+      "badge": "free"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root {
+  --sidebar-width: 260px;
+  --sidebar-min: 180px;
+  --sidebar-max: 400px;
+}

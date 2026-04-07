@@ -1,0 +1,86 @@
+{
+  "id": "mcp-automation",
+  "icon": "🧩",
+  "title": "MCP·에이전트·자동화",
+  "group": "ai",
+  "items": [
+    {
+      "name": "MCP 공식 문서",
+      "url": "https://modelcontextprotocol.io",
+      "desc": "Anthropic Model Context Protocol 공식 규격. AI-도구 연결 표준",
+      "badge": "free"
+    },
+    {
+      "name": "MCP.so",
+      "url": "https://mcp.so",
+      "desc": "MCP 서버 디렉토리. 다양한 MCP 서버 탐색·설치·공유",
+      "badge": "free"
+    },
+    {
+      "name": "Smithery",
+      "url": "https://smithery.ai",
+      "desc": "MCP 서버 마켓플레이스. 원클릭 설치·Claude 연동",
+      "badge": "free"
+    },
+    {
+      "name": "LangChain",
+      "url": "https://langchain.com",
+      "desc": "LLM 앱 개발 프레임워크. 체인·RAG·에이전트·메모리 구축",
+      "badge": "open"
+    },
+    {
+      "name": "LangGraph",
+      "url": "https://langchain.com/langgraph",
+      "desc": "상태 기반 멀티에이전트 워크플로우. 사이클·조건 분기 지원",
+      "badge": "open"
+    },
+    {
+      "name": "CrewAI",
+      "url": "https://crewai.com",
+      "desc": "역할 기반 멀티에이전트 협업. 팀 구성→태스크 자동 분배",
+      "badge": "open"
+    },
+    {
+      "name": "AutoGen",
+      "url": "https://microsoft.github.io/autogen",
+      "desc": "Microsoft 멀티에이전트 대화 프레임워크. 자동 코드 실행·검증",
+      "badge": "open"
+    },
+    {
+      "name": "Dify",
+      "url": "https://dify.ai",
+      "desc": "오픈소스 LLM 앱 플랫폼. 시각적 워크플로우·RAG·에이전트 빌더",
+      "badge": "open"
+    },
+    {
+      "name": "n8n",
+      "url": "https://n8n.io",
+      "desc": "오픈소스 워크플로우 자동화. AI 노드·자체 호스팅 가능",
+      "badge": "open"
+    },
+    {
+      "name": "Zapier",
+      "url": "https://zapier.com",
+      "desc": "AI 기반 앱 간 자동화. 6000+ 앱 연동·자연어 자동화 설정",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Make",
+      "url": "https://make.com",
+      "desc": "시각적 자동화 플랫폼. 복잡한 분기·루프 시나리오 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Pipedream",
+      "url": "https://pipedream.com",
+      "desc": "코드 기반 워크플로우 자동화. API 연동·서버리스 실행",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Apify",
+      "url": "https://apify.com",
+      "desc": "웹 스크래핑·자동화 플랫폼. 크롤러·액터 마켓플레이스",
+      "badge": "freepaid"
+    }
+  ]
+}

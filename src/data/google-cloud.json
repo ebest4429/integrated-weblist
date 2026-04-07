@@ -1,0 +1,110 @@
+{
+  "id": "google-cloud",
+  "icon": "☁️",
+  "title": "️ 구글 개발자·클라우드",
+  "group": "google",
+  "items": [
+    {
+      "name": "Google Cloud Platform",
+      "url": "https://cloud.google.com",
+      "desc": "컴퓨팅·스토리지·DB·AI·네트워크 전 세계 40개 리전 엔터프라이즈 클라우드",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Firebase",
+      "url": "https://firebase.google.com",
+      "desc": "실시간 DB·인증·호스팅·푸시 알림 모바일·웹 앱 풀스택 플랫폼",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Colab",
+      "url": "https://colab.research.google.com",
+      "desc": "GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Android Studio",
+      "url": "https://developer.android.com/studio",
+      "desc": "IntelliJ 기반 Android 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장",
+      "badge": "free"
+    },
+    {
+      "name": "PageSpeed Insights",
+      "url": "https://pagespeed.web.dev",
+      "desc": "웹 Core Web Vitals 분석·LCP·FID·CLS 개선 방법 제안",
+      "badge": "free"
+    },
+    {
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "desc": "Google 검색 노출·클릭·색인·코어 웹 바이탈 모니터링 SEO 필수 도구",
+      "badge": "free"
+    },
+    {
+      "name": "Cloud Storage",
+      "url": "https://cloud.google.com/storage",
+      "desc": "99.999999999% 내구성 객체 스토리지. 멀티 리전·버전 관리",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Cloud Functions",
+      "url": "https://cloud.google.com/functions",
+      "desc": "서버 없이 이벤트 기반 코드 실행 서버리스 FaaS",
+      "badge": "freepaid"
+    },
+    {
+      "name": "BigQuery",
+      "url": "https://cloud.google.com/bigquery",
+      "desc": "페타바이트 규모 SQL 초고속 분석 서버리스 데이터 웨어하우스",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Kubernetes Engine",
+      "url": "https://cloud.google.com/kubernetes-engine",
+      "desc": "완전 관리형 Kubernetes 클러스터. 컨테이너 자동 확장·배포",
+      "badge": "freepaid"
+    },
+    {
+      "name": "App Engine",
+      "url": "https://cloud.google.com/appengine",
+      "desc": "인프라 관리 없는 웹 앱 자동 확장 배포 완전 관리형 PaaS",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Looker Studio",
+      "url": "https://lookerstudio.google.com",
+      "desc": "BigQuery·GA·Sheets 연결 인터랙티브 대시보드 무료 BI 도구",
+      "badge": "free"
+    },
+    {
+      "name": "Cloud Run",
+      "url": "https://cloud.google.com/run",
+      "desc": "컨테이너 서버리스 배포. 요청 기반 과금·HTTP·gRPC 지원",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Flutter",
+      "url": "https://flutter.dev",
+      "desc": "Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼",
+      "badge": "open"
+    },
+    {
+      "name": "TensorFlow",
+      "url": "https://tensorflow.org",
+      "desc": "딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크",
+      "badge": "open"
+    },
+    {
+      "name": "Google IDX",
+      "url": "https://idx.google.com",
+      "desc": "브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google OAuth / Identity",
+      "url": "https://developers.google.com/identity",
+      "desc": "Google 계정 소셜 로그인 구현. OpenID Connect·OAuth 2.0 표준",
+      "badge": "free"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "design-tools",
+  "icon": "🎨",
+  "title": "디자인 도구",
+  "group": "creative",
+  "items": [
+    {
+      "name": "Figma",
+      "url": "https://figma.com",
+      "desc": "UI/UX 디자인 협업 플랫폼. 실시간 공동 작업·프로토타이핑·컴포넌트 시스템·개발자 핸드오프",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Penpot",
+      "url": "https://penpot.app",
+      "desc": "오픈소스 Figma 대안. 브라우저 기반 UI 디자인·프로토타이핑·팀 협업",
+      "badge": "open"
+    },
+    {
+      "name": "Framer",
+      "url": "https://framer.com",
+      "desc": "인터랙티브 웹사이트 빌더. 디자이너 친화적·애니메이션 강점",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Canva",
+      "url": "https://canva.com",
+      "desc": "수백만 개 디자인 템플릿·AI 기능 통합. SNS·프레젠테이션·포스터·배너 즉시 편집",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Adobe Express",
+      "url": "https://www.adobe.com/express",
+      "desc": "Adobe 무료 디자인 툴. 로고·플라이어·릴스·썸네일 빠른 제작",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Adobe Firefly",
+      "url": "https://firefly.adobe.com",
+      "desc": "Adobe 생성형 AI 디자인 도구. 상업적 안전 이미지·Photoshop 내 생성 Fill",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Spline",
+      "url": "https://app.spline.design",
+      "desc": "브라우저 기반 3D 디자인 도구. 웹·앱용 인터랙티브 3D 제작",
+      "badge": "freepaid"
+    },
+    {
+      "name": "Google Drawings",
+      "url": "https://drawings.google.com",
+      "desc": "다이어그램·플로우차트·조직도 협업 온라인 드로잉. Docs·Slides 삽입",
+      "badge": "free"
+    }
+  ]
+}

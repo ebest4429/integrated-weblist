@@ -3,18 +3,19 @@
 ## 실행 환경
 
 - OS: Windows 10 Pro
-- Shell: bash (Git Bash / Claude Code 기준)
-- 결과물: 단일 index.html (빌드 도구 없음)
+- Shell: bash (Git Bash / Claude Code)
+- 빌드: `npm run dev` (개발) / `npm run build` (배포 빌드)
+- 배포: GitHub Pages — `npm run deploy` (`gh-pages -d dist`)
 
 ---
 
 ## 개발 원칙
 
-- **단일 파일 원칙**: index.html 하나로 모든 기능 구현. 별도 CSS/JS 파일 분리 금지 (현재 Phase)
-- **데이터 인라인**: SECTIONS 배열은 HTML 내 `<script>` 태그에 직접 선언
-- **재분류 원칙**: 두 소스 프로젝트(ai_resource_hub, google-ecosystem-map)의 데이터를 새 카테고리 기준으로 재분류
-- **중복 제거**: 두 소스에서 동일 서비스가 중복될 경우 한 곳에만 배치
-- **신규 항목**: .Source-Files/소스.md에 명시된 항목만 추가 (임의 추가 금지)
+- **데이터 수정 경로**: 서비스 추가·수정은 `master-source.md` → `python scripts/gen-json.py` → JSON 자동 갱신 순서로만 진행
+- **컴포넌트 단위 작업**: 기능 단위로 컴포넌트 분리. `src/components/`에 위치
+- **Tailwind 우선**: 스타일은 Tailwind 클래스 우선. 커스텀 CSS는 `App.css`에만 최소 추가
+- **중복 제거**: 동일 서비스가 여러 카테고리에 들어가지 않도록 `master-source.md` 기준으로 관리
+- **localStorage 키**: `weblist-sidebar-width`, `weblist-favorites` 고정
 
 ---
 
@@ -22,17 +23,30 @@
 
 1. 플랜에 없는 파일 신규 생성
 2. 현재 Phase 범위를 초과한 작업
-3. 빌드 도구(webpack, vite 등) 설정 파일 생성 — Phase 2 이후 결정
-4. 카테고리 구조 임의 변경 (CONTEXT.md의 카테고리 표 기준)
+3. `master-source.md` 거치지 않고 JSON 직접 수동 편집 (gen-json.py로만 갱신)
+4. WORKSPACE.md Write 도구로 덮어쓰기 (Edit만 허용)
 
 ---
 
 ## 플랜 규칙
 
-- 현재 Phase와 플랜은 `WORKSPACE.md`에서 확인
-- 전체 Phase 구조는 `weblist-master.md`에서 확인
-- 파일 수정 전 WORKSPACE.md + 현재 페이지 플랜 확인 필수
-- 완료된 체크박스 즉시 업데이트
+- 현재 Phase·상태: `WORKSPACE.md`
+- 전체 Phase 구조: `weblist-master.md`
+- 작업 순서: 플랜 🔲→🔄 → 구현 → 🔄→✅ → WORKSPACE 업데이트 → 커밋
+
+---
+
+## 데이터 워크플로우
+
+```
+.Source-Files/master-source.md   ← 서비스 추가·수정 여기서만
+        ↓
+python scripts/gen-json.py       ← 자동 파싱·생성
+        ↓
+src/data/*.json                  ← React에서 import하는 실제 데이터
+```
+
+---
 
 ## plans/ vs designs/ 구분
 

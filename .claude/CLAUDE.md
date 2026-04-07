@@ -33,10 +33,12 @@
 ## 프로젝트 정체성
 
 **통합 웹 리소스 허브 (Integrated Web Resource Hub)**
-AI·개발·콘텐츠 제작·마케팅·자동화에 필요한 서비스 링크를 분류·통합한 단일 HTML 웹 리소스 허브.
-사이드바 네비게이션 + 검색 + 즐겨찾기 구조. 상단 nav 없음.
+AI·개발·콘텐츠 제작·마케팅·자동화에 필요한 서비스 링크를 분류·통합한 웹 리소스 허브.
+**기술 스택: Vite + React + Tailwind CSS** (빌드형. 단일 HTML 아님)
+사이드바 네비게이션(그룹핑) + 검색 + 즐겨찾기 구조. 상단 nav 없음.
 
-참조 소스: `ai_resource_hub/index.html`, `google-ecosystem-map/index.html`, `.Source-Files/소스.md`
+마스터 소스: `.Source-Files/master-source.md` (24섹션 338개 서비스)
+데이터: `src/data/` 카테고리별 JSON (scripts/gen-json.py로 자동 생성)
 
 ---
 
