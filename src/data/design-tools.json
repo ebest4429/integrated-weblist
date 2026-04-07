@@ -8,49 +8,145 @@
       "name": "Figma",
       "url": "https://figma.com",
       "desc": "UI/UX 디자인 협업 플랫폼. 실시간 공동 작업·프로토타이핑·컴포넌트 시스템·개발자 핸드오프",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "웹 기반 UI/UX 디자인 도구의 업계 표준. 팀원 모두가 동시에 같은 파일에서 작업할 수 있는 실시간 협업이 핵심 강점이며, 디자인부터 개발 핸드오프까지 하나의 플랫폼에서 처리한다.",
+        "features": [
+          "실시간 다중 사용자 동시 편집 (멀티플레이어)",
+          "컴포넌트·오토레이아웃·배리언트 시스템",
+          "프로토타이핑·인터랙션·애니메이션",
+          "개발자 핸드오프 (CSS 코드·에셋 자동 추출)",
+          "FigJam 화이트보드·플러그인 생태계"
+        ],
+        "usage": "무료 플랜으로 프로젝트 3개·협업자 제한 없이 시작 가능. 팀 단위 사용 시 Professional 플랜 필요. Dev Mode로 개발자에게 스펙 공유.",
+        "notes": "2023년 Adobe 인수 시도 무산 후 독립 유지. Figma AI 기능(자동 레이아웃·콘텐츠 생성) 지속 추가 중."
+      }
     },
     {
       "name": "Penpot",
       "url": "https://penpot.app",
       "desc": "오픈소스 Figma 대안. 브라우저 기반 UI 디자인·프로토타이핑·팀 협업",
-      "badge": "open"
+      "badge": "open",
+      "detail": {
+        "intro": "Figma의 오픈소스 대안으로, 자체 서버에 설치하거나 클라우드 무료로 사용할 수 있다. SVG 기반 설계로 디자인과 코드의 간극을 줄이는 것을 목표로 한다.",
+        "features": [
+          "완전 오픈소스 (AGPL 라이선스) — 셀프호스팅 가능",
+          "벡터·SVG 네이티브 편집",
+          "프로토타이핑·인터랙션 플로우",
+          "팀 협업·코멘트·공유",
+          "CSS Grid·Flex 레이아웃 직접 반영"
+        ],
+        "usage": "penpot.app에서 무료 계정 생성 후 바로 사용. 기업 내부 배포는 Docker로 셀프호스팅. Figma에서 임포트 기능 지원.",
+        "notes": "Kaleidos(스페인)가 개발 주도. Figma 종속에서 벗어나려는 팀에 적합."
+      }
     },
     {
       "name": "Framer",
       "url": "https://framer.com",
       "desc": "인터랙티브 웹사이트 빌더. 디자이너 친화적·애니메이션 강점",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "디자인과 퍼블리싱을 하나로 합친 웹사이트 빌더. 코딩 없이 고급 애니메이션과 인터랙션을 구현할 수 있으며, 디자인한 결과물이 그대로 실제 웹사이트로 배포된다.",
+        "features": [
+          "드래그앤드롭 웹사이트 빌더 + 실시간 프리뷰",
+          "스크롤·호버·클릭 기반 고급 애니메이션",
+          "CMS 콘텐츠 관리 (블로그·포트폴리오)",
+          "React 컴포넌트 삽입 지원",
+          "AI 사이트 생성·이미지 생성 기능"
+        ],
+        "usage": "무료 플랜으로 사이트 1개 배포 가능. framer.com에서 템플릿 선택 후 편집. 커스텀 도메인은 유료 플랜 필요.",
+        "notes": "포트폴리오·랜딩페이지·마케팅 사이트에 특히 강점. Webflow보다 애니메이션 자유도가 높다는 평."
+      }
     },
     {
       "name": "Canva",
       "url": "https://canva.com",
       "desc": "수백만 개 디자인 템플릿·AI 기능 통합. SNS·프레젠테이션·포스터·배너 즉시 편집",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "비디자이너도 즉시 쓸 수 있는 그래픽 디자인 플랫폼. 수백만 개의 템플릿과 드래그앤드롭 편집으로 소셜 콘텐츠, 프레젠테이션, 인쇄물을 빠르게 제작한다.",
+        "features": [
+          "수백만 개 템플릿 (SNS·발표자료·포스터·영상)",
+          "Magic Studio AI — 배경 제거·이미지 생성·텍스트 생성",
+          "Brand Kit — 색상·폰트·로고 일괄 관리",
+          "팀 협업·코멘트·공유 링크",
+          "PPT·PDF·영상·GIF 다양한 포맷 내보내기"
+        ],
+        "usage": "canva.com에서 무료 계정 생성. 원하는 사이즈·용도 선택 후 템플릿 편집. Canva Pro는 프리미엄 템플릿·무제한 저장·Magic Studio 전체 기능 제공.",
+        "notes": "교육기관·비영리단체는 Pro 무료 신청 가능. 2023년부터 AI 기능 대폭 확장."
+      }
     },
     {
       "name": "Adobe Express",
       "url": "https://www.adobe.com/express",
       "desc": "Adobe 무료 디자인 툴. 로고·플라이어·릴스·썸네일 빠른 제작",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Adobe가 제공하는 간편 디자인 도구. Photoshop·Illustrator의 복잡함 없이 소셜 콘텐츠, 로고, 영상 클립을 빠르게 제작할 수 있으며 Adobe Firefly AI가 통합되어 있다.",
+        "features": [
+          "템플릿 기반 SNS 포스트·스토리·릴스 제작",
+          "Adobe Firefly AI — 텍스트→이미지·배경 생성",
+          "배경 제거·오브젝트 제거·이미지 편집",
+          "브랜드 키트 — 로고·색상·폰트 저장",
+          "팀 공유·Creative Cloud 연동"
+        ],
+        "usage": "Adobe 계정으로 무료 사용 가능. 유료 플랜(Creative Cloud 포함 또는 단독)은 프리미엄 템플릿·무제한 스토리지 제공.",
+        "notes": "Adobe CC 구독자라면 추가 비용 없이 전체 기능 사용 가능."
+      }
     },
     {
       "name": "Adobe Firefly",
       "url": "https://firefly.adobe.com",
       "desc": "Adobe 생성형 AI 디자인 도구. 상업적 안전 이미지·Photoshop 내 생성 Fill",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Adobe의 생성형 AI 플랫폼. 저작권 침해 없는 상업적 안전 이미지 생성을 강점으로 내세우며, Photoshop·Illustrator·Express 등 Adobe 앱 전반에 통합되어 있다.",
+        "features": [
+          "텍스트→이미지 생성 (상업적 이용 안전)",
+          "Generative Fill — 이미지 부분 생성·확장·제거",
+          "텍스트 효과 — 프롬프트로 글자 질감 스타일링",
+          "벡터 재색상 — 일러스트 색상 AI 변환",
+          "Photoshop·Illustrator·Express 내 직접 사용"
+        ],
+        "usage": "firefly.adobe.com에서 무료 체험 가능 (월 크레딧 제한). Adobe CC 구독자는 크레딧 추가 제공. Photoshop에서 선택 영역 후 'Generative Fill' 클릭으로 사용.",
+        "notes": "학습 데이터는 Adobe Stock 라이선스 이미지만 사용 — 상업 프로젝트에서 법적 리스크 낮음."
+      }
     },
     {
       "name": "Spline",
       "url": "https://app.spline.design",
       "desc": "브라우저 기반 3D 디자인 도구. 웹·앱용 인터랙티브 3D 제작",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Blender나 Cinema 4D 없이 브라우저에서 3D 오브젝트와 씬을 만들 수 있는 도구. 마우스 인터랙션·애니메이션·물리 시뮬레이션까지 지원하며 웹에 iframe으로 바로 삽입 가능하다.",
+        "features": [
+          "브라우저 기반 3D 모델링·씬 구성",
+          "인터랙티브 이벤트 — 마우스 호버·클릭·스크롤 반응",
+          "애니메이션·물리 시뮬레이션",
+          "웹 iframe·React 컴포넌트로 임베드",
+          "AI 3D 생성 (텍스트 프롬프트 → 3D 오브젝트)"
+        ],
+        "usage": "무료 플랜으로 공개 프로젝트 무제한 생성. 내보낼 때 Spline 로고 워터마크 제거는 유료. React 프로젝트에는 @splinetool/react-spline 패키지로 통합.",
+        "notes": "랜딩페이지 히어로 섹션 3D 배경, 제품 인터랙티브 쇼케이스에 많이 활용."
+      }
     },
     {
       "name": "Google Drawings",
       "url": "https://drawings.google.com",
       "desc": "다이어그램·플로우차트·조직도 협업 온라인 드로잉. Docs·Slides 삽입",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google Workspace에 포함된 온라인 다이어그램 도구. 플로우차트, 조직도, 와이어프레임, 마인드맵을 여럿이 동시에 편집하고 Google Docs·Slides에 바로 삽입할 수 있다.",
+        "features": [
+          "도형·선·텍스트 기반 다이어그램 편집",
+          "실시간 공동 작업·코멘트",
+          "Google Docs·Slides·Sites에 직접 삽입",
+          "PNG·SVG·PDF 내보내기",
+          "Google Drive 저장·공유"
+        ],
+        "usage": "Google 계정으로 drawings.google.com 접속 후 바로 사용. Google Docs에서 삽입 > 드로잉으로도 실행 가능. 완전 무료.",
+        "notes": "Lucidchart·draw.io에 비해 기능은 단순하지만 Google 생태계 내 빠른 협업이 강점."
+      }
     }
   ]
 }

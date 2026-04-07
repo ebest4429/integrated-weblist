@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 2 — detail 필드 순차 구현 |
-| 상태 | 🔄 detail 순차 작성 진행 중 — 11/24 카테고리 완료 (176/338개) |
+| 상태 | 🔄 detail 순차 작성 진행 중 — 12/24 카테고리 완료 (184/338개) |
 | 현재 플랜 | `.claude/plans/phase2-detail.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -50,6 +50,7 @@
 - 완료: 📣 마케팅·광고·SEO 21/21 (2026-04-08)
 - 완료: 💳 결제·핀테크 13/13 (2026-04-08)
 - 완료: 🛠️ 노코드·로우코드·협업 13/13 (2026-04-08)
+- 완료: 🎨 디자인 도구 8/8 (2026-04-08)
 - P2-3. scripts/verify-detail.py 작성
 - P2-4. gen-json.py detail 파싱 추가
 - P2-5. ItemRow.jsx 펼침 영역 detail 표시 구현

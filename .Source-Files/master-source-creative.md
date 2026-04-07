@@ -13,14 +13,14 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Figma | https://figma.com | UI/UX 디자인 협업 플랫폼. 실시간 공동 작업·프로토타이핑·컴포넌트 시스템·개발자 핸드오프 | 무료+유료 | ai_resource_hub | 🔲 |
-| Penpot | https://penpot.app | 오픈소스 Figma 대안. 브라우저 기반 UI 디자인·프로토타이핑·팀 협업 | 오픈소스 | ai_resource_hub | 🔲 |
-| Framer | https://framer.com | 인터랙티브 웹사이트 빌더. 디자이너 친화적·애니메이션 강점 | 무료+유료 | ai_resource_hub | 🔲 |
-| Canva | https://canva.com | 수백만 개 디자인 템플릿·AI 기능 통합. SNS·프레젠테이션·포스터·배너 즉시 편집 | 무료+유료 | ai_resource_hub | 🔲 |
-| Adobe Express | https://www.adobe.com/express | Adobe 무료 디자인 툴. 로고·플라이어·릴스·썸네일 빠른 제작 | 무료+유료 | ai_resource_hub | 🔲 |
-| Adobe Firefly | https://firefly.adobe.com | Adobe 생성형 AI 디자인 도구. 상업적 안전 이미지·Photoshop 내 생성 Fill | 무료+유료 | ai_resource_hub | 🔲 |
-| Spline | https://app.spline.design | 브라우저 기반 3D 디자인 도구. 웹·앱용 인터랙티브 3D 제작 | 무료+유료 | 소스.md | 🔲 |
-| Google Drawings | https://drawings.google.com | 다이어그램·플로우차트·조직도 협업 온라인 드로잉. Docs·Slides 삽입 | 무료 | google-ecosystem-map | 🔲 |
+| Figma | https://figma.com | UI/UX 디자인 협업 플랫폼. 실시간 공동 작업·프로토타이핑·컴포넌트 시스템·개발자 핸드오프 | 무료+유료 | ai_resource_hub | ✅ |
+| Penpot | https://penpot.app | 오픈소스 Figma 대안. 브라우저 기반 UI 디자인·프로토타이핑·팀 협업 | 오픈소스 | ai_resource_hub | ✅ |
+| Framer | https://framer.com | 인터랙티브 웹사이트 빌더. 디자이너 친화적·애니메이션 강점 | 무료+유료 | ai_resource_hub | ✅ |
+| Canva | https://canva.com | 수백만 개 디자인 템플릿·AI 기능 통합. SNS·프레젠테이션·포스터·배너 즉시 편집 | 무료+유료 | ai_resource_hub | ✅ |
+| Adobe Express | https://www.adobe.com/express | Adobe 무료 디자인 툴. 로고·플라이어·릴스·썸네일 빠른 제작 | 무료+유료 | ai_resource_hub | ✅ |
+| Adobe Firefly | https://firefly.adobe.com | Adobe 생성형 AI 디자인 도구. 상업적 안전 이미지·Photoshop 내 생성 Fill | 무료+유료 | ai_resource_hub | ✅ |
+| Spline | https://app.spline.design | 브라우저 기반 3D 디자인 도구. 웹·앱용 인터랙티브 3D 제작 | 무료+유료 | 소스.md | ✅ |
+| Google Drawings | https://drawings.google.com | 다이어그램·플로우차트·조직도 협업 온라인 드로잉. Docs·Slides 삽입 | 무료 | google-ecosystem-map | ✅ |
 
 ---
 
