@@ -65,24 +65,24 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Vercel | https://vercel.com | Next.js 최적화 배포 플랫폼. 엣지 함수·CDN·자동 Preview 배포 | 무료+유료 | ai_resource_hub | 🔲 |
-| Netlify | https://netlify.com | JAMstack 배포. 폼·서버리스 함수·CDN·A/B 테스트 통합 | 무료+유료 | ai_resource_hub | 🔲 |
-| Railway | https://railway.app | DB+백엔드 원클릭 배포. GitHub 연동·간편한 환경변수 관리 | 무료+유료 | ai_resource_hub | 🔲 |
-| Render | https://render.com | 웹서비스·DB·크론잡 통합 배포. Docker·무중단 배포 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| GitHub Pages | https://pages.github.com | GitHub 무료 정적 사이트 호스팅. 커스텀 도메인·HTTPS 지원 | 무료 | ai_resource_hub | 🔲 |
-| Cron-job.org | https://cron-job.org | 무료 클라우드 Cronjob 서비스. HTTP 요청 스케줄링·실패 알림 | 무료 | ai_resource_hub | 🔲 |
-| Supabase | https://supabase.com | 오픈소스 Firebase 대안. PostgreSQL+인증+스토리지+실시간DB | 무료+유료 | ai_resource_hub | 🔲 |
-| Firebase | https://firebase.google.com | Google 앱 개발 플랫폼. 실시간DB·인증·호스팅·Analytics | 무료+유료 | ai_resource_hub | 🔲 |
-| Clerk | https://clerk.com | 사용자 인증·관리 서비스. 소셜 로그인·MFA·조직 관리 | 무료+유료 | ai_resource_hub | 🔲 |
-| PocketBase | https://pocketbase.io | 단일 파일 오픈소스 백엔드. SQLite 기반·자체 서버 운영 가능 | 오픈소스 | ai_resource_hub | 🔲 |
-| AWS | https://aws.amazon.com | 아마존 클라우드. EC2·S3·Lambda·RDS 등 200+ 서비스 | 무료+유료 | ai_resource_hub | 🔲 |
-| Google Cloud (GCP) | https://cloud.google.com | AI/ML에 강한 클라우드. Vertex AI·BigQuery·Kubernetes Engine | 무료+유료 | ai_resource_hub | 🔲 |
-| DigitalOcean | https://digitalocean.com | 개발자 친화적 클라우드. VPS·Managed DB·App Platform | 무료+유료 | ai_resource_hub | 🔲 |
-| Cloudflare Workers | https://workers.cloudflare.com | 엣지 서버리스 실행. 전 세계 300+ 엣지 노드·D1·R2 통합 | 무료+유료 | ai_resource_hub | 🔲 |
-| NCloud | https://www.ncloud.com | 네이버 클라우드 플랫폼. 국내 최적화 서버·DB·AI 서비스 | 무료+유료 | 소스.md | 🔲 |
-| Google Cloud Run | https://cloud.google.com/run | 컨테이너 서버리스 배포. 요청 기반 과금·HTTP·gRPC 지원 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google App Engine | https://cloud.google.com/appengine | 인프라 관리 없는 웹 앱 자동 확장 배포 완전 관리형 PaaS | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Kubernetes Engine | https://cloud.google.com/kubernetes-engine | 완전 관리형 Kubernetes 클러스터. 컨테이너 자동 확장·배포 | 무료+유료 | google-ecosystem-map | 🔲 |
+| Vercel | https://vercel.com | Next.js 최적화 배포 플랫폼. 엣지 함수·CDN·자동 Preview 배포 | 무료+유료 | ai_resource_hub | ✅ |
+| Netlify | https://netlify.com | JAMstack 배포. 폼·서버리스 함수·CDN·A/B 테스트 통합 | 무료+유료 | ai_resource_hub | ✅ |
+| Railway | https://railway.app | DB+백엔드 원클릭 배포. GitHub 연동·간편한 환경변수 관리 | 무료+유료 | ai_resource_hub | ✅ |
+| Render | https://render.com | 웹서비스·DB·크론잡 통합 배포. Docker·무중단 배포 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| GitHub Pages | https://pages.github.com | GitHub 무료 정적 사이트 호스팅. 커스텀 도메인·HTTPS 지원 | 무료 | ai_resource_hub | ✅ |
+| Cron-job.org | https://cron-job.org | 무료 클라우드 Cronjob 서비스. HTTP 요청 스케줄링·실패 알림 | 무료 | ai_resource_hub | ✅ |
+| Supabase | https://supabase.com | 오픈소스 Firebase 대안. PostgreSQL+인증+스토리지+실시간DB | 무료+유료 | ai_resource_hub | ✅ |
+| Firebase | https://firebase.google.com | Google 앱 개발 플랫폼. 실시간DB·인증·호스팅·Analytics | 무료+유료 | ai_resource_hub | ✅ |
+| Clerk | https://clerk.com | 사용자 인증·관리 서비스. 소셜 로그인·MFA·조직 관리 | 무료+유료 | ai_resource_hub | ✅ |
+| PocketBase | https://pocketbase.io | 단일 파일 오픈소스 백엔드. SQLite 기반·자체 서버 운영 가능 | 오픈소스 | ai_resource_hub | ✅ |
+| AWS | https://aws.amazon.com | 아마존 클라우드. EC2·S3·Lambda·RDS 등 200+ 서비스 | 무료+유료 | ai_resource_hub | ✅ |
+| Google Cloud (GCP) | https://cloud.google.com | AI/ML에 강한 클라우드. Vertex AI·BigQuery·Kubernetes Engine | 무료+유료 | ai_resource_hub | ✅ |
+| DigitalOcean | https://digitalocean.com | 개발자 친화적 클라우드. VPS·Managed DB·App Platform | 무료+유료 | ai_resource_hub | ✅ |
+| Cloudflare Workers | https://workers.cloudflare.com | 엣지 서버리스 실행. 전 세계 300+ 엣지 노드·D1·R2 통합 | 무료+유료 | ai_resource_hub | ✅ |
+| NCloud | https://www.ncloud.com | 네이버 클라우드 플랫폼. 국내 최적화 서버·DB·AI 서비스 | 무료+유료 | 소스.md | ✅ |
+| Google Cloud Run | https://cloud.google.com/run | 컨테이너 서버리스 배포. 요청 기반 과금·HTTP·gRPC 지원 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google App Engine | https://cloud.google.com/appengine | 인프라 관리 없는 웹 앱 자동 확장 배포 완전 관리형 PaaS | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Kubernetes Engine | https://cloud.google.com/kubernetes-engine | 완전 관리형 Kubernetes 클러스터. 컨테이너 자동 확장·배포 | 무료+유료 | google-ecosystem-map | ✅ |
 
 ---
 
