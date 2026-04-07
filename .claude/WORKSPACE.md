@@ -20,11 +20,19 @@
 
 ## 남은 과제
 
+### 🔴 최우선 — session-read-tracker 검증 (다음 세션 시작 직후)
+
+세션 시작 후 3개 파일 Read → `.claude/.tracker.log` 생성 여부 확인:
+
+- `stdin_len=0` 이면 → stdin 자체가 안 옴 → 트래킹 방식 근본 재설계 필요
+- `stdin_len>0` + `matched=none` 이면 → 경로 비교 문제 → normalize 추가 조정
+- `gate_cleared` 이면 → 정상 작동 확인 완료
+
+보고서 위치: `c:/Users/admin/Project/Main-Project/project-init/.Source-Files/tracker-bug-report-20260407.md`
+
 ### Hotfix UI — 다음 세션 이어서
 
-- 텍스트 컬러 화이트 완전 적용 확인 (설명 15px #ffffff)
-- 사이드바 리사이즈 동작 확인 (App.css import 수정 완료, 실기기 검증 필요)
-- 아이템 레이아웃 밸런스 최종 확인
+- `npm run dev`로 실기기 확인 (텍스트 화이트 #ffffff, 리사이즈, 레이아웃)
 - 이상 없으면 `npm run deploy` 재배포
 
 ### Phase 2 — 사전설계 완료, 대기 중
