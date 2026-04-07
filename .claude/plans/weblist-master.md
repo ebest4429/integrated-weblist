@@ -20,23 +20,24 @@
 
 | Phase | 이름 | 플랜 파일 | 상태 |
 |-------|------|----------|------|
-| Phase 1 | 초기화 + 단일 HTML 구축 | `phase1-build.md` | 🔄 진행중 |
-| Phase 2 | Vite + Vue 이관 (선택) | *(사전설계: `designs/phase2-vue.md`)* | 🔲 대기 |
+| Phase 1 | 초기화 + Vite+React 구축 | `phase1-build.md` | 🔄 진행중 |
+| Phase 2 | detail 필드 순차 구현 | *(사전설계: `designs/phase2-detail.md`)* | 🔲 대기 |
 
 ---
 
 ## Phase 1 완료 조건
 
-- [ ] .claude 설정 파일 초기화 완료 (CLAUDE.md, CONTEXT.md, RULES.md)
-- [ ] weblist-master.md + phase1-build.md 작성 완료
-- [ ] WORKSPACE.md 초기화 완료
-- [ ] index.html 구현 완료
-  - [ ] 사이드바 리사이즈 동작
-  - [ ] 14개 카테고리 + 즐겨찾기
-  - [ ] 검색 기능 동작
-  - [ ] 두 소스 프로젝트 데이터 전체 포함
-  - [ ] 소스.md 추가 항목 포함
-  - [ ] LocalStorage 즐겨찾기 유지
+- [x] .claude 설정 파일 초기화 완료 (CLAUDE.md, CONTEXT.md, RULES.md)
+- [x] weblist-master.md + phase1-build.md 작성 완료
+- [x] WORKSPACE.md 초기화 완료
+- [x] Vite + React + Tailwind 앱 구현 완료
+  - [x] 사이드바 드래그 리사이즈 동작 (180~400px)
+  - [x] 24개 카테고리 + 즐겨찾기 (5그룹 구조)
+  - [x] 검색 기능 동작 (name+desc 실시간 필터링)
+  - [x] 338개 서비스 데이터 전체 포함 (24개 JSON)
+  - [x] 소스.md 추가 항목 반영
+  - [x] LocalStorage 즐겨찾기·사이드바 너비 유지
+- [ ] GitHub Pages 실제 배포 완료 (`npm run deploy` 실행)
 
 ---
 
@@ -54,6 +55,7 @@
 | 2026-04-07 | 사이드바 그룹 | AI관련 / 개발관련 / 마케팅·비즈니스 / 크리에이티브 / 구글생태계 — 그룹별 접기/펼치기 |
 | 2026-04-07 | 배포 | GitHub Pages (정적 빌드 `vite build`) |
 | 2026-04-07 | 데이터 출처 | ai_resource_hub + google-ecosystem-map 전체 + 소스.md 추가 항목 |
+| 2026-04-07 | detail 필드 구현 | 펼침 상세(소개·주요기능·사용법·기타)를 순차 구현으로 확정. 취지: 338개 전체를 한번에 채우는 것은 비현실적이나, 카테고리별 순차 작성으로 완료된 것부터 기준점 삼아 누적 진행. optional 필드로 설계하여 미완료 카테고리도 기존 desc로 정상 동작. |
 
 ---
 

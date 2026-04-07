@@ -19,15 +19,5 @@
         "notebooklm-mcp@1.2.1"
       ]
     },
-    "railway-mcp-server": {
-      "command": "cmd",
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@railway/mcp-server",
-        "-s",
-        "project"
-      ]
-    }  }
+  }
 }

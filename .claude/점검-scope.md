@@ -13,8 +13,7 @@
 - .claude/RULES.md
 - .claude/settings.json
 - .claude/WORKSPACE.md
-- .claude/HOOK_GUIDE.md
-- .claude/SKILL_GUIDE.md
+- .claude/hooks/HOOK_GUIDE.md
 
 ### 개별 훅 가이드
 - .claude/hooks/hooks-guide/ (폴더 전체)

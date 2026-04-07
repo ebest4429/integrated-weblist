@@ -1,8 +1,0 @@
-{
-  "enabledMcpjsonServers": [
-    "filesystem",
-    "notebooklm",
-    "railway-mcp-server",
-    "gdrive"
-  ]
-}

@@ -132,11 +132,19 @@ integrated-weblist/
     {
       "name": "ChatGPT",
       "url": "https://chat.openai.com",
-      "desc": "설명 텍스트",
-      "badge": "freepaid"
+      "desc": "설명 텍스트 (1줄 요약)",
+      "badge": "freepaid",
+      "detail": {
+        "intro": "서비스 소개",
+        "features": ["주요기능1", "주요기능2"],
+        "usage": "사용법 설명",
+        "notes": "기타 메모"
+      }
     }
   ]
 }
 ```
 
 **badge 값:** `free` `paid` `freepaid` `open` `exp` `dep`
+
+**detail 필드:** optional — 없는 서비스는 desc만 표시. master-source.md 기준 카테고리별 순차 작성.

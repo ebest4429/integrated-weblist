@@ -86,6 +86,7 @@ Bash/Edit/Write가 영구 차단된다.
 | `CLAUDE.md`  | 프로젝트 정체성, 작업 원칙                 | 현재 Phase, 현재 플랜명 |
 | `CONTEXT.md` | 기술 환경, 디렉토리 구조, 프로젝트 범위    | Phase 현황, 진행 상태   |
 | `RULES.md`   | 실행 환경, 프로젝트별 작성 원칙, 금지 사항 | 현재 Phase 정보         |
+| `점검-scope.md` | `## 구현 점검 대상` 섹션을 이 프로젝트의 실제 구현 파일 목록으로 교체 | 이전 프로젝트 파일 참조 |
 
 > **원칙**: 설정 파일은 Phase가 바뀌어도 수정할 필요가 없어야 한다.
 > 현재 Phase와 진행 상황은 WORKSPACE.md에만 기록한다.
@@ -221,6 +222,7 @@ CLAUDE.md는 Claude Code가 항상 먼저 로드한다.
 - [ ] 이전 마스터플랜 파일 — 삭제
 - [ ] 훅 경로 점검 (`__dirname` 상대경로 사용 확인)
 - [ ] **CODE_DIRS 수정** — `.claude/hooks/check-plan.js` 의 `CODE_DIRS` 배열을 이 프로젝트의 실제 코드 디렉터리로 변경 (기본값 `['main','preload','renderer']`는 Electron 프로젝트 기준)
+- [ ] **점검-scope.md 초기화** — `## 구현 점검 대상` 섹션을 이 프로젝트의 실제 구현 파일 목록으로 교체 (이전 프로젝트 파일 참조 제거)
 - [ ] `.claude/skills/SKILL_GUIDE.md` — 이 프로젝트에서 활용할 항목 확인 완료
 - [ ] `.claude/hooks/HOOK_GUIDE.md` — 활성 훅 목록 확인 완료
 - [ ] **init-checklist 생성** — `.Template/.init-checklist.md` 에 이 체크리스트 항목 복사 (미체크 상태). 전항목 완료 전 커밋 불가
