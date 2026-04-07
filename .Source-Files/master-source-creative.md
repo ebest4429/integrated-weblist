@@ -28,16 +28,16 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Freepik | https://freepik.com | 고품질 벡터·PSD·PNG 템플릿 무료/프리미엄 제공. 방대한 라이브러리 | 무료+유료 | ai_resource_hub | 🔲 |
-| Unsplash | https://unsplash.com | 고해상도 무료 스톡 사진. 상업적 이용 가능·저작권 걱정 없음 | 무료 | ai_resource_hub | 🔲 |
-| Pexels | https://pexels.com | 무료 스톡 이미지·영상. 고화질·상업적 이용 허용·라이선스 무료 | 무료 | ai_resource_hub | 🔲 |
-| Pixabay | https://pixabay.com | 2백만+ 무료 이미지·일러스트·벡터. CC0 라이선스 | 무료 | ai_resource_hub | 🔲 |
-| Shutterstock | https://shutterstock.com | 4억+ 프리미엄 스톡 이미지·벡터·일러스트. 업계 표준 | 유료 | ai_resource_hub | 🔲 |
-| Getty Images | https://gettyimages.com | 세계 최대 프리미엄 스톡 사진·에디토리얼 이미지 라이브러리 | 유료 | ai_resource_hub | 🔲 |
-| Envato Elements | https://elements.envato.com | 템플릿·폰트·이미지·영상·플러그인 무제한 다운로드 구독 | 유료 | ai_resource_hub | 🔲 |
-| Flaticon | https://flaticon.com | 1600만+ 아이콘·스티커·애니메이션. PNG·SVG·EPS 다운로드 | 무료+유료 | ai_resource_hub | 🔲 |
-| VistaCreate | https://create.vista.com | 소셜미디어 맞춤 디자인 템플릿. 애니메이션 디자인 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| rawpixel | https://rawpixel.com | 무료·프리미엄 이미지·벡터·목업·PNG 배경제거 소스 제공 | 무료+유료 | ai_resource_hub | 🔲 |
+| Freepik | https://freepik.com | 고품질 벡터·PSD·PNG 템플릿 무료/프리미엄 제공. 방대한 라이브러리 | 무료+유료 | ai_resource_hub | ✅ |
+| Unsplash | https://unsplash.com | 고해상도 무료 스톡 사진. 상업적 이용 가능·저작권 걱정 없음 | 무료 | ai_resource_hub | ✅ |
+| Pexels | https://pexels.com | 무료 스톡 이미지·영상. 고화질·상업적 이용 허용·라이선스 무료 | 무료 | ai_resource_hub | ✅ |
+| Pixabay | https://pixabay.com | 2백만+ 무료 이미지·일러스트·벡터. CC0 라이선스 | 무료 | ai_resource_hub | ✅ |
+| Shutterstock | https://shutterstock.com | 4억+ 프리미엄 스톡 이미지·벡터·일러스트. 업계 표준 | 유료 | ai_resource_hub | ✅ |
+| Getty Images | https://gettyimages.com | 세계 최대 프리미엄 스톡 사진·에디토리얼 이미지 라이브러리 | 유료 | ai_resource_hub | ✅ |
+| Envato Elements | https://elements.envato.com | 템플릿·폰트·이미지·영상·플러그인 무제한 다운로드 구독 | 유료 | ai_resource_hub | ✅ |
+| Flaticon | https://flaticon.com | 1600만+ 아이콘·스티커·애니메이션. PNG·SVG·EPS 다운로드 | 무료+유료 | ai_resource_hub | ✅ |
+| VistaCreate | https://create.vista.com | 소셜미디어 맞춤 디자인 템플릿. 애니메이션 디자인 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| rawpixel | https://rawpixel.com | 무료·프리미엄 이미지·벡터·목업·PNG 배경제거 소스 제공 | 무료+유료 | ai_resource_hub | ✅ |
 
 ---
 
