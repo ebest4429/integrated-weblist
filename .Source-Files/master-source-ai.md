@@ -38,18 +38,18 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Midjourney | https://midjourney.com | 고품질 아트워크 생성. 다양한 스타일·아트 디렉션 지원 | 유료 | ai_resource_hub | 🔲 |
-| DALL-E 3 | https://openai.com/dall-e-3 | OpenAI 텍스트→이미지. ChatGPT Plus 통합, 자연어 프롬프트 | 무료+유료 | ai_resource_hub | 🔲 |
-| Adobe Firefly | https://firefly.adobe.com | Adobe 생태계 연동. 상업적 안전 이미지·Photoshop 내 생성 Fill | 무료+유료 | ai_resource_hub | 🔲 |
-| Ideogram | https://ideogram.ai | 타이포그래피 포함 이미지 생성 강점. 로고·포스터 디자인 | 무료+유료 | ai_resource_hub | 🔲 |
-| Leonardo.ai | https://leonardo.ai | 게임·캐릭터 디자인 특화. 파인튜닝·LoRA 학습·일관된 캐릭터 | 무료+유료 | ai_resource_hub | 🔲 |
-| Flux (Black Forest Labs) | https://blackforestlabs.ai | 고품질 오픈소스 이미지 모델. API·로컬 실행 모두 지원 | 오픈소스 | ai_resource_hub | 🔲 |
-| Stable Diffusion | https://stability.ai | 로컬 실행 오픈소스 이미지 생성 모델. Stability AI 제공 | 오픈소스 | ai_resource_hub | 🔲 |
-| Civitai | https://civitai.com | SD 모델·LoRA 공유 커뮤니티. 수천 개 커스텀 모델 탐색·다운로드 | 무료 | ai_resource_hub | 🔲 |
-| ComfyUI | https://github.com/comfyanonymous/ComfyUI | 노드 기반 SD 워크플로우 GUI. 고급 파이프라인 구성 가능 | 오픈소스 | ai_resource_hub | 🔲 |
-| Topaz Labs | https://topazlabs.com | AI 이미지 업스케일링·노이즈 제거·선명화. 사진 후보정용 | 유료 | ai_resource_hub | 🔲 |
-| Clipdrop | https://clipdrop.co | 배경 제거·조명 편집·인페인팅 등 온라인 이미지 편집 | 무료+유료 | ai_resource_hub | 🔲 |
-| ImageFX | https://aitestkitchen.withgoogle.com/tools/image-fx | Google Imagen 모델 텍스트→이미지. 사실적·예술적 이미지 프롬프트 생성 | 무료 | google-ecosystem-map | 🔲 |
+| Midjourney | https://midjourney.com | 고품질 아트워크 생성. 다양한 스타일·아트 디렉션 지원 | 유료 | ai_resource_hub | ✅ |
+| DALL-E 3 | https://openai.com/dall-e-3 | OpenAI 텍스트→이미지. ChatGPT Plus 통합, 자연어 프롬프트 | 무료+유료 | ai_resource_hub | ✅ |
+| Adobe Firefly | https://firefly.adobe.com | Adobe 생태계 연동. 상업적 안전 이미지·Photoshop 내 생성 Fill | 무료+유료 | ai_resource_hub | ✅ |
+| Ideogram | https://ideogram.ai | 타이포그래피 포함 이미지 생성 강점. 로고·포스터 디자인 | 무료+유료 | ai_resource_hub | ✅ |
+| Leonardo.ai | https://leonardo.ai | 게임·캐릭터 디자인 특화. 파인튜닝·LoRA 학습·일관된 캐릭터 | 무료+유료 | ai_resource_hub | ✅ |
+| Flux (Black Forest Labs) | https://blackforestlabs.ai | 고품질 오픈소스 이미지 모델. API·로컬 실행 모두 지원 | 오픈소스 | ai_resource_hub | ✅ |
+| Stable Diffusion | https://stability.ai | 로컬 실행 오픈소스 이미지 생성 모델. Stability AI 제공 | 오픈소스 | ai_resource_hub | ✅ |
+| Civitai | https://civitai.com | SD 모델·LoRA 공유 커뮤니티. 수천 개 커스텀 모델 탐색·다운로드 | 무료 | ai_resource_hub | ✅ |
+| ComfyUI | https://github.com/comfyanonymous/ComfyUI | 노드 기반 SD 워크플로우 GUI. 고급 파이프라인 구성 가능 | 오픈소스 | ai_resource_hub | ✅ |
+| Topaz Labs | https://topazlabs.com | AI 이미지 업스케일링·노이즈 제거·선명화. 사진 후보정용 | 유료 | ai_resource_hub | ✅ |
+| Clipdrop | https://clipdrop.co | 배경 제거·조명 편집·인페인팅 등 온라인 이미지 편집 | 무료+유료 | ai_resource_hub | ✅ |
+| ImageFX | https://aitestkitchen.withgoogle.com/tools/image-fx | Google Imagen 모델 텍스트→이미지. 사실적·예술적 이미지 프롬프트 생성 | 무료 | google-ecosystem-map | ✅ |
 
 ---
 
