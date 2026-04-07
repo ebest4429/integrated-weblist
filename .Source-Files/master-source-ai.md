@@ -13,24 +13,24 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| ChatGPT | https://chat.openai.com | OpenAI 대화형 AI. GPT-4o 기반 텍스트·이미지·코드 멀티모달 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Claude | https://claude.ai | Anthropic AI 어시스턴트. 긴 문서 분석·코딩·창작 강점, MCP 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Gemini | https://gemini.google.com | Google 멀티모달 AI. Google Workspace·검색과 깊은 연동 | 무료+유료 | ai_resource_hub | 🔲 |
-| Grok | https://grok.x.ai | xAI 실시간 검색 AI. X(트위터) 통합, 최신 정보 기반 응답 | 무료+유료 | ai_resource_hub | 🔲 |
-| Perplexity | https://perplexity.ai | AI 기반 검색 엔진. 출처 인용·실시간 검색, 리서치에 최적 | 무료+유료 | ai_resource_hub | 🔲 |
-| Microsoft Copilot | https://copilot.microsoft.com | Microsoft 365 통합 AI. Word·Excel·Teams·Outlook 전반 지원 | 유료 | ai_resource_hub | 🔲 |
-| Mistral AI | https://mistral.ai | 유럽 오픈소스 LLM. 빠른 추론·가벼운 모델·API 제공 | 무료+유료 | ai_resource_hub | 🔲 |
-| Hugging Face | https://huggingface.co | 오픈소스 AI 모델 허브. 수십만 모델·데이터셋·Spaces 호스팅 | 오픈소스 | ai_resource_hub | 🔲 |
-| Ollama | https://ollama.ai | 로컬 LLM 실행 도구. Llama·Mistral·Gemma 등 로컬 구동 | 오픈소스 | ai_resource_hub | 🔲 |
-| NotebookLM | https://notebooklm.google.com | Google AI 리서치 노트. PDF·링크 업로드 후 분석·요약·Q&A | 무료 | ai_resource_hub | 🔲 |
-| Phind | https://phind.com | 개발자 특화 AI 검색. 코드 질문·기술 문서 검색 최적화 | 무료 | ai_resource_hub | 🔲 |
-| Genspark | https://genspark.ai | AI 슈퍼에이전트 검색 플랫폼. 실시간 웹 검색·스파크페이지 자동 생성·멀티 AI 통합 | 무료+유료 | ai_resource_hub | 🔲 |
-| Manus | https://manus.im | 중국발 완전 자율 AI 에이전트. 웹 검색·코딩·파일 처리·복잡한 태스크 자동 수행 | 무료+유료 | ai_resource_hub | 🔲 |
-| chat.z.ai | https://chat.z.ai | AI 채팅 서비스 | 무료 | 소스.md | 🔲 |
-| Qwen | https://qwen.ai/home | Alibaba 오픈소스 LLM. 다국어 지원·코딩·수학 강점 | 무료+유료 | 소스.md | 🔲 |
-| Kimi | https://www.kimi.com | Moonshot AI 대화형 AI. 초장문 컨텍스트·한국어 지원 | 무료+유료 | 소스.md | 🔲 |
-| Flowith | https://flowith.io/blank | AI 기반 협업·아이디어 플랫폼 | 무료+유료 | 소스.md | 🔲 |
-| abocado.ai | https://abocado.ai/ko/ai/explore | AI 서비스 탐색 플랫폼 | 무료 | 소스.md | 🔲 |
+| ChatGPT | https://chat.openai.com | OpenAI 대화형 AI. GPT-4o 기반 텍스트·이미지·코드 멀티모달 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Claude | https://claude.ai | Anthropic AI 어시스턴트. 긴 문서 분석·코딩·창작 강점, MCP 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Gemini | https://gemini.google.com | Google 멀티모달 AI. Google Workspace·검색과 깊은 연동 | 무료+유료 | ai_resource_hub | ✅ |
+| Grok | https://grok.x.ai | xAI 실시간 검색 AI. X(트위터) 통합, 최신 정보 기반 응답 | 무료+유료 | ai_resource_hub | ✅ |
+| Perplexity | https://perplexity.ai | AI 기반 검색 엔진. 출처 인용·실시간 검색, 리서치에 최적 | 무료+유료 | ai_resource_hub | ✅ |
+| Microsoft Copilot | https://copilot.microsoft.com | Microsoft 365 통합 AI. Word·Excel·Teams·Outlook 전반 지원 | 유료 | ai_resource_hub | ✅ |
+| Mistral AI | https://mistral.ai | 유럽 오픈소스 LLM. 빠른 추론·가벼운 모델·API 제공 | 무료+유료 | ai_resource_hub | ✅ |
+| Hugging Face | https://huggingface.co | 오픈소스 AI 모델 허브. 수십만 모델·데이터셋·Spaces 호스팅 | 오픈소스 | ai_resource_hub | ✅ |
+| Ollama | https://ollama.ai | 로컬 LLM 실행 도구. Llama·Mistral·Gemma 등 로컬 구동 | 오픈소스 | ai_resource_hub | ✅ |
+| NotebookLM | https://notebooklm.google.com | Google AI 리서치 노트. PDF·링크 업로드 후 분석·요약·Q&A | 무료 | ai_resource_hub | ✅ |
+| Phind | https://phind.com | 개발자 특화 AI 검색. 코드 질문·기술 문서 검색 최적화 | 무료 | ai_resource_hub | ✅ |
+| Genspark | https://genspark.ai | AI 슈퍼에이전트 검색 플랫폼. 실시간 웹 검색·스파크페이지 자동 생성·멀티 AI 통합 | 무료+유료 | ai_resource_hub | ✅ |
+| Manus | https://manus.im | 중국발 완전 자율 AI 에이전트. 웹 검색·코딩·파일 처리·복잡한 태스크 자동 수행 | 무료+유료 | ai_resource_hub | ✅ |
+| chat.z.ai | https://chat.z.ai | AI 채팅 서비스 | 무료 | 소스.md | ✅ |
+| Qwen | https://qwen.ai/home | Alibaba 오픈소스 LLM. 다국어 지원·코딩·수학 강점 | 무료+유료 | 소스.md | ✅ |
+| Kimi | https://www.kimi.com | Moonshot AI 대화형 AI. 초장문 컨텍스트·한국어 지원 | 무료+유료 | 소스.md | ✅ |
+| Flowith | https://flowith.io/blank | AI 기반 협업·아이디어 플랫폼 | 무료+유료 | 소스.md | ✅ |
+| abocado.ai | https://abocado.ai/ko/ai/explore | AI 서비스 탐색 플랫폼 | 무료 | 소스.md | ✅ |
 
 ---
 

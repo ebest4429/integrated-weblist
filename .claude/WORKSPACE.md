@@ -39,6 +39,7 @@
   - 데이터 소스 split 파일 구조 반영, detail 작업 흐름 추가
 
 이후: 카테고리별 순차 detail 작성 (세션당 1카테고리, 총 24개)
+- 완료: 🤖 AI 플랫폼·챗봇 18/18 (2026-04-08)
 - P2-3. scripts/verify-detail.py 작성
 - P2-4. gen-json.py detail 파싱 추가
 - P2-5. ItemRow.jsx 펼침 영역 detail 표시 구현
