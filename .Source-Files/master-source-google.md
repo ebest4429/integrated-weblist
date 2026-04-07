@@ -55,22 +55,22 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Google Docs | https://docs.google.com | 실시간 다중 편집 클라우드 워드프로세서. Gemini AI 초안·요약·번역 통합 | 무료 | google-ecosystem-map | 🔲 |
-| Google Sheets | https://sheets.google.com | 수식·피벗테이블·차트 클라우드 스프레드시트. AI 자연어 수식 자동 작성 | 무료 | google-ecosystem-map | 🔲 |
-| Google Slides | https://slides.google.com | 팀 동시 편집 프레젠테이션 도구. AI 슬라이드 레이아웃·이미지 자동 제안 | 무료 | google-ecosystem-map | 🔲 |
-| Google Drive | https://drive.google.com | 15GB 무료 클라우드 저장소. 파일 공유·버전 이력·오프라인·팀 드라이브 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Gmail | https://gmail.com | 15GB 저장·스마트 분류·스팸 필터·예약 발송·AI 작성 보조 이메일 | 무료 | google-ecosystem-map | 🔲 |
-| Google Calendar | https://calendar.google.com | 개인·팀 일정 통합 관리. Gmail 연동 예약 확인 자동 추가 | 무료 | google-ecosystem-map | 🔲 |
-| Google Meet | https://meet.google.com | 최대 1,000명 화상 회의. 실시간 자막·배경 흐림·녹화·AI 회의록 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Keep | https://keep.google.com | 텍스트·음성·이미지·체크리스트 메모. 위치·시간 기반 리마인더 | 무료 | google-ecosystem-map | 🔲 |
-| Google Forms | https://forms.google.com | 설문·퀴즈·등록 양식 무료 제작. 응답 데이터 Sheets 자동 수집 | 무료 | google-ecosystem-map | 🔲 |
-| Google Chat | https://chat.google.com | 채널 기반 팀 메시지. Spaces 프로젝트별 대화·Drive·Meet 연동 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Workspace | https://workspace.google.com | Gmail·Drive·Meet·Docs 등 생산성 앱 기업 도메인 통합 구독 | 유료 | google-ecosystem-map | 🔲 |
-| Google Sites | https://sites.google.com | 드래그앤드롭 팀 인트라넷·포트폴리오·프로젝트 허브 웹빌더 | 무료 | google-ecosystem-map | 🔲 |
-| Google Drawings | https://drawings.google.com | 다이어그램·플로우차트·조직도 협업 온라인 드로잉 | 무료 | google-ecosystem-map | 🔲 |
-| Google Tasks | https://tasks.google.com | Gmail·Calendar 연동 할일 목록. 마감일·하위 작업 분류 | 무료 | google-ecosystem-map | 🔲 |
-| Google Voice | https://voice.google.com | 미국 전화번호 클라우드 관리. 통화·SMS·보이스메일 웹·모바일 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Contacts | https://contacts.google.com | Google 계정 연동 주소록. 중복 제거·자동 병합·라벨 분류 | 무료 | google-ecosystem-map | 🔲 |
+| Google Docs | https://docs.google.com | 실시간 다중 편집 클라우드 워드프로세서. Gemini AI 초안·요약·번역 통합 | 무료 | google-ecosystem-map | ✅ |
+| Google Sheets | https://sheets.google.com | 수식·피벗테이블·차트 클라우드 스프레드시트. AI 자연어 수식 자동 작성 | 무료 | google-ecosystem-map | ✅ |
+| Google Slides | https://slides.google.com | 팀 동시 편집 프레젠테이션 도구. AI 슬라이드 레이아웃·이미지 자동 제안 | 무료 | google-ecosystem-map | ✅ |
+| Google Drive | https://drive.google.com | 15GB 무료 클라우드 저장소. 파일 공유·버전 이력·오프라인·팀 드라이브 | 무료+유료 | google-ecosystem-map | ✅ |
+| Gmail | https://gmail.com | 15GB 저장·스마트 분류·스팸 필터·예약 발송·AI 작성 보조 이메일 | 무료 | google-ecosystem-map | ✅ |
+| Google Calendar | https://calendar.google.com | 개인·팀 일정 통합 관리. Gmail 연동 예약 확인 자동 추가 | 무료 | google-ecosystem-map | ✅ |
+| Google Meet | https://meet.google.com | 최대 1,000명 화상 회의. 실시간 자막·배경 흐림·녹화·AI 회의록 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Keep | https://keep.google.com | 텍스트·음성·이미지·체크리스트 메모. 위치·시간 기반 리마인더 | 무료 | google-ecosystem-map | ✅ |
+| Google Forms | https://forms.google.com | 설문·퀴즈·등록 양식 무료 제작. 응답 데이터 Sheets 자동 수집 | 무료 | google-ecosystem-map | ✅ |
+| Google Chat | https://chat.google.com | 채널 기반 팀 메시지. Spaces 프로젝트별 대화·Drive·Meet 연동 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Workspace | https://workspace.google.com | Gmail·Drive·Meet·Docs 등 생산성 앱 기업 도메인 통합 구독 | 유료 | google-ecosystem-map | ✅ |
+| Google Sites | https://sites.google.com | 드래그앤드롭 팀 인트라넷·포트폴리오·프로젝트 허브 웹빌더 | 무료 | google-ecosystem-map | ✅ |
+| Google Drawings | https://drawings.google.com | 다이어그램·플로우차트·조직도 협업 온라인 드로잉 | 무료 | google-ecosystem-map | ✅ |
+| Google Tasks | https://tasks.google.com | Gmail·Calendar 연동 할일 목록. 마감일·하위 작업 분류 | 무료 | google-ecosystem-map | ✅ |
+| Google Voice | https://voice.google.com | 미국 전화번호 클라우드 관리. 통화·SMS·보이스메일 웹·모바일 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Contacts | https://contacts.google.com | Google 계정 연동 주소록. 중복 제거·자동 병합·라벨 분류 | 무료 | google-ecosystem-map | ✅ |
 
 ---
 
