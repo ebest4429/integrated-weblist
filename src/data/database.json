@@ -44,7 +44,8 @@
       "name": "MongoDB Atlas",
       "url": "https://mongodb.com/atlas",
       "desc": "클라우드 NoSQL DB. 내장 Vector Search·Atlas App Services",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "몽고DB 아틀라스"
     },
     {
       "name": "PlanetScale",
@@ -74,13 +75,15 @@
       "name": "Redis",
       "url": "https://redis.io",
       "desc": "인메모리 데이터 구조 스토어. 캐싱·세션·실시간 데이터 처리",
-      "badge": "open"
+      "badge": "open",
+      "nameKo": "레디스"
     },
     {
       "name": "BigQuery",
       "url": "https://cloud.google.com/bigquery",
       "desc": "페타바이트 규모 데이터 SQL 초고속 분석 서버리스 데이터 웨어하우스",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "빅쿼리"
     }
   ]
 }

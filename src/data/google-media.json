@@ -8,37 +8,43 @@
       "name": "YouTube",
       "url": "https://youtube.com",
       "desc": "월 25억 명 세계 최대 동영상 플랫폼. Shorts·라이브·클립 지원",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "유튜브"
     },
     {
       "name": "YouTube Music",
       "url": "https://music.youtube.com",
       "desc": "8,000만 곡 음악 스트리밍. 유튜브 영상 기반 음악 추천",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "유튜브 뮤직"
     },
     {
       "name": "YouTube Studio",
       "url": "https://studio.youtube.com",
       "desc": "채널 분석·동영상 관리·수익화·댓글 관리 크리에이터 도구",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "유튜브 스튜디오"
     },
     {
       "name": "YouTube Premium",
       "url": "https://youtube.com/premium",
       "desc": "광고 없음·백그라운드 재생·오프라인 저장·YT Music 포함 구독",
-      "badge": "paid"
+      "badge": "paid",
+      "nameKo": "유튜브 프리미엄"
     },
     {
       "name": "Google Photos",
       "url": "https://photos.google.com",
       "desc": "AI 자동 분류·콜라주·동영상 생성 사진 백업. Magic Eraser AI 편집",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 포토"
     },
     {
       "name": "Google Play Books",
       "url": "https://play.google.com/store/books",
       "desc": "전자책·오디오북 구매·독서 서비스. 밑줄·메모·번역·야간 모드",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 플레이 북스"
     },
     {
       "name": "Google Play Movies & TV",
@@ -50,7 +56,8 @@
       "name": "Google TV",
       "url": "https://tv.google.com",
       "desc": "Chromecast 탑재 스마트 TV 플랫폼. 스트리밍 앱 콘텐츠 통합 추천",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 TV"
     },
     {
       "name": "Google Play Games",
@@ -68,13 +75,15 @@
       "name": "Google Arts & Culture",
       "url": "https://artsandculture.google.com",
       "desc": "3,000개+ 박물관·미술관 작품 고화질 감상. Art Selfie AI 체험",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "구글 아트앤컬처"
     },
     {
       "name": "Google Play Store",
       "url": "https://play.google.com/store",
       "desc": "300만+ Android 앱·게임·미디어 공식 앱 마켓",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 플레이 스토어"
     },
     {
       "name": "Google Podcasts",

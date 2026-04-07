@@ -8,7 +8,8 @@
       "name": "ChatGPT",
       "url": "https://chat.openai.com",
       "desc": "OpenAI 대화형 AI. GPT-4o 기반 텍스트·이미지·코드 멀티모달 지원",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "챗GPT"
     },
     {
       "name": "Claude",
@@ -38,7 +39,8 @@
       "name": "Microsoft Copilot",
       "url": "https://copilot.microsoft.com",
       "desc": "Microsoft 365 통합 AI. Word·Excel·Teams·Outlook 전반 지원",
-      "badge": "paid"
+      "badge": "paid",
+      "nameKo": "마이크로소프트 코파일럿"
     },
     {
       "name": "Mistral AI",
@@ -50,7 +52,8 @@
       "name": "Hugging Face",
       "url": "https://huggingface.co",
       "desc": "오픈소스 AI 모델 허브. 수십만 모델·데이터셋·Spaces 호스팅",
-      "badge": "open"
+      "badge": "open",
+      "nameKo": "허깅페이스"
     },
     {
       "name": "Ollama",
@@ -62,7 +65,8 @@
       "name": "NotebookLM",
       "url": "https://notebooklm.google.com",
       "desc": "Google AI 리서치 노트. PDF·링크 업로드 후 분석·요약·Q&A",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "노트북LM"
     },
     {
       "name": "Phind",

@@ -8,13 +8,15 @@
       "name": "Android",
       "url": "https://android.com",
       "desc": "전 세계 스마트폰 72%+ 오픈소스 모바일 OS",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "안드로이드"
     },
     {
       "name": "ChromeOS",
       "url": "https://chromeos.google",
       "desc": "웹 중심 경량 PC OS. 빠른 부팅·자동 업데이트·Google 서비스 완벽 통합",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "크롬OS"
     },
     {
       "name": "Google Pixel",
@@ -44,7 +46,8 @@
       "name": "Wear OS",
       "url": "https://wearos.google.com",
       "desc": "Samsung·Mobvoi 등 채택 스마트워치 OS. Google Pay·Maps·Fit 연동",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "웨어OS"
     },
     {
       "name": "Nest Wifi Pro",
@@ -56,19 +59,22 @@
       "name": "Google Chrome",
       "url": "https://chrome.google.com",
       "desc": "V8 엔진 세계 점유율 65%+ 웹 브라우저. 확장 프로그램·동기화·PWA",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "구글 크롬"
     },
     {
       "name": "Android Auto",
       "url": "https://android.com/auto",
       "desc": "스마트폰을 차량 대시보드 미러링. Maps·음악·통화 안전 사용",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "안드로이드 오토"
     },
     {
       "name": "Android TV",
       "url": "https://tv.android.com",
       "desc": "TV·셋톱박스용 Android 기반 스마트 TV 플랫폼. 소니·TCL 채택",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "안드로이드 TV"
     },
     {
       "name": "Android XR",

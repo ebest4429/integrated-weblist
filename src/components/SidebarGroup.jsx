@@ -5,37 +5,67 @@ export default function SidebarGroup({ group, selectedId, onSelect }) {
   const [open, setOpen] = useState(true)
 
   return (
-    <div className="mt-1">
+    <div style={{ marginTop: '4px' }}>
+      {/* 그룹 헤더 */}
       <button
         onClick={() => setOpen(o => !o)}
-        className={`w-full flex items-center gap-2 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition-colors hover:text-gray-700 dark:hover:text-gray-300 ${
-          isActive ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400 dark:text-gray-500'
-        }`}
+        style={{
+          width: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px',
+          padding: '8px 20px',
+          background: 'transparent',
+          color: isActive ? '#60a5fa' : '#aaaaaa',
+          border: 'none',
+          cursor: 'pointer',
+          fontSize: '12px',
+          fontWeight: '700',
+          textTransform: 'uppercase',
+          letterSpacing: '0.06em',
+          textAlign: 'left',
+        }}
+        onMouseEnter={e => { if (!isActive) e.currentTarget.style.color = '#ffffff' }}
+        onMouseLeave={e => { if (!isActive) e.currentTarget.style.color = '#aaaaaa' }}
       >
-        <span>{group.icon}</span>
-        <span className="flex-1 text-left">{group.label}</span>
-        <span className="text-gray-300 dark:text-gray-600">{open ? '▾' : '▸'}</span>
+        <span style={{ fontSize: '15px' }}>{group.icon}</span>
+        <span style={{ flex: 1 }}>{group.label}</span>
+        <span style={{ color: '#555558', fontSize: '11px' }}>{open ? '▾' : '▸'}</span>
       </button>
 
-      {open && (
-        <div>
-          {group.categories.map(cat => (
-            <button
-              key={cat.id}
-              onClick={() => onSelect(cat.id)}
-              className={`w-full flex items-center gap-2 pl-7 pr-3 py-1.5 text-sm text-left transition-colors ${
-                selectedId === cat.id
-                  ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-medium'
-                  : 'text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50'
-              }`}
-            >
-              <span className="text-base leading-none">{cat.icon}</span>
-              <span className="flex-1 truncate text-xs">{cat.title}</span>
-              <span className="text-xs text-gray-300 dark:text-gray-600">{cat.items.length}</span>
-            </button>
-          ))}
-        </div>
-      )}
+      {/* 카테고리 목록 */}
+      {open && group.categories.map(cat => {
+        const active = selectedId === cat.id
+        return (
+          <button
+            key={cat.id}
+            onClick={() => onSelect(cat.id)}
+            style={{
+              width: '100%',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '10px',
+              paddingLeft: '32px',
+              paddingRight: '16px',
+              paddingTop: '9px',
+              paddingBottom: '9px',
+              background: active ? 'rgba(59,130,246,0.2)' : 'transparent',
+              color: active ? '#ffffff' : '#cccccc',
+              border: 'none',
+              borderLeft: active ? '2px solid #3b82f6' : '2px solid transparent',
+              cursor: 'pointer',
+              textAlign: 'left',
+              fontSize: '14px',
+            }}
+            onMouseEnter={e => { if (!active) { e.currentTarget.style.background = '#2e2e2f'; e.currentTarget.style.color = '#ffffff' } }}
+            onMouseLeave={e => { if (!active) { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#cccccc' } }}
+          >
+            <span style={{ fontSize: '17px', lineHeight: 1 }}>{cat.icon}</span>
+            <span style={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{cat.title}</span>
+            <span style={{ fontSize: '12px', color: '#888888' }}>{cat.items.length}</span>
+          </button>
+        )
+      })}
     </div>
   )
 }

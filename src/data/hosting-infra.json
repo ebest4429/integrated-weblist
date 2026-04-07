@@ -50,7 +50,8 @@
       "name": "Firebase",
       "url": "https://firebase.google.com",
       "desc": "Google 앱 개발 플랫폼. 실시간DB·인증·호스팅·Analytics",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "파이어베이스"
     },
     {
       "name": "Clerk",
@@ -68,13 +69,15 @@
       "name": "AWS",
       "url": "https://aws.amazon.com",
       "desc": "아마존 클라우드. EC2·S3·Lambda·RDS 등 200+ 서비스",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "아마존웹서비스"
     },
     {
       "name": "Google Cloud (GCP)",
       "url": "https://cloud.google.com",
       "desc": "AI/ML에 강한 클라우드. Vertex AI·BigQuery·Kubernetes Engine",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 클라우드"
     },
     {
       "name": "DigitalOcean",
@@ -98,19 +101,22 @@
       "name": "Google Cloud Run",
       "url": "https://cloud.google.com/run",
       "desc": "컨테이너 서버리스 배포. 요청 기반 과금·HTTP·gRPC 지원",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 클라우드 런"
     },
     {
       "name": "Google App Engine",
       "url": "https://cloud.google.com/appengine",
       "desc": "인프라 관리 없는 웹 앱 자동 확장 배포 완전 관리형 PaaS",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 앱 엔진"
     },
     {
       "name": "Google Kubernetes Engine",
       "url": "https://cloud.google.com/kubernetes-engine",
       "desc": "완전 관리형 Kubernetes 클러스터. 컨테이너 자동 확장·배포",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 쿠버네티스 엔진"
     }
   ]
 }

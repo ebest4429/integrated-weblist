@@ -11,18 +11,21 @@
 | 항목 | 값 |
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
-| 현재 Phase | Phase 1 — 초기화 + 단일 HTML 구축 |
-| 상태 | 🔄 진행중 — 프로젝트 초기화 완료, index.html 구현 완료 |
-| 현재 플랜 | `.claude/plans/phase1-build.md` |
+| 현재 Phase | Hotfix — UI 전면 개선 |
+| 상태 | ✅ 완료 — UI 전면 개선 + 재배포 완료 |
+| 현재 플랜 | `.claude/plans/hotfix-2026-04-07-ui-overhaul.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
 ---
 
 ## 남은 과제
 
-### Phase 1 — 마지막 1개 항목
+### Hotfix UI — 다음 세션 이어서
 
-- GitHub Pages 실제 배포 (`npm run deploy` 실행) → 완료 후 Phase 1 종료
+- 텍스트 컬러 화이트 완전 적용 확인 (설명 15px #ffffff)
+- 사이드바 리사이즈 동작 확인 (App.css import 수정 완료, 실기기 검증 필요)
+- 아이템 레이아웃 밸런스 최종 확인
+- 이상 없으면 `npm run deploy` 재배포
 
 ### Phase 2 — 사전설계 완료, 대기 중
 

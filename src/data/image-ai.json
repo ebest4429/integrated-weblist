@@ -8,7 +8,8 @@
       "name": "Midjourney",
       "url": "https://midjourney.com",
       "desc": "고품질 아트워크 생성. 다양한 스타일·아트 디렉션 지원",
-      "badge": "paid"
+      "badge": "paid",
+      "nameKo": "미드저니"
     },
     {
       "name": "DALL-E 3",
@@ -44,7 +45,8 @@
       "name": "Stable Diffusion",
       "url": "https://stability.ai",
       "desc": "로컬 실행 오픈소스 이미지 생성 모델. Stability AI 제공",
-      "badge": "open"
+      "badge": "open",
+      "nameKo": "스테이블 디퓨전"
     },
     {
       "name": "Civitai",
@@ -74,7 +76,8 @@
       "name": "ImageFX",
       "url": "https://aitestkitchen.withgoogle.com/tools/image-fx",
       "desc": "Google Imagen 모델 텍스트→이미지. 사실적·예술적 이미지 프롬프트 생성",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "이미지FX"
     }
   ]
 }

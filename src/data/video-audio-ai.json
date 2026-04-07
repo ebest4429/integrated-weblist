@@ -8,7 +8,8 @@
       "name": "Sora",
       "url": "https://sora.com",
       "desc": "OpenAI 텍스트→영상. 고품질 리얼리즘·스토리보드 지원",
-      "badge": "paid"
+      "badge": "paid",
+      "nameKo": "소라"
     },
     {
       "name": "Runway Gen-3",
@@ -38,7 +39,8 @@
       "name": "ElevenLabs",
       "url": "https://elevenlabs.io",
       "desc": "고품질 TTS·음성 클로닝. 다국어·실시간 스트리밍 API 제공",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "일레븐랩스"
     },
     {
       "name": "PlayHT",
@@ -68,7 +70,8 @@
       "name": "Veo 3",
       "url": "https://deepmind.google/technologies/veo/",
       "desc": "Google DeepMind AI 동영상 생성 모델. 텍스트→고화질 영상",
-      "badge": "exp"
+      "badge": "exp",
+      "nameKo": "베오3"
     },
     {
       "name": "Flow",
@@ -80,7 +83,8 @@
       "name": "MusicFX",
       "url": "https://aitestkitchen.withgoogle.com/tools/music-fx",
       "desc": "텍스트 프롬프트로 음악 즉석 생성. 장르·분위기·악기 조합 지정",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "뮤직FX"
     },
     {
       "name": "Higgsfield AI",

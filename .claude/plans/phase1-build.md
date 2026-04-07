@@ -80,4 +80,4 @@
 - [x] 즐겨찾기 추가 → 페이지 새로고침 후에도 유지
 - [x] 338개 서비스 전체 포함 (24개 JSON)
 - [x] 소스.md 추가 항목 반영
-- [ ] GitHub Pages 실제 배포 (`npm run deploy` 실행)
+- ✅ GitHub Pages 실제 배포 (`npm run deploy` 실행)

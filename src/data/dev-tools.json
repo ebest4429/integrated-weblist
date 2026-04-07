@@ -20,7 +20,8 @@
       "name": "GitHub Copilot",
       "url": "https://github.com/features/copilot",
       "desc": "GitHub 공식 AI 코드 어시스턴트. VSCode·JetBrains·Neovim 통합",
-      "badge": "paid"
+      "badge": "paid",
+      "nameKo": "깃허브 코파일럿"
     },
     {
       "name": "Bolt.new",
@@ -80,7 +81,8 @@
       "name": "Docker",
       "url": "https://docker.com",
       "desc": "컨테이너 기반 앱 패키징·배포 플랫폼. 이식성·일관된 환경",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "도커"
     },
     {
       "name": "Puppeteer",
@@ -116,37 +118,43 @@
       "name": "VS Code",
       "url": "https://code.visualstudio.com",
       "desc": "Microsoft 무료 오픈소스 코드 에디터. 확장 생태계 1위",
-      "badge": "open"
+      "badge": "open",
+      "nameKo": "비주얼스튜디오코드"
     },
     {
       "name": "Android Studio",
       "url": "https://developer.android.com/studio",
       "desc": "IntelliJ 기반 Android 앱 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장",
-      "badge": "free"
+      "badge": "free",
+      "nameKo": "안드로이드 스튜디오"
     },
     {
       "name": "Google IDX",
       "url": "https://idx.google.com",
       "desc": "브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 IDX"
     },
     {
       "name": "Google Colab",
       "url": "https://colab.research.google.com",
       "desc": "GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "nameKo": "구글 코랩"
     },
     {
       "name": "Flutter",
       "url": "https://flutter.dev",
       "desc": "Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼",
-      "badge": "open"
+      "badge": "open",
+      "nameKo": "플러터"
     },
     {
       "name": "TensorFlow",
       "url": "https://tensorflow.org",
       "desc": "딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크",
-      "badge": "open"
+      "badge": "open",
+      "nameKo": "텐서플로우"
     }
   ]
 }
