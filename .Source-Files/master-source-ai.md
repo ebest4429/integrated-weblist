@@ -57,23 +57,23 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Sora | https://sora.com | OpenAI 텍스트→영상. 고품질 리얼리즘·스토리보드 지원 | 유료 | ai_resource_hub | 🔲 |
-| Runway Gen-3 | https://runwayml.com | AI 영상 생성·편집·효과. 크리에이터·영상 제작자용 | 무료+유료 | ai_resource_hub | 🔲 |
-| Kling AI | https://klingai.com | Kuaishou 고품질 영상 생성. 한국어 포함 다국어 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Pika Labs | https://pika.art | 텍스트·이미지→영상 변환. 간편한 UI, 빠른 생성 | 무료+유료 | ai_resource_hub | 🔲 |
-| HeyGen | https://heygen.com | AI 아바타 영상 제작. 다국어 립싱크·발표 자료 영상화 | 무료+유료 | ai_resource_hub | 🔲 |
-| ElevenLabs | https://elevenlabs.io | 고품질 TTS·음성 클로닝. 다국어·실시간 스트리밍 API 제공 | 무료+유료 | ai_resource_hub | 🔲 |
-| PlayHT | https://play.ht | 실시간 TTS API. 음성 클로닝·감정 표현·다국어 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Whisper | https://openai.com/research/whisper | OpenAI 고정확도 음성→텍스트. 한국어 포함 다국어 오픈소스 | 오픈소스 | ai_resource_hub | 🔲 |
-| Suno | https://suno.com | 텍스트로 완성 노래 생성. 보컬·가사·반주 포함 | 무료+유료 | ai_resource_hub | 🔲 |
-| Udio | https://udio.com | 고품질 AI 음악 생성. 다양한 장르·세밀한 스타일 조정 | 무료+유료 | ai_resource_hub | 🔲 |
-| Veo 3 | https://deepmind.google/technologies/veo/ | Google DeepMind AI 동영상 생성 모델. 텍스트→고화질 영상 | 실험적 | google-ecosystem-map | 🔲 |
-| Flow | https://flow.google | 생성형 AI 영화 장면 연출 크리에이터용 영상 제작 도구 | 실험적 | google-ecosystem-map | 🔲 |
-| MusicFX | https://aitestkitchen.withgoogle.com/tools/music-fx | 텍스트 프롬프트로 음악 즉석 생성. 장르·분위기·악기 조합 지정 | 무료 | google-ecosystem-map | 🔲 |
-| Higgsfield AI | https://higgsfield.ai | AI 영상 생성 플랫폼. 고품질 영상 제작 | 무료+유료 | 소스.md | 🔲 |
-| Vrew | https://vrew.ai/ko | AI 기반 영상 편집 도구. 자막 자동 생성·음성 인식 | 무료+유료 | 소스.md | 🔲 |
-| Vooster | https://app.vooster.ai/ko/org | AI 음성 서비스 플랫폼 | 무료+유료 | 소스.md | 🔲 |
-| Edimakor | https://www.edimakor.net/kr | AI 영상 편집 소프트웨어. 자막·번역·편집 자동화 | 유료 | 소스.md | 🔲 |
+| Sora | https://sora.com | OpenAI 텍스트→영상. 고품질 리얼리즘·스토리보드 지원 | 유료 | ai_resource_hub | ✅ |
+| Runway Gen-3 | https://runwayml.com | AI 영상 생성·편집·효과. 크리에이터·영상 제작자용 | 무료+유료 | ai_resource_hub | ✅ |
+| Kling AI | https://klingai.com | Kuaishou 고품질 영상 생성. 한국어 포함 다국어 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Pika Labs | https://pika.art | 텍스트·이미지→영상 변환. 간편한 UI, 빠른 생성 | 무료+유료 | ai_resource_hub | ✅ |
+| HeyGen | https://heygen.com | AI 아바타 영상 제작. 다국어 립싱크·발표 자료 영상화 | 무료+유료 | ai_resource_hub | ✅ |
+| ElevenLabs | https://elevenlabs.io | 고품질 TTS·음성 클로닝. 다국어·실시간 스트리밍 API 제공 | 무료+유료 | ai_resource_hub | ✅ |
+| PlayHT | https://play.ht | 실시간 TTS API. 음성 클로닝·감정 표현·다국어 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Whisper | https://openai.com/research/whisper | OpenAI 고정확도 음성→텍스트. 한국어 포함 다국어 오픈소스 | 오픈소스 | ai_resource_hub | ✅ |
+| Suno | https://suno.com | 텍스트로 완성 노래 생성. 보컬·가사·반주 포함 | 무료+유료 | ai_resource_hub | ✅ |
+| Udio | https://udio.com | 고품질 AI 음악 생성. 다양한 장르·세밀한 스타일 조정 | 무료+유료 | ai_resource_hub | ✅ |
+| Veo 3 | https://deepmind.google/technologies/veo/ | Google DeepMind AI 동영상 생성 모델. 텍스트→고화질 영상 | 실험적 | google-ecosystem-map | ✅ |
+| Flow | https://flow.google | 생성형 AI 영화 장면 연출 크리에이터용 영상 제작 도구 | 실험적 | google-ecosystem-map | ✅ |
+| MusicFX | https://aitestkitchen.withgoogle.com/tools/music-fx | 텍스트 프롬프트로 음악 즉석 생성. 장르·분위기·악기 조합 지정 | 무료 | google-ecosystem-map | ✅ |
+| Higgsfield AI | https://higgsfield.ai | AI 영상 생성 플랫폼. 고품질 영상 제작 | 무료+유료 | 소스.md | ✅ |
+| Vrew | https://vrew.ai/ko | AI 기반 영상 편집 도구. 자막 자동 생성·음성 인식 | 무료+유료 | 소스.md | ✅ |
+| Vooster | https://app.vooster.ai/ko/org | AI 음성 서비스 플랫폼 | 무료+유료 | 소스.md | ✅ |
+| Edimakor | https://www.edimakor.net/kr | AI 영상 편집 소프트웨어. 자막·번역·편집 자동화 | 유료 | 소스.md | ✅ |
 
 ---
 
