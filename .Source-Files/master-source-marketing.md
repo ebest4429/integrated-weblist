@@ -41,19 +41,19 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| 토스페이먼츠 | https://www.tosspayments.com | 국내 1위 결제 인프라. 카드·계좌이체·간편결제 통합 API | 유료 | 소스.md | 🔲 |
-| PortOne (아임포트) | https://admin.portone.io | 국내외 30+ PG사 통합 결제 연동 솔루션. 원스톱 결제 API | 유료 | 소스.md | 🔲 |
-| Stripe | https://stripe.com | 글로벌 표준 결제 API. 구독·단건결제·원화·웹훅 자동화 | 무료+유료 | ai_resource_hub | 🔲 |
-| 부트페이 | https://www.bootpay.co.kr | 국내 결제 연동 솔루션. 쇼핑몰·앱 간편 결제 SDK | 유료 | 소스.md | 🔲 |
-| 페이플 | https://www.payple.kr | 계좌 자동이체 특화 결제 서비스. 정기결제·구독 최적화 | 유료 | 소스.md | 🔲 |
-| 코드페이 | https://www.codepay.co.kr | 소상공인 특화 간편 결제 솔루션 | 유료 | 소스.md | 🔲 |
-| 스텝페이 | https://steppay.kr | 구독·과금 SaaS 결제 플랫폼. 플랜 관리·인보이스 자동화 | 유료 | 소스.md | 🔲 |
-| 정산톡 | https://jungsantalk.com | 쇼핑몰 정산 자동화 서비스. 판매자 정산 관리 | 유료 | 소스.md | 🔲 |
-| 카페24 결제 | https://www.cafe24.com | 카페24 쇼핑몰 내 결제 센터. 국내외 결제 수단 통합 | 유료 | 소스.md | 🔲 |
-| 메이크샵 결제 | https://www.makeshop.co.kr | 메이크샵 플랫폼 연동 결제 서비스 | 유료 | 소스.md | 🔲 |
-| 아임웹 결제 | https://imweb.me | 아임웹 쇼핑몰 내 결제 시스템. 홈페이지 빌더 연동 | 유료 | 소스.md | 🔲 |
-| 딜리헙 | https://dillyhub.com | 콘텐츠 플랫폼용 결제·수익화 솔루션 | 유료 | 소스.md | 🔲 |
-| Google Pay Business | https://pay.google.com/intl/ko/about/business/ | 오프라인·온라인 결제·송금·충성도 프로그램 통합 Google 결제 | 무료+유료 | google-ecosystem-map | 🔲 |
+| 토스페이먼츠 | https://www.tosspayments.com | 국내 1위 결제 인프라. 카드·계좌이체·간편결제 통합 API | 유료 | 소스.md | ✅ |
+| PortOne (아임포트) | https://admin.portone.io | 국내외 30+ PG사 통합 결제 연동 솔루션. 원스톱 결제 API | 유료 | 소스.md | ✅ |
+| Stripe | https://stripe.com | 글로벌 표준 결제 API. 구독·단건결제·원화·웹훅 자동화 | 무료+유료 | ai_resource_hub | ✅ |
+| 부트페이 | https://www.bootpay.co.kr | 국내 결제 연동 솔루션. 쇼핑몰·앱 간편 결제 SDK | 유료 | 소스.md | ✅ |
+| 페이플 | https://www.payple.kr | 계좌 자동이체 특화 결제 서비스. 정기결제·구독 최적화 | 유료 | 소스.md | ✅ |
+| 코드페이 | https://www.codepay.co.kr | 소상공인 특화 간편 결제 솔루션 | 유료 | 소스.md | ✅ |
+| 스텝페이 | https://steppay.kr | 구독·과금 SaaS 결제 플랫폼. 플랜 관리·인보이스 자동화 | 유료 | 소스.md | ✅ |
+| 정산톡 | https://jungsantalk.com | 쇼핑몰 정산 자동화 서비스. 판매자 정산 관리 | 유료 | 소스.md | ✅ |
+| 카페24 결제 | https://www.cafe24.com | 카페24 쇼핑몰 내 결제 센터. 국내외 결제 수단 통합 | 유료 | 소스.md | ✅ |
+| 메이크샵 결제 | https://www.makeshop.co.kr | 메이크샵 플랫폼 연동 결제 서비스 | 유료 | 소스.md | ✅ |
+| 아임웹 결제 | https://imweb.me | 아임웹 쇼핑몰 내 결제 시스템. 홈페이지 빌더 연동 | 유료 | 소스.md | ✅ |
+| 딜리헙 | https://dillyhub.com | 콘텐츠 플랫폼용 결제·수익화 솔루션 | 유료 | 소스.md | ✅ |
+| Google Pay Business | https://pay.google.com/intl/ko/about/business/ | 오프라인·온라인 결제·송금·충성도 프로그램 통합 Google 결제 | 무료+유료 | google-ecosystem-map | ✅ |
 
 ---
 
