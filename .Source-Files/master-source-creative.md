@@ -64,15 +64,15 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Freesound | https://freesound.org | CC 라이선스 무료 사운드 이펙트·샘플 공유 커뮤니티 | 무료 | ai_resource_hub | 🔲 |
-| Mixkit Sound | https://mixkit.co/free-sound-effects | 무료 음악·사운드 이펙트. 상업적 이용 가능·로열티 프리 | 무료 | ai_resource_hub | 🔲 |
-| Pixabay Music | https://pixabay.com/music | 무료 배경음악·사운드 이펙트. CC0·유튜브 사용 가능 | 무료 | ai_resource_hub | 🔲 |
-| Epidemic Sound | https://epidemicsound.com | 유튜브·소셜미디어용 프리미엄 배경음악·SFX 구독 서비스 | 유료 | ai_resource_hub | 🔲 |
-| Artlist | https://artlist.io | 영상 제작자용 로열티 프리 음악·SFX 연간 구독 | 유료 | ai_resource_hub | 🔲 |
-| Soundsnap | https://soundsnap.com | 25만+ 프리미엄 사운드 이펙트·루프·배경음악 | 무료+유료 | ai_resource_hub | 🔲 |
-| Pond5 Audio | https://pond5.com/royalty-free-music | 스톡 음악·SFX·보이스오버 마켓플레이스. 단건 구매 가능 | 무료+유료 | ai_resource_hub | 🔲 |
-| Storyblocks Audio | https://storyblocks.com/audio | 무제한 음악·SFX 구독. 영상 편집자·팟캐스트 제작자용 | 유료 | ai_resource_hub | 🔲 |
-| Uppbeat | https://uppbeat.io | 유튜브·틱톡 크리에이터용 무료+프리미엄 배경음악 | 무료+유료 | ai_resource_hub | 🔲 |
-| Bensound | https://bensound.com | 무료 로열티 프리 음악. 영상·프레젠테이션·팟캐스트 배경음 | 무료+유료 | ai_resource_hub | 🔲 |
-| Zapsplat | https://zapsplat.com | 10만+ 무료 사운드 이펙트·음악. 게임·앱·영상 제작용 | 무료+유료 | ai_resource_hub | 🔲 |
-| Adobe Stock Audio | https://stock.adobe.com/audio | Adobe 생태계 연동 프리미엄 음악·SFX. Premiere 직접 연결 | 유료 | ai_resource_hub | 🔲 |
+| Freesound | https://freesound.org | CC 라이선스 무료 사운드 이펙트·샘플 공유 커뮤니티 | 무료 | ai_resource_hub | ✅ |
+| Mixkit Sound | https://mixkit.co/free-sound-effects | 무료 음악·사운드 이펙트. 상업적 이용 가능·로열티 프리 | 무료 | ai_resource_hub | ✅ |
+| Pixabay Music | https://pixabay.com/music | 무료 배경음악·사운드 이펙트. CC0·유튜브 사용 가능 | 무료 | ai_resource_hub | ✅ |
+| Epidemic Sound | https://epidemicsound.com | 유튜브·소셜미디어용 프리미엄 배경음악·SFX 구독 서비스 | 유료 | ai_resource_hub | ✅ |
+| Artlist | https://artlist.io | 영상 제작자용 로열티 프리 음악·SFX 연간 구독 | 유료 | ai_resource_hub | ✅ |
+| Soundsnap | https://soundsnap.com | 25만+ 프리미엄 사운드 이펙트·루프·배경음악 | 무료+유료 | ai_resource_hub | ✅ |
+| Pond5 Audio | https://pond5.com/royalty-free-music | 스톡 음악·SFX·보이스오버 마켓플레이스. 단건 구매 가능 | 무료+유료 | ai_resource_hub | ✅ |
+| Storyblocks Audio | https://storyblocks.com/audio | 무제한 음악·SFX 구독. 영상 편집자·팟캐스트 제작자용 | 유료 | ai_resource_hub | ✅ |
+| Uppbeat | https://uppbeat.io | 유튜브·틱톡 크리에이터용 무료+프리미엄 배경음악 | 무료+유료 | ai_resource_hub | ✅ |
+| Bensound | https://bensound.com | 무료 로열티 프리 음악. 영상·프레젠테이션·팟캐스트 배경음 | 무료+유료 | ai_resource_hub | ✅ |
+| Zapsplat | https://zapsplat.com | 10만+ 무료 사운드 이펙트·음악. 게임·앱·영상 제작용 | 무료+유료 | ai_resource_hub | ✅ |
+| Adobe Stock Audio | https://stock.adobe.com/audio | Adobe 생태계 연동 프리미엄 음악·SFX. Premiere 직접 연결 | 유료 | ai_resource_hub | ✅ |
