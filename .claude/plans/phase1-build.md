@@ -55,7 +55,7 @@
 
 ### 5. Git 초기화 + 원격 레포 연결
 
-- 🔄 `git init` + GitHub 레포 생성 + 첫 커밋 + push
+- ✅ `git init` + GitHub 레포 생성 + 첫 커밋 + push (https://github.com/ebest4429/integrated-weblist)
 
 ---
 

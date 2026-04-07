@@ -20,20 +20,20 @@
 
 ## 남은 과제
 
-### 다음 세션 — 구현 시작
-
-협의 완료. 바로 구현 진입 가능.
+### 다음 세션 — Vite + React 구현 시작
 
 **확정 스택:** Vite + React + Tailwind CSS  
 **확정 구조:** 사이드바(그룹핑) + 리스트 + 인라인 아코디언 상세  
-**데이터:** `src/data/` 카테고리별 JSON
+**데이터 소스:** `.Source-Files/master-source.md` → `src/data/` 카테고리별 JSON 변환
+
+**GitHub:** https://github.com/ebest4429/integrated-weblist
 
 **작업 순서:**
 1. Vite + React + Tailwind 프로젝트 초기화 (`npm create vite@latest`)
 2. 디렉토리 구조 생성
 3. Sidebar / SidebarGroup 컴포넌트
 4. ItemList / ItemRow / ItemDetail 컴포넌트 (아코디언)
-5. JSON 데이터 파일 작성
+5. JSON 데이터 파일 작성 (master-source.md 기반)
 6. 검색·즐겨찾기 기능
 
 **참고 파일:** `.claude/plans/weblist-master.md` — 전체 결정사항 기록됨
