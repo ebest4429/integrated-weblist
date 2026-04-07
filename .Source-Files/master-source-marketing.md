@@ -61,16 +61,16 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Webflow | https://webflow.com | 비주얼 웹 빌더. 코드 없이 프로 수준 반응형 사이트 제작 | 무료+유료 | ai_resource_hub | 🔲 |
-| Bubble | https://bubble.io | 풀스택 노코드 앱 개발. DB·비즈니스 로직·UI 통합 | 무료+유료 | ai_resource_hub | 🔲 |
-| FlutterFlow | https://flutterflow.io | Flutter 기반 모바일·웹앱 비주얼 빌더. 네이티브 앱 출력 | 무료+유료 | ai_resource_hub | 🔲 |
-| Retool | https://retool.com | 내부 도구 빠른 구축. DB·API 연결 드래그앤드롭 UI 빌더 | 무료+유료 | ai_resource_hub | 🔲 |
-| Appsmith | https://appsmith.com | 오픈소스 로우코드 내부 앱 빌더. 자체 서버 운영 가능 | 오픈소스 | ai_resource_hub | 🔲 |
-| Glide | https://glideapps.com | 스프레드시트로 앱 만들기. 간편한 모바일앱·내부 도구 | 무료+유료 | ai_resource_hub | 🔲 |
-| Notion AI | https://notion.so | AI 통합 노트·DB·협업 도구. 문서·위키·프로젝트 관리 | 무료+유료 | ai_resource_hub | 🔲 |
-| Airtable | https://airtable.com | 스프레드시트+DB 하이브리드. 자동화·AI 필드 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Linear | https://linear.app | 개발팀 이슈 트래킹. 빠른 UI·GitHub·Slack 연동 | 무료+유료 | ai_resource_hub | 🔲 |
-| GitHub | https://github.com | 코드 버전 관리·협업. Actions CI/CD·Projects 보드 통합 | 무료+유료 | ai_resource_hub | 🔲 |
-| Jira | https://www.atlassian.com/software/jira | Atlassian 프로젝트 관리·이슈 트래킹. 애자일·스크럼·칸반 지원 | 무료+유료 | 소스.md | 🔲 |
-| Google Sites | https://sites.google.com | 코딩 없이 팀 인트라넷·포트폴리오·프로젝트 허브 웹빌더 | 무료 | google-ecosystem-map | 🔲 |
-| Google Chat | https://chat.google.com | 채널 기반 팀 메시지 앱. Spaces·Drive·Meet 연동 | 무료+유료 | google-ecosystem-map | 🔲 |
+| Webflow | https://webflow.com | 비주얼 웹 빌더. 코드 없이 프로 수준 반응형 사이트 제작 | 무료+유료 | ai_resource_hub | ✅ |
+| Bubble | https://bubble.io | 풀스택 노코드 앱 개발. DB·비즈니스 로직·UI 통합 | 무료+유료 | ai_resource_hub | ✅ |
+| FlutterFlow | https://flutterflow.io | Flutter 기반 모바일·웹앱 비주얼 빌더. 네이티브 앱 출력 | 무료+유료 | ai_resource_hub | ✅ |
+| Retool | https://retool.com | 내부 도구 빠른 구축. DB·API 연결 드래그앤드롭 UI 빌더 | 무료+유료 | ai_resource_hub | ✅ |
+| Appsmith | https://appsmith.com | 오픈소스 로우코드 내부 앱 빌더. 자체 서버 운영 가능 | 오픈소스 | ai_resource_hub | ✅ |
+| Glide | https://glideapps.com | 스프레드시트로 앱 만들기. 간편한 모바일앱·내부 도구 | 무료+유료 | ai_resource_hub | ✅ |
+| Notion AI | https://notion.so | AI 통합 노트·DB·협업 도구. 문서·위키·프로젝트 관리 | 무료+유료 | ai_resource_hub | ✅ |
+| Airtable | https://airtable.com | 스프레드시트+DB 하이브리드. 자동화·AI 필드 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Linear | https://linear.app | 개발팀 이슈 트래킹. 빠른 UI·GitHub·Slack 연동 | 무료+유료 | ai_resource_hub | ✅ |
+| GitHub | https://github.com | 코드 버전 관리·협업. Actions CI/CD·Projects 보드 통합 | 무료+유료 | ai_resource_hub | ✅ |
+| Jira | https://www.atlassian.com/software/jira | Atlassian 프로젝트 관리·이슈 트래킹. 애자일·스크럼·칸반 지원 | 무료+유료 | 소스.md | ✅ |
+| Google Sites | https://sites.google.com | 코딩 없이 팀 인트라넷·포트폴리오·프로젝트 허브 웹빌더 | 무료 | google-ecosystem-map | ✅ |
+| Google Chat | https://chat.google.com | 채널 기반 팀 메시지 앱. Spaces·Drive·Meet 연동 | 무료+유료 | google-ecosystem-map | ✅ |

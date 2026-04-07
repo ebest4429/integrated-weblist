@@ -8,79 +8,235 @@
       "name": "Webflow",
       "url": "https://webflow.com",
       "desc": "비주얼 웹 빌더. 코드 없이 프로 수준 반응형 사이트 제작",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "디자이너를 위한 비주얼 웹 빌더. HTML·CSS·JS를 직접 작성하지 않고도 완성도 높은 반응형 웹사이트를 제작할 수 있으며, CMS·이커머스·애니메이션 기능을 통합 제공한다.",
+        "features": [
+          "드래그앤드롭 비주얼 에디터 — 픽셀 퍼펙트 레이아웃",
+          "CMS — 블로그·포트폴리오·동적 콘텐츠 관리",
+          "이커머스 — 상품·장바구니·결제 노코드 구현",
+          "인터랙션·애니메이션 — 코드 없이 모션 효과",
+          "Webflow Hosting — 빠른 CDN 기반 퍼블리시"
+        ],
+        "usage": "webflow.com에서 무료로 시작. 비주얼 에디터로 디자인 후 퍼블리시. 커스텀 도메인은 유료 플랜 필요. HTML/CSS 내보내기로 자체 서버 배포도 가능.",
+        "notes": "디자인 자유도가 높아 에이전시·프리랜서 디자이너에게 인기. 개발자 없이 복잡한 웹사이트를 만들 수 있으나 학습 곡선이 있음."
+      }
     },
     {
       "name": "Bubble",
       "url": "https://bubble.io",
       "desc": "풀스택 노코드 앱 개발. DB·비즈니스 로직·UI 통합",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "코딩 없이 풀스택 웹 애플리케이션을 만들 수 있는 노코드 플랫폼. UI 설계부터 데이터베이스·비즈니스 로직·API 연동까지 하나의 환경에서 처리하며, 복잡한 SaaS 앱도 구현 가능하다.",
+        "features": [
+          "비주얼 UI 에디터 — 반응형 웹앱 설계",
+          "내장 DB — 데이터 타입·관계형 구조 정의",
+          "워크플로우 — 조건·트리거·API 호출 로직 구성",
+          "플러그인 마켓 — Stripe·Airtable·Google 등 연동",
+          "API Connector — 외부 REST API 직접 연결"
+        ],
+        "usage": "bubble.io에서 무료 플랜으로 시작. 앱 템플릿 선택 후 커스터마이징 또는 처음부터 구성. 커스텀 도메인·프로덕션 배포는 유료 플랜.",
+        "notes": "노코드 SaaS 빌더 중 가장 강력한 기능. 학습 곡선 높음. MVP 빠른 검증에 적합. 트래픽 증가 시 성능·비용 이슈 발생 가능."
+      }
     },
     {
       "name": "FlutterFlow",
       "url": "https://flutterflow.io",
       "desc": "Flutter 기반 모바일·웹앱 비주얼 빌더. 네이티브 앱 출력",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Flutter를 기반으로 iOS·Android·웹 앱을 비주얼하게 제작하는 로우코드 플랫폼. 실제 Flutter 코드를 생성·내보내므로 앱스토어 배포와 추가 커스터마이징이 가능하다.",
+        "features": [
+          "드래그앤드롭으로 Flutter UI 구성",
+          "Firebase·Supabase·REST API 연동",
+          "실제 Flutter/Dart 코드 내보내기",
+          "iOS·Android·웹 동시 빌드",
+          "커스텀 코드 삽입 — 비주얼 빌더 한계 돌파"
+        ],
+        "usage": "flutterflow.io에서 가입 후 앱 생성. 무료 플랜으로 UI 설계 가능. 코드 내보내기·앱 배포는 유료 플랜. Flutter SDK 없이도 FlutterFlow 내에서 테스트.",
+        "notes": "노코드의 편의성과 Flutter의 네이티브 성능을 결합. 개발자가 아닌 팀원도 UI 작업 가능. 복잡한 비즈니스 로직은 커스텀 코드 필요."
+      }
     },
     {
       "name": "Retool",
       "url": "https://retool.com",
       "desc": "내부 도구 빠른 구축. DB·API 연결 드래그앤드롭 UI 빌더",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "개발팀의 내부 관리 도구(어드민 패널·대시보드·운영 도구)를 빠르게 구축하는 로우코드 플랫폼. PostgreSQL·MySQL·REST API·GraphQL 등 다양한 데이터 소스를 연결하고 UI를 드래그앤드롭으로 구성한다.",
+        "features": [
+          "50+ 사전 제작 UI 컴포넌트 — 테이블·폼·차트·버튼",
+          "DB·REST API·GraphQL 직접 연결",
+          "JavaScript 커스터마이징 — 컴포넌트 로직 제어",
+          "Retool Database — 내장 PostgreSQL",
+          "워크플로우 자동화·스케줄러"
+        ],
+        "usage": "retool.com에서 앱 생성. 데이터 소스 연결 후 컴포넌트 배치·쿼리 바인딩. 무료 플랜: 5명 사용자·무제한 앱. 온프레미스 배포 옵션 있음.",
+        "notes": "외부 고객용 앱보다 내부 팀 도구에 최적화. 비개발자도 사용 가능하나 SQL·API 기본 이해가 있으면 훨씬 효과적."
+      }
     },
     {
       "name": "Appsmith",
       "url": "https://appsmith.com",
       "desc": "오픈소스 로우코드 내부 앱 빌더. 자체 서버 운영 가능",
-      "badge": "open"
+      "badge": "open",
+      "detail": {
+        "intro": "Retool의 오픈소스 대안. 내부 관리 도구·대시보드를 구축하는 로우코드 플랫폼으로, 완전 자체 호스팅이 가능하여 데이터를 외부로 보내지 않아도 된다. Apache 2.0 라이선스로 무료 사용 가능.",
+        "features": [
+          "완전 오픈소스 — 자체 서버 배포 가능",
+          "45+ DB·API 연동 — PostgreSQL·MongoDB·REST·GraphQL",
+          "드래그앤드롭 UI — 테이블·폼·차트·지도",
+          "JavaScript 표현식으로 로직 커스터마이징",
+          "Appsmith Cloud 관리형 + 도커 셀프호스팅"
+        ],
+        "usage": "Docker: `docker run -d --name appsmith -p 80:80 appsmith/appsmith-ce`. 또는 appsmith.com 클라우드 사용. 로컬 실행 후 브라우저에서 앱 빌드.",
+        "notes": "Retool 유료 플랜 비용이 부담스럽거나 데이터 보안상 자체 서버가 필요한 경우 최적. 커뮤니티 활발하고 기능 업데이트 빠름."
+      }
     },
     {
       "name": "Glide",
       "url": "https://glideapps.com",
       "desc": "스프레드시트로 앱 만들기. 간편한 모바일앱·내부 도구",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Google Sheets·Excel·Airtable 스프레드시트를 데이터 소스로 하여 모바일 앱과 내부 도구를 만드는 노코드 플랫폼. 기존 스프레드시트 데이터를 앱으로 전환하는 가장 빠른 방법이다.",
+        "features": [
+          "Google Sheets·Airtable·Glide Tables 연동",
+          "모바일 앱·웹앱·데스크탑 앱 생성",
+          "컴포넌트 — 목록·폼·지도·차트·캘린더",
+          "비즈니스 로직 — 조건·계산·액션 설정",
+          "사용자 인증·역할별 접근 제어"
+        ],
+        "usage": "glideapps.com에서 스프레드시트 연결 후 앱 레이아웃 설정. 무료 플랜으로 기본 앱 생성 가능. 공유 링크로 즉시 배포.",
+        "notes": "현장 직원용 업무 앱·재고 관리·일정 관리 앱에 많이 활용. 스프레드시트 구조가 복잡하면 앱 성능 저하 가능."
+      }
     },
     {
       "name": "Notion AI",
       "url": "https://notion.so",
       "desc": "AI 통합 노트·DB·협업 도구. 문서·위키·프로젝트 관리",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "문서·데이터베이스·위키·프로젝트 관리를 하나로 통합한 올인원 협업 도구. Notion AI가 통합되어 문서 작성·요약·번역·데이터 분석을 AI 어시스턴트로 처리할 수 있다.",
+        "features": [
+          "블록 기반 에디터 — 텍스트·코드·이미지·임베드",
+          "데이터베이스 — 테이블·갤러리·캘린더·칸반 뷰",
+          "Notion AI — 작성·요약·번역·질문 답변",
+          "팀 위키·문서 공유·협업 편집",
+          "Zapier·Slack·GitHub 등 외부 연동"
+        ],
+        "usage": "notion.so에서 무료 가입. 워크스페이스 생성 후 페이지 구성. 무료 플랜은 블록 수 제한. AI 기능은 유료 플랜($10/월) 또는 AI 애드온.",
+        "notes": "팀 문서화·프로젝트 관리·지식 베이스 구축에 폭넓게 활용. Notion AI 품질은 전용 AI 도구 대비 제한적이나 워크스페이스 내 컨텍스트 활용이 강점."
+      }
     },
     {
       "name": "Airtable",
       "url": "https://airtable.com",
       "desc": "스프레드시트+DB 하이브리드. 자동화·AI 필드 지원",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "스프레드시트의 친숙함과 데이터베이스의 구조적 강점을 결합한 협업 플랫폼. 그리드·칸반·갤러리·캘린더 등 다양한 뷰로 데이터를 시각화하고, 자동화·AI 필드로 워크플로우를 자동화한다.",
+        "features": [
+          "다중 뷰 — 그리드·칸반·갤러리·타임라인·캘린더",
+          "연결 필드 — 테이블 간 관계형 데이터 연결",
+          "자동화 — 트리거 기반 작업 자동 실행",
+          "AI 필드 — 데이터 요약·분류·추출 자동화",
+          "Airtable API — 외부 앱 연동"
+        ],
+        "usage": "airtable.com에서 무료 가입. 템플릿 선택 또는 베이스 직접 구성. 무료 플랜: 무제한 베이스·레코드 1,000개 제한.",
+        "notes": "콘텐츠 캘린더·CRM·프로젝트 트래킹에 많이 활용. 대용량 데이터(수만 레코드)에서는 속도 저하 가능. API로 Glide·Retool 등과 연동 시너지."
+      }
     },
     {
       "name": "Linear",
       "url": "https://linear.app",
       "desc": "개발팀 이슈 트래킹. 빠른 UI·GitHub·Slack 연동",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "속도와 사용성을 최우선으로 설계된 개발팀 이슈 트래킹 도구. Jira 대비 훨씬 빠른 UI와 키보드 단축키 중심의 워크플로우로, 엔지니어링 팀의 생산성을 높인다.",
+        "features": [
+          "초고속 UI — 앱 수준 반응속도의 웹 인터페이스",
+          "사이클(스프린트)·로드맵·프로젝트 관리",
+          "GitHub·GitLab·Slack·Figma 연동",
+          "자동화 — 이슈 상태 자동 전환",
+          "Linear API·웹훅으로 커스텀 워크플로우"
+        ],
+        "usage": "linear.app에서 팀 가입. GitHub 저장소 연결 후 브랜치·PR과 이슈 자동 연동. 무료 플랜: 250 이슈 제한.",
+        "notes": "Jira 피로감을 느끼는 개발팀에게 인기 높음. 단순하고 빠른 UX가 강점. 엔터프라이즈 기능(고급 권한·감사 로그)은 Business 플랜 이상."
+      }
     },
     {
       "name": "GitHub",
       "url": "https://github.com",
       "desc": "코드 버전 관리·협업. Actions CI/CD·Projects 보드 통합",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "세계 최대 코드 호스팅·협업 플랫폼. Git 저장소 호스팅을 넘어 CI/CD 자동화(Actions)·프로젝트 관리(Projects)·코드 리뷰(PR)·패키지 배포(Packages)를 하나의 플랫폼에서 제공한다.",
+        "features": [
+          "Git 저장소 — 무제한 공개/비공개 저장소",
+          "GitHub Actions — CI/CD 워크플로우 자동화",
+          "Pull Request — 코드 리뷰·머지 관리",
+          "GitHub Projects — 칸반·로드맵 프로젝트 관리",
+          "GitHub Copilot — AI 코드 어시스턴트 통합"
+        ],
+        "usage": "github.com에서 무료 가입. 저장소 생성 후 `git remote add origin`으로 연결. Actions 탭에서 워크플로우 YAML 작성.",
+        "notes": "개발자 필수 도구. 공개 저장소 무제한 무료. 팀 기능은 Team 플랜($4/인/월). GitHub Pages로 정적 사이트 무료 호스팅 가능."
+      }
     },
     {
       "name": "Jira",
       "url": "https://www.atlassian.com/software/jira",
       "desc": "Atlassian 프로젝트 관리·이슈 트래킹. 애자일·스크럼·칸반 지원",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "엔터프라이즈 소프트웨어 팀의 표준 프로젝트 관리 도구. 스크럼·칸반·스프린트 관리, 세밀한 권한 설정, 광범위한 서드파티 연동으로 대규모 팀의 복잡한 프로젝트를 관리한다.",
+        "features": [
+          "스크럼·칸반 보드 — 스프린트 계획·백로그 관리",
+          "로드맵 — 에픽·이니셔티브 타임라인 시각화",
+          "커스텀 워크플로우 — 이슈 상태·전환 규칙 설정",
+          "3,000+ Atlassian Marketplace 앱 연동",
+          "Confluence·Bitbucket·Slack 네이티브 통합"
+        ],
+        "usage": "atlassian.com/jira에서 가입. 무료 플랜: 10명까지·무제한 프로젝트. Standard 플랜 $8.15/인/월. Jira Service Management로 헬프데스크 확장 가능.",
+        "notes": "설정 복잡성이 높아 소규모 팀은 Linear가 적합할 수 있음. 대기업·규제 산업에서 감사 추적·권한 관리가 필요한 경우 Jira가 표준."
+      }
     },
     {
       "name": "Google Sites",
       "url": "https://sites.google.com",
       "desc": "코딩 없이 팀 인트라넷·포트폴리오·프로젝트 허브 웹빌더",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google Workspace에 포함된 무료 웹사이트 빌더. 드래그앤드롭으로 팀 인트라넷·프로젝트 허브·포트폴리오를 만들 수 있으며, Google Drive·Docs·Sheets·Calendar와 자연스럽게 통합된다.",
+        "features": [
+          "드래그앤드롭 웹페이지 편집",
+          "Google Drive·Docs·Sheets·Slides·Forms·Maps 임베드",
+          "Google 계정 기반 접근 권한 — 조직 내부용 페이지",
+          "반응형 레이아웃 자동 적용",
+          "Google Workspace 구독 없이도 무료 사용"
+        ],
+        "usage": "sites.google.com에서 새 사이트 생성. 템플릿 선택 후 콘텐츠 편집. 구글 계정만 있으면 무료. 커스텀 도메인은 Google Workspace 필요.",
+        "notes": "Webflow·Wix 대비 디자인 자유도 낮음. 기업 인트라넷·내부 지식베이스·이벤트 페이지처럼 빠르게 만들고 팀과 공유하는 용도에 최적."
+      }
     },
     {
       "name": "Google Chat",
       "url": "https://chat.google.com",
       "desc": "채널 기반 팀 메시지 앱. Spaces·Drive·Meet 연동",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Google Workspace의 팀 커뮤니케이션 도구. Slack과 유사한 채널(Spaces) 기반 메시지 앱으로, Google Drive·Docs·Meet·Calendar와 깊이 통합되어 Workspace 사용 팀의 커뮤니케이션 허브 역할을 한다.",
+        "features": [
+          "Spaces — 채널 기반 팀 토론 공간",
+          "다이렉트 메시지 — 1:1 및 그룹 메시지",
+          "Google Drive 파일 공유·실시간 협업",
+          "Google Meet 화상회의 즉시 시작",
+          "Chat Apps — 봇·웹훅·외부 서비스 연동"
+        ],
+        "usage": "chat.google.com 또는 Gmail 내 Chat 탭에서 접근. Google 계정 보유자는 무료 사용. Google Workspace 구독 시 추가 기능·스토리지 제공.",
+        "notes": "Google Workspace 사용 팀의 Slack 대안. Gmail·Drive와의 통합이 강점이나 Slack 대비 서드파티 앱 생태계는 제한적."
+      }
     }
   ]
 }
