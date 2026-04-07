@@ -44,20 +44,20 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| OpenAI API | https://platform.openai.com | GPT-4o·o1·DALL-E·Whisper·TTS API. 가장 광범위한 AI API | 유료 | ai_resource_hub | 🔲 |
-| Anthropic API | https://anthropic.com/api | Claude 3.5 Sonnet·Haiku API. 200K 컨텍스트·MCP·Tool Use | 유료 | ai_resource_hub | 🔲 |
-| Google AI Studio | https://aistudio.google.com | Gemini API 무료 테스트·개발. Gemini Pro·Flash·임베딩 모델 | 무료 | ai_resource_hub | 🔲 |
-| Groq | https://groq.com | 초고속 LLM 추론 API. Llama·Mixtral 호스팅·낮은 레이턴시 | 무료+유료 | ai_resource_hub | 🔲 |
-| Replicate | https://replicate.com | 오픈소스 AI 모델 API 실행. 이미지·영상·LLM 다양한 모델 | 무료+유료 | ai_resource_hub | 🔲 |
-| Together AI | https://together.ai | 오픈소스 모델 고속 API. 파인튜닝·배치 처리·저렴한 단가 | 무료+유료 | ai_resource_hub | 🔲 |
-| Stripe API | https://stripe.com | 결제 처리 API. 구독·단건결제·원화·웹훅 자동화 | 무료+유료 | ai_resource_hub | 🔲 |
-| Google Maps API | https://developers.google.com/maps | 지도·위치·경로·장소 검색 API. 앱 내 지도 기능 통합 | 무료+유료 | ai_resource_hub | 🔲 |
-| Resend | https://resend.com | 개발자 친화적 이메일 API. React 이메일 템플릿·빠른 발송 | 무료+유료 | ai_resource_hub | 🔲 |
-| Twilio | https://twilio.com | SMS·전화·WhatsApp API. 인증 문자·알림 자동화 | 무료+유료 | ai_resource_hub | 🔲 |
-| DeepL API | https://deepl.com/pro-api | 고품질 번역 API. 한국어 포함 30개 언어·높은 자연스러움 | 무료+유료 | ai_resource_hub | 🔲 |
-| Google OAuth / Identity | https://developers.google.com/identity | Google 계정 소셜 로그인 구현. OpenID Connect·OAuth 2.0 표준 | 무료 | google-ecosystem-map | 🔲 |
-| Alpha Vantage | https://www.alphavantage.co | 주식·암호화폐·외환 시세 데이터 API. 실시간·역사적 데이터 | 무료+유료 | 소스.md | 🔲 |
-| CoinMarketCap | https://coinmarketcap.com/api/ | 암호화폐 시세·시가총액·거래량 데이터 API | 무료+유료 | 소스.md | 🔲 |
+| OpenAI API | https://platform.openai.com | GPT-4o·o1·DALL-E·Whisper·TTS API. 가장 광범위한 AI API | 유료 | ai_resource_hub | ✅ |
+| Anthropic API | https://anthropic.com/api | Claude 3.5 Sonnet·Haiku API. 200K 컨텍스트·MCP·Tool Use | 유료 | ai_resource_hub | ✅ |
+| Google AI Studio | https://aistudio.google.com | Gemini API 무료 테스트·개발. Gemini Pro·Flash·임베딩 모델 | 무료 | ai_resource_hub | ✅ |
+| Groq | https://groq.com | 초고속 LLM 추론 API. Llama·Mixtral 호스팅·낮은 레이턴시 | 무료+유료 | ai_resource_hub | ✅ |
+| Replicate | https://replicate.com | 오픈소스 AI 모델 API 실행. 이미지·영상·LLM 다양한 모델 | 무료+유료 | ai_resource_hub | ✅ |
+| Together AI | https://together.ai | 오픈소스 모델 고속 API. 파인튜닝·배치 처리·저렴한 단가 | 무료+유료 | ai_resource_hub | ✅ |
+| Stripe API | https://stripe.com | 결제 처리 API. 구독·단건결제·원화·웹훅 자동화 | 무료+유료 | ai_resource_hub | ✅ |
+| Google Maps API | https://developers.google.com/maps | 지도·위치·경로·장소 검색 API. 앱 내 지도 기능 통합 | 무료+유료 | ai_resource_hub | ✅ |
+| Resend | https://resend.com | 개발자 친화적 이메일 API. React 이메일 템플릿·빠른 발송 | 무료+유료 | ai_resource_hub | ✅ |
+| Twilio | https://twilio.com | SMS·전화·WhatsApp API. 인증 문자·알림 자동화 | 무료+유료 | ai_resource_hub | ✅ |
+| DeepL API | https://deepl.com/pro-api | 고품질 번역 API. 한국어 포함 30개 언어·높은 자연스러움 | 무료+유료 | ai_resource_hub | ✅ |
+| Google OAuth / Identity | https://developers.google.com/identity | Google 계정 소셜 로그인 구현. OpenID Connect·OAuth 2.0 표준 | 무료 | google-ecosystem-map | ✅ |
+| Alpha Vantage | https://www.alphavantage.co | 주식·암호화폐·외환 시세 데이터 API. 실시간·역사적 데이터 | 무료+유료 | 소스.md | ✅ |
+| CoinMarketCap | https://coinmarketcap.com/api/ | 암호화폐 시세·시가총액·거래량 데이터 API | 무료+유료 | 소스.md | ✅ |
 
 ---
 
