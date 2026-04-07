@@ -81,16 +81,16 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| MCP 공식 문서 | https://modelcontextprotocol.io | Anthropic Model Context Protocol 공식 규격. AI-도구 연결 표준 | 무료 | ai_resource_hub | 🔲 |
-| MCP.so | https://mcp.so | MCP 서버 디렉토리. 다양한 MCP 서버 탐색·설치·공유 | 무료 | ai_resource_hub | 🔲 |
-| Smithery | https://smithery.ai | MCP 서버 마켓플레이스. 원클릭 설치·Claude 연동 | 무료 | ai_resource_hub | 🔲 |
-| LangChain | https://langchain.com | LLM 앱 개발 프레임워크. 체인·RAG·에이전트·메모리 구축 | 오픈소스 | ai_resource_hub | 🔲 |
-| LangGraph | https://langchain.com/langgraph | 상태 기반 멀티에이전트 워크플로우. 사이클·조건 분기 지원 | 오픈소스 | ai_resource_hub | 🔲 |
-| CrewAI | https://crewai.com | 역할 기반 멀티에이전트 협업. 팀 구성→태스크 자동 분배 | 오픈소스 | ai_resource_hub | 🔲 |
-| AutoGen | https://microsoft.github.io/autogen | Microsoft 멀티에이전트 대화 프레임워크. 자동 코드 실행·검증 | 오픈소스 | ai_resource_hub | 🔲 |
-| Dify | https://dify.ai | 오픈소스 LLM 앱 플랫폼. 시각적 워크플로우·RAG·에이전트 빌더 | 오픈소스 | ai_resource_hub | 🔲 |
-| n8n | https://n8n.io | 오픈소스 워크플로우 자동화. AI 노드·자체 호스팅 가능 | 오픈소스 | ai_resource_hub | 🔲 |
-| Zapier | https://zapier.com | AI 기반 앱 간 자동화. 6000+ 앱 연동·자연어 자동화 설정 | 무료+유료 | ai_resource_hub | 🔲 |
-| Make | https://make.com | 시각적 자동화 플랫폼. 복잡한 분기·루프 시나리오 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Pipedream | https://pipedream.com | 코드 기반 워크플로우 자동화. API 연동·서버리스 실행 | 무료+유료 | 소스.md | 🔲 |
-| Apify | https://apify.com | 웹 스크래핑·자동화 플랫폼. 크롤러·액터 마켓플레이스 | 무료+유료 | 소스.md | 🔲 |
+| MCP 공식 문서 | https://modelcontextprotocol.io | Anthropic Model Context Protocol 공식 규격. AI-도구 연결 표준 | 무료 | ai_resource_hub | ✅ |
+| MCP.so | https://mcp.so | MCP 서버 디렉토리. 다양한 MCP 서버 탐색·설치·공유 | 무료 | ai_resource_hub | ✅ |
+| Smithery | https://smithery.ai | MCP 서버 마켓플레이스. 원클릭 설치·Claude 연동 | 무료 | ai_resource_hub | ✅ |
+| LangChain | https://langchain.com | LLM 앱 개발 프레임워크. 체인·RAG·에이전트·메모리 구축 | 오픈소스 | ai_resource_hub | ✅ |
+| LangGraph | https://langchain.com/langgraph | 상태 기반 멀티에이전트 워크플로우. 사이클·조건 분기 지원 | 오픈소스 | ai_resource_hub | ✅ |
+| CrewAI | https://crewai.com | 역할 기반 멀티에이전트 협업. 팀 구성→태스크 자동 분배 | 오픈소스 | ai_resource_hub | ✅ |
+| AutoGen | https://microsoft.github.io/autogen | Microsoft 멀티에이전트 대화 프레임워크. 자동 코드 실행·검증 | 오픈소스 | ai_resource_hub | ✅ |
+| Dify | https://dify.ai | 오픈소스 LLM 앱 플랫폼. 시각적 워크플로우·RAG·에이전트 빌더 | 오픈소스 | ai_resource_hub | ✅ |
+| n8n | https://n8n.io | 오픈소스 워크플로우 자동화. AI 노드·자체 호스팅 가능 | 오픈소스 | ai_resource_hub | ✅ |
+| Zapier | https://zapier.com | AI 기반 앱 간 자동화. 6000+ 앱 연동·자연어 자동화 설정 | 무료+유료 | ai_resource_hub | ✅ |
+| Make | https://make.com | 시각적 자동화 플랫폼. 복잡한 분기·루프 시나리오 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Pipedream | https://pipedream.com | 코드 기반 워크플로우 자동화. API 연동·서버리스 실행 | 무료+유료 | 소스.md | ✅ |
+| Apify | https://apify.com | 웹 스크래핑·자동화 플랫폼. 크롤러·액터 마켓플레이스 | 무료+유료 | 소스.md | ✅ |
