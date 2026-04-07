@@ -13,18 +13,18 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Gemini | https://gemini.google.com | Google 최신 멀티모달 AI 어시스턴트. 텍스트·이미지·코드·음성 이해 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Flow | https://flow.google | 생성형 AI로 영화 장면 연출. 스토리보드→최종 영상 AI 보조 | 실험적 | google-ecosystem-map | 🔲 |
-| ImageFX | https://aitestkitchen.withgoogle.com/tools/image-fx | Google Imagen 모델 텍스트→이미지. 사실적·예술적 이미지 생성 | 무료 | google-ecosystem-map | 🔲 |
-| Veo 3 | https://deepmind.google/technologies/veo/ | Google DeepMind AI 동영상 생성. 물리적 사실감 고화질 영상 | 실험적 | google-ecosystem-map | 🔲 |
-| MusicFX | https://aitestkitchen.withgoogle.com/tools/music-fx | 텍스트로 음악 즉석 생성. 장르·분위기·악기 조합 자유 지정 | 무료 | google-ecosystem-map | 🔲 |
-| NotebookLM | https://notebooklm.google.com | 문서·PDF·링크 기반 AI 분석·요약·Q&A 개인 연구 노트 도우미 | 무료+유료 | google-ecosystem-map | 🔲 |
-| AI Studio | https://aistudio.google.com | Gemini API 브라우저 테스트·프롬프트 설계 개발자 프로토타이핑 | 무료 | google-ecosystem-map | 🔲 |
-| AI Test Kitchen | https://aitestkitchen.withgoogle.com | Google 출시 전 AI 기능 공개 실험실. 최신 AI 기술 선 체험 | 실험적 | google-ecosystem-map | 🔲 |
-| Gemini for Workspace | https://workspace.google.com/intl/ko/products/gemini/ | Gmail·Sheets·Slides·Docs 전반 통합 AI 어시스턴트 | 유료 | google-ecosystem-map | 🔲 |
-| Project Astra | https://deepmind.google/technologies/gemini/project-astra/ | 실시간 카메라·음성 입력 이해 차세대 AI 에이전트 프로젝트 | 실험적 | google-ecosystem-map | 🔲 |
-| Google DeepMind | https://deepmind.google | AlphaFold·Gemini·Veo 개발 Google 핵심 AI 연구소 | 무료 | google-ecosystem-map | 🔲 |
-| Google Opal | https://opal.google | Google 실험적 AI 서비스 | 실험적 | 소스.md | 🔲 |
+| Gemini | https://gemini.google.com | Google 최신 멀티모달 AI 어시스턴트. 텍스트·이미지·코드·음성 이해 | 무료+유료 | google-ecosystem-map | ✅ |
+| Flow | https://flow.google | 생성형 AI로 영화 장면 연출. 스토리보드→최종 영상 AI 보조 | 실험적 | google-ecosystem-map | ✅ |
+| ImageFX | https://aitestkitchen.withgoogle.com/tools/image-fx | Google Imagen 모델 텍스트→이미지. 사실적·예술적 이미지 생성 | 무료 | google-ecosystem-map | ✅ |
+| Veo 3 | https://deepmind.google/technologies/veo/ | Google DeepMind AI 동영상 생성. 물리적 사실감 고화질 영상 | 실험적 | google-ecosystem-map | ✅ |
+| MusicFX | https://aitestkitchen.withgoogle.com/tools/music-fx | 텍스트로 음악 즉석 생성. 장르·분위기·악기 조합 자유 지정 | 무료 | google-ecosystem-map | ✅ |
+| NotebookLM | https://notebooklm.google.com | 문서·PDF·링크 기반 AI 분석·요약·Q&A 개인 연구 노트 도우미 | 무료+유료 | google-ecosystem-map | ✅ |
+| AI Studio | https://aistudio.google.com | Gemini API 브라우저 테스트·프롬프트 설계 개발자 프로토타이핑 | 무료 | google-ecosystem-map | ✅ |
+| AI Test Kitchen | https://aitestkitchen.withgoogle.com | Google 출시 전 AI 기능 공개 실험실. 최신 AI 기술 선 체험 | 실험적 | google-ecosystem-map | ✅ |
+| Gemini for Workspace | https://workspace.google.com/intl/ko/products/gemini/ | Gmail·Sheets·Slides·Docs 전반 통합 AI 어시스턴트 | 유료 | google-ecosystem-map | ✅ |
+| Project Astra | https://deepmind.google/technologies/gemini/project-astra/ | 실시간 카메라·음성 입력 이해 차세대 AI 에이전트 프로젝트 | 실험적 | google-ecosystem-map | ✅ |
+| Google DeepMind | https://deepmind.google | AlphaFold·Gemini·Veo 개발 Google 핵심 AI 연구소 | 무료 | google-ecosystem-map | ✅ |
+| Google Opal | https://opal.google | Google 실험적 AI 서비스 | 실험적 | 소스.md | ✅ |
 
 ---
 
