@@ -45,18 +45,18 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Mixkit | https://mixkit.co | 무료 스톡 영상·모션 그래픽·AE 템플릿. 상업적 이용 가능 | 무료 | ai_resource_hub | 🔲 |
-| Pexels Video | https://pexels.com/videos | 무료 고화질 스톡 영상. Pexels 연동·CC0 라이선스 | 무료 | ai_resource_hub | 🔲 |
-| Pixabay Video | https://pixabay.com/videos | 무료 스톡 영상 클립. 짧은 루프·배경영상·자연·도시 | 무료 | ai_resource_hub | 🔲 |
-| Coverr | https://coverr.co | 무료 아름다운 배경 영상 클립. 웹사이트 히어로 섹션용 | 무료 | ai_resource_hub | 🔲 |
-| Videvo | https://videvo.net | 무료+프리미엄 스톡 영상·모션 그래픽·사운드. 4K 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Shutterstock Video | https://shutterstock.com/video | 4억+ 프리미엄 스톡 영상·4K·에디토리얼 클립 | 유료 | ai_resource_hub | 🔲 |
-| Getty Images Video | https://gettyimages.com/videos | 고품질 에디토리얼·상업용 프리미엄 영상 라이브러리 | 유료 | ai_resource_hub | 🔲 |
-| Pond5 | https://pond5.com | 영화급 스톡 영상·음악·SFX·AE 템플릿 마켓플레이스 | 무료+유료 | ai_resource_hub | 🔲 |
-| Storyblocks | https://storyblocks.com | 무제한 스톡 영상·모션 그래픽·음악 구독. 편집자용 | 유료 | ai_resource_hub | 🔲 |
-| Envato Elements Video | https://elements.envato.com/video | 프리미엄 영상 템플릿·프리미어·AE·모션 그래픽 무제한 | 유료 | ai_resource_hub | 🔲 |
-| Artgrid | https://artgrid.io | 시네마틱 고품질 스톡 영상. 4K·RAW·스토리 기반 클립 | 유료 | ai_resource_hub | 🔲 |
-| Motion Array | https://motionarray.com | 프리미어·AE·FCPX 영상 템플릿·플러그인·스톡 구독 | 무료+유료 | ai_resource_hub | 🔲 |
+| Mixkit | https://mixkit.co | 무료 스톡 영상·모션 그래픽·AE 템플릿. 상업적 이용 가능 | 무료 | ai_resource_hub | ✅ |
+| Pexels Video | https://pexels.com/videos | 무료 고화질 스톡 영상. Pexels 연동·CC0 라이선스 | 무료 | ai_resource_hub | ✅ |
+| Pixabay Video | https://pixabay.com/videos | 무료 스톡 영상 클립. 짧은 루프·배경영상·자연·도시 | 무료 | ai_resource_hub | ✅ |
+| Coverr | https://coverr.co | 무료 아름다운 배경 영상 클립. 웹사이트 히어로 섹션용 | 무료 | ai_resource_hub | ✅ |
+| Videvo | https://videvo.net | 무료+프리미엄 스톡 영상·모션 그래픽·사운드. 4K 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Shutterstock Video | https://shutterstock.com/video | 4억+ 프리미엄 스톡 영상·4K·에디토리얼 클립 | 유료 | ai_resource_hub | ✅ |
+| Getty Images Video | https://gettyimages.com/videos | 고품질 에디토리얼·상업용 프리미엄 영상 라이브러리 | 유료 | ai_resource_hub | ✅ |
+| Pond5 | https://pond5.com | 영화급 스톡 영상·음악·SFX·AE 템플릿 마켓플레이스 | 무료+유료 | ai_resource_hub | ✅ |
+| Storyblocks | https://storyblocks.com | 무제한 스톡 영상·모션 그래픽·음악 구독. 편집자용 | 유료 | ai_resource_hub | ✅ |
+| Envato Elements Video | https://elements.envato.com/video | 프리미엄 영상 템플릿·프리미어·AE·모션 그래픽 무제한 | 유료 | ai_resource_hub | ✅ |
+| Artgrid | https://artgrid.io | 시네마틱 고품질 스톡 영상. 4K·RAW·스토리 기반 클립 | 유료 | ai_resource_hub | ✅ |
+| Motion Array | https://motionarray.com | 프리미어·AE·FCPX 영상 템플릿·플러그인·스톡 구독 | 무료+유료 | ai_resource_hub | ✅ |
 
 ---
 
