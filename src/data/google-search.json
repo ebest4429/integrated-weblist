@@ -9,112 +9,304 @@
       "url": "https://google.com",
       "desc": "하루 85억 건 처리 세계 최대 검색 엔진. AI Overview 통합",
       "badge": "free",
-      "nameKo": "구글 검색"
+      "nameKo": "구글 검색",
+      "detail": {
+        "intro": "하루 85억 건 이상의 검색을 처리하는 세계 최대 검색 엔진. 2024년부터 AI Overview(생성형 AI 답변 요약)가 통합되어 검색 결과 상단에 AI 요약을 제공한다.",
+        "features": [
+          "AI Overview — 검색 결과 상단 AI 요약 제공",
+          "이미지·동영상·뉴스·지도·쇼핑 통합 검색",
+          "연산자 활용 정밀 검색 (site:, filetype:, \"정확한 구문\" 등)",
+          "음성 검색·이미지 검색(Google Lens 통합)",
+          "개인화 검색 기록·맞춤 결과"
+        ],
+        "usage": "google.com 또는 주소창에 검색어 입력. 고급 검색 연산자로 정밀 검색 가능. 설정에서 검색 기록·세이프서치 조정.",
+        "notes": "SEO 관점에서 Google 검색 알고리즘(Core Web Vitals·E-E-A-T)이 웹사이트 트래픽에 직결됨."
+      }
     },
     {
       "name": "Google Lens",
       "url": "https://lens.google.com",
       "desc": "카메라로 사물 촬영→즉시 검색·번역·쇼핑·텍스트 복사",
       "badge": "free",
-      "nameKo": "구글 렌즈"
+      "nameKo": "구글 렌즈",
+      "detail": {
+        "intro": "스마트폰 카메라나 이미지를 통해 사물·텍스트·QR코드를 인식하고 즉시 검색·번역·쇼핑·텍스트 복사를 수행하는 시각적 검색 도구.",
+        "features": [
+          "사물·식물·동물·음식 인식 및 검색",
+          "텍스트 인식 및 복사 (OCR)",
+          "이미지 내 텍스트 실시간 번역",
+          "상품 이미지로 쇼핑 검색·가격 비교",
+          "유사 이미지 검색·QR코드 인식"
+        ],
+        "usage": "Android·iOS Google 앱 또는 Google 검색 카메라 아이콘 탭. 웹에서는 lens.google.com에 이미지 업로드.",
+        "notes": "Android 기본 카메라 앱 Google 렌즈 통합으로 카메라 앱에서 바로 사용 가능."
+      }
     },
     {
       "name": "Google Maps",
       "url": "https://maps.google.com",
       "desc": "전 세계 10억 명 지도·내비게이션. 실시간 교통·대중교통·리뷰",
       "badge": "free",
-      "nameKo": "구글 지도"
+      "nameKo": "구글 지도",
+      "detail": {
+        "intro": "전 세계 10억 명이 사용하는 지도·내비게이션 플랫폼. 실시간 교통 정보, 대중교통 경로, 장소 리뷰, 스트리트뷰까지 통합된 종합 위치 서비스다.",
+        "features": [
+          "실시간 교통 상황·사고·속도 단속 정보",
+          "도보·자전거·대중교통·자동차 경로 안내",
+          "장소 검색·리뷰·영업시간·전화번호",
+          "Street View — 360도 거리 뷰",
+          "Maps API — 웹·앱에 지도 기능 삽입"
+        ],
+        "usage": "maps.google.com 또는 Google Maps 앱 사용. 개발자는 Google Maps Platform API 키 발급 후 지도 기능 통합.",
+        "notes": "Maps Platform API는 무료 크레딧($200/월) 초과 시 유료. 웹사이트 지도 삽입은 iframe embed로 무료."
+      }
     },
     {
       "name": "Google Earth",
       "url": "https://earth.google.com",
       "desc": "위성·항공 이미지 지구 탐험. 3D 빌딩·역사적 이미지·해양 탐험",
       "badge": "free",
-      "nameKo": "구글 어스"
+      "nameKo": "구글 어스",
+      "detail": {
+        "intro": "위성·항공 이미지를 기반으로 지구 전체를 3D로 탐험할 수 있는 플랫폼. 특정 장소의 역사적 위성 이미지 비교, 해양 탐험, 도시 3D 모델을 제공한다.",
+        "features": [
+          "위성·항공 이미지 기반 3D 지구 탐험",
+          "타임랩스 — 수십 년간 지형 변화 시각화",
+          "3D 빌딩·지형 렌더링",
+          "해양·달·화성 탐험 모드",
+          "Voyager — 큐레이션된 여행·역사·자연 투어"
+        ],
+        "usage": "earth.google.com에서 브라우저로 바로 사용. 데스크톱 앱(Google Earth Pro)은 무료 다운로드.",
+        "notes": "Google Earth Pro는 GIS 데이터 임포트·고해상도 인쇄 등 전문 기능 포함. 무료."
+      }
     },
     {
       "name": "Google Scholar",
       "url": "https://scholar.google.com",
       "desc": "논문·학위논문·특허·도서 등 학술 자료 전문 검색",
       "badge": "free",
-      "nameKo": "구글 학술검색"
+      "nameKo": "구글 학술검색",
+      "detail": {
+        "intro": "학술 논문·학위논문·특허·도서·법원 의견을 무료로 검색하는 학술 전문 검색 엔진. 인용 수와 관련 논문 연결로 연구 흐름을 파악하는 데 유용하다.",
+        "features": [
+          "논문·학위논문·특허·도서·법원 의견 검색",
+          "인용 수 확인 및 인용 논문 탐색",
+          "저자·출판연도·출처 필터",
+          "내 라이브러리 저장·알림 설정",
+          "연구자 프로필(h-index·인용 통계) 페이지"
+        ],
+        "usage": "scholar.google.com에서 검색어 입력. 'Cited by N' 클릭으로 인용 논문 탐색. 'All N versions'로 무료 전문 접근 가능 버전 확인.",
+        "notes": "유료 저널 논문도 arXiv·ResearchGate 등 무료 버전 링크를 찾아주는 경우가 많음."
+      }
     },
     {
       "name": "Google Trends",
       "url": "https://trends.google.com",
       "desc": "키워드 검색량 변화 실시간 분석. 지역별·시기별 관심도 시각화",
       "badge": "free",
-      "nameKo": "구글 트렌드"
+      "nameKo": "구글 트렌드",
+      "detail": {
+        "intro": "Google 검색 데이터를 기반으로 키워드의 시간별·지역별 관심도 변화를 시각화하는 무료 트렌드 분석 도구. 콘텐츠 기획·SEO·마케팅 타이밍 파악에 활용된다.",
+        "features": [
+          "키워드 관심도 시계열 그래프",
+          "지역별·도시별 관심도 지도",
+          "최대 5개 키워드 비교 분석",
+          "실시간 인기 검색어 (Trending Now)",
+          "카테고리·검색 유형(웹·뉴스·쇼핑·유튜브) 필터"
+        ],
+        "usage": "trends.google.com에서 키워드 입력. 국가·기간·카테고리 설정 후 분석. CSV 다운로드로 데이터 활용 가능.",
+        "notes": "절대 검색량이 아닌 상대적 관심도(0~100) 제공. 정확한 검색량은 Google Ads Keyword Planner 사용."
+      }
     },
     {
       "name": "Google Alerts",
       "url": "https://alerts.google.com",
       "desc": "지정 키워드 뉴스·블로그·웹 등장 시 이메일 자동 알림",
       "badge": "free",
-      "nameKo": "구글 알리미"
+      "nameKo": "구글 알리미",
+      "detail": {
+        "intro": "지정한 키워드가 뉴스·블로그·웹페이지에 새로 등장할 때 이메일로 자동 알림을 보내주는 모니터링 도구. 브랜드 모니터링·경쟁사 추적·관심 주제 팔로우에 유용하다.",
+        "features": [
+          "키워드 등장 시 이메일 자동 알림",
+          "뉴스·블로그·웹·동영상·도서 소스 선택",
+          "알림 빈도 설정 (즉시·1일 1회·1주 1회)",
+          "지역·언어·볼륨 필터",
+          "여러 알림 키워드 동시 관리"
+        ],
+        "usage": "alerts.google.com에서 Google 계정 로그인 후 키워드 입력 및 설정. 수신 이메일은 Google 계정 또는 RSS 피드 선택 가능.",
+        "notes": "브랜드명·경쟁사명·자기 이름으로 알림 설정 시 온라인 언급 모니터링에 효과적."
+      }
     },
     {
       "name": "Google Translate",
       "url": "https://translate.google.com",
       "desc": "133개 언어 AI 번역. 텍스트·문서·이미지·웹·대화 실시간 번역",
       "badge": "free",
-      "nameKo": "구글 번역"
+      "nameKo": "구글 번역",
+      "detail": {
+        "intro": "133개 언어를 지원하는 무료 AI 번역 서비스. 텍스트뿐 아니라 문서 파일, 이미지 속 텍스트, 웹페이지, 실시간 대화까지 다양한 방식으로 번역한다.",
+        "features": [
+          "133개 언어 텍스트 번역",
+          "문서 파일 번역 (PDF·DOCX·PPTX)",
+          "이미지 속 텍스트 번역 (카메라·업로드)",
+          "웹페이지 URL 번역",
+          "실시간 대화 번역 (오프라인 지원 언어 포함)"
+        ],
+        "usage": "translate.google.com 또는 모바일 앱 사용. 개발자용 Cloud Translation API는 Google Cloud Console에서 활성화.",
+        "notes": "DeepL 대비 언어 지원 범위가 훨씬 넓음. 유럽어 정밀도는 DeepL이 우위라는 평이 있음."
+      }
     },
     {
       "name": "Google News",
       "url": "https://news.google.com",
       "desc": "수천 언론사 AI 토픽별 큐레이션 개인화 뉴스 피드",
       "badge": "free",
-      "nameKo": "구글 뉴스"
+      "nameKo": "구글 뉴스",
+      "detail": {
+        "intro": "수천 개 언론사의 기사를 AI가 토픽별로 분류하고 개인 관심사에 맞게 큐레이션하는 뉴스 허브. 같은 사건의 다양한 관점 기사를 모아서 보여주는 Full Coverage 기능이 특징이다.",
+        "features": [
+          "AI 토픽별 기사 자동 분류·큐레이션",
+          "Full Coverage — 동일 사건 다양한 언론사 기사 모음",
+          "개인화 피드 — 관심 주제·팔로우 언론사 설정",
+          "지역별 뉴스 섹션",
+          "Google 검색·어시스턴트 통합"
+        ],
+        "usage": "news.google.com 또는 앱 사용. 언어·지역 설정으로 한국어 뉴스 중심 피드 구성 가능.",
+        "notes": "Showcase 프로그램으로 일부 유료 기사도 무료 열람 가능."
+      }
     },
     {
       "name": "Google Shopping",
       "url": "https://shopping.google.com",
       "desc": "수억 개 상품 가격 비교·리뷰 확인·최저가 검색 허브",
       "badge": "free",
-      "nameKo": "구글 쇼핑"
+      "nameKo": "구글 쇼핑",
+      "detail": {
+        "intro": "수억 개 상품의 가격을 여러 쇼핑몰에서 비교하고 리뷰를 확인할 수 있는 가격 비교 허브. Google 검색 결과 쇼핑 탭과 연동된다.",
+        "features": [
+          "수억 개 상품 가격 비교 (여러 쇼핑몰)",
+          "상품 리뷰·평점 통합 표시",
+          "가격 변동 추적·최저가 알림",
+          "필터 (브랜드·가격범위·평점·배송)",
+          "Google 검색 쇼핑 탭 연동"
+        ],
+        "usage": "shopping.google.com 또는 Google 검색 후 '쇼핑' 탭 클릭. 상품 클릭 시 해당 쇼핑몰로 이동.",
+        "notes": "실제 구매는 각 쇼핑몰에서 이루어짐. Google은 가격 비교·검색 플랫폼 역할."
+      }
     },
     {
       "name": "Google Flights",
       "url": "https://flights.google.com",
       "desc": "전 세계 항공편 실시간 비교·가격 추적·최저가 알림",
       "badge": "free",
-      "nameKo": "구글 항공편"
+      "nameKo": "구글 항공편",
+      "detail": {
+        "intro": "전 세계 항공편의 가격을 실시간으로 비교하고 최저가를 찾는 항공권 검색 도구. 날짜별 가격 캘린더와 가격 추적 알림 기능이 특히 유용하다.",
+        "features": [
+          "수백 개 항공사·OTA 실시간 가격 비교",
+          "날짜별 가격 캘린더",
+          "가격 추적 — 특정 구간 가격 변동 이메일 알림",
+          "유연한 날짜 검색 (월간 최저가 보기)",
+          "경유지·항공사·수하물 필터"
+        ],
+        "usage": "flights.google.com에서 출발지·목적지·날짜 입력. '가격 추적' 토글로 알림 설정. 예약은 항공사·OTA 사이트로 연결.",
+        "notes": "Skyscanner·Kayak과 함께 대표적 항공권 비교 도구. Google은 중개만 하며 직접 예약은 불가."
+      }
     },
     {
       "name": "Google Hotels",
       "url": "https://hotels.google.com",
       "desc": "전 세계 숙박 시설 지도·리뷰·가격 비교 예약 허브",
       "badge": "free",
-      "nameKo": "구글 호텔"
+      "nameKo": "구글 호텔",
+      "detail": {
+        "intro": "전 세계 숙박 시설의 가격을 여러 예약 사이트에서 비교하고 지도·리뷰·사진을 함께 확인할 수 있는 호텔 검색 허브.",
+        "features": [
+          "수십만 개 숙박 시설 가격 비교",
+          "지도 기반 위치·주변 편의시설 확인",
+          "Google 리뷰·사진 통합",
+          "날짜·인원·가격범위·평점 필터",
+          "가격 추적 알림"
+        ],
+        "usage": "hotels.google.com 또는 Google 검색에서 '호텔' 탭 선택. 체크인·아웃 날짜 설정 후 비교. 예약은 해당 예약 사이트로 연결.",
+        "notes": "일부 숙박 시설은 Google에서 직접 예약 가능 (Book on Google 파트너)."
+      }
     },
     {
       "name": "Google Books",
       "url": "https://books.google.com",
       "desc": "4,000만+ 도서 검색. 일부 미리 보기·무료 전문 제공",
       "badge": "free",
-      "nameKo": "구글 북스"
+      "nameKo": "구글 북스",
+      "detail": {
+        "intro": "4,000만 권 이상의 도서를 검색하고 일부는 무료로 전문을 읽을 수 있는 디지털 도서관. 저작권 만료 도서는 전문 무료 제공, 현행 도서는 미리 보기 제공.",
+        "features": [
+          "4,000만+ 도서 텍스트 검색",
+          "저작권 만료 도서 전문 무료 열람·다운로드",
+          "현행 도서 일부 미리 보기",
+          "저자·출판사·ISBN 검색",
+          "내 서재 저장·메모"
+        ],
+        "usage": "books.google.com에서 키워드·제목·저자 검색. '무료 전문' 표시 도서는 바로 열람 가능. PDF 다운로드 지원.",
+        "notes": "Project Gutenberg(gutenberg.org)와 함께 무료 전자책 소스로 활용 가능."
+      }
     },
     {
       "name": "Google Assistant",
       "url": "https://assistant.google.com",
       "desc": "OK Google 음성 AI 비서. 일정·스마트홈·검색·번역·알림",
       "badge": "free",
-      "nameKo": "구글 어시스턴트"
+      "nameKo": "구글 어시스턴트",
+      "detail": {
+        "intro": "Android·iOS·스마트 스피커·스마트 디스플레이에서 동작하는 Google의 음성 AI 비서. 일정 관리, 스마트홈 제어, 검색, 번역, 알림 등 다양한 작업을 음성으로 수행한다.",
+        "features": [
+          "음성 명령으로 검색·일정·알림·타이머 설정",
+          "스마트홈 기기 제어 (조명·온도·잠금장치)",
+          "Google 캘린더·지메일·Maps 통합",
+          "실시간 통역 모드",
+          "Google Nest Hub·스마트 스피커 연동"
+        ],
+        "usage": "'OK Google' 또는 'Hey Google'로 호출. Android 폰 기본 내장. iOS는 Google 앱 설치 필요.",
+        "notes": "Gemini AI로 점진적 전환 중. 일부 기기에서 Assistant 대신 Gemini가 기본으로 설정됨."
+      }
     },
     {
       "name": "Google Patent Search",
       "url": "https://patents.google.com",
       "desc": "전 세계 특허청 특허 문서 무료 검색. 인용 관계·법적 상태 확인",
       "badge": "free",
-      "nameKo": "구글 특허 검색"
+      "nameKo": "구글 특허 검색",
+      "detail": {
+        "intro": "전 세계 100개 이상 특허청의 특허 문서를 무료로 검색하고 열람할 수 있는 특허 검색 엔진. 특허 인용 관계, 법적 상태, 패밀리 특허까지 확인 가능하다.",
+        "features": [
+          "100개+ 특허청 특허 문서 무료 검색",
+          "특허 전문 열람 및 PDF 다운로드",
+          "인용 관계·피인용 특허 탐색",
+          "법적 상태 (등록·거절·만료·소송 등)",
+          "특허 패밀리 (동일 발명의 각국 출원) 확인"
+        ],
+        "usage": "patents.google.com에서 키워드·발명자·출원인·특허번호 검색. Assignee 필터로 기업별 특허 포트폴리오 분석.",
+        "notes": "KIPRIS(한국), Espacenet(유럽)과 함께 주요 특허 검색 도구. 개발 전 선행 특허 조사에 필수."
+      }
     },
     {
       "name": "Google Dataset Search",
       "url": "https://datasetsearch.research.google.com",
       "desc": "연구자용 공개 데이터셋 수백만 건 키워드 검색",
       "badge": "free",
-      "nameKo": "구글 데이터셋 검색"
+      "nameKo": "구글 데이터셋 검색",
+      "detail": {
+        "intro": "연구자와 데이터 과학자를 위한 공개 데이터셋 전문 검색 엔진. 정부·연구기관·기업이 공개한 수백만 개 데이터셋을 키워드로 찾을 수 있다.",
+        "features": [
+          "수백만 개 공개 데이터셋 키워드 검색",
+          "라이선스·업데이트 날짜·형식 필터",
+          "데이터셋 메타데이터 미리 보기",
+          "Kaggle·UCI·정부 데이터 포털 등 다양한 소스",
+          "schema.org Dataset 마크업 기반 인덱싱"
+        ],
+        "usage": "datasetsearch.research.google.com에서 주제·변수명·출처 키워드 검색. 원본 데이터는 해당 출처 사이트에서 다운로드.",
+        "notes": "ML 모델 훈련 데이터, 연구 분석 데이터 소싱 시작점으로 활용. Kaggle도 함께 확인 권장."
+      }
     }
   ]
 }

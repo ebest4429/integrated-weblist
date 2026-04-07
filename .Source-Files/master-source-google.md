@@ -32,22 +32,22 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Google Search | https://google.com | 하루 85억 건 처리 세계 최대 검색 엔진. AI Overview 통합 | 무료 | google-ecosystem-map | 🔲 |
-| Google Lens | https://lens.google.com | 카메라로 사물 촬영→즉시 검색·번역·쇼핑·텍스트 복사 | 무료 | google-ecosystem-map | 🔲 |
-| Google Maps | https://maps.google.com | 전 세계 10억 명 지도·내비게이션. 실시간 교통·대중교통·리뷰 | 무료 | google-ecosystem-map | 🔲 |
-| Google Earth | https://earth.google.com | 위성·항공 이미지 지구 탐험. 3D 빌딩·역사적 이미지·해양 탐험 | 무료 | google-ecosystem-map | 🔲 |
-| Google Scholar | https://scholar.google.com | 논문·학위논문·특허·도서 등 학술 자료 전문 검색 | 무료 | google-ecosystem-map | 🔲 |
-| Google Trends | https://trends.google.com | 키워드 검색량 변화 실시간 분석. 지역별·시기별 관심도 시각화 | 무료 | google-ecosystem-map | 🔲 |
-| Google Alerts | https://alerts.google.com | 지정 키워드 뉴스·블로그·웹 등장 시 이메일 자동 알림 | 무료 | google-ecosystem-map | 🔲 |
-| Google Translate | https://translate.google.com | 133개 언어 AI 번역. 텍스트·문서·이미지·웹·대화 실시간 번역 | 무료 | google-ecosystem-map | 🔲 |
-| Google News | https://news.google.com | 수천 언론사 AI 토픽별 큐레이션 개인화 뉴스 피드 | 무료 | google-ecosystem-map | 🔲 |
-| Google Shopping | https://shopping.google.com | 수억 개 상품 가격 비교·리뷰 확인·최저가 검색 허브 | 무료 | google-ecosystem-map | 🔲 |
-| Google Flights | https://flights.google.com | 전 세계 항공편 실시간 비교·가격 추적·최저가 알림 | 무료 | google-ecosystem-map | 🔲 |
-| Google Hotels | https://hotels.google.com | 전 세계 숙박 시설 지도·리뷰·가격 비교 예약 허브 | 무료 | google-ecosystem-map | 🔲 |
-| Google Books | https://books.google.com | 4,000만+ 도서 검색. 일부 미리 보기·무료 전문 제공 | 무료 | google-ecosystem-map | 🔲 |
-| Google Assistant | https://assistant.google.com | OK Google 음성 AI 비서. 일정·스마트홈·검색·번역·알림 | 무료 | google-ecosystem-map | 🔲 |
-| Google Patent Search | https://patents.google.com | 전 세계 특허청 특허 문서 무료 검색. 인용 관계·법적 상태 확인 | 무료 | google-ecosystem-map | 🔲 |
-| Google Dataset Search | https://datasetsearch.research.google.com | 연구자용 공개 데이터셋 수백만 건 키워드 검색 | 무료 | google-ecosystem-map | 🔲 |
+| Google Search | https://google.com | 하루 85억 건 처리 세계 최대 검색 엔진. AI Overview 통합 | 무료 | google-ecosystem-map | ✅ |
+| Google Lens | https://lens.google.com | 카메라로 사물 촬영→즉시 검색·번역·쇼핑·텍스트 복사 | 무료 | google-ecosystem-map | ✅ |
+| Google Maps | https://maps.google.com | 전 세계 10억 명 지도·내비게이션. 실시간 교통·대중교통·리뷰 | 무료 | google-ecosystem-map | ✅ |
+| Google Earth | https://earth.google.com | 위성·항공 이미지 지구 탐험. 3D 빌딩·역사적 이미지·해양 탐험 | 무료 | google-ecosystem-map | ✅ |
+| Google Scholar | https://scholar.google.com | 논문·학위논문·특허·도서 등 학술 자료 전문 검색 | 무료 | google-ecosystem-map | ✅ |
+| Google Trends | https://trends.google.com | 키워드 검색량 변화 실시간 분석. 지역별·시기별 관심도 시각화 | 무료 | google-ecosystem-map | ✅ |
+| Google Alerts | https://alerts.google.com | 지정 키워드 뉴스·블로그·웹 등장 시 이메일 자동 알림 | 무료 | google-ecosystem-map | ✅ |
+| Google Translate | https://translate.google.com | 133개 언어 AI 번역. 텍스트·문서·이미지·웹·대화 실시간 번역 | 무료 | google-ecosystem-map | ✅ |
+| Google News | https://news.google.com | 수천 언론사 AI 토픽별 큐레이션 개인화 뉴스 피드 | 무료 | google-ecosystem-map | ✅ |
+| Google Shopping | https://shopping.google.com | 수억 개 상품 가격 비교·리뷰 확인·최저가 검색 허브 | 무료 | google-ecosystem-map | ✅ |
+| Google Flights | https://flights.google.com | 전 세계 항공편 실시간 비교·가격 추적·최저가 알림 | 무료 | google-ecosystem-map | ✅ |
+| Google Hotels | https://hotels.google.com | 전 세계 숙박 시설 지도·리뷰·가격 비교 예약 허브 | 무료 | google-ecosystem-map | ✅ |
+| Google Books | https://books.google.com | 4,000만+ 도서 검색. 일부 미리 보기·무료 전문 제공 | 무료 | google-ecosystem-map | ✅ |
+| Google Assistant | https://assistant.google.com | OK Google 음성 AI 비서. 일정·스마트홈·검색·번역·알림 | 무료 | google-ecosystem-map | ✅ |
+| Google Patent Search | https://patents.google.com | 전 세계 특허청 특허 문서 무료 검색. 인용 관계·법적 상태 확인 | 무료 | google-ecosystem-map | ✅ |
+| Google Dataset Search | https://datasetsearch.research.google.com | 연구자용 공개 데이터셋 수백만 건 키워드 검색 | 무료 | google-ecosystem-map | ✅ |
 
 ---
 
