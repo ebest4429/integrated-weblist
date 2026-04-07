@@ -13,27 +13,27 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Jasper AI | https://jasper.ai | 마케팅 특화 AI 카피라이팅. 브랜드 보이스 학습·팀 협업 | 유료 | ai_resource_hub | 🔲 |
-| Copy.ai | https://copy.ai | SNS·광고·이메일 카피 자동 생성. 90개 이상 카피 템플릿 | 무료+유료 | ai_resource_hub | 🔲 |
-| Writesonic | https://writesonic.com | SEO 최적화 블로그·광고 문구 생성. 실시간 검색 통합 | 무료+유료 | ai_resource_hub | 🔲 |
-| Ahrefs | https://ahrefs.com | 백링크·키워드·경쟁사 분석 SEO 도구. 업계 표준 | 유료 | ai_resource_hub | 🔲 |
-| Semrush | https://semrush.com | SEO·광고·소셜 통합 마케팅 플랫폼. 키워드 리서치·감사 | 무료+유료 | ai_resource_hub | 🔲 |
-| Google Analytics 4 | https://analytics.google.com | 웹사이트 트래픽·사용자 행동·전환 분석 | 무료 | ai_resource_hub | 🔲 |
-| Google Search Console | https://search.google.com/search-console | 검색 노출·클릭·색인·오류 관리 무료 도구 | 무료 | ai_resource_hub | 🔲 |
-| Google Ads | https://ads.google.com | 검색·디스플레이·유튜브·앱 광고 플랫폼 | 유료 | ai_resource_hub | 🔲 |
-| Meta Ads | https://business.facebook.com | Facebook·Instagram·WhatsApp 광고 관리자 | 유료 | ai_resource_hub | 🔲 |
-| Naver 검색광고 | https://searchad.naver.com | 네이버 검색광고·디스플레이·쇼핑광고 플랫폼 | 유료 | ai_resource_hub | 🔲 |
-| Kakao 모먼트 | https://moment.kakao.com | 카카오 모먼트·키워드·카카오톡 채널 광고 플랫폼 | 유료 | ai_resource_hub | 🔲 |
-| Naver 서치어드바이저 | https://searchadvisor.naver.com | 네이버 웹마스터 도구. 사이트 색인·검색 최적화 관리 | 무료 | 소스.md | 🔲 |
-| Bitly | https://app.bitly.com | URL 단축·추적·분석 플랫폼. 링크 클릭 분석·QR 코드 생성 | 무료+유료 | 소스.md | 🔲 |
-| Gamma | https://gamma.app/create/generate | AI 기반 프레젠테이션·문서·웹페이지 자동 생성 | 무료+유료 | 소스.md | 🔲 |
-| bkit.ai | https://www.bkit.ai | AI 마케팅 도구 | 무료+유료 | 소스.md | 🔲 |
-| Google Merchant Center | https://merchants.google.com | 쇼핑몰 상품 데이터를 Google 검색·쇼핑·유튜브·지도 광고에 동기화 | 무료 | google-ecosystem-map | 🔲 |
-| Google Business Profile | https://business.google.com | Google 지도·검색 내 비즈니스 등록·리뷰 관리·무료 운영 | 무료 | google-ecosystem-map | 🔲 |
-| Google AdSense | https://adsense.google.com | 웹사이트 Google 광고 게재 수익화 퍼블리셔 플랫폼 | 무료 | google-ecosystem-map | 🔲 |
-| Google Tag Manager | https://tagmanager.google.com | 마케팅·분석 태그를 코드 없이 웹사이트에 추가·관리 | 무료 | google-ecosystem-map | 🔲 |
-| Think with Google | https://thinkwithgoogle.com | 소비자 트렌드·마케팅 인사이트·업종별 데이터 리서치 허브 | 무료 | google-ecosystem-map | 🔲 |
-| PageSpeed Insights | https://pagespeed.web.dev | 웹 페이지 Core Web Vitals 분석·LCP·FID·CLS 개선 제안 | 무료 | google-ecosystem-map | 🔲 |
+| Jasper AI | https://jasper.ai | 마케팅 특화 AI 카피라이팅. 브랜드 보이스 학습·팀 협업 | 유료 | ai_resource_hub | ✅ |
+| Copy.ai | https://copy.ai | SNS·광고·이메일 카피 자동 생성. 90개 이상 카피 템플릿 | 무료+유료 | ai_resource_hub | ✅ |
+| Writesonic | https://writesonic.com | SEO 최적화 블로그·광고 문구 생성. 실시간 검색 통합 | 무료+유료 | ai_resource_hub | ✅ |
+| Ahrefs | https://ahrefs.com | 백링크·키워드·경쟁사 분석 SEO 도구. 업계 표준 | 유료 | ai_resource_hub | ✅ |
+| Semrush | https://semrush.com | SEO·광고·소셜 통합 마케팅 플랫폼. 키워드 리서치·감사 | 무료+유료 | ai_resource_hub | ✅ |
+| Google Analytics 4 | https://analytics.google.com | 웹사이트 트래픽·사용자 행동·전환 분석 | 무료 | ai_resource_hub | ✅ |
+| Google Search Console | https://search.google.com/search-console | 검색 노출·클릭·색인·오류 관리 무료 도구 | 무료 | ai_resource_hub | ✅ |
+| Google Ads | https://ads.google.com | 검색·디스플레이·유튜브·앱 광고 플랫폼 | 유료 | ai_resource_hub | ✅ |
+| Meta Ads | https://business.facebook.com | Facebook·Instagram·WhatsApp 광고 관리자 | 유료 | ai_resource_hub | ✅ |
+| Naver 검색광고 | https://searchad.naver.com | 네이버 검색광고·디스플레이·쇼핑광고 플랫폼 | 유료 | ai_resource_hub | ✅ |
+| Kakao 모먼트 | https://moment.kakao.com | 카카오 모먼트·키워드·카카오톡 채널 광고 플랫폼 | 유료 | ai_resource_hub | ✅ |
+| Naver 서치어드바이저 | https://searchadvisor.naver.com | 네이버 웹마스터 도구. 사이트 색인·검색 최적화 관리 | 무료 | 소스.md | ✅ |
+| Bitly | https://app.bitly.com | URL 단축·추적·분석 플랫폼. 링크 클릭 분석·QR 코드 생성 | 무료+유료 | 소스.md | ✅ |
+| Gamma | https://gamma.app/create/generate | AI 기반 프레젠테이션·문서·웹페이지 자동 생성 | 무료+유료 | 소스.md | ✅ |
+| bkit.ai | https://www.bkit.ai | AI 마케팅 도구 | 무료+유료 | 소스.md | ✅ |
+| Google Merchant Center | https://merchants.google.com | 쇼핑몰 상품 데이터를 Google 검색·쇼핑·유튜브·지도 광고에 동기화 | 무료 | google-ecosystem-map | ✅ |
+| Google Business Profile | https://business.google.com | Google 지도·검색 내 비즈니스 등록·리뷰 관리·무료 운영 | 무료 | google-ecosystem-map | ✅ |
+| Google AdSense | https://adsense.google.com | 웹사이트 Google 광고 게재 수익화 퍼블리셔 플랫폼 | 무료 | google-ecosystem-map | ✅ |
+| Google Tag Manager | https://tagmanager.google.com | 마케팅·분석 태그를 코드 없이 웹사이트에 추가·관리 | 무료 | google-ecosystem-map | ✅ |
+| Think with Google | https://thinkwithgoogle.com | 소비자 트렌드·마케팅 인사이트·업종별 데이터 리서치 허브 | 무료 | google-ecosystem-map | ✅ |
+| PageSpeed Insights | https://pagespeed.web.dev | 웹 페이지 Core Web Vitals 분석·LCP·FID·CLS 개선 제안 | 무료 | google-ecosystem-map | ✅ |
 
 ---
 
