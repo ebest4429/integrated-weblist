@@ -13,30 +13,30 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Cursor | https://cursor.sh | AI 내장 VSCode 포크. 코드베이스 이해·자동완성·에이전트 모드 | 무료+유료 | ai_resource_hub | 🔲 |
-| Windsurf | https://codeium.com/windsurf | Codeium AI 에디터. Cascade 에이전트로 복잡한 태스크 자율 처리 | 무료+유료 | ai_resource_hub | 🔲 |
-| GitHub Copilot | https://github.com/features/copilot | GitHub 공식 AI 코드 어시스턴트. VSCode·JetBrains·Neovim 통합 | 유료 | ai_resource_hub | 🔲 |
-| Bolt.new | https://bolt.new | 브라우저에서 풀스택 앱 생성·배포. StackBlitz 기반 즉시 실행 | 무료+유료 | ai_resource_hub | 🔲 |
-| v0 by Vercel | https://v0.dev | 자연어로 React UI 컴포넌트 생성. Shadcn·Tailwind 기반 | 무료+유료 | ai_resource_hub | 🔲 |
-| Replit | https://replit.com | 온라인 IDE + AI 에이전트. 앱 즉시 배포·협업 코딩 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Lovable | https://lovable.dev | 자연어로 풀스택 웹앱 생성. Supabase 자동 연동·GitHub 연결 | 무료+유료 | ai_resource_hub | 🔲 |
-| Claude Code | https://claude.ai/code | CLI 기반 AI 코딩 에이전트. 터미널에서 대규모 코드베이스 작업 | 무료 | ai_resource_hub | 🔲 |
-| Mintlify | https://mintlify.com | AI 기반 개발 문서 자동 생성·관리. GitHub 연동·버전 관리 | 무료+유료 | ai_resource_hub | 🔲 |
-| Postman AI | https://postman.com | API 테스트 자동화 + AI 어시스턴트. 컬렉션·문서 자동화 | 무료+유료 | ai_resource_hub | 🔲 |
-| Pinokio | https://pinokio.co | 로컬 AI 앱 원클릭 설치·실행 브라우저. 오픈소스 AI 앱 관리 | 오픈소스 | 소스.md | 🔲 |
-| Tailwind CSS | https://tailwindcss.com | 유틸리티 퍼스트 CSS 프레임워크. 빠른 UI 개발·디자인 시스템 | 오픈소스 | 소스.md | 🔲 |
-| Docker | https://docker.com | 컨테이너 기반 앱 패키징·배포 플랫폼. 이식성·일관된 환경 | 무료+유료 | 소스.md | 🔲 |
-| Puppeteer | https://pptr.dev | Node.js 헤드리스 브라우저 제어 라이브러리. 테스트·스크래핑 | 오픈소스 | 소스.md | 🔲 |
-| Playwright | https://playwright.dev | 크로스 브라우저 자동화 테스트 프레임워크. MS 오픈소스 | 오픈소스 | 소스.md | 🔲 |
-| ngrok | https://ngrok.com | 로컬 서버를 외부 인터넷에 안전하게 노출. 터널링 도구 | 무료+유료 | 소스.md | 🔲 |
-| Sentry | https://sentry.io | 앱 오류 추적·성능 모니터링. 실시간 에러 로그·알림 | 무료+유료 | 소스.md | 🔲 |
-| Semgrep | https://semgrep.dev | 코드 보안 취약점 스캔. 정적 분석·SAST 도구 | 무료+유료 | 소스.md | 🔲 |
-| VS Code | https://code.visualstudio.com | Microsoft 무료 오픈소스 코드 에디터. 확장 생태계 1위 | 오픈소스 | 소스.md | 🔲 |
-| Android Studio | https://developer.android.com/studio | IntelliJ 기반 Android 앱 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장 | 무료 | google-ecosystem-map | 🔲 |
-| Google IDX | https://idx.google.com | 브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Colab | https://colab.research.google.com | GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Flutter | https://flutter.dev | Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼 | 오픈소스 | google-ecosystem-map | 🔲 |
-| TensorFlow | https://tensorflow.org | 딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크 | 오픈소스 | google-ecosystem-map | 🔲 |
+| Cursor | https://cursor.sh | AI 내장 VSCode 포크. 코드베이스 이해·자동완성·에이전트 모드 | 무료+유료 | ai_resource_hub | ✅ |
+| Windsurf | https://codeium.com/windsurf | Codeium AI 에디터. Cascade 에이전트로 복잡한 태스크 자율 처리 | 무료+유료 | ai_resource_hub | ✅ |
+| GitHub Copilot | https://github.com/features/copilot | GitHub 공식 AI 코드 어시스턴트. VSCode·JetBrains·Neovim 통합 | 유료 | ai_resource_hub | ✅ |
+| Bolt.new | https://bolt.new | 브라우저에서 풀스택 앱 생성·배포. StackBlitz 기반 즉시 실행 | 무료+유료 | ai_resource_hub | ✅ |
+| v0 by Vercel | https://v0.dev | 자연어로 React UI 컴포넌트 생성. Shadcn·Tailwind 기반 | 무료+유료 | ai_resource_hub | ✅ |
+| Replit | https://replit.com | 온라인 IDE + AI 에이전트. 앱 즉시 배포·협업 코딩 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Lovable | https://lovable.dev | 자연어로 풀스택 웹앱 생성. Supabase 자동 연동·GitHub 연결 | 무료+유료 | ai_resource_hub | ✅ |
+| Claude Code | https://claude.ai/code | CLI 기반 AI 코딩 에이전트. 터미널에서 대규모 코드베이스 작업 | 무료 | ai_resource_hub | ✅ |
+| Mintlify | https://mintlify.com | AI 기반 개발 문서 자동 생성·관리. GitHub 연동·버전 관리 | 무료+유료 | ai_resource_hub | ✅ |
+| Postman AI | https://postman.com | API 테스트 자동화 + AI 어시스턴트. 컬렉션·문서 자동화 | 무료+유료 | ai_resource_hub | ✅ |
+| Pinokio | https://pinokio.co | 로컬 AI 앱 원클릭 설치·실행 브라우저. 오픈소스 AI 앱 관리 | 오픈소스 | 소스.md | ✅ |
+| Tailwind CSS | https://tailwindcss.com | 유틸리티 퍼스트 CSS 프레임워크. 빠른 UI 개발·디자인 시스템 | 오픈소스 | 소스.md | ✅ |
+| Docker | https://docker.com | 컨테이너 기반 앱 패키징·배포 플랫폼. 이식성·일관된 환경 | 무료+유료 | 소스.md | ✅ |
+| Puppeteer | https://pptr.dev | Node.js 헤드리스 브라우저 제어 라이브러리. 테스트·스크래핑 | 오픈소스 | 소스.md | ✅ |
+| Playwright | https://playwright.dev | 크로스 브라우저 자동화 테스트 프레임워크. MS 오픈소스 | 오픈소스 | 소스.md | ✅ |
+| ngrok | https://ngrok.com | 로컬 서버를 외부 인터넷에 안전하게 노출. 터널링 도구 | 무료+유료 | 소스.md | ✅ |
+| Sentry | https://sentry.io | 앱 오류 추적·성능 모니터링. 실시간 에러 로그·알림 | 무료+유료 | 소스.md | ✅ |
+| Semgrep | https://semgrep.dev | 코드 보안 취약점 스캔. 정적 분석·SAST 도구 | 무료+유료 | 소스.md | ✅ |
+| VS Code | https://code.visualstudio.com | Microsoft 무료 오픈소스 코드 에디터. 확장 생태계 1위 | 오픈소스 | 소스.md | ✅ |
+| Android Studio | https://developer.android.com/studio | IntelliJ 기반 Android 앱 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장 | 무료 | google-ecosystem-map | ✅ |
+| Google IDX | https://idx.google.com | 브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Colab | https://colab.research.google.com | GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화 | 무료+유료 | google-ecosystem-map | ✅ |
+| Flutter | https://flutter.dev | Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼 | 오픈소스 | google-ecosystem-map | ✅ |
+| TensorFlow | https://tensorflow.org | 딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크 | 오픈소스 | google-ecosystem-map | ✅ |
 
 ---
 
