@@ -90,16 +90,16 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Pinecone | https://pinecone.io | 관리형 벡터 DB. AI 검색·RAG·추천 시스템 구축 최적 | 무료+유료 | ai_resource_hub | 🔲 |
-| Weaviate | https://weaviate.io | 오픈소스 벡터 DB. 멀티모달 검색·GraphQL API 지원 | 오픈소스 | ai_resource_hub | 🔲 |
-| Qdrant | https://qdrant.tech | 고성능 오픈소스 벡터 검색 엔진. Rust 기반·빠른 처리 속도 | 오픈소스 | ai_resource_hub | 🔲 |
-| Chroma | https://trychroma.com | 경량 오픈소스 임베딩 DB. LangChain 연동·로컬 실행 가능 | 오픈소스 | ai_resource_hub | 🔲 |
-| Neon | https://neon.tech | 서버리스 PostgreSQL. 빠른 브랜치·스케일 투 제로 지원 | 무료+유료 | ai_resource_hub | 🔲 |
-| Upstash | https://upstash.com | 서버리스 Redis·Kafka·벡터 DB. 엣지 친화적·저레이턴시 | 무료+유료 | ai_resource_hub | 🔲 |
-| MongoDB Atlas | https://mongodb.com/atlas | 클라우드 NoSQL DB. 내장 Vector Search·Atlas App Services | 무료+유료 | ai_resource_hub | 🔲 |
-| PlanetScale | https://planetscale.com | 서버리스 MySQL. 브랜치 기반 DB 스키마 안전 관리 | 무료+유료 | ai_resource_hub | 🔲 |
-| Cloudflare D1 | https://developers.cloudflare.com/d1 | 엣지 SQLite DB. Workers 통합·전 세계 분산 배포 | 무료+유료 | ai_resource_hub | 🔲 |
-| SQLite | https://sqlite.org | 경량 내장형 관계형 DB. 파일 기반·설치 불필요 | 오픈소스 | 소스.md | 🔲 |
-| PostgreSQL | https://www.postgresql.org | 강력한 오픈소스 관계형 DB. 확장성·JSON 지원·풀 텍스트 검색 | 오픈소스 | 소스.md | 🔲 |
-| Redis | https://redis.io | 인메모리 데이터 구조 스토어. 캐싱·세션·실시간 데이터 처리 | 오픈소스 | 소스.md | 🔲 |
-| BigQuery | https://cloud.google.com/bigquery | 페타바이트 규모 데이터 SQL 초고속 분석 서버리스 데이터 웨어하우스 | 무료+유료 | google-ecosystem-map | 🔲 |
+| Pinecone | https://pinecone.io | 관리형 벡터 DB. AI 검색·RAG·추천 시스템 구축 최적 | 무료+유료 | ai_resource_hub | ✅ |
+| Weaviate | https://weaviate.io | 오픈소스 벡터 DB. 멀티모달 검색·GraphQL API 지원 | 오픈소스 | ai_resource_hub | ✅ |
+| Qdrant | https://qdrant.tech | 고성능 오픈소스 벡터 검색 엔진. Rust 기반·빠른 처리 속도 | 오픈소스 | ai_resource_hub | ✅ |
+| Chroma | https://trychroma.com | 경량 오픈소스 임베딩 DB. LangChain 연동·로컬 실행 가능 | 오픈소스 | ai_resource_hub | ✅ |
+| Neon | https://neon.tech | 서버리스 PostgreSQL. 빠른 브랜치·스케일 투 제로 지원 | 무료+유료 | ai_resource_hub | ✅ |
+| Upstash | https://upstash.com | 서버리스 Redis·Kafka·벡터 DB. 엣지 친화적·저레이턴시 | 무료+유료 | ai_resource_hub | ✅ |
+| MongoDB Atlas | https://mongodb.com/atlas | 클라우드 NoSQL DB. 내장 Vector Search·Atlas App Services | 무료+유료 | ai_resource_hub | ✅ |
+| PlanetScale | https://planetscale.com | 서버리스 MySQL. 브랜치 기반 DB 스키마 안전 관리 | 무료+유료 | ai_resource_hub | ✅ |
+| Cloudflare D1 | https://developers.cloudflare.com/d1 | 엣지 SQLite DB. Workers 통합·전 세계 분산 배포 | 무료+유료 | ai_resource_hub | ✅ |
+| SQLite | https://sqlite.org | 경량 내장형 관계형 DB. 파일 기반·설치 불필요 | 오픈소스 | 소스.md | ✅ |
+| PostgreSQL | https://www.postgresql.org | 강력한 오픈소스 관계형 DB. 확장성·JSON 지원·풀 텍스트 검색 | 오픈소스 | 소스.md | ✅ |
+| Redis | https://redis.io | 인메모리 데이터 구조 스토어. 캐싱·세션·실시간 데이터 처리 | 오픈소스 | 소스.md | ✅ |
+| BigQuery | https://cloud.google.com/bigquery | 페타바이트 규모 데이터 SQL 초고속 분석 서버리스 데이터 웨어하우스 | 무료+유료 | google-ecosystem-map | ✅ |
