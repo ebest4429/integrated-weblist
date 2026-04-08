@@ -78,19 +78,19 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| YouTube | https://youtube.com | 월 25억 명 세계 최대 동영상 플랫폼. Shorts·라이브·클립 지원 | 무료+유료 | google-ecosystem-map | 🔲 |
-| YouTube Music | https://music.youtube.com | 8,000만 곡 음악 스트리밍. 유튜브 영상 기반 음악 추천 | 무료+유료 | google-ecosystem-map | 🔲 |
-| YouTube Studio | https://studio.youtube.com | 채널 분석·동영상 관리·수익화·댓글 관리 크리에이터 도구 | 무료 | google-ecosystem-map | 🔲 |
-| YouTube Premium | https://youtube.com/premium | 광고 없음·백그라운드 재생·오프라인 저장·YT Music 포함 구독 | 유료 | google-ecosystem-map | 🔲 |
-| Google Photos | https://photos.google.com | AI 자동 분류·콜라주·동영상 생성 사진 백업. Magic Eraser AI 편집 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Play Books | https://play.google.com/store/books | 전자책·오디오북 구매·독서 서비스. 밑줄·메모·번역·야간 모드 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Play Movies & TV | https://play.google.com/store/movies | 영화·TV 시리즈 구매·대여 디지털 콘텐츠 스토어 | 유료 | google-ecosystem-map | 🔲 |
-| Google TV | https://tv.google.com | Chromecast 탑재 스마트 TV 플랫폼. 스트리밍 앱 콘텐츠 통합 추천 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Play Games | https://play.google.com/store/games | Android 게임 검색·구매·관리. 업적·리더보드·클라우드 저장 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Play Games for PC | https://play.google.com/googleplaygames | Android 게임 Windows PC 네이티브 실행 공식 앱 | 무료 | google-ecosystem-map | 🔲 |
-| Google Arts & Culture | https://artsandculture.google.com | 3,000개+ 박물관·미술관 작품 고화질 감상. Art Selfie AI 체험 | 무료 | google-ecosystem-map | 🔲 |
-| Google Play Store | https://play.google.com/store | 300만+ Android 앱·게임·미디어 공식 앱 마켓 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Podcasts | https://podcasts.google.com | 수백만 팟캐스트 검색·구독. YouTube Podcasts로 통합 중 | 무료 | google-ecosystem-map | 🔲 |
+| YouTube | https://youtube.com | 월 25억 명 세계 최대 동영상 플랫폼. Shorts·라이브·클립 지원 | 무료+유료 | google-ecosystem-map | ✅ |
+| YouTube Music | https://music.youtube.com | 8,000만 곡 음악 스트리밍. 유튜브 영상 기반 음악 추천 | 무료+유료 | google-ecosystem-map | ✅ |
+| YouTube Studio | https://studio.youtube.com | 채널 분석·동영상 관리·수익화·댓글 관리 크리에이터 도구 | 무료 | google-ecosystem-map | ✅ |
+| YouTube Premium | https://youtube.com/premium | 광고 없음·백그라운드 재생·오프라인 저장·YT Music 포함 구독 | 유료 | google-ecosystem-map | ✅ |
+| Google Photos | https://photos.google.com | AI 자동 분류·콜라주·동영상 생성 사진 백업. Magic Eraser AI 편집 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Play Books | https://play.google.com/store/books | 전자책·오디오북 구매·독서 서비스. 밑줄·메모·번역·야간 모드 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Play Movies & TV | https://play.google.com/store/movies | 영화·TV 시리즈 구매·대여 디지털 콘텐츠 스토어 | 유료 | google-ecosystem-map | ✅ |
+| Google TV | https://tv.google.com | Chromecast 탑재 스마트 TV 플랫폼. 스트리밍 앱 콘텐츠 통합 추천 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Play Games | https://play.google.com/store/games | Android 게임 검색·구매·관리. 업적·리더보드·클라우드 저장 | 무료+유료 | google-ecosystem-map | ✅ |
+| Play Games for PC | https://play.google.com/googleplaygames | Android 게임 Windows PC 네이티브 실행 공식 앱 | 무료 | google-ecosystem-map | ✅ |
+| Google Arts & Culture | https://artsandculture.google.com | 3,000개+ 박물관·미술관 작품 고화질 감상. Art Selfie AI 체험 | 무료 | google-ecosystem-map | ✅ |
+| Google Play Store | https://play.google.com/store | 300만+ Android 앱·게임·미디어 공식 앱 마켓 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Podcasts | https://podcasts.google.com | 수백만 팟캐스트 검색·구독. YouTube Podcasts로 통합 중 | 무료 | google-ecosystem-map | ✅ |
 
 ---
 
