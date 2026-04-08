@@ -21,7 +21,7 @@
 | Phase | 이름 | 플랜 파일 | 상태 |
 |-------|------|----------|------|
 | Phase 1 | 초기화 + Vite+React 구축 | `phase1-build.md` | ✅ 완료 |
-| Phase 2 | detail 필드 순차 구현 | `phase2-detail.md` | 🔄 진행중 |
+| Phase 2 | detail 필드 순차 구현 | `phase2-detail.md` | ✅ 완료 |
 
 ---
 

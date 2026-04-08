@@ -124,4 +124,4 @@
 - [x] 전체 338개 서비스 detail 필드 작성 완료
 - [x] verify-detail.py 전 카테고리 100% 출력
 - [x] ItemRow 펼침 영역 detail 정상 표시 확인
-- [ ] GitHub Pages 재배포 완료
+- [x] GitHub Pages 재배포 완료
