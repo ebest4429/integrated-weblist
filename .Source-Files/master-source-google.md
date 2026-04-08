@@ -122,18 +122,18 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Google Ads | https://ads.google.com | 검색·유튜브·디스플레이·앱 세계 최대 디지털 광고 플랫폼 | 유료 | google-ecosystem-map | 🔲 |
-| Google Analytics 4 | https://analytics.google.com | 웹·앱 사용자 행동 이벤트 기반 분석. ML 예측 기능 포함 | 무료 | google-ecosystem-map | 🔲 |
-| Google Merchant Center | https://merchants.google.com | 쇼핑몰 상품 데이터 Google 검색·쇼핑·유튜브·지도 광고 동기화 | 무료 | google-ecosystem-map | 🔲 |
-| Google Business Profile | https://business.google.com | Google 지도·검색 내 비즈니스 등록·리뷰·영업시간 무료 관리 | 무료 | google-ecosystem-map | 🔲 |
-| Google AdSense | https://adsense.google.com | 웹사이트 광고 게재 클릭·노출 기반 수익 창출 퍼블리셔 플랫폼 | 무료 | google-ecosystem-map | 🔲 |
-| Display & Video 360 | https://marketingplatform.google.com/about/display-video-360/ | 대형 광고주용 프로그래매틱 광고 구매·YouTube·서드파티 통합 | 유료 | google-ecosystem-map | 🔲 |
-| Search Ads 360 | https://marketingplatform.google.com/about/search-ads-360/ | 여러 검색 엔진 광고 캠페인 통합 자동화·최적화 엔터프라이즈 도구 | 유료 | google-ecosystem-map | 🔲 |
-| Google Tag Manager | https://tagmanager.google.com | 마케팅·분석 태그 코드 없이 웹사이트 추가·관리 시스템 | 무료 | google-ecosystem-map | 🔲 |
-| Looker | https://cloud.google.com/looker | SQL 기반 데이터 모델링·셀프서비스 BI 기업용 분석 플랫폼 | 유료 | google-ecosystem-map | 🔲 |
-| Google Partners | https://partners.google.com | Google 광고 전문 대행사·컨설턴트 공식 인증·교육·혜택 프로그램 | 무료 | google-ecosystem-map | 🔲 |
-| Think with Google | https://thinkwithgoogle.com | 소비자 트렌드·마케팅 인사이트·업종별 데이터 마케터 리서치 허브 | 무료 | google-ecosystem-map | 🔲 |
-| Google Pay Business | https://pay.google.com/intl/ko/about/business/ | 오프라인·온라인 결제·송금·충성도 프로그램 통합 Google 결제 솔루션 | 무료+유료 | google-ecosystem-map | 🔲 |
+| Google Ads | https://ads.google.com | 검색·유튜브·디스플레이·앱 세계 최대 디지털 광고 플랫폼 | 유료 | google-ecosystem-map | ✅ |
+| Google Analytics 4 | https://analytics.google.com | 웹·앱 사용자 행동 이벤트 기반 분석. ML 예측 기능 포함 | 무료 | google-ecosystem-map | ✅ |
+| Google Merchant Center | https://merchants.google.com | 쇼핑몰 상품 데이터 Google 검색·쇼핑·유튜브·지도 광고 동기화 | 무료 | google-ecosystem-map | ✅ |
+| Google Business Profile | https://business.google.com | Google 지도·검색 내 비즈니스 등록·리뷰·영업시간 무료 관리 | 무료 | google-ecosystem-map | ✅ |
+| Google AdSense | https://adsense.google.com | 웹사이트 광고 게재 클릭·노출 기반 수익 창출 퍼블리셔 플랫폼 | 무료 | google-ecosystem-map | ✅ |
+| Display & Video 360 | https://marketingplatform.google.com/about/display-video-360/ | 대형 광고주용 프로그래매틱 광고 구매·YouTube·서드파티 통합 | 유료 | google-ecosystem-map | ✅ |
+| Search Ads 360 | https://marketingplatform.google.com/about/search-ads-360/ | 여러 검색 엔진 광고 캠페인 통합 자동화·최적화 엔터프라이즈 도구 | 유료 | google-ecosystem-map | ✅ |
+| Google Tag Manager | https://tagmanager.google.com | 마케팅·분석 태그 코드 없이 웹사이트 추가·관리 시스템 | 무료 | google-ecosystem-map | ✅ |
+| Looker | https://cloud.google.com/looker | SQL 기반 데이터 모델링·셀프서비스 BI 기업용 분석 플랫폼 | 유료 | google-ecosystem-map | ✅ |
+| Google Partners | https://partners.google.com | Google 광고 전문 대행사·컨설턴트 공식 인증·교육·혜택 프로그램 | 무료 | google-ecosystem-map | ✅ |
+| Think with Google | https://thinkwithgoogle.com | 소비자 트렌드·마케팅 인사이트·업종별 데이터 마케터 리서치 허브 | 무료 | google-ecosystem-map | ✅ |
+| Google Pay Business | https://pay.google.com/intl/ko/about/business/ | 오프라인·온라인 결제·송금·충성도 프로그램 통합 Google 결제 솔루션 | 무료+유료 | google-ecosystem-map | ✅ |
 
 ---
 

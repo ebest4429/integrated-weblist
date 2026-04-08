@@ -9,79 +9,151 @@
       "url": "https://ads.google.com",
       "desc": "검색·유튜브·디스플레이·앱 세계 최대 디지털 광고 플랫폼",
       "badge": "paid",
-      "nameKo": "구글 광고"
+      "nameKo": "구글 광고",
+      "detail": {
+        "intro": "구글의 디지털 광고 플랫폼. 검색·유튜브·디스플레이·앱 광고를 한 곳에서 집행하며, 클릭당 과금(CPC) 방식으로 전 세계 수십억 명에게 광고를 노출한다.",
+        "features": ["검색·쇼핑·디스플레이·유튜브·앱 광고", "키워드 타겟팅·오디언스 세그먼트", "스마트 캠페인 자동 입찰·최적화", "전환 추적·ROI 분석", "Google Analytics 4 연동"],
+        "usage": "ads.google.com에서 계정 생성 → 캠페인 유형 선택 → 키워드·타겟 설정 → 예산·입찰가 설정 후 게재.",
+        "notes": "Google Ads 에디터로 대규모 캠페인 오프라인 관리 가능."
+      }
     },
     {
       "name": "Google Analytics 4",
       "url": "https://analytics.google.com",
       "desc": "웹·앱 사용자 행동 이벤트 기반 분석. ML 예측 기능 포함",
       "badge": "free",
-      "nameKo": "구글 애널리틱스"
+      "nameKo": "구글 애널리틱스",
+      "detail": {
+        "intro": "구글의 웹·앱 통합 분석 플랫폼. 이벤트 기반 데이터 모델로 사용자 행동을 세밀하게 추적하며, ML 기반 예측 지표와 BigQuery 연동을 지원한다.",
+        "features": ["이벤트 기반 사용자 행동 분석", "웹·앱 통합 측정(크로스 플랫폼)", "ML 예측 이탈율·구매 가능성", "BigQuery 원시 데이터 내보내기", "Google Ads 연동 전환 추적"],
+        "usage": "analytics.google.com에서 GA4 속성 생성 → GTM 또는 직접 태그 삽입 → 이벤트 설정.",
+        "notes": "UA(유니버설 애널리틱스) 종료 후 GA4로 완전 전환됨. 기존 UA 데이터와 호환되지 않음."
+      }
     },
     {
       "name": "Google Merchant Center",
       "url": "https://merchants.google.com",
       "desc": "쇼핑몰 상품 데이터 Google 검색·쇼핑·유튜브·지도 광고 동기화",
       "badge": "free",
-      "nameKo": "구글 판매자 센터"
+      "nameKo": "구글 판매자 센터",
+      "detail": {
+        "intro": "쇼핑몰 상품 데이터를 구글 서비스 전반에 노출하는 플랫폼. 상품 피드를 등록하면 Google 검색·쇼핑·유튜브·이미지 광고에 자동으로 동기화된다.",
+        "features": ["상품 피드 등록·구글 전체 서비스 동기화", "무료 쇼핑 리스팅·쇼핑 광고 연동", "상품 승인 상태·오류 진단", "Google Ads 쇼핑 캠페인 직접 연결", "로컬 재고 광고·오프라인 매장 연동"],
+        "usage": "merchants.google.com에서 계정 생성 → 상품 피드 CSV/XML 업로드 또는 쇼핑 플랫폼 연동 → 상품 승인 후 광고 집행.",
+        "notes": "Shopify·WooCommerce 등 주요 이커머스 플랫폼과 자동 연동 지원."
+      }
     },
     {
       "name": "Google Business Profile",
       "url": "https://business.google.com",
       "desc": "Google 지도·검색 내 비즈니스 등록·리뷰·영업시간 무료 관리",
       "badge": "free",
-      "nameKo": "구글 비즈니스 프로필"
+      "nameKo": "구글 비즈니스 프로필",
+      "detail": {
+        "intro": "구글 지도와 검색에서 비즈니스를 무료로 관리하는 도구. 영업시간·전화번호·사진·리뷰·게시물을 등록하여 로컬 검색 노출을 높인다.",
+        "features": ["Google 지도·검색 비즈니스 정보 등록", "리뷰 관리·답변·별점 모니터링", "게시물·이벤트·상품 등록", "전화·방문·웹사이트 클릭 분석", "로컬 SEO 최적화 필수 도구"],
+        "usage": "business.google.com에서 비즈니스 등록 → 소유권 인증(우편·전화·이메일) → 정보 입력 후 게시.",
+        "notes": "로컬 검색 노출과 Google Maps 순위에 직접 영향. 리뷰 응답 적극 관리 권장."
+      }
     },
     {
       "name": "Google AdSense",
       "url": "https://adsense.google.com",
       "desc": "웹사이트 광고 게재 클릭·노출 기반 수익 창출 퍼블리셔 플랫폼",
       "badge": "free",
-      "nameKo": "구글 애드센스"
+      "nameKo": "구글 애드센스",
+      "detail": {
+        "intro": "웹사이트 운영자가 구글 광고를 게재하여 수익을 창출하는 퍼블리셔 플랫폼. 방문자 클릭·노출 기반으로 자동 수익이 발생한다.",
+        "features": ["웹페이지 광고 자동 배치·최적화", "클릭(CPC)·노출(CPM) 기반 수익", "자동·반응형 광고 단위", "수익 현황·채널별 성과 분석", "최소 $100 수익 달성 시 지급"],
+        "usage": "adsense.google.com에서 신청 → 사이트 심사 통과 → 광고 코드 삽입 후 수익 발생.",
+        "notes": "콘텐츠 정책 위반 시 계정 정지 위험. 직접 광고 판매 대비 수익률 낮을 수 있음."
+      }
     },
     {
       "name": "Display & Video 360",
       "url": "https://marketingplatform.google.com/about/display-video-360/",
       "desc": "대형 광고주용 프로그래매틱 광고 구매·YouTube·서드파티 통합",
-      "badge": "paid"
+      "badge": "paid",
+      "detail": {
+        "intro": "구글 마케팅 플랫폼의 엔터프라이즈 프로그래매틱 광고 도구. 대형 광고주가 YouTube·디스플레이·서드파티 거래소를 통합하여 광고를 구매·관리한다.",
+        "features": ["프로그래매틱 디스플레이·동영상·오디오 광고", "YouTube·서드파티 거래소 통합 구매", "오디언스 세그먼트·리타겟팅", "크리에이티브 자산 관리·A/B 테스트", "Google Analytics·Campaign Manager 연동"],
+        "usage": "Google Marketing Platform 계정 필요. 대행사 또는 인하우스 트레이딩 데스크에서 운영.",
+        "notes": "대형 광고주·대행사 전용 유료 도구. 최소 예산 요건 있음."
+      }
     },
     {
       "name": "Search Ads 360",
       "url": "https://marketingplatform.google.com/about/search-ads-360/",
       "desc": "여러 검색 엔진 광고 캠페인 통합 자동화·최적화 엔터프라이즈 도구",
-      "badge": "paid"
+      "badge": "paid",
+      "detail": {
+        "intro": "여러 검색 엔진 광고 캠페인을 통합 관리하는 엔터프라이즈 도구. Google Ads·Microsoft Ads 등을 한 플랫폼에서 자동화·최적화한다.",
+        "features": ["Google Ads·Microsoft Ads 통합 관리", "자동 입찰·예산 최적화", "크로스 채널 전환 어트리뷰션", "대규모 캠페인 일괄 편집·자동화", "Google Analytics 4·DV360 연동"],
+        "usage": "Google Marketing Platform 계정 필요. 복수 검색 엔진 캠페인을 단일 인터페이스에서 관리.",
+        "notes": "대형 광고주·대행사 전용 유료 도구."
+      }
     },
     {
       "name": "Google Tag Manager",
       "url": "https://tagmanager.google.com",
       "desc": "마케팅·분석 태그 코드 없이 웹사이트 추가·관리 시스템",
       "badge": "free",
-      "nameKo": "구글 태그 매니저"
+      "nameKo": "구글 태그 매니저",
+      "detail": {
+        "intro": "웹사이트에 마케팅·분석 태그를 코드 수정 없이 추가·관리하는 태그 관리 시스템. 개발자 없이 마케터가 직접 태그를 배포할 수 있다.",
+        "features": ["코드 없이 태그 추가·수정·삭제", "GA4·Google Ads·Facebook Pixel 등 태그 템플릿", "트리거·변수 기반 조건부 태그 실행", "버전 관리·미리보기·디버거", "서버 사이드 태깅 지원"],
+        "usage": "tagmanager.google.com에서 컨테이너 생성 → GTM 코드 웹사이트 삽입 → 태그·트리거 설정 후 게시.",
+        "notes": "완전 무료. 웹사이트 태그 관리의 표준 도구."
+      }
     },
     {
       "name": "Looker",
       "url": "https://cloud.google.com/looker",
       "desc": "SQL 기반 데이터 모델링·셀프서비스 BI 기업용 분석 플랫폼",
-      "badge": "paid"
+      "badge": "paid",
+      "detail": {
+        "intro": "구글 클라우드의 기업용 BI 플랫폼. LookML 언어로 데이터 모델을 정의하고 셀프서비스 분석 환경을 구축한다. Looker Studio(무료)와 달리 엔터프라이즈 거버넌스에 특화되어 있다.",
+        "features": ["LookML 데이터 모델링 언어", "셀프서비스 탐색·시각화·대시보드", "기업 데이터 거버넌스·접근 제어", "BigQuery·Snowflake·Redshift 등 DB 연동", "API·임베드·Looker Studio 연동"],
+        "usage": "cloud.google.com/looker에서 엔터프라이즈 계약 후 인스턴스 설정. LookML 모델 정의 후 탐색 뷰 생성.",
+        "notes": "유료 엔터프라이즈 제품. Looker Studio(무료 BI)와 별도."
+      }
     },
     {
       "name": "Google Partners",
       "url": "https://partners.google.com",
       "desc": "Google 광고 전문 대행사·컨설턴트 공식 인증·교육·혜택 프로그램",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "구글 광고 전문 대행사와 개인 컨설턴트를 위한 공식 인증 프로그램. Google 파트너·프리미어 파트너 배지 획득으로 신뢰도와 영업 경쟁력을 높인다.",
+        "features": ["Google 파트너·프리미어 파트너 배지 인증", "Google Ads 인증 시험·스킬샵 교육", "파트너 전용 교육·이벤트·제품 업데이트", "고객 지원·전담 계정 매니저(프리미어)", "파트너 디렉토리 노출"],
+        "usage": "partners.google.com에서 계정 연결 → 요건(광고 지출·인증·성과) 충족 → 배지 신청.",
+        "notes": "파트너 유지를 위해 광고 지출·인증 시험·계정 성과 요건 지속 충족 필요."
+      }
     },
     {
       "name": "Think with Google",
       "url": "https://thinkwithgoogle.com",
       "desc": "소비자 트렌드·마케팅 인사이트·업종별 데이터 마케터 리서치 허브",
       "badge": "free",
-      "nameKo": "Think with 구글"
+      "nameKo": "Think with 구글",
+      "detail": {
+        "intro": "구글이 운영하는 마케터·광고주를 위한 리서치 허브. 소비자 트렌드·업종별 인사이트·광고 성공 사례·데이터 도구를 무료로 제공한다.",
+        "features": ["소비자 트렌드·업종별 인사이트 리포트", "Google Trends·마켓 파인더 등 데이터 도구", "광고 성공 사례·크리에이티브 영감", "마케팅 전략 가이드·백서", "유튜브·검색·쇼핑 광고 트렌드 분석"],
+        "usage": "thinkwithgoogle.com에서 업종·주제별 필터로 리포트 검색. 무료 이용.",
+        "notes": "완전 무료 콘텐츠 허브. 마케팅 기획 시 시장 데이터 참고 자료로 활용."
+      }
     },
     {
       "name": "Google Pay Business",
       "url": "https://pay.google.com/intl/ko/about/business/",
       "desc": "오프라인·온라인 결제·송금·충성도 프로그램 통합 Google 결제 솔루션",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "구글의 비즈니스용 결제 솔루션. 온라인·오프라인 매장에서 Google Pay 결제를 수락하고, 충성도 프로그램과 프로모션을 연동할 수 있다.",
+        "features": ["Google Pay 온라인·오프라인 결제 수락", "충성도 프로그램·쿠폰·프로모션 연동", "Google 지도·검색 결제 버튼 표시", "API 연동·맞춤형 결제 흐름 구성", "거래 데이터·분석 대시보드"],
+        "usage": "pay.google.com/about/business에서 비즈니스 등록 → 결제 API 연동 또는 NFC 단말 설정.",
+        "notes": "소비자용 Google Pay 앱과 별도. 가맹점 수수료는 결제 파트너사 정책에 따름."
+      }
     }
   ]
 }
