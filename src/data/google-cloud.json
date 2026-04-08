@@ -9,116 +9,218 @@
       "url": "https://cloud.google.com",
       "desc": "컴퓨팅·스토리지·DB·AI·네트워크 전 세계 40개 리전 엔터프라이즈 클라우드",
       "badge": "freepaid",
-      "nameKo": "구글 클라우드"
+      "nameKo": "구글 클라우드",
+      "detail": {
+        "intro": "구글의 엔터프라이즈 클라우드 플랫폼. 컴퓨팅·스토리지·데이터베이스·AI·네트워크 등 200개 이상의 서비스를 전 세계 40개 리전에서 제공한다.",
+        "features": ["Compute Engine·GKE·Cloud Run 컴퓨팅 서비스", "Cloud Storage·BigQuery·Spanner 스토리지·DB", "Vertex AI·AutoML 등 AI·ML 서비스", "전 세계 40개 리전·121개 가용 영역", "Google Cloud Console·gcloud CLI 통합 관리"],
+        "usage": "cloud.google.com에서 계정 생성 후 $300 무료 크레딧으로 시작. Google Cloud Console 또는 gcloud CLI로 리소스 관리.",
+        "notes": "AWS·Azure와 함께 3대 클라우드. BigQuery·Kubernetes 등 Google 자체 기술 기반 서비스에 강점."
+      }
     },
     {
       "name": "Firebase",
       "url": "https://firebase.google.com",
       "desc": "실시간 DB·인증·호스팅·푸시 알림 모바일·웹 앱 풀스택 플랫폼",
       "badge": "freepaid",
-      "nameKo": "파이어베이스"
+      "nameKo": "파이어베이스",
+      "detail": {
+        "intro": "구글의 모바일·웹 앱 개발 플랫폼. 실시간 데이터베이스·인증·호스팅·푸시 알림·크래시 분석 등 앱 백엔드 기능을 빠르게 연동할 수 있다.",
+        "features": ["Firestore 실시간 NoSQL 데이터베이스", "Firebase Authentication 소셜·이메일 로그인", "Cloud Messaging(FCM) 푸시 알림", "Firebase Hosting 정적·동적 웹 배포", "Crashlytics 실시간 앱 오류 모니터링"],
+        "usage": "firebase.google.com에서 프로젝트 생성 후 SDK 설치. Flutter·React·iOS·Android 등 다양한 플랫폼 지원.",
+        "notes": "Spark(무료)·Blaze(종량제) 플랜. GCP와 동일 프로젝트 공유."
+      }
     },
     {
       "name": "Google Colab",
       "url": "https://colab.research.google.com",
       "desc": "GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화",
       "badge": "freepaid",
-      "nameKo": "구글 코랩"
+      "nameKo": "구글 코랩",
+      "detail": {
+        "intro": "구글이 제공하는 클라우드 기반 Python 노트북 환경. GPU·TPU를 무료로 사용할 수 있어 데이터 분석·머신러닝·딥러닝 실험에 최적화되어 있다.",
+        "features": ["GPU·TPU 무료 사용(시간 제한)", "Google Drive 연동 노트북 저장·공유", "pip 패키지 설치·라이브러리 사전 탑재", "Gemini AI 코드 어시스턴트 내장", "팀 협업 Colab Enterprise(유료)"],
+        "usage": "colab.research.google.com에서 새 노트북 생성. 런타임 유형에서 GPU/TPU 선택 후 코드 실행.",
+        "notes": "무료 플랜은 GPU 할당량·사용 시간 제한 있음. Colab Pro·Pro+ 구독으로 고성능 GPU 우선 접근 가능."
+      }
     },
     {
       "name": "Android Studio",
       "url": "https://developer.android.com/studio",
       "desc": "IntelliJ 기반 Android 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장",
       "badge": "free",
-      "nameKo": "안드로이드 스튜디오"
+      "nameKo": "안드로이드 스튜디오",
+      "detail": {
+        "intro": "안드로이드 앱 개발 공식 IDE. IntelliJ IDEA 기반으로 에뮬레이터·프로파일러·레이아웃 편집기를 내장하며, Gemini AI 코드 어시스턴트가 통합되어 있다.",
+        "features": ["Android 에뮬레이터·실기기 디버깅", "레이아웃 편집기·Jetpack Compose 프리뷰", "CPU·메모리·네트워크 프로파일러", "Gemini AI 코드 제안·오류 수정", "Gradle 빌드·앱 번들·Play 배포 연동"],
+        "usage": "developer.android.com/studio에서 무료 다운로드. Android SDK 자동 설치 후 프로젝트 생성.",
+        "notes": "Kotlin 공식 언어. Java도 지원. Jetpack Compose UI 프레임워크 기본 탑재."
+      }
     },
     {
       "name": "PageSpeed Insights",
       "url": "https://pagespeed.web.dev",
       "desc": "웹 Core Web Vitals 분석·LCP·FID·CLS 개선 방법 제안",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "구글의 웹 성능 분석 도구. URL 입력 시 Core Web Vitals(LCP·FID·CLS) 점수와 개선 방법을 모바일·데스크탑 각각 제공한다.",
+        "features": ["Core Web Vitals LCP·FID·CLS 점수 분석", "모바일·데스크탑 분리 성능 측정", "실제 사용자 데이터(CrUX) + 실험실 데이터 비교", "구체적 개선 항목·예상 절약 시간 제시", "Lighthouse 엔진 기반 상세 진단"],
+        "usage": "pagespeed.web.dev에 URL 입력 후 분석 실행. 100점 만점 기준 점수 확인. 빨간색 항목부터 우선 개선.",
+        "notes": "Google 검색 순위에 Core Web Vitals 반영됨. SEO 최적화 필수 도구."
+      }
     },
     {
       "name": "Google Search Console",
       "url": "https://search.google.com/search-console",
       "desc": "Google 검색 노출·클릭·색인·코어 웹 바이탈 모니터링 SEO 필수 도구",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "구글 검색에서 웹사이트 노출 현황을 모니터링하는 무료 SEO 도구. 검색 노출수·클릭수·색인 상태·코어 웹 바이탈을 한 곳에서 확인한다.",
+        "features": ["검색어별 노출수·클릭수·CTR·순위 확인", "URL 색인 요청·크롤링 오류 진단", "Core Web Vitals 현장 데이터 모니터링", "사이트맵 제출·내부 링크 분석", "수동 조치·보안 문제 알림"],
+        "usage": "search.google.com/search-console에서 사이트 소유권 인증 후 이용. HTML 태그·DNS·Google Analytics 연동으로 인증.",
+        "notes": "신규 사이트 등록 후 데이터 축적에 수일~수주 소요."
+      }
     },
     {
       "name": "Cloud Storage",
       "url": "https://cloud.google.com/storage",
       "desc": "99.999999999% 내구성 객체 스토리지. 멀티 리전·버전 관리",
       "badge": "freepaid",
-      "nameKo": "클라우드 스토리지"
+      "nameKo": "클라우드 스토리지",
+      "detail": {
+        "intro": "구글 클라우드의 객체 스토리지 서비스. 11 9s(99.999999999%) 내구성을 제공하며 이미지·동영상·백업·로그 등 비정형 데이터를 저장한다.",
+        "features": ["11 9s 내구성 객체 스토리지", "Standard·Nearline·Coldline·Archive 스토리지 클래스", "멀티 리전·듀얼 리전·단일 리전 선택", "버전 관리·수명 주기 정책 자동화", "BigQuery·Cloud Functions 직접 연동"],
+        "usage": "GCP 콘솔에서 버킷 생성 → 스토리지 클래스 선택 → 파일 업로드. gsutil CLI 또는 클라이언트 라이브러리로 자동화.",
+        "notes": "접근 빈도에 따라 스토리지 클래스 선택으로 비용 최적화. AWS S3 호환 API 지원."
+      }
     },
     {
       "name": "Cloud Functions",
       "url": "https://cloud.google.com/functions",
       "desc": "서버 없이 이벤트 기반 코드 실행 서버리스 FaaS",
       "badge": "freepaid",
-      "nameKo": "클라우드 함수"
+      "nameKo": "클라우드 함수",
+      "detail": {
+        "intro": "구글 클라우드의 서버리스 함수 실행 환경. 서버 관리 없이 이벤트 기반으로 코드를 실행하며, HTTP·Pub/Sub·Cloud Storage 등 다양한 트리거를 지원한다.",
+        "features": ["Node.js·Python·Go·Java·Ruby 런타임 지원", "HTTP·Pub/Sub·Cloud Storage·Firestore 트리거", "자동 스케일 0→N 인스턴스", "요청 횟수 기반 종량제 과금", "Cloud Run Functions(2세대) 최대 60분 실행"],
+        "usage": "GCP 콘솔 또는 gcloud CLI로 함수 배포. 트리거 유형 설정 후 코드 업로드.",
+        "notes": "2세대(Cloud Run Functions)는 더 긴 타임아웃·동시 처리 지원."
+      }
     },
     {
       "name": "BigQuery",
       "url": "https://cloud.google.com/bigquery",
       "desc": "페타바이트 규모 SQL 초고속 분석 서버리스 데이터 웨어하우스",
       "badge": "freepaid",
-      "nameKo": "빅쿼리"
+      "nameKo": "빅쿼리",
+      "detail": {
+        "intro": "구글 클라우드의 서버리스 데이터 웨어하우스. 페타바이트 규모 데이터를 표준 SQL로 초고속 분석할 수 있으며, 별도 인프라 관리가 필요 없다.",
+        "features": ["페타바이트 규모 서버리스 SQL 분석", "BigQuery ML 모델 학습·추론", "Looker Studio·Sheets 시각화 연동", "월 1TB 쿼리·10GB 스토리지 무료", "스트리밍 데이터 실시간 수집·분석"],
+        "usage": "GCP 콘솔 BigQuery 탭에서 데이터셋 생성 → 테이블 로드 → SQL 쿼리 실행. bq CLI·Python 클라이언트 라이브러리로 자동화.",
+        "notes": "스캔 데이터 기준 과금. 파티셔닝·클러스터링으로 비용 최적화 가능."
+      }
     },
     {
       "name": "Kubernetes Engine",
       "url": "https://cloud.google.com/kubernetes-engine",
       "desc": "완전 관리형 Kubernetes 클러스터. 컨테이너 자동 확장·배포",
       "badge": "freepaid",
-      "nameKo": "쿠버네티스 엔진"
+      "nameKo": "쿠버네티스 엔진",
+      "detail": {
+        "intro": "구글 클라우드의 완전 관리형 Kubernetes 서비스. 컨테이너화된 애플리케이션의 배포·확장·관리를 자동화하며, Kubernetes를 창시한 구글이 직접 운영한다.",
+        "features": ["완전 관리형 Kubernetes 컨트롤 플레인", "Autopilot 모드 노드 자동 관리", "Horizontal Pod Autoscaler 자동 확장", "Artifact Registry·Cloud Build CI/CD 연동", "멀티 클러스터·리전 배포 지원"],
+        "usage": "GCP 콘솔에서 클러스터 생성 → kubectl 또는 Cloud Shell로 워크로드 배포.",
+        "notes": "Autopilot 모드는 노드 관리 불필요. Standard 모드는 노드 직접 제어 가능."
+      }
     },
     {
       "name": "App Engine",
       "url": "https://cloud.google.com/appengine",
       "desc": "인프라 관리 없는 웹 앱 자동 확장 배포 완전 관리형 PaaS",
       "badge": "freepaid",
-      "nameKo": "앱 엔진"
+      "nameKo": "앱 엔진",
+      "detail": {
+        "intro": "구글 클라우드의 완전 관리형 PaaS. 인프라 설정 없이 코드만 배포하면 자동으로 확장·부하 분산·보안 업데이트를 처리한다.",
+        "features": ["자동 확장·부하 분산·트래픽 분할", "Node.js·Python·Java·Go·PHP·Ruby 지원", "표준·가변형 두 가지 환경 선택", "Cloud SQL·Datastore·Memcache 연동", "트래픽 0 시 자동 축소·비용 절감"],
+        "usage": "app.yaml 설정 파일 작성 후 gcloud app deploy 명령으로 배포.",
+        "notes": "표준 환경은 빠른 시작·저비용. 가변형 환경은 커스텀 런타임·더 긴 요청 타임아웃 지원."
+      }
     },
     {
       "name": "Looker Studio",
       "url": "https://lookerstudio.google.com",
       "desc": "BigQuery·GA·Sheets 연결 인터랙티브 대시보드 무료 BI 도구",
       "badge": "free",
-      "nameKo": "루커 스튜디오"
+      "nameKo": "루커 스튜디오",
+      "detail": {
+        "intro": "구글의 무료 BI·데이터 시각화 도구. BigQuery·Google Analytics·Sheets 등 다양한 데이터 소스를 연결하여 인터랙티브 대시보드를 제작한다.",
+        "features": ["BigQuery·GA4·Sheets·Ads 등 600+ 커넥터", "드래그앤드롭 차트·표·지도 위젯", "팀 공유·실시간 협업 편집", "보고서 예약 이메일 발송", "Looker Studio Pro(유료) 고급 기능"],
+        "usage": "lookerstudio.google.com에서 보고서 생성 → 데이터 소스 연결 → 차트 추가. Google 계정 로그인으로 무료 이용.",
+        "notes": "구 Google Data Studio에서 Looker Studio로 리브랜딩."
+      }
     },
     {
       "name": "Cloud Run",
       "url": "https://cloud.google.com/run",
       "desc": "컨테이너 서버리스 배포. 요청 기반 과금·HTTP·gRPC 지원",
       "badge": "freepaid",
-      "nameKo": "클라우드 런"
+      "nameKo": "클라우드 런",
+      "detail": {
+        "intro": "구글 클라우드의 컨테이너 서버리스 실행 환경. Docker 이미지를 배포하면 요청에 따라 자동 확장하며, 요청이 없을 때는 인스턴스를 0으로 줄여 비용을 최소화한다.",
+        "features": ["컨테이너 이미지 즉시 서버리스 배포", "요청 기반 자동 0→N 스케일링", "HTTP·gRPC·WebSocket 지원", "Cloud Build·GitHub Actions CI/CD 연동", "최대 60분 실행·최대 32GB 메모리"],
+        "usage": "Docker 이미지 빌드 후 gcloud run deploy 또는 Cloud Console에서 배포. 커스텀 도메인 연결 가능.",
+        "notes": "Cloud Functions보다 더 유연한 실행 환경. Knative 기반 오픈 표준."
+      }
     },
     {
       "name": "Flutter",
       "url": "https://flutter.dev",
       "desc": "Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼",
       "badge": "open",
-      "nameKo": "플러터"
+      "nameKo": "플러터",
+      "detail": {
+        "intro": "구글이 개발한 크로스 플랫폼 UI 프레임워크. Dart 언어 하나로 iOS·Android·웹·Windows·macOS·Linux 앱을 동시에 개발할 수 있다.",
+        "features": ["단일 코드베이스로 6개 플랫폼 빌드", "자체 렌더링 엔진(Impeller) 고성능 UI", "Hot Reload 즉각 UI 미리보기", "pub.dev 패키지 생태계", "Material·Cupertino 디자인 컴포넌트"],
+        "usage": "flutter.dev에서 SDK 다운로드. flutter create로 프로젝트 생성 후 flutter run으로 실행.",
+        "notes": "Google·Alibaba·BMW 등 대기업 프로덕션 앱에서 사용. Dart 언어 학습 필요."
+      }
     },
     {
       "name": "TensorFlow",
       "url": "https://tensorflow.org",
       "desc": "딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크",
       "badge": "open",
-      "nameKo": "텐서플로우"
+      "nameKo": "텐서플로우",
+      "detail": {
+        "intro": "구글이 개발한 오픈소스 머신러닝 프레임워크. 딥러닝 모델 설계·학습·배포를 지원하며, TensorFlow Lite·TensorFlow.js로 모바일·웹에도 배포 가능하다.",
+        "features": ["신경망 설계·학습·추론 파이프라인", "Keras 고수준 API 통합", "TensorFlow Lite 모바일·엣지 배포", "TensorFlow.js 브라우저·Node.js 실행", "TensorBoard 학습 시각화·모니터링"],
+        "usage": "pip install tensorflow 후 Python에서 Keras API로 모델 설계·학습. TF Hub에서 사전 학습 모델 활용 가능.",
+        "notes": "PyTorch와 함께 딥러닝 2대 프레임워크. 산업·연구 모두 폭넓게 사용."
+      }
     },
     {
       "name": "Google IDX",
       "url": "https://idx.google.com",
       "desc": "브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합",
       "badge": "freepaid",
-      "nameKo": "구글 IDX"
+      "nameKo": "구글 IDX",
+      "detail": {
+        "intro": "구글의 클라우드 기반 풀스택 개발 환경. 브라우저에서 VS Code 인터페이스로 개발하며, Gemini AI 코드 어시스턴트와 Android·iOS 에뮬레이터가 내장되어 있다.",
+        "features": ["브라우저 VS Code 인터페이스", "Gemini AI 코드 제안·디버깅 지원", "Android·iOS 에뮬레이터 내장", "Flutter·React·Next.js·Angular 템플릿", "GitHub 연동·Cloud Run 배포"],
+        "usage": "idx.google.com에서 Google 계정 로그인 → 템플릿 선택 또는 GitHub 레포 임포트 → 브라우저에서 바로 개발.",
+        "notes": "로컬 환경 설정 없이 즉시 개발 시작 가능. Nix 기반 환경 커스터마이징 지원."
+      }
     },
     {
       "name": "Google OAuth / Identity",
       "url": "https://developers.google.com/identity",
       "desc": "Google 계정 소셜 로그인 구현. OpenID Connect·OAuth 2.0 표준",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "구글 계정을 활용한 소셜 로그인 구현 API. OpenID Connect와 OAuth 2.0 표준을 따르며, \"Google로 로그인\" 버튼을 웹·앱에 쉽게 추가할 수 있다.",
+        "features": ["Google 계정 소셜 로그인(Sign In with Google)", "OpenID Connect·OAuth 2.0 표준 지원", "액세스 토큰·리프레시 토큰 발급", "이메일·프로필·Drive 등 스코프 권한 요청", "Google Identity Services JS 라이브러리"],
+        "usage": "Google Cloud Console에서 OAuth 클라이언트 ID 생성 → 클라이언트 라이브러리 설치 → 로그인 버튼 구현.",
+        "notes": "무료 API. Google Workspace 도메인 제한·2FA 강제 등 고급 보안 설정 가능."
+      }
     }
   ]
 }

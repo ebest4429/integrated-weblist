@@ -98,23 +98,23 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Google Cloud Platform | https://cloud.google.com | 컴퓨팅·스토리지·DB·AI·네트워크 전 세계 40개 리전 엔터프라이즈 클라우드 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Firebase | https://firebase.google.com | 실시간 DB·인증·호스팅·푸시 알림 모바일·웹 앱 풀스택 플랫폼 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Colab | https://colab.research.google.com | GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Android Studio | https://developer.android.com/studio | IntelliJ 기반 Android 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장 | 무료 | google-ecosystem-map | 🔲 |
-| PageSpeed Insights | https://pagespeed.web.dev | 웹 Core Web Vitals 분석·LCP·FID·CLS 개선 방법 제안 | 무료 | google-ecosystem-map | 🔲 |
-| Google Search Console | https://search.google.com/search-console | Google 검색 노출·클릭·색인·코어 웹 바이탈 모니터링 SEO 필수 도구 | 무료 | google-ecosystem-map | 🔲 |
-| Cloud Storage | https://cloud.google.com/storage | 99.999999999% 내구성 객체 스토리지. 멀티 리전·버전 관리 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Cloud Functions | https://cloud.google.com/functions | 서버 없이 이벤트 기반 코드 실행 서버리스 FaaS | 무료+유료 | google-ecosystem-map | 🔲 |
-| BigQuery | https://cloud.google.com/bigquery | 페타바이트 규모 SQL 초고속 분석 서버리스 데이터 웨어하우스 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Kubernetes Engine | https://cloud.google.com/kubernetes-engine | 완전 관리형 Kubernetes 클러스터. 컨테이너 자동 확장·배포 | 무료+유료 | google-ecosystem-map | 🔲 |
-| App Engine | https://cloud.google.com/appengine | 인프라 관리 없는 웹 앱 자동 확장 배포 완전 관리형 PaaS | 무료+유료 | google-ecosystem-map | 🔲 |
-| Looker Studio | https://lookerstudio.google.com | BigQuery·GA·Sheets 연결 인터랙티브 대시보드 무료 BI 도구 | 무료 | google-ecosystem-map | 🔲 |
-| Cloud Run | https://cloud.google.com/run | 컨테이너 서버리스 배포. 요청 기반 과금·HTTP·gRPC 지원 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Flutter | https://flutter.dev | Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼 | 오픈소스 | google-ecosystem-map | 🔲 |
-| TensorFlow | https://tensorflow.org | 딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크 | 오픈소스 | google-ecosystem-map | 🔲 |
-| Google IDX | https://idx.google.com | 브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google OAuth / Identity | https://developers.google.com/identity | Google 계정 소셜 로그인 구현. OpenID Connect·OAuth 2.0 표준 | 무료 | google-ecosystem-map | 🔲 |
+| Google Cloud Platform | https://cloud.google.com | 컴퓨팅·스토리지·DB·AI·네트워크 전 세계 40개 리전 엔터프라이즈 클라우드 | 무료+유료 | google-ecosystem-map | ✅ |
+| Firebase | https://firebase.google.com | 실시간 DB·인증·호스팅·푸시 알림 모바일·웹 앱 풀스택 플랫폼 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Colab | https://colab.research.google.com | GPU·TPU 무료 Python 노트북. 데이터 분석·ML 실험 최적화 | 무료+유료 | google-ecosystem-map | ✅ |
+| Android Studio | https://developer.android.com/studio | IntelliJ 기반 Android 공식 IDE. 에뮬레이터·프로파일러·Gemini 내장 | 무료 | google-ecosystem-map | ✅ |
+| PageSpeed Insights | https://pagespeed.web.dev | 웹 Core Web Vitals 분석·LCP·FID·CLS 개선 방법 제안 | 무료 | google-ecosystem-map | ✅ |
+| Google Search Console | https://search.google.com/search-console | Google 검색 노출·클릭·색인·코어 웹 바이탈 모니터링 SEO 필수 도구 | 무료 | google-ecosystem-map | ✅ |
+| Cloud Storage | https://cloud.google.com/storage | 99.999999999% 내구성 객체 스토리지. 멀티 리전·버전 관리 | 무료+유료 | google-ecosystem-map | ✅ |
+| Cloud Functions | https://cloud.google.com/functions | 서버 없이 이벤트 기반 코드 실행 서버리스 FaaS | 무료+유료 | google-ecosystem-map | ✅ |
+| BigQuery | https://cloud.google.com/bigquery | 페타바이트 규모 SQL 초고속 분석 서버리스 데이터 웨어하우스 | 무료+유료 | google-ecosystem-map | ✅ |
+| Kubernetes Engine | https://cloud.google.com/kubernetes-engine | 완전 관리형 Kubernetes 클러스터. 컨테이너 자동 확장·배포 | 무료+유료 | google-ecosystem-map | ✅ |
+| App Engine | https://cloud.google.com/appengine | 인프라 관리 없는 웹 앱 자동 확장 배포 완전 관리형 PaaS | 무료+유료 | google-ecosystem-map | ✅ |
+| Looker Studio | https://lookerstudio.google.com | BigQuery·GA·Sheets 연결 인터랙티브 대시보드 무료 BI 도구 | 무료 | google-ecosystem-map | ✅ |
+| Cloud Run | https://cloud.google.com/run | 컨테이너 서버리스 배포. 요청 기반 과금·HTTP·gRPC 지원 | 무료+유료 | google-ecosystem-map | ✅ |
+| Flutter | https://flutter.dev | Dart 하나로 iOS·Android·웹·데스크탑 동시 개발 크로스 플랫폼 | 오픈소스 | google-ecosystem-map | ✅ |
+| TensorFlow | https://tensorflow.org | 딥러닝 모델 설계·학습·배포 세계 1위 오픈소스 ML 프레임워크 | 오픈소스 | google-ecosystem-map | ✅ |
+| Google IDX | https://idx.google.com | 브라우저 풀스택 클라우드 IDE. Gemini AI 코드 어시스턴트 통합 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google OAuth / Identity | https://developers.google.com/identity | Google 계정 소셜 로그인 구현. OpenID Connect·OAuth 2.0 표준 | 무료 | google-ecosystem-map | ✅ |
 
 ---
 
