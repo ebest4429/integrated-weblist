@@ -56,7 +56,7 @@
 
 ### P3-6. 빌드 최적화 (선택)
 
-- 🔲 JSON 데이터 동적 import (code splitting) — 청크 500kB 초과 경고 해소
+- ✅ JSON 데이터 동적 import (code splitting) — 청크 500kB 초과 경고 해소
   > 취지: 현재 빌드 시 520kB 단일 청크 경고. 카테고리별 lazy load로 초기 로드 개선.
   > 선택 항목: UX 영향 측정 후 진행 여부 결정.
 

@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 3 — 검색 고도화 + 태그 필터 |
-| 상태 | 🔄 Phase 3 진행중 — P3-1~P3-5 구현 완료, P3-6(선택) 미진행 |
+| 상태 | ✅ Phase 3 전체 완료 — P3-1~P3-6 구현 완료 |
 | 현재 플랜 | `.claude/plans/phase3-search-filter.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -45,6 +45,16 @@ phase3 진행 후 정리 예정.
 ---
 
 ## 진행 이력
+
+### 2026-04-08 Phase 3 P3-6 완료 — 동적 import 코드 스플리팅
+
+| 항목 | 내용 |
+|------|------|
+| P3-6 | categories.js 정적 import 제거 → CATEGORY_META + DATA_LOADERS로 교체 |
+| 결과 | 초기 JS 525kB → 213kB, 데이터 24개 청크(7~24kB), gzip 164kB → 67kB |
+| 빌드 경고 | 500kB 초과 경고 완전 해소 |
+| SidebarGroup | cat.items.length → cat.itemCount (메타데이터 참조로 변경) |
+| App.jsx | catCache + loadCat/loadAll로 카테고리별 lazy load |
 
 ### 2026-04-08 Phase 3 P3-1~P3-5 구현 완료
 

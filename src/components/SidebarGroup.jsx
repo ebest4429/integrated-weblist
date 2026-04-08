@@ -62,7 +62,7 @@ export default function SidebarGroup({ group, selectedId, onSelect }) {
           >
             <span style={{ fontSize: '17px', lineHeight: 1 }}>{cat.icon}</span>
             <span style={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{cat.title}</span>
-            <span style={{ fontSize: '12px', color: '#888888' }}>{cat.items.length}</span>
+            <span style={{ fontSize: '12px', color: '#888888' }}>{cat.itemCount}</span>
           </button>
         )
       })}
