@@ -141,18 +141,18 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Android | https://android.com | 전 세계 스마트폰 72%+ 오픈소스 모바일 OS | 무료 | google-ecosystem-map | 🔲 |
-| ChromeOS | https://chromeos.google | 웹 중심 경량 PC OS. 빠른 부팅·자동 업데이트·Google 서비스 완벽 통합 | 무료 | google-ecosystem-map | 🔲 |
-| Google Pixel | https://store.google.com/us/category/phones | 순정 Android·Tensor 칩·카메라 AI·Gemini Nano 탑재 프리미엄 스마트폰 | 유료 | google-ecosystem-map | 🔲 |
-| Google Nest Hub | https://store.google.com/us/category/home | 스마트 디스플레이·스피커·스마트홈 컨트롤러 Nest 허브 기기 라인업 | 유료 | google-ecosystem-map | 🔲 |
-| Chromecast | https://store.google.com/us/product/chromecast | TV 연결 스트리밍·앱·Google Assistant HDMI 미디어 스트리밍 동글 | 유료 | google-ecosystem-map | 🔲 |
-| Google Nest Audio | https://store.google.com/us/product/nest_audio | 고음질 스피커·Google Assistant 탑재 스마트 스피커. 멀티룸 오디오 | 유료 | google-ecosystem-map | 🔲 |
-| Wear OS | https://wearos.google.com | Samsung·Mobvoi 등 채택 스마트워치 OS. Google Pay·Maps·Fit 연동 | 무료 | google-ecosystem-map | 🔲 |
-| Nest Wifi Pro | https://store.google.com/us/product/nest_wifi_pro | Wi-Fi 6E Mesh 라우터 시스템. 넓은 공간 빈틈없는 커버리지 | 유료 | google-ecosystem-map | 🔲 |
-| Google Chrome | https://chrome.google.com | V8 엔진 세계 점유율 65%+ 웹 브라우저. 확장 프로그램·동기화·PWA | 무료 | google-ecosystem-map | 🔲 |
-| Android Auto | https://android.com/auto | 스마트폰을 차량 대시보드 미러링. Maps·음악·통화 안전 사용 | 무료 | google-ecosystem-map | 🔲 |
-| Android TV | https://tv.android.com | TV·셋톱박스용 Android 기반 스마트 TV 플랫폼. 소니·TCL 채택 | 무료 | google-ecosystem-map | 🔲 |
-| Android XR | https://developer.android.com/xr | 삼성 공동 개발 XR 헤드셋 플랫폼. Gemini AI·Google 서비스 공간 컴퓨팅 | 실험적 | google-ecosystem-map | 🔲 |
+| Android | https://android.com | 전 세계 스마트폰 72%+ 오픈소스 모바일 OS | 무료 | google-ecosystem-map | ✅ |
+| ChromeOS | https://chromeos.google | 웹 중심 경량 PC OS. 빠른 부팅·자동 업데이트·Google 서비스 완벽 통합 | 무료 | google-ecosystem-map | ✅ |
+| Google Pixel | https://store.google.com/us/category/phones | 순정 Android·Tensor 칩·카메라 AI·Gemini Nano 탑재 프리미엄 스마트폰 | 유료 | google-ecosystem-map | ✅ |
+| Google Nest Hub | https://store.google.com/us/category/home | 스마트 디스플레이·스피커·스마트홈 컨트롤러 Nest 허브 기기 라인업 | 유료 | google-ecosystem-map | ✅ |
+| Chromecast | https://store.google.com/us/product/chromecast | TV 연결 스트리밍·앱·Google Assistant HDMI 미디어 스트리밍 동글 | 유료 | google-ecosystem-map | ✅ |
+| Google Nest Audio | https://store.google.com/us/product/nest_audio | 고음질 스피커·Google Assistant 탑재 스마트 스피커. 멀티룸 오디오 | 유료 | google-ecosystem-map | ✅ |
+| Wear OS | https://wearos.google.com | Samsung·Mobvoi 등 채택 스마트워치 OS. Google Pay·Maps·Fit 연동 | 무료 | google-ecosystem-map | ✅ |
+| Nest Wifi Pro | https://store.google.com/us/product/nest_wifi_pro | Wi-Fi 6E Mesh 라우터 시스템. 넓은 공간 빈틈없는 커버리지 | 유료 | google-ecosystem-map | ✅ |
+| Google Chrome | https://chrome.google.com | V8 엔진 세계 점유율 65%+ 웹 브라우저. 확장 프로그램·동기화·PWA | 무료 | google-ecosystem-map | ✅ |
+| Android Auto | https://android.com/auto | 스마트폰을 차량 대시보드 미러링. Maps·음악·통화 안전 사용 | 무료 | google-ecosystem-map | ✅ |
+| Android TV | https://tv.android.com | TV·셋톱박스용 Android 기반 스마트 TV 플랫폼. 소니·TCL 채택 | 무료 | google-ecosystem-map | ✅ |
+| Android XR | https://developer.android.com/xr | 삼성 공동 개발 XR 헤드셋 플랫폼. Gemini AI·Google 서비스 공간 컴퓨팅 | 실험적 | google-ecosystem-map | ✅ |
 
 ---
 
