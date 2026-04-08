@@ -9,63 +9,123 @@
       "url": "https://classroom.google.com",
       "desc": "과제 배부·제출·채점·피드백 디지털화 LMS. Workspace Education 통합",
       "badge": "free",
-      "nameKo": "구글 클래스룸"
+      "nameKo": "구글 클래스룸",
+      "detail": {
+        "intro": "Google이 교사와 학생을 위해 만든 클라우드 기반 LMS. 과제 출제·제출·채점·피드백 전 과정을 디지털화하고, Google Docs·Drive·Meet과 완벽 연동된다.",
+        "features": ["과제 배부·제출·자동 채점 및 루브릭 평가", "Google Meet 수업 직접 시작·녹화", "보호자 요약 메일 자동 발송", "Workspace Education 앱 통합"],
+        "usage": "교사는 수업 클래스를 만들고 학생 초대 코드를 공유한다. 과제에 Google Docs 템플릿을 첨부하면 학생별 사본이 자동 생성된다.",
+        "notes": "기본 무료. 고급 기능(Originality Reports 무제한 등)은 Workspace Education 유료 플랜 필요."
+      }
     },
     {
       "name": "Google for Education",
       "url": "https://edu.google.com",
       "desc": "학교·대학 Workspace·Chromebook·Classroom 패키지 교육 기관 솔루션",
       "badge": "freepaid",
-      "nameKo": "구글 포 에듀케이션"
+      "nameKo": "구글 포 에듀케이션",
+      "detail": {
+        "intro": "학교·대학교를 위한 Google 교육 솔루션 종합 허브. Workspace Education(Gmail·Drive·Classroom 등)과 Chromebook 기기, 교사 전문성 개발 프로그램을 패키지로 제공한다.",
+        "features": ["Workspace Education Fundamentals 무료 제공(K-12·고등교육)", "Chromebook 기기 관리 및 도입 지원", "Google Certified Educator 교원 연수 프로그램", "교육 기관 전용 보안·규정 준수 기능"],
+        "usage": "학교 관리자가 Google for Education 페이지에서 신청하면 도메인 기반 Workspace Education 계정을 발급받는다.",
+        "notes": "Fundamentals 플랜은 무료. Standard·Plus 플랜에는 고급 보안·분석·AI 기능이 추가된다."
+      }
     },
     {
       "name": "CS First",
       "url": "https://csfirst.withgoogle.com",
       "desc": "9~14세 Scratch 기반 블록 코딩 무료 커리큘럼 구글 코딩 교육",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google이 개발한 초등·중학생 대상 무료 컴퓨터 과학 교육 프로그램. Scratch 블록 코딩으로 게임·음악·스토리 등 창의적 프로젝트를 만들며 코딩의 기초를 익힌다.",
+        "features": ["Scratch 기반 10개 이상 테마별 커리큘럼(게임·음악·패션 등)", "교사용 수업 계획서·영상 가이드 무료 제공", "학생 진도 추적 교사 대시보드", "코딩 경험 없는 교사도 진행 가능"],
+        "usage": "교사가 계정을 만들어 클럽(수업)을 개설하고 학생을 초대한다. 각 유닛은 영상 강의 + 실습 프로젝트 구조로 구성되어 있다.",
+        "notes": "한국어 포함 다국어 지원. 방과후 클럽·여름 캠프 형태로도 활용 가능."
+      }
     },
     {
       "name": "Grow with Google",
       "url": "https://grow.google",
       "desc": "디지털 마케팅·데이터 분석·AI·UX 디자인 실무 기술 무료 교육 허브",
       "badge": "free",
-      "nameKo": "Grow with 구글"
+      "nameKo": "Grow with 구글",
+      "detail": {
+        "intro": "Google이 운영하는 디지털 실무 스킬 교육 허브. Career Certificates 자격증 과정부터 AI Essentials 단기 과정까지 취업·성장을 위한 무료·저비용 교육을 제공한다.",
+        "features": ["Google Career Certificates(데이터 분석·UX·사이버 보안 등)", "AI Essentials·디지털 마케팅 단기 과정", "IT 지원 전문가 Certificate 포함", "Coursera 연동 자격증 취득"],
+        "usage": "Grow with Google 사이트에서 관심 분야 과정을 선택하고 Coursera 또는 자체 플랫폼에서 수강한다. 일부 과정은 재정 지원 신청 가능.",
+        "notes": "미국 기준으로 취업 파트너 네트워크와 연계. 한국어 일부 지원."
+      }
     },
     {
       "name": "Digital Garage",
       "url": "https://learndigital.withgoogle.com",
       "desc": "SEO·소셜미디어·이커머스 디지털 마케팅 무료 온라인 강좌·수료증",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google이 중소기업·개인을 대상으로 운영하는 디지털 마케팅·비즈니스 스킬 무료 교육 플랫폼. 영국·유럽 중심으로 시작했으나 전 세계 이용 가능하다.",
+        "features": ["Fundamentals of Digital Marketing 수료증(IAB Europe 인증)", "SEO·소셜미디어·이메일 마케팅·이커머스 40개 이상 강의", "자기 페이스 학습·즉시 수료증 발급", "비즈니스 성장·커리어 개발 경로 제공"],
+        "usage": "Google 계정으로 로그인 후 과정을 선택한다. Fundamentals of Digital Marketing은 26개 모듈, 약 40시간 분량이다.",
+        "notes": "수료증은 LinkedIn 프로필에 직접 추가 가능. 일부 강좌는 영어만 지원."
+      }
     },
     {
       "name": "AI Essentials",
       "url": "https://grow.google/intl/en_us/ai-essentials/",
       "desc": "AI 도구 활용·프롬프트 작성·업무 자동화 5시간 무료 입문 AI 과정",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google이 직장인·일반인을 위해 제작한 AI 실무 입문 과정. 약 5시간 분량으로 AI 도구 활용법, 효과적인 프롬프트 작성, 업무 자동화 방법을 다룬다.",
+        "features": ["AI 기초 개념 및 생성형 AI 작동 원리", "효과적인 프롬프트 엔지니어링 기법", "Gemini 등 AI 도구로 업무 효율화", "AI 윤리·책임감 있는 AI 사용"],
+        "usage": "Coursera에서 무료로 수강 가능. 영상·퀴즈·실습으로 구성되며 수료 시 Google 수료증이 발급된다.",
+        "notes": "사전 기술 지식 불필요. 수료증은 LinkedIn에 추가 가능."
+      }
     },
     {
       "name": "Be Internet Awesome",
       "url": "https://beinternetawesome.withgoogle.com",
       "desc": "어린이 온라인 안전·개인정보·사이버 괴롭힘 예방 게임 교육",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google이 어린이의 디지털 시민의식과 온라인 안전을 위해 만든 무료 교육 프로그램. 인터넷 탐험 테마의 게임 '인터랜드'로 학습한다.",
+        "features": ["인터랜드(Interland) 온라인 안전 게임 4가지 세계", "개인정보 보호·피싱 예방·사이버 괴롭힘 대처 학습", "교사·부모용 커리큘럼 및 활동 가이드", "다국어 지원"],
+        "usage": "웹사이트에서 바로 인터랜드 게임을 플레이할 수 있다. 교사는 교육과정 자료를 다운로드해 수업에 활용한다.",
+        "notes": "iKeepSafe와 협력 개발. 초등학교 저학년 대상으로 설계되어 있다."
+      }
     },
     {
       "name": "Earth Education",
       "url": "https://earth.google.com/education/",
       "desc": "지리·환경·역사 수업 위성 이미지·3D 지구 체험형 학습 교육자 도구",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google Earth를 교육 현장에 활용할 수 있도록 구성된 교육자 전용 리소스 허브. 위성 이미지·3D 지형·역사 이미지 타임라인을 수업에 연결한다.",
+        "features": ["교과과정 연계 프로젝트 및 수업 계획서", "Voyager 가이드 투어(환경·문화·역사 테마)", "Google Earth Studio 영상 제작 도구 활용", "지리·과학·사회 교과목 대응 활동"],
+        "usage": "교육자 페이지에서 학년·교과별 수업 자료를 다운로드하거나 Google Earth 앱·웹에서 Voyager 투어를 수업에 사용한다.",
+        "notes": "Google Earth 웹·앱 모두 무료. Chrome 브라우저에서 최적화된다."
+      }
     },
     {
       "name": "Applied Digital Skills",
       "url": "https://applieddigitalskills.withgoogle.com",
       "desc": "스프레드시트·프레젠테이션·이메일 Google 도구 실무 활용 영상 강의",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google Workspace 도구(Docs·Sheets·Slides 등)를 실제 업무·학교 과제에 바로 적용할 수 있도록 가르치는 무료 영상 강의 플랫폼. 중학생부터 성인까지 대상이다.",
+        "features": ["100개 이상 실습 중심 영상 강의", "Google Docs·Sheets·Slides·Forms·Sites 활용 프로젝트", "교사·강사용 수업 계획서 및 학생 대시보드", "진로 준비·직업 기술 연계 커리큘럼"],
+        "usage": "Google 계정으로 로그인 후 레슨을 선택한다. 각 레슨은 실제 Google 도구에서 직접 실습하는 방식으로 진행된다.",
+        "notes": "완전 무료. 인터넷 연결과 Google 계정만 있으면 된다."
+      }
     },
     {
       "name": "Google Career Certificates",
       "url": "https://grow.google/certificates/",
       "desc": "IT 지원·데이터 분석·UX 디자인·사이버 보안 6개월 취업 연계 자격증",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Google이 설계한 온라인 직업 훈련 자격증 프로그램. 학위 없이도 6개월 이내에 IT·데이터·UX·사이버 보안 분야의 입문 수준 취업 능력을 갖출 수 있도록 설계되었다.",
+        "features": ["IT 지원·데이터 분석·UX 디자인·사이버 보안·프로젝트 관리 등 7개 과정", "Coursera에서 진행, 주 10시간 기준 6개월 완료", "Google 고용 파트너 네트워크 취업 연계", "재정 지원 신청 가능"],
+        "usage": "Coursera에서 원하는 과정에 등록한다. 월 구독료($49 내외)를 내거나 재정 지원을 신청할 수 있다. 수료 후 Credly 디지털 배지 발급.",
+        "notes": "미국 기준 취업 파트너사 150개 이상. 한국에서는 일부 과정 한국어 자막 지원."
+      }
     }
   ]
 }

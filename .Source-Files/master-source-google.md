@@ -160,16 +160,16 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Google Classroom | https://classroom.google.com | 과제 배부·제출·채점·피드백 디지털화 LMS. Workspace Education 통합 | 무료 | google-ecosystem-map | 🔲 |
-| Google for Education | https://edu.google.com | 학교·대학 Workspace·Chromebook·Classroom 패키지 교육 기관 솔루션 | 무료+유료 | google-ecosystem-map | 🔲 |
-| CS First | https://csfirst.withgoogle.com | 9~14세 Scratch 기반 블록 코딩 무료 커리큘럼 구글 코딩 교육 | 무료 | google-ecosystem-map | 🔲 |
-| Grow with Google | https://grow.google | 디지털 마케팅·데이터 분석·AI·UX 디자인 실무 기술 무료 교육 허브 | 무료 | google-ecosystem-map | 🔲 |
-| Digital Garage | https://learndigital.withgoogle.com | SEO·소셜미디어·이커머스 디지털 마케팅 무료 온라인 강좌·수료증 | 무료 | google-ecosystem-map | 🔲 |
-| AI Essentials | https://grow.google/intl/en_us/ai-essentials/ | AI 도구 활용·프롬프트 작성·업무 자동화 5시간 무료 입문 AI 과정 | 무료 | google-ecosystem-map | 🔲 |
-| Be Internet Awesome | https://beinternetawesome.withgoogle.com | 어린이 온라인 안전·개인정보·사이버 괴롭힘 예방 게임 교육 | 무료 | google-ecosystem-map | 🔲 |
-| Earth Education | https://earth.google.com/education/ | 지리·환경·역사 수업 위성 이미지·3D 지구 체험형 학습 교육자 도구 | 무료 | google-ecosystem-map | 🔲 |
-| Applied Digital Skills | https://applieddigitalskills.withgoogle.com | 스프레드시트·프레젠테이션·이메일 Google 도구 실무 활용 영상 강의 | 무료 | google-ecosystem-map | 🔲 |
-| Google Career Certificates | https://grow.google/certificates/ | IT 지원·데이터 분석·UX 디자인·사이버 보안 6개월 취업 연계 자격증 | 무료+유료 | google-ecosystem-map | 🔲 |
+| Google Classroom | https://classroom.google.com | 과제 배부·제출·채점·피드백 디지털화 LMS. Workspace Education 통합 | 무료 | google-ecosystem-map | ✅ |
+| Google for Education | https://edu.google.com | 학교·대학 Workspace·Chromebook·Classroom 패키지 교육 기관 솔루션 | 무료+유료 | google-ecosystem-map | ✅ |
+| CS First | https://csfirst.withgoogle.com | 9~14세 Scratch 기반 블록 코딩 무료 커리큘럼 구글 코딩 교육 | 무료 | google-ecosystem-map | ✅ |
+| Grow with Google | https://grow.google | 디지털 마케팅·데이터 분석·AI·UX 디자인 실무 기술 무료 교육 허브 | 무료 | google-ecosystem-map | ✅ |
+| Digital Garage | https://learndigital.withgoogle.com | SEO·소셜미디어·이커머스 디지털 마케팅 무료 온라인 강좌·수료증 | 무료 | google-ecosystem-map | ✅ |
+| AI Essentials | https://grow.google/intl/en_us/ai-essentials/ | AI 도구 활용·프롬프트 작성·업무 자동화 5시간 무료 입문 AI 과정 | 무료 | google-ecosystem-map | ✅ |
+| Be Internet Awesome | https://beinternetawesome.withgoogle.com | 어린이 온라인 안전·개인정보·사이버 괴롭힘 예방 게임 교육 | 무료 | google-ecosystem-map | ✅ |
+| Earth Education | https://earth.google.com/education/ | 지리·환경·역사 수업 위성 이미지·3D 지구 체험형 학습 교육자 도구 | 무료 | google-ecosystem-map | ✅ |
+| Applied Digital Skills | https://applieddigitalskills.withgoogle.com | 스프레드시트·프레젠테이션·이메일 Google 도구 실무 활용 영상 강의 | 무료 | google-ecosystem-map | ✅ |
+| Google Career Certificates | https://grow.google/certificates/ | IT 지원·데이터 분석·UX 디자인·사이버 보안 6개월 취업 연계 자격증 | 무료+유료 | google-ecosystem-map | ✅ |
 
 ---
 
@@ -177,15 +177,15 @@
 
 | 서비스명 | URL | 설명 | 뱃지 | 출처 | detail |
 |---------|-----|------|------|------|--------|
-| Google Admin Console | https://admin.google.com | Workspace 사용자·기기·앱·보안 정책 중앙 관리 IT 관리자 콘솔 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Play Console | https://play.google.com/console | Android 앱 출시·관리·매출·설치·리뷰·충돌 분석 개발자 대시보드 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Search Console | https://search.google.com/search-console | 검색 노출·클릭·색인·코어 웹 바이탈 모니터링 웹마스터 도구 | 무료 | google-ecosystem-map | 🔲 |
-| Google Cloud Console | https://console.cloud.google.com | GCP 리소스 생성·모니터링·IAM·결제 통합 관리 클라우드 인프라 포털 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Firebase Console | https://console.firebase.google.com | Firebase 프로젝트 DB·인증·호스팅·크래시리틱스·원격 구성 통합 관리 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Google Ads Manager | https://ads.google.com | Google Ads 캠페인·예산·입찰·성과 보고서 관리 광고주 중앙 콘솔 | 무료+유료 | google-ecosystem-map | 🔲 |
-| Analytics Admin | https://analytics.google.com | GA4 속성·데이터 스트림·사용자 권한·데이터 보관 설정 관리 패널 | 무료 | google-ecosystem-map | 🔲 |
-| AdMob Console | https://admob.google.com | 모바일 앱 내 광고 수익 관리·광고 단위·캠페인·수익 분석 콘솔 | 무료 | google-ecosystem-map | 🔲 |
-| Google API Console | https://console.developers.google.com | Google API 사용 설정·API 키·OAuth·사용량 할당량 관리 개발자 포털 | 무료 | google-ecosystem-map | 🔲 |
-| Google Domains | https://domains.google.com | 도메인 등록·DNS 설정·이메일 포워딩·WHOIS 관리 도메인 콘솔 | 유료 | google-ecosystem-map | 🔲 |
-| Tag Manager Console | https://tagmanager.google.com | 웹·앱 마케팅·분석 태그 코드 없이 추가·수정·게시 태그 관리 콘솔 | 무료 | google-ecosystem-map | 🔲 |
-| Looker Studio | https://lookerstudio.google.com | 다양한 소스 연결 인터랙티브 대시보드 무료 BI 도구 | 무료 | google-ecosystem-map | 🔲 |
+| Google Admin Console | https://admin.google.com | Workspace 사용자·기기·앱·보안 정책 중앙 관리 IT 관리자 콘솔 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Play Console | https://play.google.com/console | Android 앱 출시·관리·매출·설치·리뷰·충돌 분석 개발자 대시보드 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Search Console | https://search.google.com/search-console | 검색 노출·클릭·색인·코어 웹 바이탈 모니터링 웹마스터 도구 | 무료 | google-ecosystem-map | ✅ |
+| Google Cloud Console | https://console.cloud.google.com | GCP 리소스 생성·모니터링·IAM·결제 통합 관리 클라우드 인프라 포털 | 무료+유료 | google-ecosystem-map | ✅ |
+| Firebase Console | https://console.firebase.google.com | Firebase 프로젝트 DB·인증·호스팅·크래시리틱스·원격 구성 통합 관리 | 무료+유료 | google-ecosystem-map | ✅ |
+| Google Ads Manager | https://ads.google.com | Google Ads 캠페인·예산·입찰·성과 보고서 관리 광고주 중앙 콘솔 | 무료+유료 | google-ecosystem-map | ✅ |
+| Analytics Admin | https://analytics.google.com | GA4 속성·데이터 스트림·사용자 권한·데이터 보관 설정 관리 패널 | 무료 | google-ecosystem-map | ✅ |
+| AdMob Console | https://admob.google.com | 모바일 앱 내 광고 수익 관리·광고 단위·캠페인·수익 분석 콘솔 | 무료 | google-ecosystem-map | ✅ |
+| Google API Console | https://console.developers.google.com | Google API 사용 설정·API 키·OAuth·사용량 할당량 관리 개발자 포털 | 무료 | google-ecosystem-map | ✅ |
+| Google Domains | https://domains.google.com | 도메인 등록·DNS 설정·이메일 포워딩·WHOIS 관리 도메인 콘솔 | 유료 | google-ecosystem-map | ✅ |
+| Tag Manager Console | https://tagmanager.google.com | 웹·앱 마케팅·분석 태그 코드 없이 추가·수정·게시 태그 관리 콘솔 | 무료 | google-ecosystem-map | ✅ |
+| Looker Studio | https://lookerstudio.google.com | 다양한 소스 연결 인터랙티브 대시보드 무료 BI 도구 | 무료 | google-ecosystem-map | ✅ |

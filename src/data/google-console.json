@@ -9,80 +9,152 @@
       "url": "https://admin.google.com",
       "desc": "Workspace 사용자·기기·앱·보안 정책 중앙 관리 IT 관리자 콘솔",
       "badge": "freepaid",
-      "nameKo": "구글 관리 콘솔"
+      "nameKo": "구글 관리 콘솔",
+      "detail": {
+        "intro": "Google Workspace 조직의 IT 관리자가 사용하는 중앙 관리 포털. 사용자 계정 생성·삭제, 기기 관리, 앱 접근 권한, 보안 정책을 한 곳에서 설정할 수 있다.",
+        "features": ["사용자·그룹·조직 단위(OU) 계층 관리", "Chromebook·모바일 기기 MDM 정책 적용", "앱 접근 허용·차단 및 OAuth 권한 검토", "보안 알림·감사 로그·2단계 인증 강제 설정"],
+        "usage": "관리자 계정으로 admin.google.com에 로그인한다. 좌측 메뉴에서 사용자·기기·앱·보안 영역을 각각 관리한다.",
+        "notes": "Workspace 구독 필수. Education Fundamentals 등 무료 교육용 플랜도 동일 콘솔 사용."
+      }
     },
     {
       "name": "Google Play Console",
       "url": "https://play.google.com/console",
       "desc": "Android 앱 출시·관리·매출·설치·리뷰·충돌 분석 개발자 대시보드",
       "badge": "freepaid",
-      "nameKo": "구글 플레이 콘솔"
+      "nameKo": "구글 플레이 콘솔",
+      "detail": {
+        "intro": "Android 앱 개발자가 Play Store에 앱을 출시하고 관리하는 공식 대시보드. 설치 수·매출·충돌·리뷰 분석부터 A/B 테스트, 단계적 출시까지 전 과정을 지원한다.",
+        "features": ["앱 출시·업데이트·트랙(내부·비공개·공개) 관리", "Vitals: ANR·충돌·배터리 등 앱 품질 지표 모니터링", "인앱 상품·구독·프로모션 설정 및 매출 보고서", "Android App Bundle·테스트 기기 관리"],
+        "usage": "play.google.com/console에서 개발자 등록($25 일회성 수수료) 후 앱 프로젝트를 생성한다. APK/AAB 업로드 후 스토어 등록 정보를 작성하고 검토를 요청한다.",
+        "notes": "앱 매출의 15~30% Google 수수료 적용. 개발자 정책 위반 시 계정 정지 가능."
+      }
     },
     {
       "name": "Google Search Console",
       "url": "https://search.google.com/search-console",
       "desc": "검색 노출·클릭·색인·코어 웹 바이탈 모니터링 웹마스터 도구",
       "badge": "free",
-      "nameKo": "구글 서치 콘솔"
+      "nameKo": "구글 서치 콘솔",
+      "detail": {
+        "intro": "웹사이트가 Google 검색에서 어떻게 표시되는지 모니터링하고 최적화하는 무료 SEO 필수 도구. 검색 노출·클릭·색인 상태·Core Web Vitals를 한눈에 파악한다.",
+        "features": ["검색 성과: 쿼리·페이지별 노출·클릭·CTR·순위 분석", "색인 상태: 색인된 페이지 수·오류·제외 원인 확인", "Core Web Vitals: LCP·INP·CLS 현황 및 개선 제안", "사이트맵 제출·URL 검사·수동 조치 확인"],
+        "usage": "사이트 소유권 확인(HTML 태그·DNS·Google Analytics 등) 후 Search Console에 속성을 추가한다. 사이트맵을 제출하면 Google 크롤링이 최적화된다.",
+        "notes": "Google Analytics와 연동하면 검색 유입 데이터를 함께 분석할 수 있다."
+      }
     },
     {
       "name": "Google Cloud Console",
       "url": "https://console.cloud.google.com",
       "desc": "GCP 리소스 생성·모니터링·IAM·결제 통합 관리 클라우드 인프라 포털",
       "badge": "freepaid",
-      "nameKo": "구글 클라우드 콘솔"
+      "nameKo": "구글 클라우드 콘솔",
+      "detail": {
+        "intro": "Google Cloud Platform의 모든 서비스를 브라우저에서 관리하는 통합 포털. VM·데이터베이스·AI API·네트워크·IAM·결제까지 GCP 전반을 GUI로 제어한다.",
+        "features": ["Compute Engine·GKE·Cloud Run 인스턴스 생성·모니터링", "IAM 권한·서비스 계정·조직 정책 관리", "Cloud Shell 내장 터미널(브라우저에서 gcloud CLI 사용)", "결제 알림·예산 설정·비용 분석 대시보드"],
+        "usage": "console.cloud.google.com 접속 후 프로젝트를 선택하거나 생성한다. 좌측 메뉴에서 서비스를 탐색하고, Cloud Shell로 CLI 작업도 바로 가능하다.",
+        "notes": "신규 가입 시 $300 무료 크레딧(90일) 제공. 인프라 변경은 즉시 비용에 영향."
+      }
     },
     {
       "name": "Firebase Console",
       "url": "https://console.firebase.google.com",
       "desc": "Firebase 프로젝트 DB·인증·호스팅·크래시리틱스·원격 구성 통합 관리",
       "badge": "freepaid",
-      "nameKo": "파이어베이스 콘솔"
+      "nameKo": "파이어베이스 콘솔",
+      "detail": {
+        "intro": "Firebase 프로젝트의 모든 서비스를 관리하는 통합 대시보드. Realtime DB·Firestore·인증·호스팅·크래시리틱스·원격 구성·A/B 테스트를 한 콘솔에서 운영한다.",
+        "features": ["Firestore·Realtime Database 데이터 조회·수정·보안 규칙 편집", "Authentication 가입 방식·사용자 목록·비활성화 관리", "Crashlytics 앱 충돌 스택 트레이스·영향 사용자 수 분석", "Remote Config A/B 테스트·기능 플래그 실시간 배포"],
+        "usage": "console.firebase.google.com에서 프로젝트를 생성하고 앱(iOS·Android·웹)을 추가한다. 각 서비스는 좌측 메뉴에서 독립적으로 설정한다.",
+        "notes": "Spark(무료)·Blaze(종량제) 플랜. 무료 플랜에도 충분한 할당량 제공."
+      }
     },
     {
       "name": "Google Ads Manager",
       "url": "https://ads.google.com",
       "desc": "Google Ads 캠페인·예산·입찰·성과 보고서 관리 광고주 중앙 콘솔",
-      "badge": "freepaid"
+      "badge": "freepaid",
+      "detail": {
+        "intro": "Google Ads 캠페인을 생성·운영·최적화하는 광고주 중앙 관리 콘솔. 검색·디스플레이·유튜브·앱 광고 캠페인을 하나의 대시보드에서 관리한다.",
+        "features": ["캠페인·광고 그룹·키워드·광고 소재 생성 및 수정", "스마트 입찰(Target CPA·ROAS) 및 예산 자동 최적화", "전환 추적 설정 및 성과 보고서 커스텀 대시보드", "MCC(내 클라이언트 센터) 다중 계정 통합 관리"],
+        "usage": "ads.google.com에서 계정을 만들고 청구 정보를 등록한다. 캠페인 목표(판매·리드·트래픽 등)를 선택하면 설정 가이드가 제공된다.",
+        "notes": "소액으로 시작 가능. Google Analytics·Search Console 연동 시 전환 분석이 강화된다."
+      }
     },
     {
       "name": "Analytics Admin",
       "url": "https://analytics.google.com",
       "desc": "GA4 속성·데이터 스트림·사용자 권한·데이터 보관 설정 관리 패널",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google Analytics 4(GA4)의 속성 설정을 관리하는 관리자 패널. 데이터 스트림 추가, 사용자 권한, 이벤트·전환 설정, 데이터 보관 기간 등을 구성한다.",
+        "features": ["GA4 속성·데이터 스트림(웹·iOS·Android) 생성 관리", "사용자 및 역할 권한(뷰어·편집자·관리자) 설정", "이벤트 수정·전환 마킹·잠재고객 정의", "데이터 보관 기간·BigQuery 내보내기 연결"],
+        "usage": "analytics.google.com 좌측 하단 '관리' 메뉴에서 속성 설정에 접근한다. 새 속성은 '속성 만들기'로 생성하고 측정 ID를 웹사이트에 삽입한다.",
+        "notes": "무료. BigQuery 연동 시 원시 이벤트 데이터를 SQL로 분석 가능."
+      }
     },
     {
       "name": "AdMob Console",
       "url": "https://admob.google.com",
       "desc": "모바일 앱 내 광고 수익 관리·광고 단위·캠페인·수익 분석 콘솔",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "모바일 앱 개발자가 앱 내 광고를 설정하고 수익을 관리하는 Google AdMob 대시보드. 배너·전면·보상형·네이티브 광고 단위를 생성하고 수익 리포트를 분석한다.",
+        "features": ["배너·전면·보상형·네이티브 광고 단위 생성", "미디에이션: 여러 광고 네트워크 경쟁 입찰로 eCPM 최적화", "앱별·광고 형식별 수익·노출·CTR 리포트", "Firebase·Google Analytics 연동 사용자 행동 분석"],
+        "usage": "admob.google.com에서 앱을 추가하고 광고 단위를 만든다. 생성된 광고 단위 ID를 앱 SDK 코드에 삽입하면 광고가 노출된다.",
+        "notes": "SDK는 Android/iOS 모두 지원. 수익금은 월별 지급($100 이상 시)."
+      }
     },
     {
       "name": "Google API Console",
       "url": "https://console.developers.google.com",
       "desc": "Google API 사용 설정·API 키·OAuth·사용량 할당량 관리 개발자 포털",
       "badge": "free",
-      "nameKo": "구글 API 콘솔"
+      "nameKo": "구글 API 콘솔",
+      "detail": {
+        "intro": "Google의 각종 API(Maps·YouTube·Drive·Gmail 등)를 활성화하고 인증 정보를 관리하는 개발자 포털. Google Cloud Console의 API & 서비스 섹션과 동일하다.",
+        "features": ["200개 이상 Google API 검색·활성화·비활성화", "API 키·OAuth 2.0 클라이언트 ID·서비스 계정 발급", "API별 일일 요청 수·오류율·응답 시간 모니터링", "할당량 증가 요청 및 사용량 알림 설정"],
+        "usage": "console.developers.google.com에서 프로젝트를 선택하고 '라이브러리'에서 API를 검색해 활성화한다. '사용자 인증 정보'에서 API 키를 발급한다.",
+        "notes": "API 키는 HTTP 리퍼러·IP 제한으로 반드시 보호할 것. Maps·YouTube 등 유료 API는 할당량 초과 시 과금."
+      }
     },
     {
       "name": "Google Domains",
       "url": "https://domains.google.com",
       "desc": "도메인 등록·DNS 설정·이메일 포워딩·WHOIS 관리 도메인 콘솔",
       "badge": "paid",
-      "nameKo": "구글 도메인"
+      "nameKo": "구글 도메인",
+      "detail": {
+        "intro": "Google이 운영하는 도메인 등록·관리 서비스. DNS 레코드 편집, 이메일 포워딩, WHOIS 개인정보 보호를 간단한 UI로 제공한다. 단, 2023년 Squarespace로 이전 진행 중.",
+        "features": ["300개 이상 TLD 도메인 등록 및 갱신", "DNS 레코드(A·CNAME·MX·TXT 등) 편집", "이메일 포워딩 최대 100개 별칭 무료 제공", "WHOIS 개인정보 보호 무료 포함"],
+        "usage": "domains.google.com에서 원하는 도메인을 검색하고 구매한다. DNS 설정은 '내 도메인' → DNS 메뉴에서 편집한다.",
+        "notes": "2023년 Google이 Squarespace에 매각 발표. 기존 도메인은 Squarespace Domains로 이전 예정."
+      }
     },
     {
       "name": "Tag Manager Console",
       "url": "https://tagmanager.google.com",
       "desc": "웹·앱 마케팅·분석 태그 코드 없이 추가·수정·게시 태그 관리 콘솔",
-      "badge": "free"
+      "badge": "free",
+      "detail": {
+        "intro": "Google Tag Manager(GTM)의 관리 콘솔. 마케팅·분석 태그를 개발자 도움 없이 추가·수정·게시할 수 있다. Google Analytics·Ads·Facebook Pixel 등 수백 개 태그 템플릿을 지원한다.",
+        "features": ["태그·트리거·변수 시각적 편집기로 설정", "미리보기 모드로 태그 발동 조건 실시간 디버깅", "버전 관리: 변경 이력 저장·롤백 지원", "서버 사이드 GTM 컨테이너 지원"],
+        "usage": "tagmanager.google.com에서 계정·컨테이너를 만들고 생성된 GTM 스니펫을 웹사이트 <head>와 <body>에 삽입한다. 이후 모든 태그는 GTM 콘솔에서만 관리한다.",
+        "notes": "완전 무료. GA4·Google Ads 태그는 GTM 경유 설치가 권장 방식."
+      }
     },
     {
       "name": "Looker Studio",
       "url": "https://lookerstudio.google.com",
       "desc": "다양한 소스 연결 인터랙티브 대시보드 무료 BI 도구",
       "badge": "free",
-      "nameKo": "루커 스튜디오"
+      "nameKo": "루커 스튜디오",
+      "detail": {
+        "intro": "Google이 제공하는 무료 BI 및 데이터 시각화 도구. Google Analytics·BigQuery·Sheets·Search Console 등 다양한 데이터 소스를 연결해 인터랙티브 대시보드와 리포트를 만든다.",
+        "features": ["GA4·BigQuery·Sheets·Search Console 등 800개 이상 커넥터", "드래그앤드롭 차트·표·지도·스코어카드 편집기", "실시간 데이터 갱신 및 날짜 범위 필터 공유", "팀 협업·리포트 공유·예약 이메일 전송"],
+        "usage": "lookerstudio.google.com에서 새 보고서를 만들고 데이터 소스를 연결한다. 차트 유형을 선택하고 측정기준·측정항목을 드래그해 배치한다.",
+        "notes": "완전 무료. 고급 기능(Looker 모델링 레이어 등)은 유료 Looker 플랫폼 필요."
+      }
     }
   ]
 }

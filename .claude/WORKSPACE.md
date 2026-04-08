@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 2 — detail 필드 순차 구현 |
-| 상태 | 🔄 detail 순차 작성 진행 중 — 22/24 카테고리 완료 (316/338개) |
+| 상태 | ✅ detail 전체 완료 — 24/24 카테고리 완료 (338/338개). GitHub Pages 재배포 진행 중 |
 | 현재 플랜 | `.claude/plans/phase2-detail.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
