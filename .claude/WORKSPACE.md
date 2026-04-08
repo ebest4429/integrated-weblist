@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 3 — 검색 고도화 + 태그 필터 |
-| 상태 | 🔲 Phase 3 시작 전 — 플랜 작성 완료, 구현 대기 |
+| 상태 | 🔄 Phase 3 진행중 — P3-1~P3-5 구현 완료, P3-6(선택) 미진행 |
 | 현재 플랜 | `.claude/plans/phase3-search-filter.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -45,6 +45,17 @@ phase3 진행 후 정리 예정.
 ---
 
 ## 진행 이력
+
+### 2026-04-08 Phase 3 P3-1~P3-5 구현 완료
+
+| 항목 | 내용 |
+|------|------|
+| P3-1 | FilterBar.jsx 신규 생성 — 뱃지 6종 토글, LocalStorage 저장 |
+| P3-2 | 그룹 필터 5종 토글, 사이드바 클릭 시 해당 그룹 자동 설정 |
+| P3-3 | 검색 대상 확장(detail.intro/features), 매칭 하이라이트, 검색 결과 없음 안내 |
+| P3-4 | URL 파라미터 ?q=&badge=&group= 동기화, 직접 접근 시 상태 복원 |
+| P3-5 | 전체 N개 중 M개 통계 표시, 필터 활성 시 초기화 버튼 |
+| 빌드 | npm run build 성공 (525kB 경고는 P3-6 선택 항목 대상) |
 
 ### 2026-04-08 Phase 2 완료 — detail 전체 작성 + Phase 3 전환
 

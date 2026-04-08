@@ -1,5 +1,21 @@
 import { useState } from 'react'
 
+// 검색어 매칭 텍스트 하이라이트 (P3-3)
+function Highlight({ text, query }) {
+  if (!query || !text) return text
+  const idx = text.toLowerCase().indexOf(query.toLowerCase())
+  if (idx === -1) return text
+  return (
+    <>
+      {text.slice(0, idx)}
+      <mark style={{ background: '#fbbf24', color: '#1a1a1b', borderRadius: '2px', padding: '0 1px' }}>
+        {text.slice(idx, idx + query.length)}
+      </mark>
+      {text.slice(idx + query.length)}
+    </>
+  )
+}
+
 const BADGE = {
   free:     { label: '무료',      bg: 'rgba(34,197,94,0.18)',  color: '#4ade80' },
   paid:     { label: '유료',      bg: 'rgba(249,115,22,0.18)', color: '#fb923c' },
@@ -51,7 +67,7 @@ function DetailPanel({ detail, url }) {
   )
 }
 
-export default function ItemRow({ item, isFav, onToggleFav }) {
+export default function ItemRow({ item, isFav, onToggleFav, searchQuery }) {
   const [open, setOpen] = useState(false)
   const [hovered, setHovered] = useState(false)
   const badge = BADGE[item.badge] || BADGE.free
@@ -78,18 +94,18 @@ export default function ItemRow({ item, isFav, onToggleFav }) {
         {/* 서비스명 2줄 — 고정 너비 */}
         <div style={{ width: '280px', flexShrink: 0, minWidth: 0 }}>
           <div style={{ fontSize: '15px', fontWeight: '600', color: '#ffffff', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-            {item.name}
+            <Highlight text={item.name} query={searchQuery} />
           </div>
           {item.nameKo && (
             <div style={{ fontSize: '12px', color: '#cccccc', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginTop: '2px' }}>
-              {item.nameKo}
+              <Highlight text={item.nameKo} query={searchQuery} />
             </div>
           )}
         </div>
 
         {/* 설명 — flex-1 */}
         <div style={{ flex: 1, minWidth: 0, fontSize: '15px', color: '#ffffff', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-          {item.desc}
+          <Highlight text={item.desc} query={searchQuery} />
         </div>
 
         {/* 뱃지 */}
