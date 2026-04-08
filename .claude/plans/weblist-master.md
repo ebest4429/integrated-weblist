@@ -1,6 +1,6 @@
 # 통합 웹 리소스 허브 — 마스터플랜
 
-**현재 활성 플랜:** `phase2-detail.md`
+**현재 활성 플랜:** `phase3-search-filter.md`
 
 > 참조 소스: `ai_resource_hub/index.html`, `google-ecosystem-map/index.html`, `.Source-Files/소스.md`
 
@@ -22,6 +22,7 @@
 |-------|------|----------|------|
 | Phase 1 | 초기화 + Vite+React 구축 | `phase1-build.md` | ✅ 완료 |
 | Phase 2 | detail 필드 순차 구현 | `phase2-detail.md` | ✅ 완료 |
+| Phase 3 | 검색 고도화 + 태그 필터 | `phase3-search-filter.md` | 🔄 진행중 |
 
 ---
 
@@ -38,6 +39,15 @@
   - [x] 소스.md 추가 항목 반영
   - [x] LocalStorage 즐겨찾기·사이드바 너비 유지
 - [x] GitHub Pages 실제 배포 완료 (`npm run deploy` 실행)
+
+---
+
+## Phase 2 완료 조건
+
+- [x] 전체 338개 서비스 detail 필드 작성 완료 (24/24 카테고리)
+- [x] verify-detail.py 전 카테고리 100% 출력 확인
+- [x] ItemRow 펼침 영역 detail 정상 표시 확인
+- [x] GitHub Pages 재배포 완료 (2026-04-08)
 
 ---
 
