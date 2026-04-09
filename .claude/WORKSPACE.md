@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1 (ItemDetail UI) 부터 시작 |
+| 상태 | 🔄 진행중 — P4-1 완료, P4-2 (mcp-automation) 진행 예정 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 

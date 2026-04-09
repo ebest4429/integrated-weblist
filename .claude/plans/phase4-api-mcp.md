@@ -52,10 +52,10 @@
 
 ### P4-1. ItemDetail.jsx UI 확장
 
-- 🔲 detail 객체에 api_docs / dashboard / mcp 필드 렌더링 추가
+- ✅ detail 객체에 api_docs / dashboard / mcp 필드 렌더링 추가
   - api_docs, dashboard 중 존재하면: 구분선(`<hr>`) 출력 후 API·대시보드 링크 표시
   - mcp 존재하면: Claude Desktop config 코드블록 + CLI 명령어 코드블록 + 정보 링크 표시
-- 🔲 빌드 확인
+- ✅ 빌드 확인
 
 ---
 

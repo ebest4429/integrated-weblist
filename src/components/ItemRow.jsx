@@ -28,6 +28,14 @@ const BADGE = {
 function DetailPanel({ detail, url }) {
   const labelStyle = { fontSize: '12px', fontWeight: '700', color: '#888888', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '4px' }
   const sectionStyle = { marginBottom: '12px' }
+  const linkStyle = { fontSize: '13px', color: '#60a5fa', textDecoration: 'none' }
+  const codeStyle = {
+    display: 'block', background: '#1e1e1f', border: '1px solid #404042', borderRadius: '6px',
+    padding: '10px 12px', fontSize: '12px', color: '#e5e5e5', fontFamily: 'monospace',
+    whiteSpace: 'pre-wrap', wordBreak: 'break-all', margin: 0, lineHeight: 1.6,
+  }
+  const subLabelStyle = { fontSize: '11px', color: '#666', marginBottom: '4px' }
+  const hasExtra = detail.api_docs || detail.dashboard || detail.mcp
 
   return (
     <div style={{ fontSize: '14px', color: '#cccccc', lineHeight: 1.7 }}>
@@ -63,6 +71,60 @@ function DetailPanel({ detail, url }) {
         onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
         onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
       >{url}</a>
+
+      {/* API · MCP 섹션 — 해당 필드 있을 때만 표시 */}
+      {hasExtra && (
+        <>
+          <hr style={{ border: 'none', borderTop: '1px solid #404042', margin: '14px 0' }} />
+
+          {/* API 문서 */}
+          {detail.api_docs && (
+            <div style={sectionStyle}>
+              <div style={labelStyle}>API 문서</div>
+              <a href={detail.api_docs} target="_blank" rel="noopener noreferrer" style={linkStyle}
+                onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+                onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+              >{detail.api_docs}</a>
+            </div>
+          )}
+
+          {/* 대시보드 */}
+          {detail.dashboard && (
+            <div style={sectionStyle}>
+              <div style={labelStyle}>대시보드</div>
+              <a href={detail.dashboard} target="_blank" rel="noopener noreferrer" style={linkStyle}
+                onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+                onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+              >{detail.dashboard}</a>
+            </div>
+          )}
+
+          {/* MCP 연결 */}
+          {detail.mcp && (
+            <div style={sectionStyle}>
+              <div style={labelStyle}>MCP 연결 (Claude)</div>
+              {detail.mcp.desktop_config && (
+                <div style={{ marginBottom: '8px' }}>
+                  <div style={subLabelStyle}>Claude Desktop — claude_desktop_config.json</div>
+                  <pre style={codeStyle}>{detail.mcp.desktop_config}</pre>
+                </div>
+              )}
+              {detail.mcp.cli_command && (
+                <div style={{ marginBottom: '8px' }}>
+                  <div style={subLabelStyle}>Claude CLI</div>
+                  <pre style={codeStyle}>{detail.mcp.cli_command}</pre>
+                </div>
+              )}
+              {detail.mcp.info_url && (
+                <a href={detail.mcp.info_url} target="_blank" rel="noopener noreferrer" style={linkStyle}
+                  onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+                  onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+                >MCP 정보 →</a>
+              )}
+            </div>
+          )}
+        </>
+      )}
     </div>
   )
 }
