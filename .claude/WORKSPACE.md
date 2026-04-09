@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1~P4-5 완료, P4-6 (ai-platforms) 다음 |
+| 상태 | 🔄 진행중 — P4-1~P4-5 완료, P4-6 (ai-platforms)부터 재개 필요 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -36,7 +36,10 @@ phase4-api-mcp.md 참조.
 5. ✅ P4-5: hosting-infra JSON 업데이트 완료 (18개)
    - MCP 추가: Vercel(info_url), AWS(awslabs/mcp info_url), Cloudflare(@cloudflare/mcp-server-cloudflare), Supabase(@supabase/mcp-server-supabase)
    - API/dashboard 추가: Netlify, Railway, Render, Cron-job.org, Firebase, Clerk, DigitalOcean, NCloud, Cloud Run, App Engine, GKE 등
-6. 🔲 P4-6 이후: ai-platforms, api, payment, nocode-collab, design-tools, marketing-seo, google-*, 에셋 계열
+6. 🔲 P4-6: ai-platforms JSON 업데이트 (18개 — 다음 세션 시작점)
+   - API 있는 서비스: ChatGPT(OpenAI MCP 포함), Claude, Gemini, Grok, Perplexity, Microsoft Copilot, Mistral AI, Hugging Face, Ollama, Qwen
+   - API 없는 서비스(스킵): NotebookLM, Phind, Genspark, Manus, chat.z.ai, Kimi, Flowith, abocado.ai
+7. 🔲 P4-7 이후: api, payment, nocode-collab, design-tools, marketing-seo, google-*, 에셋 계열
 
 ### 보류 — Phase 3에서 이월
 
