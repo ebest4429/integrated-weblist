@@ -95,8 +95,11 @@ AI·개발·콘텐츠 제작·마케팅·자동화에 필요한 서비스 링크
 integrated-weblist/
 ├── .claude/
 │   ├── plans/
-│   │   ├── weblist-master.md       # 마스터플랜
-│   │   └── phase1-build.md         # 현재 활성 플랜
+│   │   ├── weblist-master.md         # 마스터플랜
+│   │   ├── phase3-search-filter.md   # 완료 (phase1·2 플랜 파일은 미보존)
+│   │   ├── phase4-api-mcp.md         # 현재 활성 플랜
+│   │   └── designs/
+│   │       └── phase2-detail.md      # 미삭제 잔재 (WORKSPACE.md 보류 항목 참조)
 │   ├── CLAUDE.md
 │   ├── CONTEXT.md                  # 이 파일
 │   ├── RULES.md
@@ -150,7 +153,14 @@ integrated-weblist/
         "intro": "서비스 소개",
         "features": ["주요기능1", "주요기능2"],
         "usage": "사용법 설명",
-        "notes": "기타 메모"
+        "notes": "기타 메모",
+        "api_docs": "https://...",
+        "dashboard": "https://...",
+        "mcp": {
+          "desktop_config": "{ \"mcpServers\": { ... } }",
+          "cli_command": "claude mcp add 서비스명 -- npx ...",
+          "info_url": "https://..."
+        }
       }
     }
   ]
@@ -160,3 +170,13 @@ integrated-weblist/
 **badge 값:** `free` `paid` `freepaid` `open` `exp` `dep`
 
 **detail 필드:** optional — 없는 서비스는 desc만 표시. 그룹별 split 파일 기준 카테고리별 순차 작성.
+
+**Phase 4 추가 필드 (detail 객체 내 선택적):**
+- `api_docs` — API 문서 링크. API 제공 서비스만 포함.
+- `dashboard` — 대시보드·콘솔 링크. 로그인 후 관리 페이지가 있는 서비스만 포함.
+- `mcp` — MCP 연결 정보. Claude에서 직접 연결 가능한 서비스만 포함.
+  - `desktop_config` — claude_desktop_config.json 스니펫 (필수)
+  - `cli_command` — `claude mcp add` CLI 명령어 (필수)
+  - `info_url` — 공식 문서 링크 (보조). `desktop_config`/`cli_command` 없이 `info_url`만 단독 사용 금지.
+
+> **gen-json.py 호환성**: api_docs·dashboard·mcp는 detail 객체 내에 위치하므로 gen-json.py 실행 시 기존 detail 보존 로직에 의해 유지됨. 단, master-source-*.md에는 별도 컬럼이 없으므로 Phase 4 데이터는 JSON 직접 관리.

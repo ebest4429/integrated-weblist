@@ -33,9 +33,10 @@
 
 ## 구현 점검 대상 (/점검-구현 전용)
 
-### 실제 구현 파일
-# 플랜 항목 구현 여부를 확인할 실제 파일들
-# 필요 시 아래에 추가 (주석 해제 또는 직접 입력)
-# - .claude/commands/재정계획.md
-# - .claude/hooks/session-gate.js
-# - .claude/hooks/session-read-tracker.js
+### 실제 구현 파일 (Phase 4 기준)
+- src/components/ItemRow.jsx
+- src/data/ai-platforms.json
+- src/data/mcp-automation.json
+- src/data/dev-tools.json
+- src/data/database.json
+- src/data/hosting-infra.json

@@ -24,7 +24,10 @@
 1. 플랜에 없는 파일 신규 생성
 2. 현재 Phase 범위를 초과한 작업
 3. `master-source-{그룹}.md` 거치지 않고 JSON 직접 수동 편집 (gen-json.py로만 갱신)
+   - **예외 (Phase 4)**: api_docs·dashboard·mcp 필드는 master-source에 컬럼이 없으므로 JSON 직접 편집 허용.
+     취지: gen-json.py가 detail 객체 전체를 보존하므로 실행해도 덮어씌워지지 않음. 단, master-source에 해당 컬럼 추가 전까지는 JSON이 단일 진실 소스.
 4. WORKSPACE.md Write 도구로 덮어쓰기 (Edit만 허용)
+5. MCP 정보 기재 시 `info_url`만 단독 사용 금지 — `desktop_config` + `cli_command` 없이 링크만 넣으면 UI에 코드블록이 표시되지 않아 사용자에게 무의미함.
 
 ---
 

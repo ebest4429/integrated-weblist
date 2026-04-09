@@ -49,6 +49,12 @@ phase4-api-mcp.md 참조.
 - designs/phase2-detail.md 미삭제: Phase 4 완료 후 정리
 - 점검-scope 갱신 문제: 추후 해결
 
+### 보류 — Phase 4 구조 문제
+
+- **코드블록 복사 버튼 미구현**: ItemRow.jsx DetailPanel의 `<pre>` 코드블록에 복사 버튼 없음. 취지: P4-1 UI 확장 시 미포함. 다음 UI 작업 시 반드시 추가.
+- **Vercel MCP 데이터 불완전**: 현재 `info_url`만 존재, `desktop_config`/`cli_command` 없어 UI에 코드블록 미표시. 취지: 품질 기준 미정립 상태에서 작성됨. 재조사 후 수정 필요.
+- **master-source ↔ JSON 동기화 미완**: Phase 4에서 추가한 api_docs·dashboard·mcp 데이터가 master-source-*.md에 없음. 취지: master-source에 해당 컬럼이 없는 구조 문제. gen-json.py detail 보존 로직으로 실제 손실 위험은 없으나, master-source가 단일 진실 소스 역할을 못함. Phase 4 완료 후 컬럼 추가 방안 협의 필요.
+
 ---
 
 ## 진행 이력
