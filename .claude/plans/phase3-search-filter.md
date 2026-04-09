@@ -60,6 +60,14 @@
   > 취지: 현재 빌드 시 520kB 단일 청크 경고. 카테고리별 lazy load로 초기 로드 개선.
   > 선택 항목: UX 영향 측정 후 진행 여부 결정.
 
+### P3-7. 웹디자인 템플릿 신규 카테고리 추가
+
+- ✅ `src/data/web-templates.json` 신규 생성 (creative 그룹, 9개 서비스)
+  - 소스: ko.wix.com/templates, jane-aeiou.tistory.com/35, toyou101.tistory.com/2, pixso.net/kr/skills/web-design-temples-top7 WebFetch 수집
+  - 서비스: HTML5 UP, Start Bootstrap, Creative Tim, Colorlib, FreeHTML5, Themezy, Wix 템플릿, Pixso, 웹쟁이
+  - detail 필드: MCP WebFetch로 수집한 실제 사이트 정보 기반 작성
+- ✅ `src/data/categories.js` — CATEGORY_META_RAW + DATA_LOADERS에 web-templates 추가
+
 ---
 
 ## 완료 조건

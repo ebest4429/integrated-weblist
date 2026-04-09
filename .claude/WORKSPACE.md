@@ -46,6 +46,16 @@ phase3 진행 후 정리 예정.
 
 ## 진행 이력
 
+### 2026-04-09 P3-7 완료 — 웹디자인 템플릿 신규 카테고리 추가
+
+| 항목 | 내용 |
+|------|------|
+| P3-7 | web-templates.json 신규 생성 (creative 그룹, 9개 서비스) |
+| 소스 | MCP WebFetch로 4개 URL 크롤링 후 상세 정보 수집 |
+| 서비스 | HTML5 UP, Start Bootstrap, Creative Tim, Colorlib, FreeHTML5, Themezy, Wix 템플릿, Pixso, 웹쟁이 |
+| categories.js | CATEGORY_META_RAW + DATA_LOADERS에 web-templates 항목 추가 |
+| 빌드 | npm run build 성공 — web-templates-Ctsx4HVJ.js 청크 11.46kB 정상 생성 |
+
 ### 2026-04-08 Phase 3 P3-6 완료 — 동적 import 코드 스플리팅
 
 | 항목 | 내용 |
