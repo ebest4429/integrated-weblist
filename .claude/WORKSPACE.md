@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1·P4-2·P4-3 완료, P4-4 (database) 다음 |
+| 상태 | 🔄 진행중 — P4-1~P4-4 완료, P4-5 (hosting-infra) 다음 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -30,7 +30,9 @@ phase4-api-mcp.md 참조.
 3. ✅ P4-3: dev-tools JSON 업데이트 완료 (24개 전체)
    - MCP 추가: Playwright(npx @playwright/mcp@latest), Sentry(npx @sentry/mcp-server@latest), Docker(MCP Catalog info_url)
    - API/dashboard 추가: Replit, Claude Code, Mintlify, Postman, ngrok, Semgrep, Tailwind, Puppeteer, VS Code, Android Studio, Flutter, TensorFlow
-4. 🔲 P4-4: database JSON 업데이트
+4. ✅ P4-4: database JSON 업데이트 완료 (13개)
+   - MCP 추가: PostgreSQL(@modelcontextprotocol/server-postgres), SQLite(@modelcontextprotocol/server-sqlite), MongoDB(mongodb-mcp-server), Neon(@neondatabase/mcp-server-neon), Redis(@modelcontextprotocol/server-redis)
+   - API/dashboard 추가: Pinecone, Weaviate, Qdrant, Neon, Upstash, MongoDB, PlanetScale, Cloudflare D1, BigQuery
 5. 🔲 P4-5: hosting-infra JSON 업데이트
 6. 🔲 P4-6 이후: ai-platforms, api, payment, nocode-collab, design-tools, marketing-seo, google-*, 에셋 계열
 

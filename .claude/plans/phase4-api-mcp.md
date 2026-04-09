@@ -110,6 +110,8 @@
 
 ### P4-4. database 카테고리 (13개)
 
+- ✅ JSON 업데이트 완료 (13개 전체)
+
 | 서비스 | API | Dashboard | MCP |
 |--------|-----|-----------|-----|
 | PostgreSQL | - | - | ✓ (공식: @modelcontextprotocol/server-postgres) |

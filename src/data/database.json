@@ -19,7 +19,9 @@
           "네임스페이스로 데이터 논리적 분리"
         ],
         "usage": "pinecone.io에서 인덱스 생성 후 Python/Node.js SDK로 벡터 업서트·쿼리. 무료 Starter 플랜: 1개 인덱스·2GB 스토리지.",
-        "notes": "RAG 파이프라인: 문서 임베딩→Pinecone 저장→쿼리 임베딩→유사도 검색→LLM 컨텍스트 주입 순서로 구성. 비용 절감 시 Qdrant 셀프호스팅 비교 검토."
+        "notes": "RAG 파이프라인: 문서 임베딩→Pinecone 저장→쿼리 임베딩→유사도 검색→LLM 컨텍스트 주입 순서로 구성. 비용 절감 시 Qdrant 셀프호스팅 비교 검토.",
+        "api_docs": "https://docs.pinecone.io/reference/api/",
+        "dashboard": "https://app.pinecone.io"
       }
     },
     {
@@ -37,7 +39,9 @@
           "Weaviate Cloud Services(WCS) 관리형 옵션"
         ],
         "usage": "Docker로 로컬 실행 또는 WCS 클라우드 사용. Python/JS/Go/Java SDK 제공. 오픈소스(Apache 2.0) 완전 무료 셀프호스팅 가능.",
-        "notes": "Pinecone 대비 더 많은 기능과 유연성을 제공하나 설정이 복잡함. 멀티모달 검색이 필요하거나 완전 자체 운영이 필요한 경우 적합."
+        "notes": "Pinecone 대비 더 많은 기능과 유연성을 제공하나 설정이 복잡함. 멀티모달 검색이 필요하거나 완전 자체 운영이 필요한 경우 적합.",
+        "api_docs": "https://weaviate.io/developers/weaviate/api",
+        "dashboard": "https://console.weaviate.cloud"
       }
     },
     {
@@ -55,7 +59,9 @@
           "Qdrant Cloud 관리형 + Docker 셀프호스팅"
         ],
         "usage": "Docker: `docker run -p 6333:6333 qdrant/qdrant`. Python SDK: `pip install qdrant-client`. REST API 또는 gRPC로 접근.",
-        "notes": "벡터 DB 중 메모리 효율과 처리 속도 벤치마크 최상위권. 비용 민감한 셀프호스팅 RAG 파이프라인에 Pinecone 대안으로 강력 추천."
+        "notes": "벡터 DB 중 메모리 효율과 처리 속도 벤치마크 최상위권. 비용 민감한 셀프호스팅 RAG 파이프라인에 Pinecone 대안으로 강력 추천.",
+        "api_docs": "https://qdrant.tech/documentation/interfaces/",
+        "dashboard": "https://cloud.qdrant.io"
       }
     },
     {
@@ -73,7 +79,8 @@
           "컬렉션 기반 데이터 구조"
         ],
         "usage": "`pip install chromadb` 후 즉시 사용. `client = chromadb.Client()` (인메모리) 또는 `chromadb.PersistentClient(path)` (영구저장).",
-        "notes": "대규모 프로덕션보다 로컬 개발·프로토타이핑에 최적. 수십만 벡터 이상의 규모에서는 Qdrant·Pinecone으로 마이그레이션 권장."
+        "notes": "대규모 프로덕션보다 로컬 개발·프로토타이핑에 최적. 수십만 벡터 이상의 규모에서는 Qdrant·Pinecone으로 마이그레이션 권장.",
+        "api_docs": "https://docs.trychroma.com/reference/"
       }
     },
     {
@@ -91,7 +98,14 @@
           "Vercel·Railway 원클릭 통합"
         ],
         "usage": "neon.tech에서 프로젝트 생성 후 연결 문자열 복사. 표준 PostgreSQL 클라이언트(psql·prisma·drizzle) 그대로 사용. 무료 플랜: 0.5GB 스토리지·컴퓨팅 시간 제한.",
-        "notes": "서버리스 환경(Vercel Edge Functions 등)에서 콜드스타트 DB 연결 지연이 있을 수 있음. 프로덕션에서는 연결 풀링 활성화 필수."
+        "notes": "서버리스 환경(Vercel Edge Functions 등)에서 콜드스타트 DB 연결 지연이 있을 수 있음. 프로덕션에서는 연결 풀링 활성화 필수.",
+        "api_docs": "https://api-docs.neon.tech/",
+        "dashboard": "https://console.neon.tech",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"neon\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@neondatabase/mcp-server-neon\"],\n      \"env\": {\n        \"NEON_API_KEY\": \"YOUR_API_KEY\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add neon -- npx -y @neondatabase/mcp-server-neon",
+          "info_url": "https://github.com/neondatabase/mcp-server-neon"
+        }
       }
     },
     {
@@ -109,7 +123,9 @@
           "글로벌 복제 — 여러 리전에 자동 분산"
         ],
         "usage": "upstash.com에서 데이터베이스 생성 후 REST URL·토큰 발급. `@upstash/redis` npm 패키지로 Next.js·Edge Functions에서 바로 사용. 무료 플랜: Redis 1개·일 10,000 명령.",
-        "notes": "Vercel·Netlify·Cloudflare Workers 같은 서버리스 환경의 Redis로 사실상 표준. 속도 제한(rate limiting) 구현에 자주 활용."
+        "notes": "Vercel·Netlify·Cloudflare Workers 같은 서버리스 환경의 Redis로 사실상 표준. 속도 제한(rate limiting) 구현에 자주 활용.",
+        "api_docs": "https://upstash.com/docs/redis/",
+        "dashboard": "https://console.upstash.com"
       }
     },
     {
@@ -128,7 +144,14 @@
           "글로벌 클러스터 — AWS·Azure·GCP 멀티리전"
         ],
         "usage": "mongodb.com/atlas에서 클러스터 생성. 무료 M0 티어(512MB). MongoDB Compass GUI 또는 mongosh CLI로 관리. Mongoose·Prisma ORM 지원.",
-        "notes": "관계형 데이터가 복잡하면 PostgreSQL이 유리. 비정형 데이터·빠른 스키마 변경·중첩 문서 구조에서는 MongoDB가 편함."
+        "notes": "관계형 데이터가 복잡하면 PostgreSQL이 유리. 비정형 데이터·빠른 스키마 변경·중첩 문서 구조에서는 MongoDB가 편함.",
+        "api_docs": "https://www.mongodb.com/docs/atlas/api/",
+        "dashboard": "https://cloud.mongodb.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"mongodb\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mongodb-mcp-server\"],\n      \"env\": {\n        \"MDB_MCP_CONNECTION_STRING\": \"mongodb+srv://...\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add mongodb -- npx -y mongodb-mcp-server",
+          "info_url": "https://github.com/mongodb-labs/mongodb-mcp-server"
+        }
       }
     },
     {
@@ -146,7 +169,9 @@
           "Prisma·Drizzle·Laravel 공식 통합"
         ],
         "usage": "planetscale.com에서 DB 생성. `pscale` CLI로 브랜치 생성·머지. 표준 MySQL 연결 문자열 사용. 무료 Hobby 플랜: 5GB 스토리지·1개 DB.",
-        "notes": "2024년 무료 플랜 축소(Hobby 플랜 유료 전환). 현재 요금제 확인 필요. 외래 키 제약 미지원(Vitess 한계) — Prisma relations로 앱 레벨에서 처리."
+        "notes": "2024년 무료 플랜 축소(Hobby 플랜 유료 전환). 현재 요금제 확인 필요. 외래 키 제약 미지원(Vitess 한계) — Prisma relations로 앱 레벨에서 처리.",
+        "api_docs": "https://api.planetscale.com/v1/docs/",
+        "dashboard": "https://app.planetscale.com"
       }
     },
     {
@@ -164,7 +189,9 @@
           "Wrangler CLI로 로컬 개발·마이그레이션 관리"
         ],
         "usage": "`wrangler d1 create <db-name>`으로 생성. `wrangler.toml`에 바인딩 추가 후 Workers 코드에서 `env.DB.prepare(sql).run()` 호출.",
-        "notes": "현재 GA(정식 출시) 상태. 무료 플랜: 100,000 읽기/일·1,000 쓰기/일·5GB 스토리지. Workers 기반 앱 외 독립 사용은 제한적."
+        "notes": "현재 GA(정식 출시) 상태. 무료 플랜: 100,000 읽기/일·1,000 쓰기/일·5GB 스토리지. Workers 기반 앱 외 독립 사용은 제한적.",
+        "api_docs": "https://developers.cloudflare.com/d1/",
+        "dashboard": "https://dash.cloudflare.com"
       }
     },
     {
@@ -182,7 +209,12 @@
           "퍼블릭 도메인 — 라이선스 제약 없음"
         ],
         "usage": "Python: `import sqlite3; conn = sqlite3.connect('app.db')`. Node.js: `better-sqlite3` 패키지. 별도 설치 없이 대부분의 언어 표준 라이브러리에 포함.",
-        "notes": "단일 쓰기 프로세스 제한으로 고동시성 쓰기에는 부적합. 읽기 집약적 앱·로컬 앱·CLI 도구·테스트 DB로 탁월. PocketBase·Cloudflare D1의 기반 DB."
+        "notes": "단일 쓰기 프로세스 제한으로 고동시성 쓰기에는 부적합. 읽기 집약적 앱·로컬 앱·CLI 도구·테스트 DB로 탁월. PocketBase·Cloudflare D1의 기반 DB.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"sqlite\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-sqlite\", \"/path/to/db.sqlite\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add sqlite -- npx -y @modelcontextprotocol/server-sqlite /path/to/db.sqlite",
+          "info_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite"
+        }
       }
     },
     {
@@ -200,7 +232,13 @@
           "Row-Level Security — 행 단위 접근 제어"
         ],
         "usage": "로컬: `brew install postgresql` 또는 Docker `postgres` 이미지. 클라우드: Supabase·Neon·Railway로 즉시 호스팅. Prisma·Drizzle·SQLAlchemy ORM 지원.",
-        "notes": "pgvector 확장으로 벡터 검색 가능 — 소규모 RAG에서 별도 벡터 DB 없이 PostgreSQL 단독으로 처리 가능. Supabase는 PostgreSQL + 부가 서비스의 조합."
+        "notes": "pgvector 확장으로 벡터 검색 가능 — 소규모 RAG에서 별도 벡터 DB 없이 PostgreSQL 단독으로 처리 가능. Supabase는 PostgreSQL + 부가 서비스의 조합.",
+        "api_docs": "https://www.postgresql.org/docs/",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"postgres\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-postgres\", \"postgresql://localhost/mydb\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add postgres -- npx -y @modelcontextprotocol/server-postgres DATABASE_URL",
+          "info_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
+        }
       }
     },
     {
@@ -219,7 +257,14 @@
           "Redis Cluster — 수평 확장·고가용성"
         ],
         "usage": "Docker: `docker run -p 6379:6379 redis`. Node.js: `ioredis` 또는 `@upstash/redis`. Python: `redis-py`. 클라우드 관리형은 Upstash·Redis Cloud·AWS ElastiCache.",
-        "notes": "2024년 라이선스 BSL로 변경(7.4 이상). 오픈소스 포크 Valkey(Linux Foundation)가 대안으로 부상. 기존 사용에는 영향 없음."
+        "notes": "2024년 라이선스 BSL로 변경(7.4 이상). 오픈소스 포크 Valkey(Linux Foundation)가 대안으로 부상. 기존 사용에는 영향 없음.",
+        "api_docs": "https://redis.io/docs/",
+        "dashboard": "https://app.redislabs.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"redis\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-redis\", \"redis://localhost:6379\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add redis -- npx -y @modelcontextprotocol/server-redis redis://localhost:6379",
+          "info_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/redis"
+        }
       }
     },
     {
@@ -238,7 +283,9 @@
           "Omni — AWS·Azure 데이터도 BigQuery로 분석"
         ],
         "usage": "GCP 콘솔에서 데이터셋·테이블 생성. 무료 티어: 월 1TB 쿼리·10GB 스토리지. bq CLI 또는 Python `google-cloud-bigquery` 라이브러리로 자동화.",
-        "notes": "쿼리 비용은 스캔 데이터량 기준($5/TB). 파티셔닝·클러스터링으로 비용 최적화 필수. OLTP(트랜잭션)가 아닌 OLAP(분석) 전용."
+        "notes": "쿼리 비용은 스캔 데이터량 기준($5/TB). 파티셔닝·클러스터링으로 비용 최적화 필수. OLTP(트랜잭션)가 아닌 OLAP(분석) 전용.",
+        "api_docs": "https://cloud.google.com/bigquery/docs/reference/rest",
+        "dashboard": "https://console.cloud.google.com/bigquery"
       }
     }
   ]
