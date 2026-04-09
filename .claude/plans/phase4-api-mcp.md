@@ -86,12 +86,8 @@
 
 ### P4-3. dev-tools 카테고리 (24개)
 
-> 🔄 진행중 (세션 컨텍스트 한계로 중단. 다음 세션에서 재개)
-> 확인된 MCP 서버: Playwright(@playwright/mcp), Sentry(@sentry/mcp-server), Docker(MCP Gateway/Catalog)
-> GitHub Copilot api_docs + dashboard 추가 완료. 나머지 23개 미완료.
-
-- 🔄 WebFetch 수집 완료 (Playwright·Sentry·Docker MCP 확인)
-- 🔄 JSON 업데이트 부분 완료 (GitHub Copilot만)
+- ✅ WebFetch 수집 완료 (Playwright·Sentry·Docker MCP 확인)
+- ✅ JSON 업데이트 완료 (24개 전체)
 
 **다음 세션 재개 시 추가 대상:**
 
