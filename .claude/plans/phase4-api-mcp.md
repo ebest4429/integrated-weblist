@@ -128,6 +128,8 @@
 
 ### P4-5. hosting-infra 카테고리 (18개)
 
+- ✅ JSON 업데이트 완료 (18개 전체)
+
 | 서비스 | API | Dashboard | MCP |
 |--------|-----|-----------|-----|
 | AWS | ✓ | ✓ | ✓ (awslabs/mcp) |

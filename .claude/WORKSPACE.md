@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1~P4-4 완료, P4-5 (hosting-infra) 다음 |
+| 상태 | 🔄 진행중 — P4-1~P4-5 완료, P4-6 (ai-platforms) 다음 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -33,7 +33,9 @@ phase4-api-mcp.md 참조.
 4. ✅ P4-4: database JSON 업데이트 완료 (13개)
    - MCP 추가: PostgreSQL(@modelcontextprotocol/server-postgres), SQLite(@modelcontextprotocol/server-sqlite), MongoDB(mongodb-mcp-server), Neon(@neondatabase/mcp-server-neon), Redis(@modelcontextprotocol/server-redis)
    - API/dashboard 추가: Pinecone, Weaviate, Qdrant, Neon, Upstash, MongoDB, PlanetScale, Cloudflare D1, BigQuery
-5. 🔲 P4-5: hosting-infra JSON 업데이트
+5. ✅ P4-5: hosting-infra JSON 업데이트 완료 (18개)
+   - MCP 추가: Vercel(info_url), AWS(awslabs/mcp info_url), Cloudflare(@cloudflare/mcp-server-cloudflare), Supabase(@supabase/mcp-server-supabase)
+   - API/dashboard 추가: Netlify, Railway, Render, Cron-job.org, Firebase, Clerk, DigitalOcean, NCloud, Cloud Run, App Engine, GKE 등
 6. 🔲 P4-6 이후: ai-platforms, api, payment, nocode-collab, design-tools, marketing-seo, google-*, 에셋 계열
 
 ### 보류 — Phase 3에서 이월
