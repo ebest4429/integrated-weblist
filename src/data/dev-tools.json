@@ -56,7 +56,9 @@
           "GitHub Actions·CLI 통합"
         ],
         "usage": "GitHub 계정에서 Copilot 구독($10/월, 학생 무료). VS Code에서 GitHub Copilot 확장 설치 후 로그인. 코드 작성 중 자동으로 제안 표시.",
-        "notes": "학생·오픈소스 기여자는 무료 사용 가능. Cursor 대비 에디터 종속성 없이 다양한 IDE에서 동일 경험. GitHub 생태계 사용자에게 자연스러운 선택."
+        "notes": "학생·오픈소스 기여자는 무료 사용 가능. Cursor 대비 에디터 종속성 없이 다양한 IDE에서 동일 경험. GitHub 생태계 사용자에게 자연스러운 선택.",
+        "api_docs": "https://docs.github.com/en/copilot",
+        "dashboard": "https://github.com/settings/copilot"
       }
     },
     {

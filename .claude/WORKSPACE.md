@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1·P4-2 완료, P4-3 (dev-tools) 진행 예정 |
+| 상태 | 🔄 진행중 — P4-1·P4-2 완료, P4-3 (dev-tools) 부분 완료 후 세션 전환 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -25,12 +25,13 @@
 phase4-api-mcp.md 참조.
 
 **작업 순서 (우선순위 순):**
-1. P4-1: ItemDetail.jsx UI 확장 (구분선 + api_docs/dashboard/mcp 렌더링)
-2. P4-2: mcp-automation JSON 업데이트
-3. P4-3: dev-tools JSON 업데이트
-4. P4-4: database JSON 업데이트
-5. P4-5: hosting-infra JSON 업데이트
-6. P4-6 이후: ai-platforms, api, payment, nocode-collab, design-tools, marketing-seo, google-*, 에셋 계열
+1. ✅ P4-1: ItemDetail.jsx UI 확장 (구분선 + api_docs/dashboard/mcp 렌더링)
+2. ✅ P4-2: mcp-automation JSON 업데이트 (Apify MCP 포함 13개 완료)
+3. 🔄 P4-3: dev-tools JSON 업데이트 (GitHub Copilot 1개만 완료, 나머지 재개 필요)
+   - 확인된 MCP: Playwright(npx @playwright/mcp@latest), Sentry(npx @sentry/mcp-server@latest), Docker(MCP Gateway)
+4. 🔲 P4-4: database JSON 업데이트
+5. 🔲 P4-5: hosting-infra JSON 업데이트
+6. 🔲 P4-6 이후: ai-platforms, api, payment, nocode-collab, design-tools, marketing-seo, google-*, 에셋 계열
 
 ### 보류 — Phase 3에서 이월
 

@@ -86,16 +86,29 @@
 
 ### P4-3. dev-tools 카테고리 (24개)
 
+> 🔄 진행중 (세션 컨텍스트 한계로 중단. 다음 세션에서 재개)
+> 확인된 MCP 서버: Playwright(@playwright/mcp), Sentry(@sentry/mcp-server), Docker(MCP Gateway/Catalog)
+> GitHub Copilot api_docs + dashboard 추가 완료. 나머지 23개 미완료.
+
+- 🔄 WebFetch 수집 완료 (Playwright·Sentry·Docker MCP 확인)
+- 🔄 JSON 업데이트 부분 완료 (GitHub Copilot만)
+
+**다음 세션 재개 시 추가 대상:**
+
 | 서비스 | API | Dashboard | MCP |
 |--------|-----|-----------|-----|
-| GitHub | ✓ | ✓ | ✓ (공식: @modelcontextprotocol/server-github) |
-| GitLab | ✓ | ✓ | ✓ (공식) |
-| Docker | ✓ | ✓ | ✓ (공식) |
-| VS Code | - | - | 조사 필요 |
-| Cursor | - | - | 조사 필요 |
-| Sentry | ✓ | ✓ | ✓ (공식) |
-| Vercel | ✓ | ✓ | ✓ (공식) |
-| 나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
+| GitHub Copilot | ✓ | ✓ | - (완료) |
+| Replit | ✓ | ✓ | - |
+| Claude Code | ✓ | ✓ | - (MCP 클라이언트이므로 MCP 항목 없음) |
+| Mintlify | ✓ | ✓ | - |
+| Postman AI | ✓ | ✓ | - |
+| Docker | ✓ | ✓ | ✓ (MCP Gateway, info_url만) |
+| Playwright | ✓ | - | ✓ (npx @playwright/mcp@latest) |
+| ngrok | ✓ | ✓ | - |
+| Sentry | ✓ | ✓ | ✓ (npx @sentry/mcp-server@latest) |
+| Semgrep | ✓ | ✓ | - |
+| Flutter | ✓ | - | - |
+| TensorFlow | ✓ | - | - |
 
 ---
 
