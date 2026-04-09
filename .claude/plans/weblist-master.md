@@ -1,6 +1,6 @@
 # 통합 웹 리소스 허브 — 마스터플랜
 
-**현재 활성 플랜:** `phase3-search-filter.md`
+**현재 활성 플랜:** `phase4-api-mcp.md`
 
 > 참조 소스: `ai_resource_hub/index.html`, `google-ecosystem-map/index.html`, `.Source-Files/소스.md`
 
