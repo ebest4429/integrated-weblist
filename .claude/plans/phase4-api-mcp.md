@@ -141,18 +141,22 @@
 
 ---
 
-### P4-6. ai-platforms 카테고리 (18개)
+### P4-6. ai-platforms 카테고리 (18개) ✅
+
+> API 있는 서비스만 필드 추가. 스킵: NotebookLM, Phind, Genspark, Manus, chat.z.ai, Kimi, Flowith, abocado.ai
 
 | 서비스 | API | Dashboard | MCP |
 |--------|-----|-----------|-----|
-| OpenAI | ✓ | ✓ | ✓ (공식 Remote MCP) |
+| OpenAI (ChatGPT) | ✓ | ✓ | info_url (Remote MCP 클라이언트 구조) |
 | Anthropic Claude | ✓ | ✓ | - (MCP 제공자) |
-| Google AI Studio | ✓ | ✓ | 조사 필요 |
-| Mistral | ✓ | ✓ | 조사 필요 |
-| Groq | ✓ | ✓ | 조사 필요 |
-| Perplexity | ✓ | ✓ | 조사 필요 |
-| Cohere | ✓ | ✓ | 조사 필요 |
-| 나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
+| Google Gemini | ✓ | ✓ | - (공식 커뮤니티 MCP 없음) |
+| Grok (xAI) | ✓ | ✓ | - (MCP 클라이언트 구조) |
+| Perplexity | ✓ | ✓ | ✓ (공식: @perplexity-ai/mcp-server) |
+| Microsoft Copilot | ✓ | ✓ | - |
+| Mistral AI | ✓ | ✓ | - (MCP 클라이언트 구조) |
+| Hugging Face | ✓ | ✓ | ✓ (공식 원격: https://huggingface.co/mcp) |
+| Ollama | ✓ | - (로컬) | ✓ (커뮤니티: ollama-mcp) |
+| Qwen | ✓ | ✓ | - |
 
 ---
 

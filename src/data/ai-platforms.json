@@ -20,7 +20,12 @@
           "실시간 웹 검색 (유료)"
         ],
         "usage": "무료 플랜은 GPT-4o mini 사용. ChatGPT Plus($20/월) 구독 시 GPT-4o 전체 기능·이미지 생성·파일 분석 가능. API는 platform.openai.com에서 별도 발급.",
-        "notes": "플러그인은 GPT(커스텀 GPT)로 통합됨. 기업용은 ChatGPT Team·Enterprise 플랜 별도 제공."
+        "notes": "플러그인은 GPT(커스텀 GPT)로 통합됨. 기업용은 ChatGPT Team·Enterprise 플랜 별도 제공.",
+        "api_docs": "https://platform.openai.com/docs",
+        "dashboard": "https://platform.openai.com",
+        "mcp": {
+          "info_url": "https://platform.openai.com/docs/guides/tools-remote-mcp"
+        }
       }
     },
     {
@@ -38,7 +43,9 @@
           "Claude API를 통한 개발자 통합 지원"
         ],
         "usage": "무료 플랜은 일일 한도 있음. Claude Pro($20/월) 구독 시 Claude 3.7 Sonnet·Opus 사용 가능. 코드 작성·문서 검토·번역에 특히 효과적.",
-        "notes": "Claude Code(CLI)는 개발자용 터미널 AI 도구로 별도 제공. API는 console.anthropic.com에서 발급."
+        "notes": "Claude Code(CLI)는 개발자용 터미널 AI 도구로 별도 제공. API는 console.anthropic.com에서 발급.",
+        "api_docs": "https://docs.anthropic.com",
+        "dashboard": "https://console.anthropic.com"
       }
     },
     {
@@ -56,7 +63,9 @@
           "Gemini Advanced(Google One AI Premium) 고급 기능"
         ],
         "usage": "무료 플랜은 Gemini 1.5 Flash 사용. Google One AI Premium($19.99/월) 구독 시 Gemini Advanced·1M 컨텍스트 이용 가능. Google 계정으로 바로 접속.",
-        "notes": "Google Workspace에서는 '@ Gemini' 명령으로 문서·이메일 내 직접 사용 가능."
+        "notes": "Google Workspace에서는 '@ Gemini' 명령으로 문서·이메일 내 직접 사용 가능.",
+        "api_docs": "https://ai.google.dev/gemini-api/docs",
+        "dashboard": "https://aistudio.google.com"
       }
     },
     {
@@ -74,7 +83,9 @@
           "X 앱 내에서 바로 사용 가능"
         ],
         "usage": "X Premium+ 구독자는 Grok 고급 기능 이용 가능. grok.x.ai에서 독립적으로도 접속 가능. 무료 사용 시 일일 메시지 한도 있음.",
-        "notes": "시사·최신 정보 질문에 강점. 정치·사회 이슈에 비교적 직설적인 답변 스타일."
+        "notes": "시사·최신 정보 질문에 강점. 정치·사회 이슈에 비교적 직설적인 답변 스타일.",
+        "api_docs": "https://docs.x.ai/api",
+        "dashboard": "https://console.x.ai"
       }
     },
     {
@@ -92,7 +103,14 @@
           "GPT-4·Claude·Gemini 모델 선택 가능 (Pro)"
         ],
         "usage": "무료 플랜도 핵심 기능 사용 가능. Perplexity Pro($20/월)에서 Pro Search 횟수 확대·고급 모델 선택. 리서치·팩트 체크·최신 기술 동향 파악에 적합.",
-        "notes": "할루시네이션 위험이 낮은 편이나 출처 검증은 직접 확인 권장."
+        "notes": "할루시네이션 위험이 낮은 편이나 출처 검증은 직접 확인 권장.",
+        "api_docs": "https://docs.perplexity.ai",
+        "dashboard": "https://www.perplexity.ai/settings/api",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"perplexity\": {\n      \"type\": \"stdio\",\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@perplexity-ai/mcp-server\"],\n      \"env\": {\n        \"PERPLEXITY_API_KEY\": \"your_key_here\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add perplexity --env PERPLEXITY_API_KEY=your_key_here -- npx -y @perplexity-ai/mcp-server",
+          "info_url": "https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server"
+        }
       }
     },
     {
@@ -111,7 +129,9 @@
           "PowerPoint — 주제로 슬라이드 자동 생성"
         ],
         "usage": "Microsoft 365 Copilot은 엔터프라이즈 라이선스 필요(사용자당 월 $30). copilot.microsoft.com의 웹 버전은 일부 무료 사용 가능.",
-        "notes": "Bing AI와 동일 기반. Microsoft 365 Business/Enterprise 구독 조직에서 도입 효과가 큼."
+        "notes": "Bing AI와 동일 기반. Microsoft 365 Business/Enterprise 구독 조직에서 도입 효과가 큼.",
+        "api_docs": "https://learn.microsoft.com/en-us/copilot/",
+        "dashboard": "https://admin.microsoft.com"
       }
     },
     {
@@ -129,7 +149,9 @@
           "자체 호스팅 가능 (오픈소스 가중치 공개)"
         ],
         "usage": "la Plateforme(console.mistral.ai)에서 API 키 발급. 웹 채팅은 chat.mistral.ai. 소규모 서버·엣지 환경에서도 구동 가능한 경량 모델 제공.",
-        "notes": "유럽 기반으로 데이터 주권 중시 기업에 적합. Apache 2.0 라이선스 모델은 상업적 사용 가능."
+        "notes": "유럽 기반으로 데이터 주권 중시 기업에 적합. Apache 2.0 라이선스 모델은 상업적 사용 가능.",
+        "api_docs": "https://docs.mistral.ai",
+        "dashboard": "https://console.mistral.ai"
       }
     },
     {
@@ -148,7 +170,14 @@
           "Transformers 라이브러리 — PyTorch/TensorFlow 통합"
         ],
         "usage": "계정 없이 대부분 모델 탐색 가능. 무료 계정으로 Inference API·Spaces 사용. 기업용 Inference Endpoints는 유료. pip install transformers로 로컬 통합.",
-        "notes": "AI 연구자·개발자의 GitHub 역할. 최신 오픈소스 모델(Llama, Mistral 등)은 여기서 가장 먼저 공개됨."
+        "notes": "AI 연구자·개발자의 GitHub 역할. 최신 오픈소스 모델(Llama, Mistral 등)은 여기서 가장 먼저 공개됨.",
+        "api_docs": "https://huggingface.co/docs/api-inference",
+        "dashboard": "https://huggingface.co/settings/tokens",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"huggingface\": {\n      \"url\": \"https://huggingface.co/mcp\"\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http huggingface https://huggingface.co/mcp",
+          "info_url": "https://huggingface.co/docs/hub/en/hf-mcp-server"
+        }
       }
     },
     {
@@ -166,7 +195,13 @@
           "Open WebUI 등 다양한 프론트엔드와 연동"
         ],
         "usage": "ollama.ai에서 설치 후 터미널에서 `ollama run gemma3` 등으로 즉시 실행. API는 localhost:11434 기본 제공. 로컬 RAG·개발 환경 구축에 적합.",
-        "notes": "Apple Silicon M 시리즈에서 특히 빠른 성능. GPU 없는 CPU 전용 환경에서도 소형 모델 실행 가능."
+        "notes": "Apple Silicon M 시리즈에서 특히 빠른 성능. GPU 없는 CPU 전용 환경에서도 소형 모델 실행 가능.",
+        "api_docs": "https://github.com/ollama/ollama/blob/main/docs/api.md",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"ollama\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"ollama-mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add ollama -- npx -y ollama-mcp",
+          "info_url": "https://github.com/rawveg/ollama-mcp"
+        }
       }
     },
     {
@@ -273,7 +308,9 @@
           "Alibaba Cloud 서비스 연동"
         ],
         "usage": "qwen.ai에서 웹 채팅 사용 가능. 로컬 실행은 Hugging Face에서 모델 다운로드 또는 Ollama에서 `ollama run qwen2.5`로 실행.",
-        "notes": "Apache 2.0 라이선스 모델은 상업적 사용 가능. 중국어·한자 처리 성능이 특히 우수."
+        "notes": "Apache 2.0 라이선스 모델은 상업적 사용 가능. 중국어·한자 처리 성능이 특히 우수.",
+        "api_docs": "https://help.aliyun.com/zh/model-studio/developer-reference/",
+        "dashboard": "https://dashscope.console.aliyun.com"
       }
     },
     {
