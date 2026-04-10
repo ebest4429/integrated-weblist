@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1~P4-6 완료, 품질 재검토 체크리스트 작성 완료·전수 점검 미실행 |
+| 상태 | 🔄 진행중 — P4-1~P4-6 완료, 품질 재검토 전수 점검 완료 (위반 4건 수정) |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -49,29 +49,25 @@ phase4-api-mcp.md 참조.
 - designs/phase2-detail.md 미삭제: Phase 4 완료 후 정리
 - 점검-scope 갱신 문제: 추후 해결
 
-### 보류 — Phase 4 품질 재검토 (다음 세션 최우선 처리)
+### 완료 — Phase 4 품질 재검토 (2026-04-10)
 
-> 취지: P4-2~P4-6은 데이터 품질 기준(phase4-api-mcp.md `## 데이터 품질 기준` 섹션) 수립 이전에 작업됨.
-> 따라서 완료 처리된 전체 카테고리가 기준에 맞는지 전수 재검토가 필요하다.
-> **특정 서비스 몇 개만 수정하는 것이 아니라, P4-2~P4-6 전체를 기준에 맞게 재점검해야 한다.**
+> 취지: P4-2~P4-6 전수 점검 완료. 3개 기준(MCP 완전성·빈필드·링크 유효성) 서비스별 확인.
 
-**재검토 기준 (phase4-api-mcp.md 참조):**
-- mcp 필드: desktop_config + cli_command 모두 필수. info_url 단독 사용 금지.
-- 스킵 기준 미달성 서비스에 빈 필드·불완전 필드 있으면 제거 또는 보완.
-- 링크 유효성: 추가된 api_docs·dashboard URL 실제 접근 가능한지 확인.
+**위반 발견 및 수정 (기준1 — info_url 단독 사용 → mcp 필드 제거):**
+- dev-tools: Docker (docs.docker.com/ai/mcp-catalog/ — 카탈로그 페이지, 단일 서버 없음)
+- hosting-infra: Vercel (github.com/vercel/mcp), AWS (github.com/awslabs/mcp — 다수 서버 모음)
+- ai-platforms: ChatGPT (OpenAI가 MCP 클라이언트 역할, 서버 아님)
 
-**UI 구현 누락:**
+**기준2(빈필드)·기준3(링크)**: 위반 없음.
+
+**남은 UI 구현 누락:**
 - **코드블록 복사 버튼**: ItemRow.jsx DetailPanel `<pre>` 코드블록 전체에 복사 기능 없음. P4-1 플랜에 항목 추가 후 구현.
 
 **master-source ↔ JSON 동기화 미완**: Phase 4 api_docs·dashboard·mcp 데이터가 master-source-*.md에 없음. gen-json.py detail 보존으로 실제 손실 없으나 구조 문제. Phase 4 완료 후 협의.
 
 **다음 세션 작업 순서:**
-1. phase4-api-mcp.md `## 품질 재검토 체크리스트` 전수 점검 실행
-   - P4-2~P4-6 각 카테고리 JSON 직접 읽어 3개 기준(MCP 완전성·빈필드·링크 유효성) 서비스별 확인
-   - 체크리스트 서비스명 순서대로 🔲 → ✅/❌ 채우며 진행, 문제 발견 즉시 JSON 수정
-   - **특정 서비스 이름을 먼저 타깃하지 말 것 — 체크리스트 순서대로 전수 확인**
-2. 전수 점검 완료 후: P4-1 플랜에 복사 버튼 항목 추가 → ItemRow.jsx 구현
-3. P4-7(api 카테고리) 진행
+1. P4-1 플랜에 복사 버튼 항목 추가 → ItemRow.jsx 구현
+2. P4-7(api 카테고리) 진행
 
 ---
 

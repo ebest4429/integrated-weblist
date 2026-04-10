@@ -22,10 +22,7 @@
         "usage": "무료 플랜은 GPT-4o mini 사용. ChatGPT Plus($20/월) 구독 시 GPT-4o 전체 기능·이미지 생성·파일 분석 가능. API는 platform.openai.com에서 별도 발급.",
         "notes": "플러그인은 GPT(커스텀 GPT)로 통합됨. 기업용은 ChatGPT Team·Enterprise 플랜 별도 제공.",
         "api_docs": "https://platform.openai.com/docs",
-        "dashboard": "https://platform.openai.com",
-        "mcp": {
-          "info_url": "https://platform.openai.com/docs/guides/tools-remote-mcp"
-        }
+        "dashboard": "https://platform.openai.com"
       }
     },
     {

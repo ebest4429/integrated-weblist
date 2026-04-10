@@ -21,10 +21,7 @@
         "usage": "vercel.com에서 GitHub 계정 연결 후 저장소 임포트. 무료 Hobby 플랜으로 개인 프로젝트 즉시 배포 가능. `vercel` CLI로 터미널 배포도 지원.",
         "notes": "Next.js 외 Vite·React·Vue·Svelte 등 모든 정적/SSR 프레임워크 지원. 팀 프로젝트는 Pro 플랜($20/월) 이상 필요.",
         "api_docs": "https://vercel.com/docs/rest-api",
-        "dashboard": "https://vercel.com/dashboard",
-        "mcp": {
-          "info_url": "https://github.com/vercel/mcp"
-        }
+        "dashboard": "https://vercel.com/dashboard"
       }
     },
     {
@@ -228,10 +225,7 @@
         "usage": "aws.amazon.com에서 계정 생성. 신규 계정 12개월 Free Tier 제공. AWS CLI 또는 콘솔 웹UI로 서비스 구성. Terraform·CDK로 인프라 코드화 가능.",
         "notes": "규모가 커질수록 비용 관리가 복잡해짐. Cost Explorer·Budget Alert 필수 설정. 초보자는 Vercel·Railway 같은 PaaS 먼저 경험 권장.",
         "api_docs": "https://docs.aws.amazon.com/",
-        "dashboard": "https://console.aws.amazon.com",
-        "mcp": {
-          "info_url": "https://github.com/awslabs/mcp"
-        }
+        "dashboard": "https://console.aws.amazon.com"
       }
     },
     {

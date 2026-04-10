@@ -252,19 +252,19 @@
 
 | 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
 |--------|-----------|-------------|-----------|
-| MCP 공식 문서 | 🔲 | 🔲 | 🔲 |
-| MCP.so | 🔲 | 🔲 | 🔲 |
-| Smithery | 🔲 | 🔲 | 🔲 |
-| LangChain | 🔲 | 🔲 | 🔲 |
-| LangGraph | 🔲 | 🔲 | 🔲 |
-| CrewAI | 🔲 | 🔲 | 🔲 |
-| AutoGen | 🔲 | 🔲 | 🔲 |
-| Dify | 🔲 | 🔲 | 🔲 |
-| n8n | 🔲 | 🔲 | 🔲 |
-| Zapier | 🔲 | 🔲 | 🔲 |
-| Make | 🔲 | 🔲 | 🔲 |
-| Pipedream | 🔲 | 🔲 | 🔲 |
-| Apify | 🔲 | 🔲 | 🔲 |
+| MCP 공식 문서 | — | ✅ | — |
+| MCP.so | — | ✅ | ✅ |
+| Smithery | — | ✅ | ✅ |
+| LangChain | — | ✅ | ✅ |
+| LangGraph | — | ✅ | ✅ |
+| CrewAI | — | ✅ | ✅ |
+| AutoGen | — | ✅ | ✅ |
+| Dify | — | ✅ | ✅ |
+| n8n | — | ✅ | ✅ |
+| Zapier | — | ✅ | ✅ |
+| Make | — | ✅ | ✅ |
+| Pipedream | ✅ | ✅ | ✅ |
+| Apify | ✅ | ✅ | ✅ |
 
 ---
 
@@ -272,29 +272,30 @@
 
 | 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
 |--------|-----------|-------------|-----------|
-| Cursor | 🔲 | 🔲 | 🔲 |
-| Windsurf | 🔲 | 🔲 | 🔲 |
-| GitHub Copilot | 🔲 | 🔲 | 🔲 |
-| Bolt.new | 🔲 | 🔲 | 🔲 |
-| v0 by Vercel | 🔲 | 🔲 | 🔲 |
-| Replit | 🔲 | 🔲 | 🔲 |
-| Lovable | 🔲 | 🔲 | 🔲 |
-| Claude Code | 🔲 | 🔲 | 🔲 |
-| Mintlify | 🔲 | 🔲 | 🔲 |
-| Postman AI | 🔲 | 🔲 | 🔲 |
-| Pinokio | 🔲 | 🔲 | 🔲 |
-| Tailwind CSS | 🔲 | 🔲 | 🔲 |
-| Docker | 🔲 | 🔲 | 🔲 |
-| Puppeteer | 🔲 | 🔲 | 🔲 |
-| Playwright | 🔲 | 🔲 | 🔲 |
-| ngrok | 🔲 | 🔲 | 🔲 |
-| Sentry | 🔲 | 🔲 | 🔲 |
-| Semgrep | 🔲 | 🔲 | 🔲 |
-| VS Code | 🔲 | 🔲 | 🔲 |
-| Android Studio | 🔲 | 🔲 | 🔲 |
-| Flutter | 🔲 | 🔲 | 🔲 |
-| TensorFlow | 🔲 | 🔲 | 🔲 |
-| (나머지 2개) | 🔲 | 🔲 | 🔲 |
+| Cursor | — | ✅ | — |
+| Windsurf | — | ✅ | — |
+| GitHub Copilot | — | ✅ | ✅ |
+| Bolt.new | — | ✅ | — |
+| v0 by Vercel | — | ✅ | — |
+| Replit | — | ✅ | ✅ |
+| Lovable | — | ✅ | — |
+| Claude Code | — | ✅ | ✅ |
+| Mintlify | — | ✅ | ✅ |
+| Postman AI | — | ✅ | ✅ |
+| Pinokio | — | ✅ | — |
+| Tailwind CSS | — | ✅ | ✅ |
+| Docker | ❌ 제거됨 | ✅ | ✅ |
+| Puppeteer | — | ✅ | ✅ |
+| Playwright | ✅ | ✅ | ✅ |
+| ngrok | — | ✅ | ✅ |
+| Sentry | ✅ | ✅ | ✅ |
+| Semgrep | — | ✅ | ✅ |
+| VS Code | — | ✅ | ✅ |
+| Android Studio | — | ✅ | ✅ |
+| Google IDX | — | ✅ | — |
+| Google Colab | — | ✅ | — |
+| Flutter | — | ✅ | ✅ |
+| TensorFlow | — | ✅ | ✅ |
 
 ---
 
@@ -302,19 +303,19 @@
 
 | 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
 |--------|-----------|-------------|-----------|
-| Pinecone | 🔲 | 🔲 | 🔲 |
-| Weaviate | 🔲 | 🔲 | 🔲 |
-| Qdrant | 🔲 | 🔲 | 🔲 |
-| Chroma | 🔲 | 🔲 | 🔲 |
-| Neon | 🔲 | 🔲 | 🔲 |
-| Upstash | 🔲 | 🔲 | 🔲 |
-| MongoDB Atlas | 🔲 | 🔲 | 🔲 |
-| PlanetScale | 🔲 | 🔲 | 🔲 |
-| Cloudflare D1 | 🔲 | 🔲 | 🔲 |
-| SQLite | 🔲 | 🔲 | 🔲 |
-| PostgreSQL | 🔲 | 🔲 | 🔲 |
-| Redis | 🔲 | 🔲 | 🔲 |
-| BigQuery | 🔲 | 🔲 | 🔲 |
+| Pinecone | — | ✅ | ✅ |
+| Weaviate | — | ✅ | ✅ |
+| Qdrant | — | ✅ | ✅ |
+| Chroma | — | ✅ | ✅ |
+| Neon | ✅ | ✅ | ✅ |
+| Upstash | — | ✅ | ✅ |
+| MongoDB Atlas | ✅ | ✅ | ✅ |
+| PlanetScale | — | ✅ | ✅ |
+| Cloudflare D1 | — | ✅ | ✅ |
+| SQLite | ✅ | ✅ | ✅ |
+| PostgreSQL | ✅ | ✅ | ✅ |
+| Redis | ✅ | ✅ | ✅ |
+| BigQuery | — | ✅ | ✅ |
 
 ---
 
@@ -322,24 +323,24 @@
 
 | 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
 |--------|-----------|-------------|-----------|
-| Vercel | 🔲 | 🔲 | 🔲 |
-| Netlify | 🔲 | 🔲 | 🔲 |
-| Railway | 🔲 | 🔲 | 🔲 |
-| Render | 🔲 | 🔲 | 🔲 |
-| GitHub Pages | 🔲 | 🔲 | 🔲 |
-| Cron-job.org | 🔲 | 🔲 | 🔲 |
-| Supabase | 🔲 | 🔲 | 🔲 |
-| Firebase | 🔲 | 🔲 | 🔲 |
-| Clerk | 🔲 | 🔲 | 🔲 |
-| PocketBase | 🔲 | 🔲 | 🔲 |
-| AWS | 🔲 | 🔲 | 🔲 |
-| Google Cloud (GCP) | 🔲 | 🔲 | 🔲 |
-| DigitalOcean | 🔲 | 🔲 | 🔲 |
-| Cloudflare Workers | 🔲 | 🔲 | 🔲 |
-| NCloud | 🔲 | 🔲 | 🔲 |
-| Google Cloud Run | 🔲 | 🔲 | 🔲 |
-| Google App Engine | 🔲 | 🔲 | 🔲 |
-| Google Kubernetes Engine | 🔲 | 🔲 | 🔲 |
+| Vercel | ❌ 제거됨 | ✅ | ✅ |
+| Netlify | — | ✅ | ✅ |
+| Railway | — | ✅ | ✅ |
+| Render | — | ✅ | ✅ |
+| GitHub Pages | — | ✅ | — |
+| Cron-job.org | — | ✅ | ✅ |
+| Supabase | ✅ | ✅ | ✅ |
+| Firebase | — | ✅ | ✅ |
+| Clerk | — | ✅ | ✅ |
+| PocketBase | — | ✅ | ✅ |
+| AWS | ❌ 제거됨 | ✅ | ✅ |
+| Google Cloud (GCP) | — | ✅ | ✅ |
+| DigitalOcean | — | ✅ | ✅ |
+| Cloudflare Workers | ✅ | ✅ | ✅ |
+| NCloud | — | ✅ | ✅ |
+| Google Cloud Run | — | ✅ | ✅ |
+| Google App Engine | — | ✅ | ✅ |
+| Google Kubernetes Engine | — | ✅ | ✅ |
 
 ---
 
@@ -347,24 +348,24 @@
 
 | 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
 |--------|-----------|-------------|-----------|
-| ChatGPT | 🔲 | 🔲 | 🔲 |
-| Claude | 🔲 | 🔲 | 🔲 |
-| Gemini | 🔲 | 🔲 | 🔲 |
-| Grok | 🔲 | 🔲 | 🔲 |
-| Perplexity | 🔲 | 🔲 | 🔲 |
-| Microsoft Copilot | 🔲 | 🔲 | 🔲 |
-| Mistral AI | 🔲 | 🔲 | 🔲 |
-| Hugging Face | 🔲 | 🔲 | 🔲 |
-| Ollama | 🔲 | 🔲 | 🔲 |
-| NotebookLM | 🔲 | 🔲 | 🔲 |
-| Phind | 🔲 | 🔲 | 🔲 |
-| Genspark | 🔲 | 🔲 | 🔲 |
-| Manus | 🔲 | 🔲 | 🔲 |
-| chat.z.ai | 🔲 | 🔲 | 🔲 |
-| Qwen | 🔲 | 🔲 | 🔲 |
-| Kimi | 🔲 | 🔲 | 🔲 |
-| Flowith | 🔲 | 🔲 | 🔲 |
-| abocado.ai | 🔲 | 🔲 | 🔲 |
+| ChatGPT | ❌ 제거됨 | ✅ | ✅ |
+| Claude | — | ✅ | ✅ |
+| Gemini | — | ✅ | ✅ |
+| Grok | — | ✅ | ✅ |
+| Perplexity | ✅ | ✅ | ✅ |
+| Microsoft Copilot | — | ✅ | ✅ |
+| Mistral AI | — | ✅ | ✅ |
+| Hugging Face | ✅ | ✅ | ✅ |
+| Ollama | ✅ | ✅ | ✅ |
+| NotebookLM | — | ✅ | — |
+| Phind | — | ✅ | — |
+| Genspark | — | ✅ | — |
+| Manus | — | ✅ | — |
+| chat.z.ai | — | ✅ | — |
+| Qwen | — | ✅ | ✅ |
+| Kimi | — | ✅ | — |
+| Flowith | — | ✅ | — |
+| abocado.ai | — | ✅ | — |
 
 ---
 

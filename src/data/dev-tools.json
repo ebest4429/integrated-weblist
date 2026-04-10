@@ -250,10 +250,7 @@
         "usage": "docker.com에서 Docker Desktop 설치. Dockerfile 작성 후 docker build→docker run. docker-compose.yml로 DB·앱·캐시 서비스를 한 번에 실행.",
         "notes": "개인 비상업적 사용은 무료. 기업 사용은 Docker Business 구독 필요. Kubernetes와 연동해 대규모 컨테이너 오케스트레이션 가능.",
         "api_docs": "https://docs.docker.com/engine/api/",
-        "dashboard": "https://hub.docker.com",
-        "mcp": {
-          "info_url": "https://docs.docker.com/ai/mcp-catalog/"
-        }
+        "dashboard": "https://hub.docker.com"
       }
     },
     {
