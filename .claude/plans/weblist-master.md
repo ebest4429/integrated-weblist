@@ -23,7 +23,7 @@
 | Phase 1 | 초기화 + Vite+React 구축 | `phase1-build.md` | ✅ 완료 |
 | Phase 2 | detail 필드 순차 구현 | `phase2-detail.md` | ✅ 완료 |
 | Phase 3 | 검색 고도화 + 태그 필터 | `phase3-search-filter.md` | ✅ 완료 |
-| Phase 4 | API·MCP 정보 보강 | `phase4-api-mcp.md` | 🔄 진행중 — api_docs·dashboard 완료(링크 검증 미실시), mcp 전면 재작업 필요 |
+| Phase 4 | API·MCP 정보 보강 | `phase4-api-mcp.md` | 🔄 진행중 — 0단계(플랜 재작성+테이블파일 13개) 완료. 다음: P4-1 UI → 카테고리별 MCP 조사·구현 |
 
 ---
 
