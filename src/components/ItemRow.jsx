@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import CopyButton from './CopyButton'
 
 // 검색어 매칭 텍스트 하이라이트 (P3-3)
 function Highlight({ text, query }) {
@@ -102,17 +103,23 @@ function DetailPanel({ detail, url }) {
           {/* MCP 연결 */}
           {detail.mcp && (
             <div style={sectionStyle}>
-              <div style={labelStyle}>MCP 연결 (Claude)</div>
+              <div style={labelStyle}>MCP 연결 (CLAUDE)</div>
               {detail.mcp.desktop_config && (
                 <div style={{ marginBottom: '8px' }}>
                   <div style={subLabelStyle}>Claude Desktop — claude_desktop_config.json</div>
-                  <pre style={codeStyle}>{detail.mcp.desktop_config}</pre>
+                  <div style={{ position: 'relative' }}>
+                    <pre style={codeStyle}>{detail.mcp.desktop_config}</pre>
+                    <CopyButton text={detail.mcp.desktop_config} />
+                  </div>
                 </div>
               )}
               {detail.mcp.cli_command && (
                 <div style={{ marginBottom: '8px' }}>
                   <div style={subLabelStyle}>Claude CLI</div>
-                  <pre style={codeStyle}>{detail.mcp.cli_command}</pre>
+                  <div style={{ position: 'relative' }}>
+                    <pre style={codeStyle}>{detail.mcp.cli_command}</pre>
+                    <CopyButton text={detail.mcp.cli_command} />
+                  </div>
                 </div>
               )}
               {detail.mcp.info_url && (

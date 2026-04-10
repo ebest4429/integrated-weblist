@@ -158,9 +158,9 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 
 ### 1단계: UI 구현 (P4-1)
 
-- [ ] CopyButton 재사용 컴포넌트 구현 (src/components/CopyButton.jsx)
-- [ ] ItemDetail.jsx MCP 섹션 레이블 + CopyButton 연결
-- [ ] 빌드 확인 (npm run build)
+- [x] CopyButton 재사용 컴포넌트 구현 (src/components/CopyButton.jsx)
+- [x] ItemDetail.jsx MCP 섹션 레이블 + CopyButton 연결
+- [x] 빌드 확인 (npm run build)
 - [ ] 커밋
 
 ### 2단계: 카테고리별 순차 조사 + 구현 (P4-2 ~ P4-14)

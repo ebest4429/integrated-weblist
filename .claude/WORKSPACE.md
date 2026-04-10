@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — 0단계(플랜 완성) 완료. 다음: P4-1 UI 재작업 |
+| 상태 | 🔄 진행중 — P4-1 UI 완료. 다음: P4-2 MCP 조사 시작 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | 없음 — P4-1 UI 완료 후 p4-2-mcp-automation.md 시작 예정 |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-2-mcp-automation.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,18 +25,15 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-1 UI 재작업
+### 다음 세션 최우선: P4-2 MCP 조사 시작
 
-P4-1 UI (CopyButton 컴포넌트 + 레이블) 구현. 플랜 참조: `.claude/plans/phase4-api-mcp.md` → "UI 구현 사항(P4-1)" 섹션.
-
-구현 내용:
-- `src/components/CopyButton.jsx` — 재사용 복사 버튼 컴포넌트
-- `src/components/ItemDetail.jsx` — MCP 섹션 레이블("MCP 연결 (CLAUDE)") + CopyButton 연결
-- 빌드 확인 → 커밋
+P4-1 UI 완료. 다음은 카테고리별 MCP 조사·구현.
+조사 기준: `.claude/plans/phase4-api-mcp.md` → "MCP 필드 정의" 섹션 (임의 해석 금지).
+첫 번째 조사 파일: `plans/mcp/p4-2-mcp-automation.md`
 
 ---
 
-### 이후 순서: 카테고리별 MCP 조사 + 구현 (P4-2 ~ P4-14)
+### 카테고리별 MCP 조사 + 구현 (P4-2 ~ P4-14)
 
 각 카테고리마다: WORKSPACE 포인터 변경 → 조사(테이블 파일 체크리스트) → JSON 업데이트 → 빌드 → 커밋·배포·샘플 검증.
 조사 기준: `.claude/plans/phase4-api-mcp.md` → "MCP 필드 정의" 섹션 (임의 해석 금지).
