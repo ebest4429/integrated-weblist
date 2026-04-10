@@ -192,7 +192,12 @@
         "usage": "postman.com에서 다운로드 또는 웹 버전 사용. 무료 플랜으로 기본 기능 사용. 팀 협업은 Basic($14/사용자/월). 환경 변수로 개발·스테이징·프로덕션 전환.",
         "notes": "API 개발 팀의 표준 도구. Bruno·Insomnia 등 오픈소스 대안도 있음. Postbot AI는 반복적인 테스트 작성 시간을 크게 단축.",
         "api_docs": "https://www.postman.com/postman/postman-api-documentation/",
-        "dashboard": "https://app.getpostman.com"
+        "dashboard": "https://app.getpostman.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"postman\": {\n      \"url\": \"https://mcp.postman.com/minimal\",\n      \"headers\": {\n        \"Authorization\": \"Bearer YOUR_POSTMAN_API_KEY\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http postman https://mcp.postman.com/minimal --header \"Authorization: Bearer YOUR_POSTMAN_API_KEY\"",
+          "info_url": "https://learning.postman.com/docs/developer/postman-api/postman-mcp-server/overview"
+        }
       }
     },
     {
@@ -250,7 +255,11 @@
         "usage": "docker.com에서 Docker Desktop 설치. Dockerfile 작성 후 docker build→docker run. docker-compose.yml로 DB·앱·캐시 서비스를 한 번에 실행.",
         "notes": "개인 비상업적 사용은 무료. 기업 사용은 Docker Business 구독 필요. Kubernetes와 연동해 대규모 컨테이너 오케스트레이션 가능.",
         "api_docs": "https://docs.docker.com/engine/api/",
-        "dashboard": "https://hub.docker.com"
+        "dashboard": "https://hub.docker.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"MCP_DOCKER\": {\n      \"command\": \"docker\",\n      \"args\": [\"mcp\", \"gateway\", \"run\"]\n    }\n  }\n}",
+          "info_url": "https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/"
+        }
       }
     },
     {
@@ -269,7 +278,12 @@
         ],
         "usage": "npm install puppeteer. 스크립트에서 puppeteer.launch()→page.goto()→page.click() 순서로 자동화. 서버 환경에서는 --no-sandbox 플래그 필요.",
         "notes": "Playwright가 크로스 브라우저 지원으로 더 많이 채택되는 추세. Chrome 특화 기능이 필요할 때 Puppeteer 선택. Google의 공식 지원으로 Chrome 최신 기능 빠른 반영.",
-        "api_docs": "https://pptr.dev/api"
+        "api_docs": "https://pptr.dev/api",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"puppeteer\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-puppeteer\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add puppeteer -- npx -y @modelcontextprotocol/server-puppeteer",
+          "info_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer"
+        }
       }
     },
     {
@@ -334,9 +348,9 @@
         "api_docs": "https://docs.sentry.io/api/",
         "dashboard": "https://sentry.io/dashboard/",
         "mcp": {
-          "desktop_config": "{\n  \"mcpServers\": {\n    \"sentry\": {\n      \"command\": \"npx\",\n      \"args\": [\"@sentry/mcp-server@latest\"],\n      \"env\": {\n        \"SENTRY_AUTH_TOKEN\": \"YOUR_TOKEN\"\n      }\n    }\n  }\n}",
-          "cli_command": "claude mcp add sentry -- npx @sentry/mcp-server@latest",
-          "info_url": "https://github.com/getsentry/sentry-mcp"
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"sentry\": {\n      \"url\": \"https://mcp.sentry.dev/mcp\"\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http sentry https://mcp.sentry.dev/mcp",
+          "info_url": "https://docs.sentry.io/product/sentry-mcp/"
         }
       }
     },
@@ -397,7 +411,12 @@
         ],
         "usage": "developer.android.com/studio에서 무료 다운로드. SDK Manager로 Android 버전 설치. Kotlin 언어 기반 신규 프로젝트 생성 권장.",
         "notes": "Android 앱 개발의 표준 도구. Flutter 개발에도 Android Studio 또는 VS Code 사용 가능. 첫 실행 시 SDK 다운로드로 시간 소요.",
-        "api_docs": "https://developer.android.com/reference"
+        "api_docs": "https://developer.android.com/reference",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"jetbrains\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@jetbrains/mcp-proxy\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add jetbrains -- npx -y @jetbrains/mcp-proxy",
+          "info_url": "https://github.com/JetBrains/mcp-jetbrains"
+        }
       }
     },
     {
@@ -435,7 +454,11 @@
           "GitHub 노트북 직접 열기"
         ],
         "usage": "colab.research.google.com에서 Google 계정 로그인. 런타임→런타임 유형 변경→GPU 선택. Google Drive 파일은 drive.mount('/content/drive')로 연결.",
-        "notes": "무료 GPU는 사용 시간·리소스 제한 있음. Colab Pro($9.99/월)에서 더 빠른 GPU·더 긴 세션. Kaggle Notebooks도 유사한 무료 GPU 환경 제공."
+        "notes": "무료 GPU는 사용 시간·리소스 제한 있음. Colab Pro($9.99/월)에서 더 빠른 GPU·더 긴 세션. Kaggle Notebooks도 유사한 무료 GPU 환경 제공.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"colab-mcp\": {\n      \"command\": \"uvx\",\n      \"args\": [\"git+https://github.com/googlecolab/colab-mcp\"],\n      \"timeout\": 30000\n    }\n  }\n}",
+          "info_url": "https://github.com/googlecolab/colab-mcp"
+        }
       }
     },
     {
@@ -455,7 +478,12 @@
         ],
         "usage": "flutter.dev에서 Flutter SDK 설치. flutter create myapp→flutter run으로 즉시 실행. VS Code 또는 Android Studio에서 Flutter 확장 설치 권장.",
         "notes": "React Native 대비 성능·일관된 UI 우위. Google 앱(Google Pay·Stadia) 등 대규모 앱에서 실사용. Dart 학습 곡선이 초기 진입 장벽.",
-        "api_docs": "https://api.flutter.dev/"
+        "api_docs": "https://api.flutter.dev/",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"dart\": {\n      \"command\": \"dart\",\n      \"args\": [\"mcp-server\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport stdio dart -- dart mcp-server",
+          "info_url": "https://docs.flutter.dev/ai/mcp-server"
+        }
       }
     },
     {

@@ -110,7 +110,7 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 | 번호 | 파일 | 대상 JSON | 서비스 수 | 상태 |
 |------|------|----------|---------|------|
 | P4-2 | plans/mcp/p4-2-mcp-automation.md | mcp-automation.json | 13 | ✅ |
-| P4-3 | plans/mcp/p4-3-dev-tools.md | dev-tools.json | 24 | 🔲 |
+| P4-3 | plans/mcp/p4-3-dev-tools.md | dev-tools.json | 24 | ✅ |
 | P4-4 | plans/mcp/p4-4-database.md | database.json | 13 | 🔲 |
 | P4-5 | plans/mcp/p4-5-hosting-infra.md | hosting-infra.json | 18 | 🔲 |
 | P4-6 | plans/mcp/p4-6-ai-platforms.md | ai-platforms.json | 18 | 🔲 |
