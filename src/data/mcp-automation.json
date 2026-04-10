@@ -57,7 +57,12 @@
         ],
         "usage": "smithery.ai에서 원하는 서버 검색 → Install 버튼 클릭 → Claude 클라이언트 선택 → 자동 설정. MCP 서버 수동 설정이 번거로울 때 유용.",
         "notes": "MCP.so보다 설치 UX가 더 간편. Claude Code 사용자에게 특히 유용. 서버 품질은 커뮤니티 리뷰로 판단.",
-        "dashboard": "https://smithery.ai"
+        "dashboard": "https://smithery.ai",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"smithery\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@smithery/cli-mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add smithery -- npx -y @smithery/cli-mcp",
+          "info_url": "https://github.com/smithery-ai/smithery-cli-mcp"
+        }
       }
     },
     {
@@ -176,7 +181,11 @@
         "usage": "n8n.io 클라우드 무료 체험 또는 npm install -g n8n으로 로컬 실행. 트리거→액션 노드 연결로 워크플로우 구성. AI 에이전트 워크플로우는 AI Agent 노드 사용.",
         "notes": "Zapier·Make 대비 자체 호스팅·코드 커스텀 유연성 우위. 기업 데이터 처리 자동화에 오픈소스 옵션으로 인기.",
         "api_docs": "https://docs.n8n.io/api/",
-        "dashboard": "https://app.n8n.cloud"
+        "dashboard": "https://app.n8n.cloud",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"url\": \"https://<your-n8n-instance>/mcp\"\n    }\n  }\n}",
+          "info_url": "https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server"
+        }
       }
     },
     {
@@ -196,7 +205,11 @@
         "usage": "zapier.com에서 계정 생성. 무료 플랜 100 태스크/월. Starter($19.99/월)부터 멀티 스텝 Zap 사용. 트리거 앱 선택→이벤트 설정→액션 앱 연결로 Zap 완성.",
         "notes": "비개발자도 쉽게 사용 가능한 자동화 플랫폼의 표준. 고급 로직·자체 호스팅이 필요하면 n8n·Make 고려.",
         "api_docs": "https://platform.zapier.com/docs/zapier-platform-overview",
-        "dashboard": "https://zapier.com/app/dashboard"
+        "dashboard": "https://zapier.com/app/dashboard",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"zapier\": {\n      \"command\": \"npx\",\n      \"args\": [\"mcp-remote\", \"https://actions.zapier.com/mcp/sk-ak-<YOUR_KEY>/sse\"]\n    }\n  }\n}",
+          "info_url": "https://zapier.com/mcp"
+        }
       }
     },
     {
@@ -216,7 +229,12 @@
         "usage": "make.com에서 계정 생성. 무료 플랜 1000 오퍼레이션/월. Core($9/월)부터 유료. 캔버스에서 모듈 드래그→연결→설정으로 시나리오 구성.",
         "notes": "Zapier 대비 복잡한 데이터 변환·분기 로직에 강점. 가격도 Zapier 대비 저렴한 편. 국내 사용자 커뮤니티 활발.",
         "api_docs": "https://www.make.com/en/api-documentation",
-        "dashboard": "https://www.make.com/en"
+        "dashboard": "https://www.make.com/en",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"make\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@makehq/mcp-server\"],\n      \"env\": {\n        \"MAKE_API_KEY\": \"<YOUR_API_KEY>\",\n        \"MAKE_ZONE\": \"<YOUR_ZONE>\",\n        \"MAKE_TEAM\": \"<YOUR_TEAM_ID>\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add make -- npx -y @makehq/mcp-server",
+          "info_url": "https://github.com/integromat/make-mcp-server"
+        }
       }
     },
     {

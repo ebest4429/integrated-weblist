@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1 UI 완료. 다음: P4-2 MCP 조사 시작 |
+| 상태 | 🔄 진행중 — P4-2 완료. 다음: P4-3 dev-tools |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-2-mcp-automation.md` |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-3-dev-tools.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,11 +25,10 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-2 MCP 조사 시작
+### 다음 세션 최우선: P4-3 dev-tools MCP 조사
 
-P4-1 UI 완료. 다음은 카테고리별 MCP 조사·구현.
-조사 기준: `.claude/plans/phase4-api-mcp.md` → "MCP 필드 정의" 섹션 (임의 해석 금지).
-첫 번째 조사 파일: `plans/mcp/p4-2-mcp-automation.md`
+P4-2 mcp-automation 완료 (13개 조사, 5개 MCP 추가 — Smithery·n8n·Zapier·Make, Pipedream·Apify 기존 유지).
+다음 조사 파일: `plans/mcp/p4-3-dev-tools.md` (dev-tools.json, 24개 서비스)
 
 ---
 

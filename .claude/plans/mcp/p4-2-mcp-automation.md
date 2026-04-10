@@ -10,19 +10,19 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| MCP 공식 문서 | 🔲 | - | 🔲 |
-| MCP.so | 🔲 | - | 🔲 |
-| Smithery | 🔲 | - | 🔲 |
-| LangChain | 🔲 | - | 🔲 |
-| LangGraph | 🔲 | - | 🔲 |
-| CrewAI | 🔲 | - | 🔲 |
-| AutoGen | 🔲 | - | 🔲 |
-| Dify | 🔲 | - | 🔲 |
-| n8n | 🔲 | - | 🔲 |
-| Zapier | 🔲 | - | 🔲 |
-| Make | 🔲 | - | 🔲 |
-| Pipedream | 🔲 | - | 🔲 |
-| Apify | 🔲 | - | 🔲 |
+| MCP 공식 문서 | ✅ | ❌ | N/A |
+| MCP.so | ✅ | ❌ | N/A |
+| Smithery | ✅ | ✅ | ✅ |
+| LangChain | ✅ | ❌ | N/A |
+| LangGraph | ✅ | ❌ | N/A |
+| CrewAI | ✅ | ❌ | N/A |
+| AutoGen | ✅ | ❌ | N/A |
+| Dify | ✅ | ❌ | N/A |
+| n8n | ✅ | ✅ | ✅ |
+| Zapier | ✅ | ✅ | ✅ |
+| Make | ✅ | ✅ | ✅ |
+| Pipedream | ✅ | ✅ | ✅ |
+| Apify | ✅ | ✅ | ✅ |
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -32,5 +32,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 13개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 13개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료

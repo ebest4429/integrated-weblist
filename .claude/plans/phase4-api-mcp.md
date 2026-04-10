@@ -109,7 +109,7 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 
 | 번호 | 파일 | 대상 JSON | 서비스 수 | 상태 |
 |------|------|----------|---------|------|
-| P4-2 | plans/mcp/p4-2-mcp-automation.md | mcp-automation.json | 13 | 🔲 |
+| P4-2 | plans/mcp/p4-2-mcp-automation.md | mcp-automation.json | 13 | ✅ |
 | P4-3 | plans/mcp/p4-3-dev-tools.md | dev-tools.json | 24 | 🔲 |
 | P4-4 | plans/mcp/p4-4-database.md | database.json | 13 | 🔲 |
 | P4-5 | plans/mcp/p4-5-hosting-infra.md | hosting-infra.json | 18 | 🔲 |
@@ -161,7 +161,7 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 - [x] CopyButton 재사용 컴포넌트 구현 (src/components/CopyButton.jsx)
 - [x] ItemDetail.jsx MCP 섹션 레이블 + CopyButton 연결
 - [x] 빌드 확인 (npm run build)
-- [ ] 커밋
+- [x] 커밋
 
 ### 2단계: 카테고리별 순차 조사 + 구현 (P4-2 ~ P4-14)
 
