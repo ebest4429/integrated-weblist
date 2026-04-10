@@ -15,10 +15,11 @@
 | 상태 | 🔄 진행중 — 0단계(플랜 완성) 완료. 다음: P4-1 UI 재작업 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | 없음 — P4-1 UI 완료 후 P4-2부터 시작 예정 |
+| 현재 활성 MCP 조사 파일 | 없음 — P4-1 UI 완료 후 p4-2-mcp-automation.md 시작 예정 |
 
-> 포인터 운용 방법: MCP 조사 시작 시 "현재 활성 MCP 조사 파일"을 해당 plans/mcp/*.md로 변경.
+> 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
+> 사용자는 세션 시작 후 포인터가 올바른지 확인하고 틀리면 수정 지시.
 
 ---
 
@@ -39,6 +40,9 @@ P4-1 UI (CopyButton 컴포넌트 + 레이블) 구현. 플랜 참조: `.claude/pl
 
 각 카테고리마다: WORKSPACE 포인터 변경 → 조사(테이블 파일 체크리스트) → JSON 업데이트 → 빌드 → 커밋·배포·샘플 검증.
 조사 기준: `.claude/plans/phase4-api-mcp.md` → "MCP 필드 정의" 섹션 (임의 해석 금지).
+
+> 전체 파일 목록·상태는 `phase4-api-mcp.md` → "카테고리 테이블 파일 목록" 섹션 참조.
+> WORKSPACE에 별도 목록 추가 금지 — 중복 시 불일치 발생.
 
 **재조사 시 참고 — 기존 데이터 중 구조상 올바른 것:**
 Pipedream, Apify, Playwright, Sentry, Neon, MongoDB Atlas, SQLite, PostgreSQL, Redis, Supabase, Cloudflare Workers, Perplexity, Hugging Face, Ollama

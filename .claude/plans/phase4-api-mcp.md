@@ -152,7 +152,7 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 
 ### 0단계: 플랜 완성 (2026-04-11 세션)
 
-- [x] phase4-api-mcp.md 전면 재작성 ← 현재
+- [x] phase4-api-mcp.md 전면 재작성
 - [x] plans/mcp/ 하위 카테고리 테이블 파일 13개 생성
 - [x] WORKSPACE.md 업데이트 (활성 카테고리 파일 포인터 추가)
 
