@@ -1,5 +1,11 @@
 # Phase 4 — API·MCP 정보 보강
 
+> ⚠️ **전면 재작성 필요** — WORKSPACE.md 기준으로 다음 세션에서 재작성할 것.
+> 기존 MCP 조사 방향이 잘못됨. 아래 내용을 구현 기준으로 사용하지 말 것.
+> 작업 지시는 WORKSPACE.md 참조.
+
+---
+
 > Phase 3 완료(검색 고도화 + 태그 필터) 후 진입.
 > 전체 347개 서비스에 API·대시보드·MCP 연결 정보를 선택적으로 추가한다.
 
@@ -64,175 +70,56 @@
 
 ## 작업 항목
 
+> ⚠️ 아래 항목은 잘못된 방향으로 진행된 기록임. 구현 기준으로 사용 금지.
+> 다음 세션에서 WORKSPACE.md 기준으로 전면 재작성할 것.
+
 ### P4-1. ItemDetail.jsx UI 확장
 
-- ✅ detail 객체에 api_docs / dashboard / mcp 필드 렌더링 추가
-  - api_docs, dashboard 중 존재하면: 구분선(`<hr>`) 출력 후 API·대시보드 링크 표시
-  - mcp 존재하면: Claude Desktop config 코드블록 + CLI 명령어 코드블록 + 정보 링크 표시
-- ✅ 빌드 확인
+- ✅ api_docs·dashboard·mcp 기본 렌더링 구현 완료
+- 🔲 **재작업 필요**: mcp 섹션 "Claude MCP 연결" 레이블 + 코드블록 복사 버튼 미구현
 
 ---
 
-### P4-2. mcp-automation 카테고리 (13개)
+### P4-2. mcp-automation (13개)
+- ✅ api_docs·dashboard 완료
+- 🔲 mcp 전체 재조사 필요 — 각 JSON 파일 전체 서비스 대상
 
-> MCP·에이전트·자동화 카테고리 — MCP 관련 서비스 밀집
+### P4-3. dev-tools (24개)
+- ✅ api_docs·dashboard 완료
+- 🔲 mcp 전체 재조사 필요
 
-- ✅ WebFetch로 각 서비스 MCP 서버 정보 수집
-- ✅ JSON 업데이트
+### P4-4. database (13개)
+- ✅ api_docs·dashboard 완료
+- 🔲 mcp 전체 재조사 필요
 
-**대상 체크리스트** (서비스별 예상 지원 여부):
+### P4-5. hosting-infra (18개)
+- ✅ api_docs·dashboard 완료
+- 🔲 mcp 전체 재조사 필요
 
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| n8n | ✓ | ✓ | 조사 필요 |
-| Zapier | ✓ | ✓ | 조사 필요 |
-| Make | ✓ | ✓ | 조사 필요 |
-| Pipedream | ✓ | ✓ | ✓ (공식) |
-| Activepieces | ✓ | ✓ | 조사 필요 |
-| Windmill | ✓ | ✓ | 조사 필요 |
-| Smithery | ✓ | ✓ | ✓ (MCP 허브) |
-| Glama | ✓ | ✓ | ✓ (MCP 허브) |
-| MCP.so | - | ✓ | ✓ (MCP 허브) |
-| Composio | ✓ | ✓ | ✓ (공식) |
-|나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
+### P4-6. ai-platforms (18개)
+- ✅ api_docs·dashboard 완료
+- 🔲 mcp 전체 재조사 필요
 
----
+### P4-7. api (14개)
+- 🔲 api_docs·dashboard·mcp 전체 미작업
 
-### P4-3. dev-tools 카테고리 (24개)
+### P4-8. payment (13개)
+- 🔲 전체 미작업
 
-- ✅ WebFetch 수집 완료 (Playwright·Sentry·Docker MCP 확인)
-- ✅ JSON 업데이트 완료 (24개 전체)
+### P4-9. nocode-collab (13개)
+- 🔲 전체 미작업
 
-**다음 세션 재개 시 추가 대상:**
+### P4-10. design-tools (8개)
+- 🔲 전체 미작업
 
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| GitHub Copilot | ✓ | ✓ | - (완료) |
-| Replit | ✓ | ✓ | - |
-| Claude Code | ✓ | ✓ | - (MCP 클라이언트이므로 MCP 항목 없음) |
-| Mintlify | ✓ | ✓ | - |
-| Postman AI | ✓ | ✓ | - |
-| Docker | ✓ | ✓ | ✓ (MCP Gateway, info_url만) |
-| Playwright | ✓ | - | ✓ (npx @playwright/mcp@latest) |
-| ngrok | ✓ | ✓ | - |
-| Sentry | ✓ | ✓ | ✓ (npx @sentry/mcp-server@latest) |
-| Semgrep | ✓ | ✓ | - |
-| Flutter | ✓ | - | - |
-| TensorFlow | ✓ | - | - |
+### P4-11. marketing-seo (21개)
+- 🔲 전체 미작업
 
----
-
-### P4-4. database 카테고리 (13개)
-
-- ✅ JSON 업데이트 완료 (13개 전체)
-
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| PostgreSQL | - | - | ✓ (공식: @modelcontextprotocol/server-postgres) |
-| SQLite | - | - | ✓ (공식: @modelcontextprotocol/server-sqlite) |
-| MySQL | - | - | 조사 필요 |
-| MongoDB | ✓ | ✓ | ✓ (공식) |
-| Supabase | ✓ | ✓ | ✓ (공식) |
-| PlanetScale | ✓ | ✓ | 조사 필요 |
-| Neon | ✓ | ✓ | ✓ (공식) |
-| Redis | ✓ | ✓ | ✓ (공식) |
-| 나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
-
----
-
-### P4-5. hosting-infra 카테고리 (18개)
-
-- ✅ JSON 업데이트 완료 (18개 전체)
-
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| AWS | ✓ | ✓ | ✓ (awslabs/mcp) |
-| Cloudflare | ✓ | ✓ | ✓ (공식) |
-| Vercel | ✓ | ✓ | ✓ (공식) |
-| Netlify | ✓ | ✓ | 조사 필요 |
-| Render | ✓ | ✓ | 조사 필요 |
-| 나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
-
----
-
-### P4-6. ai-platforms 카테고리 (18개) ✅
-
-> API 있는 서비스만 필드 추가. 스킵: NotebookLM, Phind, Genspark, Manus, chat.z.ai, Kimi, Flowith, abocado.ai
-
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| OpenAI (ChatGPT) | ✓ | ✓ | info_url (Remote MCP 클라이언트 구조) |
-| Anthropic Claude | ✓ | ✓ | - (MCP 제공자) |
-| Google Gemini | ✓ | ✓ | - (공식 커뮤니티 MCP 없음) |
-| Grok (xAI) | ✓ | ✓ | - (MCP 클라이언트 구조) |
-| Perplexity | ✓ | ✓ | ✓ (공식: @perplexity-ai/mcp-server) |
-| Microsoft Copilot | ✓ | ✓ | - |
-| Mistral AI | ✓ | ✓ | - (MCP 클라이언트 구조) |
-| Hugging Face | ✓ | ✓ | ✓ (공식 원격: https://huggingface.co/mcp) |
-| Ollama | ✓ | - (로컬) | ✓ (커뮤니티: ollama-mcp) |
-| Qwen | ✓ | ✓ | - |
-
----
-
-### P4-7. api 카테고리 (14개)
-
-- 🔲 WebFetch로 각 서비스 API·MCP 정보 수집 후 업데이트
-- 주로 API 서비스이므로 api_docs·dashboard 위주
-
----
-
-### P4-8. payment 카테고리 (13개)
-
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| Stripe | ✓ | ✓ | ✓ (공식) |
-| 나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
-
----
-
-### P4-9. nocode-collab 카테고리 (13개)
-
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| GitHub | ✓ | ✓ | ✓ (중복 — dev-tools와 동일 처리) |
-| Notion | ✓ | ✓ | ✓ (공식: @notionhq/notion-mcp-server) |
-| Linear | ✓ | ✓ | ✓ (공식) |
-| Airtable | ✓ | ✓ | ✓ (커뮤니티) |
-| Jira/Atlassian | ✓ | ✓ | ✓ (공식 Remote MCP) |
-| 나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
-
----
-
-### P4-10. design-tools 카테고리 (8개)
-
-| 서비스 | API | Dashboard | MCP |
-|--------|-----|-----------|-----|
-| Figma | ✓ | ✓ | ✓ (공식) |
-| 나머지 | 조사 필요 | 조사 필요 | 조사 필요 |
-
----
-
-### P4-11. marketing-seo 카테고리 (21개)
-
-- 🔲 WebFetch로 각 서비스 API·MCP 정보 수집 후 업데이트
-
----
-
-### P4-12. google-* 카테고리 (9개 카테고리, 총 ~108개)
-
-| 서비스 그룹 | API | Dashboard | MCP |
-|------------|-----|-----------|-----|
-| Google Drive | ✓ | ✓ | ✓ (공식: @modelcontextprotocol/server-gdrive) |
-| Google Maps | ✓ | ✓ | ✓ (공식: @modelcontextprotocol/server-google-maps) |
-| Google Cloud | ✓ | ✓ | 조사 필요 |
-| 나머지 Google 서비스 | 조사 필요 | ✓ (대부분 console.cloud.google.com) | 조사 필요 |
-
----
+### P4-12. google-* (9개 카테고리)
+- 🔲 전체 미작업
 
 ### P4-13. image-ai / video-audio-ai / 에셋 계열 / web-templates (4개 카테고리)
-
-- 🔲 WebFetch로 API 제공 여부 조사 후 api_docs·dashboard 위주 업데이트
-- MCP 서버 존재 가능성: image-ai 일부 (ElevenLabs, Stability AI 등)
+- 🔲 전체 미작업
 
 ---
 
