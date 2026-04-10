@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-1~P4-6 완료, P4-7 (api)부터 재개 필요 |
+| 상태 | 🔄 진행중 — P4-1~P4-6 완료, 품질 재검토 체크리스트 작성 완료·전수 점검 미실행 |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 
@@ -66,8 +66,11 @@ phase4-api-mcp.md 참조.
 **master-source ↔ JSON 동기화 미완**: Phase 4 api_docs·dashboard·mcp 데이터가 master-source-*.md에 없음. gen-json.py detail 보존으로 실제 손실 없으나 구조 문제. Phase 4 완료 후 협의.
 
 **다음 세션 작업 순서:**
-1. P4-1 플랜에 복사 버튼 항목 추가 → ItemRow.jsx 구현
-2. P4-2~P4-6 전체 카테고리 품질 기준 대조 재검토
+1. phase4-api-mcp.md `## 품질 재검토 체크리스트` 전수 점검 실행
+   - P4-2~P4-6 각 카테고리 JSON 직접 읽어 3개 기준(MCP 완전성·빈필드·링크 유효성) 서비스별 확인
+   - 체크리스트 서비스명 순서대로 🔲 → ✅/❌ 채우며 진행, 문제 발견 즉시 JSON 수정
+   - **특정 서비스 이름을 먼저 타깃하지 말 것 — 체크리스트 순서대로 전수 확인**
+2. 전수 점검 완료 후: P4-1 플랜에 복사 버튼 항목 추가 → ItemRow.jsx 구현
 3. P4-7(api 카테고리) 진행
 
 ---

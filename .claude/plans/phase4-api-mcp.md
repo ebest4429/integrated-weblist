@@ -236,6 +236,138 @@
 
 ---
 
+## 품질 재검토 체크리스트
+
+> 취지: P4-2~P4-6은 데이터 품질 기준 수립 이전에 작업됨. 3개 기준으로 전수 점검 후 ✅ 확인된 것만 완료 처리.
+> JSON 파일 직접 읽어 실제 값 기준으로 작성함.
+
+**기준 범례**
+- 기준1(MCP): ✅ desktop_config+cli_command 모두 있음 | ❌ info_url 단독 사용(위반) | — MCP 없음(스킵 정상)
+- 기준2(빈필드): ✅ 빈값 없음 | ❌ 빈값·불완전 필드 있음 | — 해당없음
+- 기준3(링크): ✅ 확인됨 | 🔲 미확인
+
+---
+
+### P4-2. mcp-automation (13개)
+
+| 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
+|--------|-----------|-------------|-----------|
+| MCP 공식 문서 | 🔲 | 🔲 | 🔲 |
+| MCP.so | 🔲 | 🔲 | 🔲 |
+| Smithery | 🔲 | 🔲 | 🔲 |
+| LangChain | 🔲 | 🔲 | 🔲 |
+| LangGraph | 🔲 | 🔲 | 🔲 |
+| CrewAI | 🔲 | 🔲 | 🔲 |
+| AutoGen | 🔲 | 🔲 | 🔲 |
+| Dify | 🔲 | 🔲 | 🔲 |
+| n8n | 🔲 | 🔲 | 🔲 |
+| Zapier | 🔲 | 🔲 | 🔲 |
+| Make | 🔲 | 🔲 | 🔲 |
+| Pipedream | 🔲 | 🔲 | 🔲 |
+| Apify | 🔲 | 🔲 | 🔲 |
+
+---
+
+### P4-3. dev-tools (24개)
+
+| 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
+|--------|-----------|-------------|-----------|
+| Cursor | 🔲 | 🔲 | 🔲 |
+| Windsurf | 🔲 | 🔲 | 🔲 |
+| GitHub Copilot | 🔲 | 🔲 | 🔲 |
+| Bolt.new | 🔲 | 🔲 | 🔲 |
+| v0 by Vercel | 🔲 | 🔲 | 🔲 |
+| Replit | 🔲 | 🔲 | 🔲 |
+| Lovable | 🔲 | 🔲 | 🔲 |
+| Claude Code | 🔲 | 🔲 | 🔲 |
+| Mintlify | 🔲 | 🔲 | 🔲 |
+| Postman AI | 🔲 | 🔲 | 🔲 |
+| Pinokio | 🔲 | 🔲 | 🔲 |
+| Tailwind CSS | 🔲 | 🔲 | 🔲 |
+| Docker | 🔲 | 🔲 | 🔲 |
+| Puppeteer | 🔲 | 🔲 | 🔲 |
+| Playwright | 🔲 | 🔲 | 🔲 |
+| ngrok | 🔲 | 🔲 | 🔲 |
+| Sentry | 🔲 | 🔲 | 🔲 |
+| Semgrep | 🔲 | 🔲 | 🔲 |
+| VS Code | 🔲 | 🔲 | 🔲 |
+| Android Studio | 🔲 | 🔲 | 🔲 |
+| Flutter | 🔲 | 🔲 | 🔲 |
+| TensorFlow | 🔲 | 🔲 | 🔲 |
+| (나머지 2개) | 🔲 | 🔲 | 🔲 |
+
+---
+
+### P4-4. database (13개)
+
+| 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
+|--------|-----------|-------------|-----------|
+| Pinecone | 🔲 | 🔲 | 🔲 |
+| Weaviate | 🔲 | 🔲 | 🔲 |
+| Qdrant | 🔲 | 🔲 | 🔲 |
+| Chroma | 🔲 | 🔲 | 🔲 |
+| Neon | 🔲 | 🔲 | 🔲 |
+| Upstash | 🔲 | 🔲 | 🔲 |
+| MongoDB Atlas | 🔲 | 🔲 | 🔲 |
+| PlanetScale | 🔲 | 🔲 | 🔲 |
+| Cloudflare D1 | 🔲 | 🔲 | 🔲 |
+| SQLite | 🔲 | 🔲 | 🔲 |
+| PostgreSQL | 🔲 | 🔲 | 🔲 |
+| Redis | 🔲 | 🔲 | 🔲 |
+| BigQuery | 🔲 | 🔲 | 🔲 |
+
+---
+
+### P4-5. hosting-infra (18개)
+
+| 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
+|--------|-----------|-------------|-----------|
+| Vercel | 🔲 | 🔲 | 🔲 |
+| Netlify | 🔲 | 🔲 | 🔲 |
+| Railway | 🔲 | 🔲 | 🔲 |
+| Render | 🔲 | 🔲 | 🔲 |
+| GitHub Pages | 🔲 | 🔲 | 🔲 |
+| Cron-job.org | 🔲 | 🔲 | 🔲 |
+| Supabase | 🔲 | 🔲 | 🔲 |
+| Firebase | 🔲 | 🔲 | 🔲 |
+| Clerk | 🔲 | 🔲 | 🔲 |
+| PocketBase | 🔲 | 🔲 | 🔲 |
+| AWS | 🔲 | 🔲 | 🔲 |
+| Google Cloud (GCP) | 🔲 | 🔲 | 🔲 |
+| DigitalOcean | 🔲 | 🔲 | 🔲 |
+| Cloudflare Workers | 🔲 | 🔲 | 🔲 |
+| NCloud | 🔲 | 🔲 | 🔲 |
+| Google Cloud Run | 🔲 | 🔲 | 🔲 |
+| Google App Engine | 🔲 | 🔲 | 🔲 |
+| Google Kubernetes Engine | 🔲 | 🔲 | 🔲 |
+
+---
+
+### P4-6. ai-platforms (18개)
+
+| 서비스 | 기준1(MCP) | 기준2(빈필드) | 기준3(링크) |
+|--------|-----------|-------------|-----------|
+| ChatGPT | 🔲 | 🔲 | 🔲 |
+| Claude | 🔲 | 🔲 | 🔲 |
+| Gemini | 🔲 | 🔲 | 🔲 |
+| Grok | 🔲 | 🔲 | 🔲 |
+| Perplexity | 🔲 | 🔲 | 🔲 |
+| Microsoft Copilot | 🔲 | 🔲 | 🔲 |
+| Mistral AI | 🔲 | 🔲 | 🔲 |
+| Hugging Face | 🔲 | 🔲 | 🔲 |
+| Ollama | 🔲 | 🔲 | 🔲 |
+| NotebookLM | 🔲 | 🔲 | 🔲 |
+| Phind | 🔲 | 🔲 | 🔲 |
+| Genspark | 🔲 | 🔲 | 🔲 |
+| Manus | 🔲 | 🔲 | 🔲 |
+| chat.z.ai | 🔲 | 🔲 | 🔲 |
+| Qwen | 🔲 | 🔲 | 🔲 |
+| Kimi | 🔲 | 🔲 | 🔲 |
+| Flowith | 🔲 | 🔲 | 🔲 |
+| abocado.ai | 🔲 | 🔲 | 🔲 |
+
+---
+
 ## 완료 조건
 
 - [ ] ItemDetail.jsx 구분선·신규 필드 렌더링 동작
