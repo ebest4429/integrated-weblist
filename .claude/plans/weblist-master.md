@@ -23,7 +23,7 @@
 | Phase 1 | 초기화 + Vite+React 구축 | `phase1-build.md` | ✅ 완료 |
 | Phase 2 | detail 필드 순차 구현 | `phase2-detail.md` | ✅ 완료 |
 | Phase 3 | 검색 고도화 + 태그 필터 | `phase3-search-filter.md` | ✅ 완료 |
-| Phase 4 | API·MCP 정보 보강 | `phase4-api-mcp.md` | 🔄 진행중 — 0단계(플랜 재작성+테이블파일 13개) 완료. 다음: P4-1 UI → 카테고리별 MCP 조사·구현 |
+| Phase 4 | API·MCP 정보 보강 | `phase4-api-mcp.md` | 🔄 진행중 — api_docs·dashboard 완료. 다음: P4-1 UI → 카테고리별 MCP 조사·구현 |
 
 ---
 
@@ -67,6 +67,7 @@
 | 2026-04-07 | 배포 | GitHub Pages (정적 빌드 `vite build`) |
 | 2026-04-07 | 데이터 출처 | ai_resource_hub + google-ecosystem-map 전체 + 소스.md 추가 항목 |
 | 2026-04-07 | detail 필드 구현 | 펼침 상세(소개·주요기능·사용법·기타)를 순차 구현으로 확정. 취지: 338개 전체를 한번에 채우는 것은 비현실적이나, 카테고리별 순차 작성으로 완료된 것부터 기준점 삼아 누적 진행. optional 필드로 설계하여 미완료 카테고리도 기존 desc로 정상 동작. |
+| 2026-04-11 | api_docs·dashboard 링크 검증 | 구현은 완료. 전체 링크 유효성 검증은 Phase 4 완료 후 협의하여 결정. 취지: 검증 작업량이 크므로 MCP 구현 완료 후 필요성 판단. 당장 할 일 없음 — 페이지 플랜에 기록 금지. |
 
 ---
 
