@@ -96,8 +96,12 @@ integrated-weblist/
 ├── .claude/
 │   ├── plans/
 │   │   ├── weblist-master.md         # 마스터플랜
-│   │   ├── phase3-search-filter.md   # 완료 (phase1·2 플랜 파일은 미보존)
+│   │   ├── phase3-search-filter.md   # 완료
 │   │   ├── phase4-api-mcp.md         # 현재 활성 플랜
+│   │   ├── archive/                  # 완료된 플랜 아카이브
+│   │   │   ├── phase1-build.md
+│   │   │   ├── phase2-detail.md
+│   │   │   └── WORKSPACE.phase2-detail.md
 │   │   └── designs/
 │   │       └── phase2-detail.md      # 미삭제 잔재 (WORKSPACE.md 보류 항목 참조)
 │   ├── CLAUDE.md
