@@ -112,4 +112,4 @@ Pipedream, Apify, Playwright, Sentry, Neon, MongoDB Atlas, SQLite, PostgreSQL, R
 | 전환 | WORKSPACE.phase3-search-filter.md 아카이브 후 새 WORKSPACE.md 작성 |
 | 플랜 | phase4-api-mcp.md 작성 완료 |
 | 스키마 | detail 객체에 api_docs / dashboard / mcp(desktop_config, cli_command, info_url) 추가 |
-| 체크리스트 | 25개 카테고리 × 서비스별 MCP/API 지원 여부 조사 완료 (플랜 내 테이블 참조) |
+| 체크리스트 | ❌ 잘못된 기준으로 조사됨 — 테이블 전부 제거. 전면 재조사 필요 (WORKSPACE 남은 과제 참조) |
