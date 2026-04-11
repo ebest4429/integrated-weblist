@@ -25,10 +25,19 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-6 ai-platforms MCP 조사
+### 다음 세션 최우선: P4-6 ai-platforms MCP 조사 + 전체 배포
 
-P4-5 hosting-infra 완료 (18개 조사, 13개 MCP 추가·업데이트 — Vercel·Netlify·Railway·Render·Supabase(HTTP Remote 업데이트)·Firebase·Clerk·AWS·GCP·DigitalOcean·Cloudflare Workers(HTTP Remote 업데이트)·Cloud Run·GKE. GitHub Pages·Cron-job.org·PocketBase·NCloud·App Engine은 MCP 없음).
+P4-5 hosting-infra 완료 (18개 조사, 13개 MCP 추가·업데이트).
 다음 조사 파일: `plans/mcp/p4-6-ai-platforms.md` (ai-platforms.json, 18개 서비스)
+
+**이번 세션 컨텍스트 부족으로 중단. 다음 세션에서:**
+1. P4-6 ~ P4-14 순차 조사·구현 계속
+2. 전체 완료 후 `npm run deploy`로 GitHub Pages 배포
+
+**P4-6 참고 — 이미 MCP 데이터 있는 서비스 (재검증 필요):**
+- Perplexity: `@perplexity-ai/mcp-server` (npx)
+- Hugging Face: `https://huggingface.co/mcp` (HTTP Remote)
+- Ollama: `ollama-mcp` (npx, rawveg/ollama-mcp)
 
 ---
 
