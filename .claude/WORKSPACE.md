@@ -12,7 +12,7 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 5 — CLI 정보 보강 + 가상 필터뷰 |
-| 상태 | 플랜 작성 완료 — 구현 시작 전 |
+| 상태 | ✅ 전체 완료 — Phase 1~5 종료 |
 | 현재 플랜 | `.claude/plans/phase5-cli.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
 | 설계 문서 | `.claude/plans/designs/phase5-cli.md` (협의 완료) |
@@ -28,12 +28,12 @@
 - P5-2: 34개 서비스 CLI 데이터 조사 + 6개 JSON 업데이트 + 커밋
 - GitHub Pages 배포 완료 (빌드 경고 없음)
 
-### 보류 — Phase 4에서 이월
+### 보류 항목 — 전부 종료 처리 (2026-04-12)
 
-- 훅 구조 문제 (protect-phase-transition.js 우회 경로): 추후 해결
-- designs/phase2-detail.md 미삭제: Phase 5 완료 후 정리
-- master-source ↔ JSON 동기화 미완: Phase 5 완료 후 협의
-- Phase 4 완료 후 전체 링크 유효성 검증 여부 협의 필요
+- 훅 구조 문제: 추후 구조 정리 시 해결 예정
+- designs/phase2-detail.md: 추후 파일 구조 정리 시 처리 예정
+- master-source ↔ JSON 동기화: gen-json.py 삭제로 해결
+- 전체 링크 유효성 검증: 프로젝트 재가동 시 문제 발생 여부 확인 후 처리
 
 ---
 
