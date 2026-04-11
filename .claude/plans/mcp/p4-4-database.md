@@ -11,19 +11,21 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Pinecone | 🔲 | - | 🔲 |
-| Weaviate | 🔲 | - | 🔲 |
-| Qdrant | 🔲 | - | 🔲 |
-| Chroma | 🔲 | - | 🔲 |
-| Neon | 🔲 | - | 🔲 |
-| Upstash | 🔲 | - | 🔲 |
-| MongoDB Atlas | 🔲 | - | 🔲 |
-| PlanetScale | 🔲 | - | 🔲 |
-| Cloudflare D1 | 🔲 | - | 🔲 |
-| SQLite | 🔲 | - | 🔲 |
-| PostgreSQL | 🔲 | - | 🔲 |
-| Redis | 🔲 | - | 🔲 |
-| BigQuery | 🔲 | - | 🔲 |
+| Pinecone | ✅ | ✅ | ✅ |
+| Weaviate | ✅ | ❌ | N/A |
+| Qdrant | ✅ | ✅ | ✅ |
+| Chroma | ✅ | ✅ | ✅ |
+| Neon | ✅ | ✅ | ✅ |
+| Upstash | ✅ | ✅ | ✅ |
+| MongoDB Atlas | ✅ | ✅ | ✅ |
+| PlanetScale | ✅ | ✅ | ✅ |
+| Cloudflare D1 | ✅ | ✅ | ✅ |
+| SQLite | ✅ | ✅ | ✅ |
+| PostgreSQL | ✅ | ✅ | ✅ |
+| Redis | ✅ | ✅ | ✅ |
+| BigQuery | ✅ | ✅ | ✅ |
+
+> Weaviate: 공식 Docs MCP 서버(원격 HTTP)는 Weaviate 문서 질의 전용이며 사용자 DB 인스턴스 연결 용도가 아님. DB 연결용 `weaviate/mcp-server-weaviate`는 claude_desktop_config.json 설정 미공개 → MCP 없음 처리.
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -33,5 +35,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 13개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 13개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료
