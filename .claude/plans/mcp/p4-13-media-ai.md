@@ -11,40 +11,40 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Midjourney | 🔲 | - | 🔲 |
-| DALL-E 3 | 🔲 | - | 🔲 |
-| Adobe Firefly | 🔲 | - | 🔲 |
-| Ideogram | 🔲 | - | 🔲 |
-| Leonardo.ai | 🔲 | - | 🔲 |
-| Flux (Black Forest Labs) | 🔲 | - | 🔲 |
-| Stable Diffusion | 🔲 | - | 🔲 |
-| Civitai | 🔲 | - | 🔲 |
-| ComfyUI | 🔲 | - | 🔲 |
-| Topaz Labs | 🔲 | - | 🔲 |
-| Clipdrop | 🔲 | - | 🔲 |
-| ImageFX | 🔲 | - | 🔲 |
+| Midjourney | ✅ | ❌ | N/A |
+| DALL-E 3 | ✅ | ❌ | N/A |
+| Adobe Firefly | ✅ | ❌ | N/A |
+| Ideogram | ✅ | ❌ | N/A |
+| Leonardo.ai | ✅ | ❌ | N/A |
+| Flux (Black Forest Labs) | ✅ | ❌ | N/A |
+| Stable Diffusion | ✅ | ❌ | N/A |
+| Civitai | ✅ | ❌ | N/A |
+| ComfyUI | ✅ | ❌ | N/A |
+| Topaz Labs | ✅ | ❌ | N/A |
+| Clipdrop | ✅ | ❌ | N/A |
+| ImageFX | ✅ | ❌ | N/A |
 
 ## video-audio-ai (17개)
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Sora | 🔲 | - | 🔲 |
-| Runway Gen-3 | 🔲 | - | 🔲 |
-| Kling AI | 🔲 | - | 🔲 |
-| Pika Labs | 🔲 | - | 🔲 |
-| HeyGen | 🔲 | - | 🔲 |
-| ElevenLabs | 🔲 | - | 🔲 |
-| PlayHT | 🔲 | - | 🔲 |
-| Whisper | 🔲 | - | 🔲 |
-| Suno | 🔲 | - | 🔲 |
-| Udio | 🔲 | - | 🔲 |
-| Veo 3 | 🔲 | - | 🔲 |
-| Flow | 🔲 | - | 🔲 |
-| MusicFX | 🔲 | - | 🔲 |
-| Higgsfield AI | 🔲 | - | 🔲 |
-| Vrew | 🔲 | - | 🔲 |
-| Vooster | 🔲 | - | 🔲 |
-| Edimakor | 🔲 | - | 🔲 |
+| Sora | ✅ | ❌ | N/A |
+| Runway Gen-3 | ✅ | ✅ | ✅ |
+| Kling AI | ✅ | ❌ | N/A |
+| Pika Labs | ✅ | ❌ | N/A |
+| HeyGen | ✅ | ✅ | ✅ |
+| ElevenLabs | ✅ | ✅ | ✅ |
+| PlayHT | ✅ | ❌ | N/A |
+| Whisper | ✅ | ❌ | N/A |
+| Suno | ✅ | ❌ | N/A |
+| Udio | ✅ | ❌ | N/A |
+| Veo 3 | ✅ | ❌ | N/A |
+| Flow | ✅ | ❌ | N/A |
+| MusicFX | ✅ | ❌ | N/A |
+| Higgsfield AI | ✅ | ❌ | N/A |
+| Vrew | ✅ | ❌ | N/A |
+| Vooster | ✅ | ❌ | N/A |
+| Edimakor | ✅ | ❌ | N/A |
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -54,5 +54,16 @@
 
 ## 완료 체크
 
-- [ ] 전체 29개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 29개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료
+
+## 조사 결과 요약
+
+MCP 있음 (3개, 모두 video-audio-ai.json):
+- Runway Gen-3: remote MCP (npx mcp-remote https://mcp.runway.team, API 키 필요)
+- HeyGen: uvx heygen-mcp (공식 heygen-com/heygen-mcp)
+- ElevenLabs: uvx elevenlabs-mcp (공식 elevenlabs/elevenlabs-mcp)
+
+MCP 없음 (26개): 나머지 전부
+- 특이사항: Leonardo.ai는 공식 remote MCP 존재하나 Claude Desktop 설정 문서 없음 → 없음 처리
+- image-ai 12개 전체 MCP 없음

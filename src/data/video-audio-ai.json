@@ -38,7 +38,11 @@
           "카메라 움직임(팬·줌·틸트) 정밀 지정"
         ],
         "usage": "runwayml.com 계정 생성 후 무료 125 크레딧으로 시작. Standard($12/월)부터 유료. Gen-3 영상 1초당 약 5크레딧 소모.",
-        "notes": "영화·광고·뮤직비디오 제작 현장에서 실제 활용 사례 다수. 영상 품질 대비 크레딧 소모가 높은 편."
+        "notes": "영화·광고·뮤직비디오 제작 현장에서 실제 활용 사례 다수. 영상 품질 대비 크레딧 소모가 높은 편.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"runway\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"mcp-remote\",\n        \"https://mcp.runway.team\",\n        \"--header\",\n        \"Authorization: Bearer <YOUR_API_KEY>\"\n      ]\n    }\n  }\n}",
+          "info_url": "https://docs.runway.team/api/runway-mcp-server"
+        }
       }
     },
     {
@@ -92,7 +96,11 @@
           "실시간 아바타 스트리밍"
         ],
         "usage": "heygen.com에서 무료 플랜(1분 크레딧)으로 시작. Creator($24/월) 플랜에서 주요 기능 사용. 스크립트 입력→아바타 선택→영상 생성 3단계로 완성.",
-        "notes": "교육·기업 발표·유튜브 채널 운영에 특히 유용. 맞춤 아바타 생성은 Business 플랜 이상 필요."
+        "notes": "교육·기업 발표·유튜브 채널 운영에 특히 유용. 맞춤 아바타 생성은 Business 플랜 이상 필요.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"HeyGen\": {\n      \"command\": \"uvx\",\n      \"args\": [\"heygen-mcp\"],\n      \"env\": {\n        \"HEYGEN_API_KEY\": \"<YOUR_API_KEY>\"\n      }\n    }\n  }\n}",
+          "info_url": "https://docs.heygen.com/docs/heygen-mcp-server"
+        }
       }
     },
     {
@@ -111,7 +119,11 @@
           "Sound Effects — 텍스트로 효과음 생성"
         ],
         "usage": "elevenlabs.io에서 무료 10,000자/월으로 시작. Starter($5/월)부터 유료. API 키 발급 후 Python/JS SDK로 통합. 오디오북·팟캐스트·게임 보이스에 활용.",
-        "notes": "한국어 발음 품질이 TTS 중 상위권. 음성 클로닝 기능은 악용 방지를 위해 가이드라인 준수 필요."
+        "notes": "한국어 발음 품질이 TTS 중 상위권. 음성 클로닝 기능은 악용 방지를 위해 가이드라인 준수 필요.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"ElevenLabs\": {\n      \"command\": \"uvx\",\n      \"args\": [\"elevenlabs-mcp\"],\n      \"env\": {\n        \"ELEVENLABS_API_KEY\": \"<YOUR_API_KEY>\"\n      }\n    }\n  }\n}",
+          "info_url": "https://github.com/elevenlabs/elevenlabs-mcp"
+        }
       }
     },
     {

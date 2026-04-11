@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-12 완료. 다음: P4-13 media-ai |
+| 상태 | 🔄 진행중 — P4-13 완료. 다음: P4-14 assets-templates |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-13-media-ai.md` |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-14-assets-templates.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,14 +25,14 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-13 media-ai MCP 조사
+### 다음 세션 최우선: P4-14 assets-templates MCP 조사
 
-P4-12 google 완료 (120개 조사, 6개 MCP 구현).
-- MCP 구현: Google Maps(@modelcontextprotocol/server-google-maps), Google Drive(@modelcontextprotocol/server-gdrive), Firebase(firebase-tools mcp), BigQuery(@toolbox-sdk/server --prebuilt=bigquery), Cloud Run(@google-cloud/cloud-run-mcp), Google Chrome(chrome-devtools-mcp)
-- MCP 없음: 나머지 114개 서비스 전체
-- 특이사항: 구글 서비스 대부분 MCP 미지원. 공식 지원은 firebase·cloud-run·mcp-toolbox(BigQuery) 3종.
+P4-13 media-ai 완료 (29개 조사, 3개 MCP 구현).
+- MCP 구현: Runway Gen-3(remote mcp.runway.team), HeyGen(uvx heygen-mcp), ElevenLabs(uvx elevenlabs-mcp)
+- MCP 없음: 나머지 26개 (image-ai 12개 전체 포함)
+- 특이사항: Leonardo.ai 공식 remote MCP 있으나 Claude Desktop 문서 없어 없음 처리
 
-다음 조사 파일: `plans/mcp/p4-13-media-ai.md` (image-ai.json, video-audio-ai.json, 29개 서비스)
+다음 조사 파일: `plans/mcp/p4-14-assets-templates.md` (image-assets, video-assets, sound-assets, web-templates, 43개 서비스)
 
 ---
 
