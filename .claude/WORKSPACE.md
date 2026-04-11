@@ -29,7 +29,12 @@
 - ItemRow.jsx CLI 섹션 추가 (install_win·install_mac·commands·info_url)
 - 빌드 확인 완료 (경고 없음) — 커밋 예정
 
-**2단계: CLI 데이터 조사 + 추가**
+**2단계: CLI 데이터 조사 + 구현 — 완료**
+- 34개 서비스 CLI 조사 완료 (database·mcp-automation·ai-platforms·api·dev-tools·hosting-infra 6개 파일)
+- cli 필드 추가: PostgreSQL·Redis·MongoDB·SQLite·PlanetScale·Neon·BigQuery·CloudflareD1·n8n·Apify·HuggingFace·Ollama·OpenAI·Stripe·Twilio·Cursor·ClaudeCode·Mintlify·Docker·Playwright·ngrok·Sentry·Semgrep·VSCode·Flutter·Vercel·Netlify·Railway·Supabase·Firebase·AWS·GCP·DigitalOcean·CloudflareWorkers
+- 빌드 확인 완료 — 커밋 예정
+
+**이전 2단계: CLI 데이터 조사 + 추가**
 - 전체 서비스 중 CLI 보유 서비스 전수 조사
 - 기존 서비스: cli 필드 추가
 - 신규 서비스: database.json 등 적절한 카테고리에 항목 추가

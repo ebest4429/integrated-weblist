@@ -190,6 +190,17 @@
           "cli_command": "claude mcp add hf-mcp-server -t http https://huggingface.co/mcp -H \"Authorization: Bearer YOUR_HF_TOKEN\"",
           "info_url": "https://huggingface.co/docs/hub/en/hf-mcp-server"
         }
+      },
+      "cli": {
+        "install_win": "pip install huggingface_hub",
+        "install_mac": "pip install huggingface_hub",
+        "commands": [
+          { "label": "로그인", "code": "huggingface-cli login" },
+          { "label": "모델 다운로드", "code": "huggingface-cli download meta-llama/Llama-3.2-1B" },
+          { "label": "파일 업로드", "code": "huggingface-cli upload my-org/my-model ./model.bin" },
+          { "label": "캐시 정리", "code": "huggingface-cli delete-cache" }
+        ],
+        "info_url": "https://huggingface.co/docs/huggingface_hub/guides/cli"
       }
     },
     {
@@ -214,6 +225,17 @@
           "cli_command": "claude mcp add ollama -- npx -y ollama-mcp",
           "info_url": "https://github.com/rawveg/ollama-mcp"
         }
+      },
+      "cli": {
+        "install_win": "winget install Ollama.Ollama",
+        "install_mac": "brew install ollama",
+        "commands": [
+          { "label": "모델 실행", "code": "ollama run llama3.2" },
+          { "label": "모델 다운로드", "code": "ollama pull mistral" },
+          { "label": "설치 모델 목록", "code": "ollama list" },
+          { "label": "API 서버 시작", "code": "ollama serve" }
+        ],
+        "info_url": "https://github.com/ollama/ollama"
       }
     },
     {

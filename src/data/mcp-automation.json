@@ -186,6 +186,17 @@
           "desktop_config": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"url\": \"https://<your-n8n-instance>/mcp\"\n    }\n  }\n}",
           "info_url": "https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g n8n",
+        "install_mac": "npm install -g n8n",
+        "commands": [
+          { "label": "n8n 실행", "code": "n8n start" },
+          { "label": "워크플로우 내보내기", "code": "n8n export:workflow --all --output=./backups/" },
+          { "label": "워크플로우 가져오기", "code": "n8n import:workflow --input=./workflow.json" },
+          { "label": "자격증명 내보내기", "code": "n8n export:credentials --all --output=./creds/" }
+        ],
+        "info_url": "https://docs.n8n.io/hosting/cli-commands/"
       }
     },
     {
@@ -285,6 +296,17 @@
           "cli_command": "claude mcp add apify -- npx -y @apify/actors-mcp-server",
           "info_url": "https://docs.apify.com/platform/integrations/mcp"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g apify-cli",
+        "install_mac": "npm install -g apify-cli",
+        "commands": [
+          { "label": "로그인", "code": "apify login" },
+          { "label": "Actor 초기화", "code": "apify create my-actor" },
+          { "label": "로컬 실행", "code": "apify run" },
+          { "label": "클라우드 배포", "code": "apify push" }
+        ],
+        "info_url": "https://docs.apify.com/cli/"
       }
     }
   ]

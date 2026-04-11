@@ -20,6 +20,17 @@
         ],
         "usage": "platform.openai.com에서 API 키 발급 후 토큰 단위 과금. Python/Node.js 공식 SDK 제공. 월별 사용량 한도 설정 가능.",
         "notes": "모델별 가격 차이 큼. 비용 최적화 시 GPT-4o Mini 또는 Batch API 활용 권장."
+      },
+      "cli": {
+        "install_win": "pip install openai",
+        "install_mac": "pip install openai",
+        "commands": [
+          { "label": "모델 목록", "code": "openai api models.list" },
+          { "label": "채팅 완성 (레거시)", "code": "openai api chat.completions.create -m gpt-4o -g user \"Hello\"" },
+          { "label": "파인튜닝 목록", "code": "openai api fine_tuning.jobs.list" },
+          { "label": "마이그레이션", "code": "openai migrate" }
+        ],
+        "info_url": "https://platform.openai.com/docs/libraries/python-library"
       }
     },
     {
@@ -148,6 +159,17 @@
           "cli_command": "claude mcp add --transport http stripe https://mcp.stripe.com/",
           "info_url": "https://docs.stripe.com/mcp"
         }
+      },
+      "cli": {
+        "install_win": "winget install Stripe.StripeCLI",
+        "install_mac": "brew install stripe/stripe-cli/stripe",
+        "commands": [
+          { "label": "로그인", "code": "stripe login" },
+          { "label": "웹훅 로컬 수신", "code": "stripe listen --forward-to localhost:3000/webhook" },
+          { "label": "이벤트 트리거", "code": "stripe trigger payment_intent.succeeded" },
+          { "label": "로그 스트리밍", "code": "stripe logs tail" }
+        ],
+        "info_url": "https://docs.stripe.com/stripe-cli"
       }
     },
     {
@@ -217,6 +239,17 @@
           "cli_command": "claude mcp add twilio -- npx -y @twilio-alpha/mcp ACCOUNT_SID/API_KEY:API_SECRET",
           "info_url": "https://github.com/twilio-labs/mcp"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g twilio-cli",
+        "install_mac": "brew tap twilio/brew && brew install twilio",
+        "commands": [
+          { "label": "로그인", "code": "twilio login" },
+          { "label": "전화번호 목록", "code": "twilio phone-numbers:list" },
+          { "label": "SMS 발송", "code": "twilio api:core:messages:create --from +1xxx --to +82xxx --body \"Hello\"" },
+          { "label": "이벤트 로그", "code": "twilio logs:list" }
+        ],
+        "info_url": "https://www.twilio.com/docs/twilio-cli"
       }
     },
     {

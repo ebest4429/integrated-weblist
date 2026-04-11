@@ -20,6 +20,16 @@
         ],
         "usage": "cursor.sh에서 다운로드. VS Code 설정·확장·단축키 그대로 이전 가능. 무료 플랜 월 2000 자동완성·50 느린 요청. Pro($20/월)에서 무제한 사용.",
         "notes": "VS Code 확장 생태계 100% 호환. AI 코딩 에디터 중 현재 가장 인기 있는 제품. Composer(에이전트) 기능은 복잡한 멀티 파일 작업에 강점."
+      },
+      "cli": {
+        "install_win": "winget install Anysphere.Cursor",
+        "install_mac": "brew install --cask cursor",
+        "commands": [
+          { "label": "현재 디렉토리 열기", "code": "cursor ." },
+          { "label": "파일 열기", "code": "cursor FILE" },
+          { "label": "확장 설치", "code": "cursor --install-extension EXTENSION_ID" }
+        ],
+        "info_url": "https://docs.cursor.com/get-started/migrate-from-vscode"
       }
     },
     {
@@ -153,6 +163,17 @@
         "notes": "Cursor·Windsurf와 달리 에디터 독립적. CI/CD·자동화 스크립트에 통합 가능. 현재 이 프로젝트도 Claude Code로 개발 중.",
         "api_docs": "https://docs.anthropic.com/en/docs/claude-code",
         "dashboard": "https://console.anthropic.com"
+      },
+      "cli": {
+        "install_win": "npm install -g @anthropic-ai/claude-code",
+        "install_mac": "npm install -g @anthropic-ai/claude-code",
+        "commands": [
+          { "label": "실행", "code": "claude" },
+          { "label": "프롬프트로 실행", "code": "claude -p \"코드를 리뷰해줘\"" },
+          { "label": "원샷 실행", "code": "claude --print \"파일 구조를 분석해줘\"" },
+          { "label": "버전 확인", "code": "claude --version" }
+        ],
+        "info_url": "https://docs.anthropic.com/en/docs/claude-code"
       }
     },
     {
@@ -173,6 +194,16 @@
         "notes": "Notion·GitBook 대비 개발자 문서 특화. 많은 오픈소스·SaaS 제품의 공식 문서 플랫폼으로 채택.",
         "api_docs": "https://mintlify.com/docs",
         "dashboard": "https://dashboard.mintlify.com"
+      },
+      "cli": {
+        "install_win": "npm install -g mintlify",
+        "install_mac": "npm install -g mintlify",
+        "commands": [
+          { "label": "로컬 미리보기", "code": "mintlify dev" },
+          { "label": "빌드", "code": "mintlify build" },
+          { "label": "끊어진 링크 점검", "code": "mintlify broken-links" }
+        ],
+        "info_url": "https://mintlify.com/docs/development"
       }
     },
     {
@@ -260,6 +291,17 @@
           "desktop_config": "{\n  \"mcpServers\": {\n    \"MCP_DOCKER\": {\n      \"command\": \"docker\",\n      \"args\": [\"mcp\", \"gateway\", \"run\"]\n    }\n  }\n}",
           "info_url": "https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/"
         }
+      },
+      "cli": {
+        "install_win": "winget install Docker.DockerDesktop",
+        "install_mac": "brew install --cask docker",
+        "commands": [
+          { "label": "컨테이너 실행", "code": "docker run -it IMAGE" },
+          { "label": "실행 중 컨테이너 목록", "code": "docker ps" },
+          { "label": "이미지 빌드", "code": "docker build -t IMAGE_NAME ." },
+          { "label": "컨테이너 로그", "code": "docker logs CONTAINER_ID" }
+        ],
+        "info_url": "https://docs.docker.com/engine/reference/commandline/cli/"
       }
     },
     {
@@ -307,6 +349,17 @@
           "cli_command": "claude mcp add playwright -- npx @playwright/mcp@latest",
           "info_url": "https://github.com/microsoft/playwright-mcp"
         }
+      },
+      "cli": {
+        "install_win": "npm init playwright@latest",
+        "install_mac": "npm init playwright@latest",
+        "commands": [
+          { "label": "테스트 실행", "code": "npx playwright test" },
+          { "label": "UI 모드", "code": "npx playwright test --ui" },
+          { "label": "코드 생성기", "code": "npx playwright codegen https://example.com" },
+          { "label": "리포트 보기", "code": "npx playwright show-report" }
+        ],
+        "info_url": "https://playwright.dev/docs/running-tests"
       }
     },
     {
@@ -327,6 +380,17 @@
         "notes": "웹훅 개발 시 사실상 필수 도구. Cloudflare Tunnel·localtunnel 등 대안도 있음. 무료 플랜은 세션당 2시간 제한 없음(연결 유지 시).",
         "api_docs": "https://ngrok.com/docs/api",
         "dashboard": "https://dashboard.ngrok.com"
+      },
+      "cli": {
+        "install_win": "winget install Ngrok.Ngrok",
+        "install_mac": "brew install ngrok",
+        "commands": [
+          { "label": "HTTP 터널", "code": "ngrok http 3000" },
+          { "label": "인증 토큰 설정", "code": "ngrok config add-authtoken YOUR_TOKEN" },
+          { "label": "커스텀 도메인", "code": "ngrok http --domain=my.domain.com 3000" },
+          { "label": "터널 목록", "code": "ngrok tunnels ls" }
+        ],
+        "info_url": "https://ngrok.com/docs/getting-started/"
       }
     },
     {
@@ -352,6 +416,17 @@
           "cli_command": "claude mcp add --transport http sentry https://mcp.sentry.dev/mcp",
           "info_url": "https://docs.sentry.io/product/sentry-mcp/"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g @sentry/cli",
+        "install_mac": "brew install getsentry/tools/sentry-cli",
+        "commands": [
+          { "label": "로그인", "code": "sentry-cli login" },
+          { "label": "릴리즈 생성", "code": "sentry-cli releases new VERSION" },
+          { "label": "소스맵 업로드", "code": "sentry-cli sourcemaps upload --release=VERSION dist/" },
+          { "label": "릴리즈 배포 등록", "code": "sentry-cli releases deploys VERSION new -e production" }
+        ],
+        "info_url": "https://docs.sentry.io/product/cli/"
       }
     },
     {
@@ -372,6 +447,17 @@
         "notes": "SonarQube 대비 설치가 간단하고 CI/CD 통합 용이. 보안보다 코드 품질 전반은 SonarQube 또는 ESLint 병행 권장.",
         "api_docs": "https://semgrep.dev/api/v1/docs/",
         "dashboard": "https://semgrep.dev/orgs/"
+      },
+      "cli": {
+        "install_win": "pip install semgrep",
+        "install_mac": "brew install semgrep",
+        "commands": [
+          { "label": "자동 규칙 스캔", "code": "semgrep --config=auto ." },
+          { "label": "보안 감사", "code": "semgrep --config=p/security-audit ." },
+          { "label": "패턴 검색", "code": "semgrep -e 'eval(...)' --lang=python ." },
+          { "label": "JSON 출력", "code": "semgrep --config=auto --json ." }
+        ],
+        "info_url": "https://semgrep.dev/docs/getting-started/"
       }
     },
     {
@@ -392,6 +478,17 @@
         "usage": "code.visualstudio.com에서 무료 다운로드. Ctrl+P로 파일 검색, Ctrl+Shift+P로 커맨드 팔레트. settings.json으로 전체 설정 커스터마이징.",
         "notes": "개발자 설문에서 수년간 1위. Cursor·Windsurf는 VS Code 포크라 기존 설정·확장 그대로 이전 가능. Remote SSH·Dev Containers 확장으로 원격 개발도 지원.",
         "api_docs": "https://code.visualstudio.com/api"
+      },
+      "cli": {
+        "install_win": "winget install Microsoft.VisualStudioCode",
+        "install_mac": "brew install --cask visual-studio-code",
+        "commands": [
+          { "label": "현재 디렉토리 열기", "code": "code ." },
+          { "label": "확장 설치", "code": "code --install-extension EXTENSION_ID" },
+          { "label": "설치 확장 목록", "code": "code --list-extensions" },
+          { "label": "파일 비교", "code": "code --diff FILE1 FILE2" }
+        ],
+        "info_url": "https://code.visualstudio.com/docs/editor/command-line"
       }
     },
     {
@@ -484,6 +581,17 @@
           "cli_command": "claude mcp add --transport stdio dart -- dart mcp-server",
           "info_url": "https://docs.flutter.dev/ai/mcp-server"
         }
+      },
+      "cli": {
+        "install_win": "winget install Google.Flutter",
+        "install_mac": "brew install flutter",
+        "commands": [
+          { "label": "새 프로젝트 생성", "code": "flutter create my_app" },
+          { "label": "앱 실행", "code": "flutter run" },
+          { "label": "APK 빌드", "code": "flutter build apk --release" },
+          { "label": "환경 진단", "code": "flutter doctor" }
+        ],
+        "info_url": "https://docs.flutter.dev/reference/flutter-cli"
       }
     },
     {

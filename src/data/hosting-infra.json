@@ -27,6 +27,17 @@
           "cli_command": "claude mcp add --transport http vercel https://mcp.vercel.com",
           "info_url": "https://vercel.com/docs/agent-resources/vercel-mcp"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g vercel",
+        "install_mac": "npm install -g vercel",
+        "commands": [
+          { "label": "배포", "code": "vercel" },
+          { "label": "프로덕션 배포", "code": "vercel --prod" },
+          { "label": "환경 변수 목록", "code": "vercel env ls" },
+          { "label": "배포 로그", "code": "vercel logs DEPLOYMENT_URL" }
+        ],
+        "info_url": "https://vercel.com/docs/cli"
       }
     },
     {
@@ -52,6 +63,17 @@
           "cli_command": "claude mcp add netlify -- npx -y @netlify/mcp",
           "info_url": "https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g netlify-cli",
+        "install_mac": "brew install netlify-cli",
+        "commands": [
+          { "label": "로그인", "code": "netlify login" },
+          { "label": "로컬 개발 서버", "code": "netlify dev" },
+          { "label": "프로덕션 배포", "code": "netlify deploy --prod" },
+          { "label": "환경 변수 설정", "code": "netlify env:set KEY VALUE" }
+        ],
+        "info_url": "https://docs.netlify.com/cli/"
       }
     },
     {
@@ -77,6 +99,17 @@
           "cli_command": "claude mcp add railway -- npx -y @railway/mcp-server",
           "info_url": "https://docs.railway.com/reference/mcp-server"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g @railway/cli",
+        "install_mac": "brew install railwayapp/tap/railway",
+        "commands": [
+          { "label": "로그인", "code": "railway login" },
+          { "label": "프로젝트 연결", "code": "railway link" },
+          { "label": "배포", "code": "railway up" },
+          { "label": "로그 확인", "code": "railway logs" }
+        ],
+        "info_url": "https://docs.railway.com/guides/cli"
       }
     },
     {
@@ -164,6 +197,17 @@
           "cli_command": "claude mcp add --transport http supabase https://mcp.supabase.com/mcp",
           "info_url": "https://supabase.com/docs/guides/getting-started/mcp"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g supabase",
+        "install_mac": "brew install supabase/tap/supabase",
+        "commands": [
+          { "label": "로컬 환경 시작", "code": "supabase start" },
+          { "label": "DB 마이그레이션 적용", "code": "supabase db push" },
+          { "label": "타입 생성", "code": "supabase gen types typescript --local > types/supabase.ts" },
+          { "label": "로그 확인", "code": "supabase logs" }
+        ],
+        "info_url": "https://supabase.com/docs/guides/local-development/cli/getting-started"
       }
     },
     {
@@ -190,6 +234,17 @@
           "cli_command": "claude mcp add firebase -- npx -y firebase-tools@latest mcp",
           "info_url": "https://firebase.google.com/docs/ai-assistance/mcp-server"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g firebase-tools",
+        "install_mac": "npm install -g firebase-tools",
+        "commands": [
+          { "label": "로그인", "code": "firebase login" },
+          { "label": "프로젝트 초기화", "code": "firebase init" },
+          { "label": "배포", "code": "firebase deploy" },
+          { "label": "로컬 에뮬레이터", "code": "firebase emulators:start" }
+        ],
+        "info_url": "https://firebase.google.com/docs/cli"
       }
     },
     {
@@ -259,6 +314,17 @@
           "desktop_config": "{\n  \"mcpServers\": {\n    \"aws\": {\n      \"command\": \"uvx\",\n      \"args\": [\"awslabs.core-mcp-server@latest\"],\n      \"env\": {\n        \"FASTMCP_LOG_LEVEL\": \"ERROR\"\n      }\n    }\n  }\n}",
           "info_url": "https://awslabs.github.io/mcp/"
         }
+      },
+      "cli": {
+        "install_win": "winget install Amazon.AWSCLI",
+        "install_mac": "brew install awscli",
+        "commands": [
+          { "label": "자격증명 설정", "code": "aws configure" },
+          { "label": "S3 파일 목록", "code": "aws s3 ls s3://BUCKET_NAME" },
+          { "label": "EC2 인스턴스 목록", "code": "aws ec2 describe-instances --query 'Reservations[].Instances[].InstanceId'" },
+          { "label": "Lambda 함수 호출", "code": "aws lambda invoke --function-name FUNCTION_NAME out.json" }
+        ],
+        "info_url": "https://docs.aws.amazon.com/cli/latest/userguide/"
       }
     },
     {
@@ -284,6 +350,17 @@
           "desktop_config": "{\n  \"mcpServers\": {\n    \"gcloud\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@google-cloud/gcloud-mcp\"]\n    }\n  }\n}",
           "info_url": "https://github.com/googleapis/gcloud-mcp"
         }
+      },
+      "cli": {
+        "install_win": "winget install Google.CloudSDK",
+        "install_mac": "brew install --cask google-cloud-sdk",
+        "commands": [
+          { "label": "로그인", "code": "gcloud auth login" },
+          { "label": "프로젝트 설정", "code": "gcloud config set project PROJECT_ID" },
+          { "label": "Cloud Run 배포", "code": "gcloud run deploy SERVICE --image IMAGE --region REGION" },
+          { "label": "프로젝트 목록", "code": "gcloud projects list" }
+        ],
+        "info_url": "https://cloud.google.com/sdk/docs/"
       }
     },
     {
@@ -309,6 +386,17 @@
           "cli_command": "claude mcp add digitalocean -e DIGITALOCEAN_API_TOKEN=<YOUR_DO_API_TOKEN> -- npx @digitalocean/mcp",
           "info_url": "https://docs.digitalocean.com/reference/mcp/configure-mcp/"
         }
+      },
+      "cli": {
+        "install_win": "winget install DigitalOcean.doctl",
+        "install_mac": "brew install doctl",
+        "commands": [
+          { "label": "인증", "code": "doctl auth init" },
+          { "label": "드롭릿 목록", "code": "doctl compute droplet list" },
+          { "label": "앱 목록", "code": "doctl apps list" },
+          { "label": "K8s 클러스터 연결", "code": "doctl kubernetes cluster kubeconfig save CLUSTER_NAME" }
+        ],
+        "info_url": "https://docs.digitalocean.com/reference/doctl/"
       }
     },
     {
@@ -334,6 +422,17 @@
           "cli_command": "claude mcp add --transport http cloudflare https://mcp.cloudflare.com/mcp",
           "info_url": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g wrangler",
+        "install_mac": "npm install -g wrangler",
+        "commands": [
+          { "label": "Worker 초기화", "code": "wrangler init my-worker" },
+          { "label": "로컬 개발 서버", "code": "wrangler dev" },
+          { "label": "배포", "code": "wrangler deploy" },
+          { "label": "로그 스트리밍", "code": "wrangler tail" }
+        ],
+        "info_url": "https://developers.cloudflare.com/workers/wrangler/"
       }
     },
     {

@@ -118,6 +118,17 @@
           "cli_command": "claude mcp add neon -- npx -y @neondatabase/mcp-server-neon",
           "info_url": "https://github.com/neondatabase/mcp-server-neon"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g neonctl",
+        "install_mac": "brew install neonctl",
+        "commands": [
+          { "label": "로그인", "code": "neonctl auth" },
+          { "label": "프로젝트 목록", "code": "neonctl projects list" },
+          { "label": "브랜치 목록", "code": "neonctl branches list --project-id PROJECT_ID" },
+          { "label": "연결 문자열", "code": "neonctl connection-string --project-id PROJECT_ID" }
+        ],
+        "info_url": "https://neon.tech/docs/reference/neon-cli"
       }
     },
     {
@@ -169,6 +180,17 @@
           "cli_command": "claude mcp add mongodb -- npx -y mongodb-mcp-server",
           "info_url": "https://www.mongodb.com/docs/mcp-server/get-started/"
         }
+      },
+      "cli": {
+        "install_win": "winget install MongoDB.Shell",
+        "install_mac": "brew install mongosh",
+        "commands": [
+          { "label": "Atlas 연결", "code": "mongosh \"mongodb+srv://USER:PASS@cluster.mongodb.net/\"" },
+          { "label": "DB 목록", "code": "show dbs" },
+          { "label": "컬렉션 조회", "code": "db.collection.find().limit(10)" },
+          { "label": "문서 삽입", "code": "db.collection.insertOne({ key: 'value' })" }
+        ],
+        "info_url": "https://www.mongodb.com/docs/mongodb-shell/"
       }
     },
     {
@@ -194,6 +216,17 @@
           "cli_command": "claude mcp add --transport http planetscale https://mcp.pscale.dev/mcp/planetscale",
           "info_url": "https://planetscale.com/docs/connect/mcp"
         }
+      },
+      "cli": {
+        "install_win": "scoop install pscale",
+        "install_mac": "brew install planetscale/tap/pscale",
+        "commands": [
+          { "label": "로그인", "code": "pscale auth login" },
+          { "label": "DB 생성", "code": "pscale database create DBNAME --region us-east" },
+          { "label": "브랜치 생성", "code": "pscale branch create DBNAME BRANCH" },
+          { "label": "연결 터널", "code": "pscale connect DBNAME BRANCH --port 3309" }
+        ],
+        "info_url": "https://planetscale.com/docs/reference/planetscale-cli"
       }
     },
     {
@@ -219,6 +252,17 @@
           "cli_command": "claude mcp add --transport http cloudflare https://mcp.cloudflare.com/mcp",
           "info_url": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/"
         }
+      },
+      "cli": {
+        "install_win": "npm install -g wrangler",
+        "install_mac": "npm install -g wrangler",
+        "commands": [
+          { "label": "D1 DB 생성", "code": "wrangler d1 create DBNAME" },
+          { "label": "SQL 실행", "code": "wrangler d1 execute DBNAME --command \"SELECT * FROM table\"" },
+          { "label": "파일 실행", "code": "wrangler d1 execute DBNAME --file ./schema.sql" },
+          { "label": "마이그레이션 적용", "code": "wrangler d1 migrations apply DBNAME" }
+        ],
+        "info_url": "https://developers.cloudflare.com/d1/reference/wrangler-commands/"
       }
     },
     {
@@ -242,6 +286,17 @@
           "cli_command": "claude mcp add sqlite -- npx -y @modelcontextprotocol/server-sqlite /path/to/db.sqlite",
           "info_url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite"
         }
+      },
+      "cli": {
+        "install_win": "winget install SQLite.SQLite",
+        "install_mac": "brew install sqlite",
+        "commands": [
+          { "label": "DB 열기", "code": "sqlite3 mydb.sqlite" },
+          { "label": "테이블 목록", "code": ".tables" },
+          { "label": "쿼리 실행", "code": "SELECT * FROM tablename LIMIT 10;" },
+          { "label": "CSV 내보내기", "code": ".mode csv\n.output out.csv\nSELECT * FROM tablename;" }
+        ],
+        "info_url": "https://sqlite.org/cli.html"
       }
     },
     {
@@ -266,6 +321,17 @@
           "cli_command": "claude mcp add postgres -- npx -y @modelcontextprotocol/server-postgres DATABASE_URL",
           "info_url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres"
         }
+      },
+      "cli": {
+        "install_win": "winget install PostgreSQL.PostgreSQL",
+        "install_mac": "brew install postgresql",
+        "commands": [
+          { "label": "DB 연결", "code": "psql -U postgres -h HOST -d DBNAME" },
+          { "label": "DB 목록", "code": "psql -U postgres -l" },
+          { "label": "덤프", "code": "pg_dump -U postgres DBNAME > backup.sql" },
+          { "label": "복원", "code": "psql -U postgres DBNAME < backup.sql" }
+        ],
+        "info_url": "https://www.postgresql.org/docs/current/app-psql.html"
       }
     },
     {
@@ -292,6 +358,17 @@
           "cli_command": "claude mcp add redis -- npx -y @modelcontextprotocol/server-redis redis://localhost:6379",
           "info_url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis"
         }
+      },
+      "cli": {
+        "install_win": "winget install Redis.Redis",
+        "install_mac": "brew install redis",
+        "commands": [
+          { "label": "서버 연결", "code": "redis-cli -h HOST -p 6379 -a PASSWORD" },
+          { "label": "핑 테스트", "code": "redis-cli ping" },
+          { "label": "키 값 조회", "code": "redis-cli get KEY" },
+          { "label": "키 값 설정 (TTL)", "code": "redis-cli set KEY VALUE EX 3600" }
+        ],
+        "info_url": "https://redis.io/docs/connect/cli/"
       }
     },
     {
@@ -317,6 +394,17 @@
           "desktop_config": "{\n  \"mcpServers\": {\n    \"bigquery\": {\n      \"type\": \"http\",\n      \"url\": \"https://bigquery.googleapis.com/mcp\"\n    }\n  }\n}",
           "info_url": "https://cloud.google.com/bigquery/docs/use-bigquery-mcp"
         }
+      },
+      "cli": {
+        "install_win": "winget install Google.CloudSDK",
+        "install_mac": "brew install --cask google-cloud-sdk",
+        "commands": [
+          { "label": "쿼리 실행", "code": "bq query --use_legacy_sql=false 'SELECT * FROM dataset.table LIMIT 10'" },
+          { "label": "데이터셋 목록", "code": "bq ls" },
+          { "label": "테이블 목록", "code": "bq ls DATASET" },
+          { "label": "CSV 로드", "code": "bq load --source_format=CSV dataset.table gs://bucket/file.csv" }
+        ],
+        "info_url": "https://cloud.google.com/bigquery/docs/bq-command-line-tool"
       }
     }
   ]
