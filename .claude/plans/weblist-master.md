@@ -24,7 +24,7 @@
 | Phase 2 | detail 필드 순차 구현 | `phase2-detail.md` | ✅ 완료 |
 | Phase 3 | 검색 고도화 + 태그 필터 | `phase3-search-filter.md` | ✅ 완료 |
 | Phase 4 | API·MCP 정보 보강 | `phase4-api-mcp.md` | ✅ 완료 |
-| Phase 5 | CLI 정보 보강 + 가상 필터뷰 | `phase5-cli.md` | 🔄 진행중 — 플랜 작성 완료. 다음: P5-1 UI 구현 |
+| Phase 5 | CLI 정보 보강 + 가상 필터뷰 | `phase5-cli.md` | ✅ 완료 |
 
 ---
 
