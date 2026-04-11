@@ -27,7 +27,12 @@
         "intro": "구글의 모바일·웹 앱 개발 플랫폼. 실시간 데이터베이스·인증·호스팅·푸시 알림·크래시 분석 등 앱 백엔드 기능을 빠르게 연동할 수 있다.",
         "features": ["Firestore 실시간 NoSQL 데이터베이스", "Firebase Authentication 소셜·이메일 로그인", "Cloud Messaging(FCM) 푸시 알림", "Firebase Hosting 정적·동적 웹 배포", "Crashlytics 실시간 앱 오류 모니터링"],
         "usage": "firebase.google.com에서 프로젝트 생성 후 SDK 설치. Flutter·React·iOS·Android 등 다양한 플랫폼 지원.",
-        "notes": "Spark(무료)·Blaze(종량제) 플랜. GCP와 동일 프로젝트 공유."
+        "notes": "Spark(무료)·Blaze(종량제) 플랜. GCP와 동일 프로젝트 공유.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"firebase\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"firebase-tools@latest\", \"mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add firebase npx -- -y firebase-tools@latest mcp",
+          "info_url": "https://firebase.google.com/docs/cli/mcp-server"
+        }
       }
     },
     {
@@ -116,7 +121,11 @@
         "intro": "구글 클라우드의 서버리스 데이터 웨어하우스. 페타바이트 규모 데이터를 표준 SQL로 초고속 분석할 수 있으며, 별도 인프라 관리가 필요 없다.",
         "features": ["페타바이트 규모 서버리스 SQL 분석", "BigQuery ML 모델 학습·추론", "Looker Studio·Sheets 시각화 연동", "월 1TB 쿼리·10GB 스토리지 무료", "스트리밍 데이터 실시간 수집·분석"],
         "usage": "GCP 콘솔 BigQuery 탭에서 데이터셋 생성 → 테이블 로드 → SQL 쿼리 실행. bq CLI·Python 클라이언트 라이브러리로 자동화.",
-        "notes": "스캔 데이터 기준 과금. 파티셔닝·클러스터링으로 비용 최적화 가능."
+        "notes": "스캔 데이터 기준 과금. 파티셔닝·클러스터링으로 비용 최적화 가능.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"toolbox-bigquery\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@toolbox-sdk/server\", \"--prebuilt=bigquery\"]\n    }\n  }\n}",
+          "info_url": "https://github.com/googleapis/mcp-toolbox"
+        }
       }
     },
     {
@@ -168,7 +177,11 @@
         "intro": "구글 클라우드의 컨테이너 서버리스 실행 환경. Docker 이미지를 배포하면 요청에 따라 자동 확장하며, 요청이 없을 때는 인스턴스를 0으로 줄여 비용을 최소화한다.",
         "features": ["컨테이너 이미지 즉시 서버리스 배포", "요청 기반 자동 0→N 스케일링", "HTTP·gRPC·WebSocket 지원", "Cloud Build·GitHub Actions CI/CD 연동", "최대 60분 실행·최대 32GB 메모리"],
         "usage": "Docker 이미지 빌드 후 gcloud run deploy 또는 Cloud Console에서 배포. 커스텀 도메인 연결 가능.",
-        "notes": "Cloud Functions보다 더 유연한 실행 환경. Knative 기반 오픈 표준."
+        "notes": "Cloud Functions보다 더 유연한 실행 환경. Knative 기반 오픈 표준.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"cloud-run\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@google-cloud/cloud-run-mcp\"]\n    }\n  }\n}",
+          "info_url": "https://github.com/GoogleCloudPlatform/cloud-run-mcp"
+        }
       }
     },
     {

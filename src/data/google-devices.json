@@ -113,7 +113,11 @@
         "intro": "구글이 개발한 웹 브라우저. V8 JavaScript 엔진 기반으로 세계 시장 점유율 65% 이상을 차지하며, 확장 프로그램·동기화·PWA를 지원한다.",
         "features": ["V8 엔진 고속 JavaScript 실행", "Chrome 웹 스토어 확장 프로그램", "Google 계정 북마크·기록·비밀번호 동기화", "PWA(Progressive Web App) 설치 지원", "개발자 도구(DevTools) 내장"],
         "usage": "chrome.google.com에서 무료 다운로드. Google 계정 로그인으로 모든 기기 동기화.",
-        "notes": "Chromium 오픈소스 기반. Edge·Brave·Opera 등 Chromium 기반 브라우저와 확장 프로그램 일부 호환."
+        "notes": "Chromium 오픈소스 기반. Edge·Brave·Opera 등 Chromium 기반 브라우저와 확장 프로그램 일부 호환.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"chrome-devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"chrome-devtools-mcp@latest\"]\n    }\n  }\n}",
+          "info_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        }
       }
     },
     {

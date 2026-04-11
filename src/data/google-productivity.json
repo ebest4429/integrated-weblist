@@ -77,7 +77,11 @@
           "Drive API — 앱과 연동 자동화"
         ],
         "usage": "drive.google.com 또는 Drive 데스크톱 앱으로 로컬 폴더 동기화. 15GB 초과 시 Google One 구독(100GB $2.99/월~).",
-        "notes": "Google Docs·Sheets·Slides 파일은 Drive 저장 용량에 포함되지 않음."
+        "notes": "Google Docs·Sheets·Slides 파일은 Drive 저장 용량에 포함되지 않음.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"gdrive\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-gdrive\"],\n      \"env\": {\n        \"GDRIVE_CREDENTIALS_PATH\": \"/path/to/.gdrive-server-credentials.json\"\n      }\n    }\n  }\n}",
+          "info_url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive"
+        }
       }
     },
     {

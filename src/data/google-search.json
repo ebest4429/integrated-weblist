@@ -58,7 +58,11 @@
           "Maps API — 웹·앱에 지도 기능 삽입"
         ],
         "usage": "maps.google.com 또는 Google Maps 앱 사용. 개발자는 Google Maps Platform API 키 발급 후 지도 기능 통합.",
-        "notes": "Maps Platform API는 무료 크레딧($200/월) 초과 시 유료. 웹사이트 지도 삽입은 iframe embed로 무료."
+        "notes": "Maps Platform API는 무료 크레딧($200/월) 초과 시 유료. 웹사이트 지도 삽입은 iframe embed로 무료.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"google-maps\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-google-maps\"],\n      \"env\": {\n        \"GOOGLE_MAPS_API_KEY\": \"<YOUR_API_KEY>\"\n      }\n    }\n  }\n}",
+          "info_url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps"
+        }
       }
     },
     {
