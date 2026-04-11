@@ -21,7 +21,12 @@
         "usage": "vercel.com에서 GitHub 계정 연결 후 저장소 임포트. 무료 Hobby 플랜으로 개인 프로젝트 즉시 배포 가능. `vercel` CLI로 터미널 배포도 지원.",
         "notes": "Next.js 외 Vite·React·Vue·Svelte 등 모든 정적/SSR 프레임워크 지원. 팀 프로젝트는 Pro 플랜($20/월) 이상 필요.",
         "api_docs": "https://vercel.com/docs/rest-api",
-        "dashboard": "https://vercel.com/dashboard"
+        "dashboard": "https://vercel.com/dashboard",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"vercel\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.vercel.com\"\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http vercel https://mcp.vercel.com",
+          "info_url": "https://vercel.com/docs/agent-resources/vercel-mcp"
+        }
       }
     },
     {
@@ -41,7 +46,12 @@
         "usage": "netlify.com에서 GitHub 저장소 연결. `netlify.toml`로 빌드 명령·배포 디렉토리 설정. 무료 플랜은 월 100GB 대역폭·300분 빌드 시간.",
         "notes": "Vercel 대비 Next.js 최적화는 덜하나 다양한 프레임워크에 중립적. 폼·함수를 한 플랫폼에서 해결하려는 소규모 프로젝트에 적합.",
         "api_docs": "https://docs.netlify.com/api/get-started/",
-        "dashboard": "https://app.netlify.com"
+        "dashboard": "https://app.netlify.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"netlify\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@netlify/mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add netlify -- npx -y @netlify/mcp",
+          "info_url": "https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/"
+        }
       }
     },
     {
@@ -61,7 +71,12 @@
         "usage": "railway.app에서 GitHub 계정 연결 후 New Project → GitHub Repo 선택. 무료 Starter 플랜은 월 $5 크레딧 제공. 유료 Developer 플랜은 $20/월.",
         "notes": "Heroku 대안으로 많이 언급됨. Supabase(DB)와 Railway(백엔드)를 조합하면 풀스택 배포 비용을 최소화 가능.",
         "api_docs": "https://docs.railway.app/reference/public-api",
-        "dashboard": "https://railway.app/dashboard"
+        "dashboard": "https://railway.app/dashboard",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"railway\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@railway/mcp-server\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add railway -- npx -y @railway/mcp-server",
+          "info_url": "https://docs.railway.com/reference/mcp-server"
+        }
       }
     },
     {
@@ -81,7 +96,11 @@
         "usage": "render.com 가입 후 GitHub/GitLab 연결. 서비스 유형 선택(Web Service·Static Site 등) 후 저장소 지정. 무료 플랜은 웹 서비스 1개·정적 사이트 무제한.",
         "notes": "무료 플랜 웹 서비스는 15분 비활성 시 슬립 모드 진입(콜드 스타트 지연). 상시 운영 필요 시 유료 플랜 필요.",
         "api_docs": "https://api-docs.onrender.com/",
-        "dashboard": "https://dashboard.render.com"
+        "dashboard": "https://dashboard.render.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"render\": {\n      \"command\": \"npx\",\n      \"args\": [\"mcp-remote\", \"https://mcp.render.com/mcp\", \"--header\", \"Authorization: Bearer ${RENDER_API_KEY}\"],\n      \"env\": {\n        \"RENDER_API_KEY\": \"<YOUR_API_KEY>\"\n      }\n    }\n  }\n}",
+          "info_url": "https://render.com/docs/mcp-server"
+        }
       }
     },
     {
@@ -141,9 +160,9 @@
         "api_docs": "https://supabase.com/docs/reference/api",
         "dashboard": "https://app.supabase.com",
         "mcp": {
-          "desktop_config": "{\n  \"mcpServers\": {\n    \"supabase\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@supabase/mcp-server-supabase\"],\n      \"env\": {\n        \"SUPABASE_ACCESS_TOKEN\": \"YOUR_TOKEN\"\n      }\n    }\n  }\n}",
-          "cli_command": "claude mcp add supabase -- npx -y @supabase/mcp-server-supabase",
-          "info_url": "https://github.com/supabase-community/supabase-mcp"
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"supabase\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.supabase.com/mcp\"\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http supabase https://mcp.supabase.com/mcp",
+          "info_url": "https://supabase.com/docs/guides/getting-started/mcp"
         }
       }
     },
@@ -165,7 +184,12 @@
         "usage": "console.firebase.google.com에서 프로젝트 생성. Android·iOS·Web SDK 제공. 무료 Spark 플랜으로 개발 가능, 프로덕션은 Blaze(사용량 과금) 플랜.",
         "notes": "Firestore와 Supabase(PostgreSQL) 중 선택은 데이터 구조에 따라 다름. 관계형 데이터가 많으면 Supabase, 단순 문서형이면 Firebase가 편함.",
         "api_docs": "https://firebase.google.com/docs/reference",
-        "dashboard": "https://console.firebase.google.com"
+        "dashboard": "https://console.firebase.google.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"firebase\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"firebase-tools@latest\", \"mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add firebase -- npx -y firebase-tools@latest mcp",
+          "info_url": "https://firebase.google.com/docs/ai-assistance/mcp-server"
+        }
       }
     },
     {
@@ -185,7 +209,12 @@
         "usage": "clerk.com에서 앱 생성 후 API 키 발급. `npm install @clerk/nextjs` 후 미들웨어·레이아웃에 Provider 추가. 무료 플랜은 월 활성 사용자 10,000명.",
         "notes": "Auth.js(NextAuth) 대비 설정이 간단하고 UI가 세련됨. B2B SaaS에서 조직 기능 구현 시 특히 유용.",
         "api_docs": "https://clerk.com/docs/reference/backend-api",
-        "dashboard": "https://dashboard.clerk.com"
+        "dashboard": "https://dashboard.clerk.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"clerk\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.clerk.com/mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http clerk https://mcp.clerk.com/mcp",
+          "info_url": "https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server"
+        }
       }
     },
     {
@@ -225,7 +254,11 @@
         "usage": "aws.amazon.com에서 계정 생성. 신규 계정 12개월 Free Tier 제공. AWS CLI 또는 콘솔 웹UI로 서비스 구성. Terraform·CDK로 인프라 코드화 가능.",
         "notes": "규모가 커질수록 비용 관리가 복잡해짐. Cost Explorer·Budget Alert 필수 설정. 초보자는 Vercel·Railway 같은 PaaS 먼저 경험 권장.",
         "api_docs": "https://docs.aws.amazon.com/",
-        "dashboard": "https://console.aws.amazon.com"
+        "dashboard": "https://console.aws.amazon.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"aws\": {\n      \"command\": \"uvx\",\n      \"args\": [\"awslabs.core-mcp-server@latest\"],\n      \"env\": {\n        \"FASTMCP_LOG_LEVEL\": \"ERROR\"\n      }\n    }\n  }\n}",
+          "info_url": "https://awslabs.github.io/mcp/"
+        }
       }
     },
     {
@@ -246,7 +279,11 @@
         "usage": "console.cloud.google.com에서 프로젝트 생성. 신규 가입 시 $300 무료 크레딧(90일). `gcloud` CLI로 대부분의 작업 자동화 가능.",
         "notes": "AI/ML 워크로드에는 AWS·Azure 대비 유리한 경우 많음. Google 내부 인프라와 동일한 네트워크 품질이 강점.",
         "api_docs": "https://cloud.google.com/apis/docs/overview",
-        "dashboard": "https://console.cloud.google.com"
+        "dashboard": "https://console.cloud.google.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"gcloud\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@google-cloud/gcloud-mcp\"]\n    }\n  }\n}",
+          "info_url": "https://github.com/googleapis/gcloud-mcp"
+        }
       }
     },
     {
@@ -266,7 +303,12 @@
         "usage": "digitalocean.com 가입. 신규 계정 $200 크레딧(60일) 제공. 가장 많이 쓰이는 구성: Droplet + Managed PostgreSQL + Spaces.",
         "notes": "AWS 대비 서비스 수는 적지만 문서가 친절하고 가격 구조가 단순함. 월 고정 비용 예측이 중요한 팀에 적합.",
         "api_docs": "https://docs.digitalocean.com/reference/api/",
-        "dashboard": "https://cloud.digitalocean.com"
+        "dashboard": "https://cloud.digitalocean.com",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"digitalocean\": {\n      \"command\": \"npx\",\n      \"args\": [\"@digitalocean/mcp\"],\n      \"env\": {\n        \"DIGITALOCEAN_API_TOKEN\": \"<YOUR_DO_API_TOKEN>\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add digitalocean -e DIGITALOCEAN_API_TOKEN=<YOUR_DO_API_TOKEN> -- npx @digitalocean/mcp",
+          "info_url": "https://docs.digitalocean.com/reference/mcp/configure-mcp/"
+        }
       }
     },
     {
@@ -288,9 +330,9 @@
         "api_docs": "https://developers.cloudflare.com/workers/",
         "dashboard": "https://dash.cloudflare.com",
         "mcp": {
-          "desktop_config": "{\n  \"mcpServers\": {\n    \"cloudflare\": {\n      \"command\": \"npx\",\n      \"args\": [\"@cloudflare/mcp-server-cloudflare\"],\n      \"env\": {\n        \"CLOUDFLARE_API_TOKEN\": \"YOUR_TOKEN\"\n      }\n    }\n  }\n}",
-          "cli_command": "claude mcp add cloudflare -- npx @cloudflare/mcp-server-cloudflare",
-          "info_url": "https://github.com/cloudflare/mcp-server-cloudflare"
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"cloudflare\": {\n      \"url\": \"https://mcp.cloudflare.com/mcp\"\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http cloudflare https://mcp.cloudflare.com/mcp",
+          "info_url": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/"
         }
       }
     },
@@ -332,7 +374,11 @@
         "usage": "Dockerfile 작성 후 `gcloud run deploy` 명령 또는 Cloud Console에서 컨테이너 이미지 지정·배포. 무료 티어: 월 200만 요청·360,000 vCPU-초.",
         "notes": "콜드 스타트 있음(최소 인스턴스 1로 설정 시 제거 가능, 비용 발생). 컨테이너만 있으면 언어 제약 없이 GCP에서 서버리스 운영 가능.",
         "api_docs": "https://cloud.google.com/run/docs/reference/rest",
-        "dashboard": "https://console.cloud.google.com/run"
+        "dashboard": "https://console.cloud.google.com/run",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"cloud-run\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@google-cloud/cloud-run-mcp\"]\n    }\n  }\n}",
+          "info_url": "https://github.com/GoogleCloudPlatform/cloud-run-mcp"
+        }
       }
     },
     {
@@ -374,7 +420,11 @@
         "usage": "gcloud container clusters create로 클러스터 생성. kubectl로 워크로드 배포. Autopilot 모드는 노드 프로비저닝도 자동화.",
         "notes": "컨트롤 플레인 비용: 클러스터당 $0.10/시간(Autopilot). 소규모 앱에는 과도한 오버헤드일 수 있음 — Cloud Run 먼저 검토 권장.",
         "api_docs": "https://cloud.google.com/kubernetes-engine/docs/reference/rest",
-        "dashboard": "https://console.cloud.google.com/kubernetes"
+        "dashboard": "https://console.cloud.google.com/kubernetes",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"gke-mcp\": {\n      \"command\": \"gke-mcp\"\n    }\n  }\n}",
+          "info_url": "https://github.com/GoogleCloudPlatform/gke-mcp"
+        }
       }
     }
   ]

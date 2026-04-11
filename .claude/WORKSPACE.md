@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-4 완료. 다음: P4-5 hosting-infra |
+| 상태 | 🔄 진행중 — P4-5 완료. 다음: P4-6 ai-platforms |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-5-hosting-infra.md` |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-6-ai-platforms.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,10 +25,10 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-5 hosting-infra MCP 조사
+### 다음 세션 최우선: P4-6 ai-platforms MCP 조사
 
-P4-4 database 완료 (13개 조사, 12개 MCP 추가 — Pinecone·Qdrant·Chroma·Neon·Upstash·MongoDB·PlanetScale·Cloudflare D1·SQLite·PostgreSQL·Redis·BigQuery. Weaviate는 Docs 전용 MCP로 제외).
-다음 조사 파일: `plans/mcp/p4-5-hosting-infra.md` (hosting-infra.json, 18개 서비스)
+P4-5 hosting-infra 완료 (18개 조사, 13개 MCP 추가·업데이트 — Vercel·Netlify·Railway·Render·Supabase(HTTP Remote 업데이트)·Firebase·Clerk·AWS·GCP·DigitalOcean·Cloudflare Workers(HTTP Remote 업데이트)·Cloud Run·GKE. GitHub Pages·Cron-job.org·PocketBase·NCloud·App Engine은 MCP 없음).
+다음 조사 파일: `plans/mcp/p4-6-ai-platforms.md` (ai-platforms.json, 18개 서비스)
 
 ---
 
