@@ -10,27 +10,27 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Jasper AI | 🔲 | - | 🔲 |
-| Copy.ai | 🔲 | - | 🔲 |
-| Writesonic | 🔲 | - | 🔲 |
-| Ahrefs | 🔲 | - | 🔲 |
-| Semrush | 🔲 | - | 🔲 |
-| Google Analytics 4 | 🔲 | - | 🔲 |
-| Google Search Console | 🔲 | - | 🔲 |
-| Google Ads | 🔲 | - | 🔲 |
-| Meta Ads | 🔲 | - | 🔲 |
-| Naver 검색광고 | 🔲 | - | 🔲 |
-| Kakao 모먼트 | 🔲 | - | 🔲 |
-| Naver 서치어드바이저 | 🔲 | - | 🔲 |
-| Bitly | 🔲 | - | 🔲 |
-| Gamma | 🔲 | - | 🔲 |
-| bkit.ai | 🔲 | - | 🔲 |
-| Google Merchant Center | 🔲 | - | 🔲 |
-| Google Business Profile | 🔲 | - | 🔲 |
-| Google AdSense | 🔲 | - | 🔲 |
-| Google Tag Manager | 🔲 | - | 🔲 |
-| Think with Google | 🔲 | - | 🔲 |
-| PageSpeed Insights | 🔲 | - | 🔲 |
+| Jasper AI | ✅ | ✅ | ✅ |
+| Copy.ai | ✅ | ❌ | N/A |
+| Writesonic | ✅ | ❌ | N/A |
+| Ahrefs | ✅ | ✅ | ✅ |
+| Semrush | ✅ | ✅ | ✅ |
+| Google Analytics 4 | ✅ | ✅ | ✅ |
+| Google Search Console | ✅ | ✅ | ✅ |
+| Google Ads | ✅ | ✅ | ✅ |
+| Meta Ads | ✅ | ✅ | ✅ |
+| Naver 검색광고 | ✅ | ✅ | ✅ |
+| Kakao 모먼트 | ✅ | ❌ | N/A |
+| Naver 서치어드바이저 | ✅ | ❌ | N/A |
+| Bitly | ✅ | ✅ | ✅ |
+| Gamma | ✅ | ✅ | ✅ |
+| bkit.ai | ✅ | ❌ | N/A |
+| Google Merchant Center | ✅ | ❌ | N/A |
+| Google Business Profile | ✅ | ❌ | N/A |
+| Google AdSense | ✅ | ✅ | ✅ |
+| Google Tag Manager | ✅ | ✅ | ✅ |
+| Think with Google | ✅ | ❌ | N/A |
+| PageSpeed Insights | ✅ | ✅ | ✅ |
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -40,5 +40,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 21개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 21개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료

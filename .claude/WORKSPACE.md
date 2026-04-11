@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-10 완료. 다음: P4-11 marketing-seo |
+| 상태 | 🔄 진행중 — P4-11 완료. 다음: P4-12 google |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-11-marketing-seo.md` |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-12-google.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,14 +25,14 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-11 marketing-seo MCP 조사
+### 다음 세션 최우선: P4-12 google MCP 조사
 
-P4-10 design-tools 완료 (8개 조사, 4개 MCP 구현).
-- MCP 구현: Figma(figma/mcp-server-guide), Penpot(penpot/penpot-mcp), Canva(canva.dev/docs/apps/mcp-server), Adobe Express(adobe/express-developer-mcp)
-- MCP 없음: Framer·Adobe Firefly·Spline·Google Drawings
-- 특이사항: Canva·Adobe Express MCP는 앱 개발자 도구용. Penpot MCP는 로컬 플러그인 선실행 필요(localhost:4401)
+P4-11 marketing-seo 완료 (21개 조사, 13개 MCP 구현).
+- MCP 구현: Jasper AI, Ahrefs(remote), Semrush(remote), GA4, GSC, Google Ads, Meta Ads, Naver 검색광고, Bitly, Gamma, Google AdSense, Google Tag Manager, PageSpeed Insights
+- MCP 없음: Copy.ai·Writesonic·Kakao 모먼트·Naver 서치어드바이저·bkit.ai·Google Merchant Center·Google Business Profile·Think with Google
+- 특이사항: GA4 MCP는 archived repo. Google Business Profile은 로컬 빌드 필요로 없음 처리
 
-다음 조사 파일: `plans/mcp/p4-11-marketing-seo.md` (marketing-seo.json, 21개 서비스)
+다음 조사 파일: `plans/mcp/p4-12-google.md` (google-*.json 9개, 120개 서비스)
 
 ---
 
