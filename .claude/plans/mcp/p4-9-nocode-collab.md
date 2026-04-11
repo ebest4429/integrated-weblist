@@ -11,19 +11,19 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Webflow | 🔲 | - | 🔲 |
-| Bubble | 🔲 | - | 🔲 |
-| FlutterFlow | 🔲 | - | 🔲 |
-| Retool | 🔲 | - | 🔲 |
-| Appsmith | 🔲 | - | 🔲 |
-| Glide | 🔲 | - | 🔲 |
-| Notion AI | 🔲 | - | 🔲 |
-| Airtable | 🔲 | - | 🔲 |
-| Linear | 🔲 | - | 🔲 |
-| GitHub | 🔲 | - | 🔲 |
-| Jira | 🔲 | - | 🔲 |
-| Google Sites | 🔲 | - | 🔲 |
-| Google Chat | 🔲 | - | 🔲 |
+| Webflow | ✅ | ✅ | ✅ |
+| Bubble | ✅ | ❌ | N/A |
+| FlutterFlow | ✅ | ❌ | N/A |
+| Retool | ✅ | ❌ | N/A |
+| Appsmith | ✅ | ❌ | N/A |
+| Glide | ✅ | ❌ | N/A |
+| Notion AI | ✅ | ✅ | ✅ |
+| Airtable | ✅ | ✅ | ✅ |
+| Linear | ✅ | ✅ | ✅ |
+| GitHub | ✅ | ✅ | ✅ |
+| Jira | ✅ | ✅ | ✅ |
+| Google Sites | ✅ | ❌ | N/A |
+| Google Chat | ✅ | ❌ | N/A |
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -33,5 +33,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 13개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 13개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료

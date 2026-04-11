@@ -19,7 +19,12 @@
           "Webflow Hosting — 빠른 CDN 기반 퍼블리시"
         ],
         "usage": "webflow.com에서 무료로 시작. 비주얼 에디터로 디자인 후 퍼블리시. 커스텀 도메인은 유료 플랜 필요. HTML/CSS 내보내기로 자체 서버 배포도 가능.",
-        "notes": "디자인 자유도가 높아 에이전시·프리랜서 디자이너에게 인기. 개발자 없이 복잡한 웹사이트를 만들 수 있으나 학습 곡선이 있음."
+        "notes": "디자인 자유도가 높아 에이전시·프리랜서 디자이너에게 인기. 개발자 없이 복잡한 웹사이트를 만들 수 있으나 학습 곡선이 있음.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"webflow\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"webflow-mcp-server@latest\"],\n      \"env\": {\n        \"WEBFLOW_TOKEN\": \"<YOUR_WEBFLOW_TOKEN>\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http webflow https://mcp.webflow.com/sse",
+          "info_url": "https://developers.webflow.com/mcp/reference/getting-started"
+        }
       }
     },
     {
@@ -127,7 +132,12 @@
           "Zapier·Slack·GitHub 등 외부 연동"
         ],
         "usage": "notion.so에서 무료 가입. 워크스페이스 생성 후 페이지 구성. 무료 플랜은 블록 수 제한. AI 기능은 유료 플랜($10/월) 또는 AI 애드온.",
-        "notes": "팀 문서화·프로젝트 관리·지식 베이스 구축에 폭넓게 활용. Notion AI 품질은 전용 AI 도구 대비 제한적이나 워크스페이스 내 컨텍스트 활용이 강점."
+        "notes": "팀 문서화·프로젝트 관리·지식 베이스 구축에 폭넓게 활용. Notion AI 품질은 전용 AI 도구 대비 제한적이나 워크스페이스 내 컨텍스트 활용이 강점.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"notionApi\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@notionhq/notion-mcp-server\"],\n      \"env\": {\n        \"NOTION_TOKEN\": \"ntn_****\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add notionApi -- npx -y @notionhq/notion-mcp-server",
+          "info_url": "https://developers.notion.com/docs/mcp"
+        }
       }
     },
     {
@@ -145,7 +155,11 @@
           "Airtable API — 외부 앱 연동"
         ],
         "usage": "airtable.com에서 무료 가입. 템플릿 선택 또는 베이스 직접 구성. 무료 플랜: 무제한 베이스·레코드 1,000개 제한.",
-        "notes": "콘텐츠 캘린더·CRM·프로젝트 트래킹에 많이 활용. 대용량 데이터(수만 레코드)에서는 속도 저하 가능. API로 Glide·Retool 등과 연동 시너지."
+        "notes": "콘텐츠 캘린더·CRM·프로젝트 트래킹에 많이 활용. 대용량 데이터(수만 레코드)에서는 속도 저하 가능. API로 Glide·Retool 등과 연동 시너지.",
+        "mcp": {
+          "cli_command": "claude mcp add --transport http airtable https://mcp.airtable.com/mcp --header \"Authorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN>\"",
+          "info_url": "https://support.airtable.com/docs/using-the-airtable-mcp-server"
+        }
       }
     },
     {
@@ -163,7 +177,11 @@
           "Linear API·웹훅으로 커스텀 워크플로우"
         ],
         "usage": "linear.app에서 팀 가입. GitHub 저장소 연결 후 브랜치·PR과 이슈 자동 연동. 무료 플랜: 250 이슈 제한.",
-        "notes": "Jira 피로감을 느끼는 개발팀에게 인기 높음. 단순하고 빠른 UX가 강점. 엔터프라이즈 기능(고급 권한·감사 로그)은 Business 플랜 이상."
+        "notes": "Jira 피로감을 느끼는 개발팀에게 인기 높음. 단순하고 빠른 UX가 강점. 엔터프라이즈 기능(고급 권한·감사 로그)은 Business 플랜 이상.",
+        "mcp": {
+          "cli_command": "claude mcp add --transport http linear-server https://mcp.linear.app/mcp",
+          "info_url": "https://linear.app/docs/mcp"
+        }
       }
     },
     {
@@ -181,7 +199,12 @@
           "GitHub Copilot — AI 코드 어시스턴트 통합"
         ],
         "usage": "github.com에서 무료 가입. 저장소 생성 후 `git remote add origin`으로 연결. Actions 탭에서 워크플로우 YAML 작성.",
-        "notes": "개발자 필수 도구. 공개 저장소 무제한 무료. 팀 기능은 Team 플랜($4/인/월). GitHub Pages로 정적 사이트 무료 호스팅 가능."
+        "notes": "개발자 필수 도구. 공개 저장소 무제한 무료. 팀 기능은 Team 플랜($4/인/월). GitHub Pages로 정적 사이트 무료 호스팅 가능.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"github\": {\n      \"command\": \"docker\",\n      \"args\": [\n        \"run\", \"-i\", \"--rm\", \"-e\", \"GITHUB_PERSONAL_ACCESS_TOKEN\",\n        \"ghcr.io/github/github-mcp-server\"\n      ],\n      \"env\": {\n        \"GITHUB_PERSONAL_ACCESS_TOKEN\": \"<YOUR_GITHUB_PAT>\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http github https://api.githubcopilot.com/mcp -H \"Authorization: Bearer <YOUR_GITHUB_PAT>\"",
+          "info_url": "https://github.com/github/github-mcp-server/blob/main/docs/installation-guides/install-claude.md"
+        }
       }
     },
     {
@@ -199,7 +222,12 @@
           "Confluence·Bitbucket·Slack 네이티브 통합"
         ],
         "usage": "atlassian.com/jira에서 가입. 무료 플랜: 10명까지·무제한 프로젝트. Standard 플랜 $8.15/인/월. Jira Service Management로 헬프데스크 확장 가능.",
-        "notes": "설정 복잡성이 높아 소규모 팀은 Linear가 적합할 수 있음. 대기업·규제 산업에서 감사 추적·권한 관리가 필요한 경우 Jira가 표준."
+        "notes": "설정 복잡성이 높아 소규모 팀은 Linear가 적합할 수 있음. 대기업·규제 산업에서 감사 추적·권한 관리가 필요한 경우 Jira가 표준.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"atlassian\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.atlassian.com/v1/mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport sse atlassian https://mcp.atlassian.com/v1/sse",
+          "info_url": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/setting-up-clients/"
+        }
       }
     },
     {

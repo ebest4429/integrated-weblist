@@ -116,7 +116,7 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 | P4-6 | plans/mcp/p4-6-ai-platforms.md | ai-platforms.json | 18 | ✅ |
 | P4-7 | plans/mcp/p4-7-api.md | api.json | 14 | ✅ |
 | P4-8 | plans/mcp/p4-8-payment.md | payment.json | 13 | ✅ |
-| P4-9 | plans/mcp/p4-9-nocode-collab.md | nocode-collab.json | 13 | 🔲 |
+| P4-9 | plans/mcp/p4-9-nocode-collab.md | nocode-collab.json | 13 | ✅ |
 | P4-10 | plans/mcp/p4-10-design-tools.md | design-tools.json | 8 | 🔲 |
 | P4-11 | plans/mcp/p4-11-marketing-seo.md | marketing-seo.json | 21 | 🔲 |
 | P4-12 | plans/mcp/p4-12-google.md | google-*.json (9개) | 120 | 🔲 |
