@@ -19,7 +19,12 @@
           "FigJam 화이트보드·플러그인 생태계"
         ],
         "usage": "무료 플랜으로 프로젝트 3개·협업자 제한 없이 시작 가능. 팀 단위 사용 시 Professional 플랜 필요. Dev Mode로 개발자에게 스펙 공유.",
-        "notes": "2023년 Adobe 인수 시도 무산 후 독립 유지. Figma AI 기능(자동 레이아웃·콘텐츠 생성) 지속 추가 중."
+        "notes": "2023년 Adobe 인수 시도 무산 후 독립 유지. Figma AI 기능(자동 레이아웃·콘텐츠 생성) 지속 추가 중.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"figma\": {\n      \"url\": \"https://mcp.figma.com/mcp\"\n    }\n  }\n}",
+          "cli_command": "claude mcp add --transport http figma https://mcp.figma.com/mcp",
+          "info_url": "https://github.com/figma/mcp-server-guide"
+        }
       }
     },
     {
@@ -37,7 +42,12 @@
           "CSS Grid·Flex 레이아웃 직접 반영"
         ],
         "usage": "penpot.app에서 무료 계정 생성 후 바로 사용. 기업 내부 배포는 Docker로 셀프호스팅. Figma에서 임포트 기능 지원.",
-        "notes": "Kaleidos(스페인)가 개발 주도. Figma 종속에서 벗어나려는 팀에 적합."
+        "notes": "Kaleidos(스페인)가 개발 주도. Figma 종속에서 벗어나려는 팀에 적합.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"penpot\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mcp-remote\", \"http://localhost:4401/sse\", \"--allow-http\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add penpot -t http http://localhost:4401/mcp",
+          "info_url": "https://github.com/penpot/penpot-mcp"
+        }
       }
     },
     {
@@ -73,7 +83,12 @@
           "PPT·PDF·영상·GIF 다양한 포맷 내보내기"
         ],
         "usage": "canva.com에서 무료 계정 생성. 원하는 사이즈·용도 선택 후 템플릿 편집. Canva Pro는 프리미엄 템플릿·무제한 저장·Magic Studio 전체 기능 제공.",
-        "notes": "교육기관·비영리단체는 Pro 무료 신청 가능. 2023년부터 AI 기능 대폭 확장."
+        "notes": "교육기관·비영리단체는 Pro 무료 신청 가능. 2023년부터 AI 기능 대폭 확장.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"canva-dev\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@canva/cli@latest\", \"mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add canva-dev -- npx -y @canva/cli@latest mcp",
+          "info_url": "https://www.canva.dev/docs/apps/mcp-server/"
+        }
       }
     },
     {
@@ -91,7 +106,12 @@
           "팀 공유·Creative Cloud 연동"
         ],
         "usage": "Adobe 계정으로 무료 사용 가능. 유료 플랜(Creative Cloud 포함 또는 단독)은 프리미엄 템플릿·무제한 스토리지 제공.",
-        "notes": "Adobe CC 구독자라면 추가 비용 없이 전체 기능 사용 가능."
+        "notes": "Adobe CC 구독자라면 추가 비용 없이 전체 기능 사용 가능.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"adobe-express-developer\": {\n      \"command\": \"npx\",\n      \"args\": [\"@adobe/express-developer-mcp@latest\", \"--yes\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add adobe-express-developer -- npx @adobe/express-developer-mcp@latest --yes",
+          "info_url": "https://developer.adobe.com/express/add-ons/docs/guides/getting-started/local-development/mcp-server"
+        }
       }
     },
     {

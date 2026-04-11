@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-9 완료. 다음: P4-10 design-tools |
+| 상태 | 🔄 진행중 — P4-10 완료. 다음: P4-11 marketing-seo |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-10-design-tools.md` |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-11-marketing-seo.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,14 +25,14 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-10 design-tools MCP 조사
+### 다음 세션 최우선: P4-11 marketing-seo MCP 조사
 
-P4-9 nocode-collab 완료 (13개 조사, 6개 MCP 구현).
-- MCP 구현: Webflow(developers.webflow.com/mcp), Notion AI(makenotion/notion-mcp-server), Airtable(support.airtable.com/docs/using-the-airtable-mcp-server), Linear(linear.app/docs/mcp), GitHub(github/github-mcp-server), Jira(atlassian/atlassian-mcp-server)
-- MCP 없음: Bubble·FlutterFlow·Retool·Appsmith·Glide·Google Sites·Google Chat
-- 특이사항: FlutterFlow·Retool은 MCP 공지 있으나 실제 설치 명령 미공개로 없음 처리
+P4-10 design-tools 완료 (8개 조사, 4개 MCP 구현).
+- MCP 구현: Figma(figma/mcp-server-guide), Penpot(penpot/penpot-mcp), Canva(canva.dev/docs/apps/mcp-server), Adobe Express(adobe/express-developer-mcp)
+- MCP 없음: Framer·Adobe Firefly·Spline·Google Drawings
+- 특이사항: Canva·Adobe Express MCP는 앱 개발자 도구용. Penpot MCP는 로컬 플러그인 선실행 필요(localhost:4401)
 
-다음 조사 파일: `plans/mcp/p4-10-design-tools.md` (design-tools.json, 8개 서비스)
+다음 조사 파일: `plans/mcp/p4-11-marketing-seo.md` (marketing-seo.json, 21개 서비스)
 
 ---
 

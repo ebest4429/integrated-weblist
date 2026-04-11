@@ -10,14 +10,14 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Figma | 🔲 | - | 🔲 |
-| Penpot | 🔲 | - | 🔲 |
-| Framer | 🔲 | - | 🔲 |
-| Canva | 🔲 | - | 🔲 |
-| Adobe Express | 🔲 | - | 🔲 |
-| Adobe Firefly | 🔲 | - | 🔲 |
-| Spline | 🔲 | - | 🔲 |
-| Google Drawings | 🔲 | - | 🔲 |
+| Figma | ✅ | ✅ | ✅ |
+| Penpot | ✅ | ✅ | ✅ |
+| Framer | ✅ | ❌ | N/A |
+| Canva | ✅ | ✅ | ✅ |
+| Adobe Express | ✅ | ✅ | ✅ |
+| Adobe Firefly | ✅ | ❌ | N/A |
+| Spline | ✅ | ❌ | N/A |
+| Google Drawings | ✅ | ❌ | N/A |
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -27,5 +27,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 8개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 8개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료
