@@ -37,7 +37,12 @@
           "V2 API — 최신 아키텍처로 성능 개선"
         ],
         "usage": "admin.portone.io에서 채널 설정 후 PG사 계약 정보 입력. JavaScript SDK 또는 REST API로 연동. 무료 사용 가능(PG사 수수료만 발생).",
-        "notes": "여러 PG사를 동시에 운영하거나 결제 수단을 다양화해야 하는 서비스에 유리. PG 계약은 각 PG사와 별도 체결 필요."
+        "notes": "여러 PG사를 동시에 운영하거나 결제 수단을 다양화해야 하는 서비스에 유리. PG 계약은 각 PG사와 별도 체결 필요.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"portone-mcp-server\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@portone/mcp-server@latest\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add portone-mcp-server -- npx -y @portone/mcp-server@latest",
+          "info_url": "https://github.com/portone-io/mcp-server"
+        }
       }
     },
     {
@@ -55,7 +60,12 @@
           "웹훅·자동 재시도·분쟁 관리 내장"
         ],
         "usage": "dashboard.stripe.com에서 API 키 발급. 테스트 카드(4242 4242 4242 4242)로 샌드박스 테스트. 국내 사업자 등록 후 한국 사업자 계정 인증.",
-        "notes": "국내 사업자는 사업자등록증 필요. 한국 카드 결제는 일부 제한 있음 — 외국계 카드 및 글로벌 결제에 강점. 국내 결제는 토스페이먼츠/PortOne 병행 검토."
+        "notes": "국내 사업자는 사업자등록증 필요. 한국 카드 결제는 일부 제한 있음 — 외국계 카드 및 글로벌 결제에 강점. 국내 결제는 토스페이먼츠/PortOne 병행 검토.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"stripe\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@stripe/mcp@latest\"],\n      \"env\": {\n        \"STRIPE_SECRET_KEY\": \"<<YOUR_SECRET_KEY>>\"\n      }\n    }\n  }\n}",
+          "cli_command": "claude mcp add stripe -- npx -y @stripe/mcp@latest --api-key=<<YOUR_SECRET_KEY>>",
+          "info_url": "https://docs.stripe.com/mcp"
+        }
       }
     },
     {
@@ -73,7 +83,12 @@
           "에스크로·현금영수증 지원"
         ],
         "usage": "bootpay.co.kr에서 가입 후 애플리케이션 등록. PG사 계약 후 연동 설정. 무료로 사용 가능(PG사 수수료만 발생).",
-        "notes": "모바일 앱 결제 연동에 특히 강점. PortOne과 유사한 결제 미들웨어이나 앱 SDK 지원이 풍부함."
+        "notes": "모바일 앱 결제 연동에 특히 강점. PortOne과 유사한 결제 미들웨어이나 앱 SDK 지원이 풍부함.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"bootpay-docs\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@bootpay/mcp\"]\n    }\n  }\n}",
+          "cli_command": "claude mcp add bootpay-docs -- npx -y @bootpay/mcp",
+          "info_url": "https://github.com/bootpay/bootpay-mcp"
+        }
       }
     },
     {
