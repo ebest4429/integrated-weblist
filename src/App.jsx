@@ -67,20 +67,24 @@ export default function App() {
     loadingAllRef.current = false
   }, [catCache])
 
-  // 카테고리 선택 시 해당 JSON 로드
+  // 가상 뷰 플래그
+  const isSearching = searchQuery.trim().length > 0
+  const isFavorites = selectedId === '__favorites__'
+  const isMcp = selectedId === '__mcp__'
+  const isCli = selectedId === '__cli__'
+  const isVirtual = isFavorites || isMcp || isCli
+
+  // 카테고리 선택 시 해당 JSON 로드 (가상 뷰는 제외 — loadAll로 처리)
   useEffect(() => {
-    if (selectedId !== '__favorites__' && !catCache[selectedId]) {
+    if (!isVirtual && !catCache[selectedId]) {
       loadCat(selectedId)
     }
   }, [selectedId]) // eslint-disable-line
 
-  // 검색/즐겨찾기 모드 진입 시 전체 로드
-  const isSearching = searchQuery.trim().length > 0
-  const isFavorites = selectedId === '__favorites__'
-
+  // 검색·즐겨찾기·가상 뷰 진입 시 전체 로드
   useEffect(() => {
-    if (isSearching || isFavorites) loadAll()
-  }, [isSearching, isFavorites]) // eslint-disable-line
+    if (isSearching || isVirtual) loadAll()
+  }, [isSearching, isVirtual]) // eslint-disable-line
 
   const q = searchQuery.toLowerCase().trim()
 
@@ -129,6 +133,28 @@ export default function App() {
     })
     displayTitle = '즐겨찾기'
     displayIcon = '⭐'
+    displayGroup = ''
+  } else if (isMcp) {
+    Object.entries(catCache).forEach(([catId, items]) => {
+      items.forEach(item => {
+        if (item.detail?.mcp) {
+          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId] })
+        }
+      })
+    })
+    displayTitle = 'MCP 연결'
+    displayIcon = '🔌'
+    displayGroup = ''
+  } else if (isCli) {
+    Object.entries(catCache).forEach(([catId, items]) => {
+      items.forEach(item => {
+        if (item.cli) {
+          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId] })
+        }
+      })
+    })
+    displayTitle = 'CLI 도구'
+    displayIcon = '💻'
     displayGroup = ''
   } else {
     displayItems = catCache[selectedId] || []
@@ -189,7 +215,7 @@ export default function App() {
   // ─── 렌더 ─────────────────────────────────────────────────────────
   // 현재 카테고리 로딩 중 표시용 아이템 수 (메타의 itemCount 활용)
   const currentMeta = CATEGORY_META.find(m => m.id === selectedId)
-  const displayCount = loadingCat && !isSearching && !isFavorites
+  const displayCount = loadingCat && !isSearching && !isVirtual
     ? currentMeta?.itemCount ?? 0
     : displayItems.length
 
@@ -282,7 +308,7 @@ export default function App() {
           onResizeStart={handleResizeStart}
         />
         <main style={{ flex: 1, overflowY: 'auto' }}>
-          {loadingCat && !isSearching && !isFavorites ? (
+          {loadingCat && !isSearching && !isVirtual ? (
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>
               <span style={{ fontSize: '14px', color: '#666668' }}>로딩 중...</span>
             </div>

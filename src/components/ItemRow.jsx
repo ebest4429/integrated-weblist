@@ -26,7 +26,7 @@ const BADGE = {
   dep:      { label: 'Deprecated', bg: 'rgba(100,100,100,0.18)', color: '#cccccc' },
 }
 
-function DetailPanel({ detail, url }) {
+function DetailPanel({ detail, url, cli }) {
   const labelStyle = { fontSize: '12px', fontWeight: '700', color: '#888888', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '4px' }
   const sectionStyle = { marginBottom: '12px' }
   const linkStyle = { fontSize: '13px', color: '#60a5fa', textDecoration: 'none' }
@@ -36,7 +36,7 @@ function DetailPanel({ detail, url }) {
     whiteSpace: 'pre-wrap', wordBreak: 'break-all', margin: 0, lineHeight: 1.6,
   }
   const subLabelStyle = { fontSize: '11px', color: '#666', marginBottom: '4px' }
-  const hasExtra = detail.api_docs || detail.dashboard || detail.mcp
+  const hasExtra = detail.api_docs || detail.dashboard || detail.mcp || cli
 
   return (
     <div style={{ fontSize: '14px', color: '#cccccc', lineHeight: 1.7 }}>
@@ -130,6 +130,51 @@ function DetailPanel({ detail, url }) {
               )}
             </div>
           )}
+
+          {/* CLI 도구 */}
+          {cli && (
+            <div style={sectionStyle}>
+              <div style={labelStyle}>CLI 도구</div>
+              {cli.install_win && (
+                <div style={{ marginBottom: '8px' }}>
+                  <div style={subLabelStyle}>Windows 설치 (winget)</div>
+                  <div style={{ position: 'relative' }}>
+                    <pre style={codeStyle}>{cli.install_win}</pre>
+                    <CopyButton text={cli.install_win} />
+                  </div>
+                </div>
+              )}
+              {cli.install_mac && (
+                <div style={{ marginBottom: '8px' }}>
+                  <div style={subLabelStyle}>macOS 설치 (brew)</div>
+                  <div style={{ position: 'relative' }}>
+                    <pre style={codeStyle}>{cli.install_mac}</pre>
+                    <CopyButton text={cli.install_mac} />
+                  </div>
+                </div>
+              )}
+              {cli.commands && cli.commands.length > 0 && (
+                <div style={{ marginBottom: '8px' }}>
+                  <div style={subLabelStyle}>주요 명령어</div>
+                  {cli.commands.map((cmd, i) => (
+                    <div key={i} style={{ marginBottom: '6px' }}>
+                      <div style={{ fontSize: '11px', color: '#888', marginBottom: '2px' }}>{cmd.label}</div>
+                      <div style={{ position: 'relative' }}>
+                        <pre style={codeStyle}>{cmd.code}</pre>
+                        <CopyButton text={cmd.code} />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {cli.info_url && (
+                <a href={cli.info_url} target="_blank" rel="noopener noreferrer" style={linkStyle}
+                  onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+                  onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+                >CLI 문서 →</a>
+              )}
+            </div>
+          )}
         </>
       )}
     </div>
@@ -208,7 +253,7 @@ export default function ItemRow({ item, isFav, onToggleFav, searchQuery }) {
       {open && (
         <div style={{ padding: '14px 20px 14px 44px', background: '#282829', borderTop: '1px solid #404042' }}>
           {item.detail ? (
-            <DetailPanel detail={item.detail} url={item.url} />
+            <DetailPanel detail={item.detail} url={item.url} cli={item.cli} />
           ) : (
             <>
               <p style={{ fontSize: '15px', color: '#ffffff', lineHeight: 1.7, margin: 0 }}>{item.desc}</p>

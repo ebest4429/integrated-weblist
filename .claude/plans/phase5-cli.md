@@ -96,11 +96,11 @@
 
 ### 1단계: UI 구현 (P5-1)
 
-- [ ] App.jsx 가상 카테고리 처리 로직 추가
-- [ ] Sidebar.jsx "도구별 보기" 그룹 추가 (MCP 연결 + CLI 도구)
-- [ ] ItemDetail.jsx CLI 섹션 추가
-- [ ] 빌드 확인 (npm run build)
-- [ ] 커밋
+- ✅ App.jsx 가상 카테고리 처리 로직 추가
+- ✅ Sidebar.jsx "도구별 보기" 그룹 추가 (MCP 연결 + CLI 도구)
+- ✅ ItemDetail.jsx CLI 섹션 추가
+- ✅ 빌드 확인 (npm run build)
+- 🔄 커밋
 
 ### 2단계: CLI 데이터 조사 + 구현 (P5-2)
 
