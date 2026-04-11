@@ -200,8 +200,8 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 
 ## 완료 조건
 
-- [ ] P4-1 UI 구현 완료 (CopyButton 컴포넌트 + 레이블)
-- [ ] 13개 카테고리 테이블 파일 전체 조사 완료 체크
-- [ ] 25개 JSON 파일 구현 완료 체크 (MCP 있는 서비스만)
-- [ ] 빌드 경고 없음
-- [ ] GitHub Pages 재배포 완료
+- [x] P4-1 UI 구현 완료 (CopyButton 컴포넌트 + 레이블)
+- [x] 13개 카테고리 테이블 파일 전체 조사 완료 체크
+- [x] 25개 JSON 파일 구현 완료 체크 (MCP 있는 서비스만)
+- [x] 빌드 경고 없음
+- [x] GitHub Pages 재배포 완료 (2026-04-11)
