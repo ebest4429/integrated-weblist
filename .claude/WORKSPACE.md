@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-6 완료. 다음: P4-7 api |
+| 상태 | 🔄 진행중 — P4-7 완료. 다음: P4-8 payment |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-7-api.md` |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-8-payment.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,14 +25,13 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-7 api MCP 조사
+### 다음 세션 최우선: P4-8 payment MCP 조사
 
-P4-6 ai-platforms 완료 (18개 조사, 9개 MCP 구현).
-- MCP 추가: ChatGPT(@mzxrai/mcp-openai), Gemini(@rlabs-inc/gemini-mcp), Grok(uvx grok-mcp), NotebookLM(notebooklm-mcp), chat.z.ai(@z_ai/mcp-server), Kimi(kimi-mcp-server)
-- MCP 수정: Perplexity(type:stdio 제거), HuggingFace(auth 헤더 추가)
-- MCP 없음: Claude·Copilot·Mistral·Phind·Genspark·Manus·Qwen·Flowith·abocado.ai
+P4-7 api 완료 (14개 조사, 10개 MCP 구현).
+- MCP 구현: Groq(groq/groq-mcp-server), Replicate(replicate-mcp), Together AI(@open-mcp/together-ai), Stripe(docs.stripe.com/mcp), Google Maps(@modelcontextprotocol/server-google-maps), Resend(resend/resend-mcp), Twilio(@twilio-alpha/mcp), DeepL(deepl-mcp-server), Alpha Vantage(alpha_vantage_mcp), CoinMarketCap(mcp.coinmarketcap.com)
+- MCP 없음: OpenAI API·Anthropic API·Google AI Studio·Google OAuth/Identity
 
-다음 조사 파일: `plans/mcp/p4-7-api.md` (api.json, 14개 서비스)
+다음 조사 파일: `plans/mcp/p4-8-payment.md` (payment.json, 13개 서비스)
 
 ---
 

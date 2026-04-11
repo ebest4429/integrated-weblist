@@ -10,20 +10,20 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| OpenAI API | 🔲 | - | 🔲 |
-| Anthropic API | 🔲 | - | 🔲 |
-| Google AI Studio | 🔲 | - | 🔲 |
-| Groq | 🔲 | - | 🔲 |
-| Replicate | 🔲 | - | 🔲 |
-| Together AI | 🔲 | - | 🔲 |
-| Stripe API | 🔲 | - | 🔲 |
-| Google Maps API | 🔲 | - | 🔲 |
-| Resend | 🔲 | - | 🔲 |
-| Twilio | 🔲 | - | 🔲 |
-| DeepL API | 🔲 | - | 🔲 |
-| Google OAuth / Identity | 🔲 | - | 🔲 |
-| Alpha Vantage | 🔲 | - | 🔲 |
-| CoinMarketCap | 🔲 | - | 🔲 |
+| OpenAI API | ✅ | ❌ | N/A |
+| Anthropic API | ✅ | ❌ | N/A |
+| Google AI Studio | ✅ | ❌ | N/A |
+| Groq | ✅ | ✅ | ✅ |
+| Replicate | ✅ | ✅ | ✅ |
+| Together AI | ✅ | ✅ | ✅ |
+| Stripe API | ✅ | ✅ | ✅ |
+| Google Maps API | ✅ | ✅ | ✅ |
+| Resend | ✅ | ✅ | ✅ |
+| Twilio | ✅ | ✅ | ✅ |
+| DeepL API | ✅ | ✅ | ✅ |
+| Google OAuth / Identity | ✅ | ❌ | N/A |
+| Alpha Vantage | ✅ | ✅ | ✅ |
+| CoinMarketCap | ✅ | ✅ | ✅ |
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -33,5 +33,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 14개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 14개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료
