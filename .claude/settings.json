@@ -85,6 +85,11 @@
       }
     ]
   },
+  "permissions": {
+    "allow": [
+      "WebSearch"
+    ]
+  },
   "enabledMcpjsonServers": [
     "filesystem",
     "notebooklm"
