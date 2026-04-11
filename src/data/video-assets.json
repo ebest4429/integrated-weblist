@@ -73,7 +73,11 @@
           "Coverr Pro 구독으로 프리미엄 클립 추가 제공"
         ],
         "usage": "계정 없이 바로 다운로드. 웹사이트 히어로에 video 태그로 삽입하여 autoplay·loop·muted 속성 적용.",
-        "notes": "배경 영상 특화 플랫폼이라 선택지가 Pexels·Pixabay보다 좁지만 품질이 일관적으로 높음."
+        "notes": "배경 영상 특화 플랫폼이라 선택지가 Pexels·Pixabay보다 좁지만 품질이 일관적으로 높음.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"coverr\": {\n      \"url\": \"https://mcp.coverr.co/mcp\",\n      \"headers\": {\n        \"x-coverr-api-key\": \"YOUR_API_KEY\"\n      }\n    }\n  }\n}",
+          "info_url": "https://api.coverr.co/docs/mcp/"
+        }
       }
     },
     {

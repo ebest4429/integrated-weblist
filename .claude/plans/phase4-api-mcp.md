@@ -121,7 +121,7 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 | P4-11 | plans/mcp/p4-11-marketing-seo.md | marketing-seo.json | 21 | ✅ |
 | P4-12 | plans/mcp/p4-12-google.md | google-*.json (9개) | 120 | ✅ |
 | P4-13 | plans/mcp/p4-13-media-ai.md | image-ai.json, video-audio-ai.json | 29 | ✅ |
-| P4-14 | plans/mcp/p4-14-assets-templates.md | image-assets.json, video-assets.json, sound-assets.json, web-templates.json | 43 | 🔲 |
+| P4-14 | plans/mcp/p4-14-assets-templates.md | image-assets.json, video-assets.json, sound-assets.json, web-templates.json | 43 | ✅ |
 
 > 참고: 25개 JSON 파일을 13개 테이블 파일로 그룹화.
 > google-* 9개 카테고리는 MCP 연결 가능성이 낮은 서비스들이므로 하나로 통합.

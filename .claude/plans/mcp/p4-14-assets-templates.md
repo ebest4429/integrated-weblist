@@ -12,64 +12,64 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Freepik | 🔲 | - | 🔲 |
-| Unsplash | 🔲 | - | 🔲 |
-| Pexels | 🔲 | - | 🔲 |
-| Pixabay | 🔲 | - | 🔲 |
-| Shutterstock | 🔲 | - | 🔲 |
-| Getty Images | 🔲 | - | 🔲 |
-| Envato Elements | 🔲 | - | 🔲 |
-| Flaticon | 🔲 | - | 🔲 |
-| VistaCreate | 🔲 | - | 🔲 |
-| rawpixel | 🔲 | - | 🔲 |
+| Freepik | ✅ | ✅ | ✅ |
+| Unsplash | ✅ | ❌ | N/A |
+| Pexels | ✅ | ❌ | N/A |
+| Pixabay | ✅ | ❌ | N/A |
+| Shutterstock | ✅ | ❌ | N/A |
+| Getty Images | ✅ | ❌ | N/A |
+| Envato Elements | ✅ | ❌ | N/A |
+| Flaticon | ✅ | ❌ | N/A |
+| VistaCreate | ✅ | ❌ | N/A |
+| rawpixel | ✅ | ❌ | N/A |
 
 ## video-assets (12개)
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Mixkit | 🔲 | - | 🔲 |
-| Pexels Video | 🔲 | - | 🔲 |
-| Pixabay Video | 🔲 | - | 🔲 |
-| Coverr | 🔲 | - | 🔲 |
-| Videvo | 🔲 | - | 🔲 |
-| Shutterstock Video | 🔲 | - | 🔲 |
-| Getty Images Video | 🔲 | - | 🔲 |
-| Pond5 | 🔲 | - | 🔲 |
-| Storyblocks | 🔲 | - | 🔲 |
-| Envato Elements Video | 🔲 | - | 🔲 |
-| Artgrid | 🔲 | - | 🔲 |
-| Motion Array | 🔲 | - | 🔲 |
+| Mixkit | ✅ | ❌ | N/A |
+| Pexels Video | ✅ | ❌ | N/A |
+| Pixabay Video | ✅ | ❌ | N/A |
+| Coverr | ✅ | ✅ | ✅ |
+| Videvo | ✅ | ❌ | N/A |
+| Shutterstock Video | ✅ | ❌ | N/A |
+| Getty Images Video | ✅ | ❌ | N/A |
+| Pond5 | ✅ | ❌ | N/A |
+| Storyblocks | ✅ | ❌ | N/A |
+| Envato Elements Video | ✅ | ❌ | N/A |
+| Artgrid | ✅ | ❌ | N/A |
+| Motion Array | ✅ | ❌ | N/A |
 
 ## sound-assets (12개)
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| Freesound | 🔲 | - | 🔲 |
-| Mixkit Sound | 🔲 | - | 🔲 |
-| Pixabay Music | 🔲 | - | 🔲 |
-| Epidemic Sound | 🔲 | - | 🔲 |
-| Artlist | 🔲 | - | 🔲 |
-| Soundsnap | 🔲 | - | 🔲 |
-| Pond5 Audio | 🔲 | - | 🔲 |
-| Storyblocks Audio | 🔲 | - | 🔲 |
-| Uppbeat | 🔲 | - | 🔲 |
-| Bensound | 🔲 | - | 🔲 |
-| Zapsplat | 🔲 | - | 🔲 |
-| Adobe Stock Audio | 🔲 | - | 🔲 |
+| Freesound | ✅ | ❌ | N/A |
+| Mixkit Sound | ✅ | ❌ | N/A |
+| Pixabay Music | ✅ | ❌ | N/A |
+| Epidemic Sound | ✅ | ✅ | ✅ |
+| Artlist | ✅ | ❌ | N/A |
+| Soundsnap | ✅ | ❌ | N/A |
+| Pond5 Audio | ✅ | ❌ | N/A |
+| Storyblocks Audio | ✅ | ❌ | N/A |
+| Uppbeat | ✅ | ❌ | N/A |
+| Bensound | ✅ | ❌ | N/A |
+| Zapsplat | ✅ | ❌ | N/A |
+| Adobe Stock Audio | ✅ | ❌ | N/A |
 
 ## web-templates (9개)
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| HTML5 UP | 🔲 | - | 🔲 |
-| Start Bootstrap | 🔲 | - | 🔲 |
-| Creative Tim | 🔲 | - | 🔲 |
-| Colorlib | 🔲 | - | 🔲 |
-| FreeHTML5 | 🔲 | - | 🔲 |
-| Themezy | 🔲 | - | 🔲 |
-| Wix 템플릿 | 🔲 | - | 🔲 |
-| Pixso | 🔲 | - | 🔲 |
-| 웹쟁이 | 🔲 | - | 🔲 |
+| HTML5 UP | ✅ | ❌ | N/A |
+| Start Bootstrap | ✅ | ❌ | N/A |
+| Creative Tim | ✅ | ❌ | N/A |
+| Colorlib | ✅ | ❌ | N/A |
+| FreeHTML5 | ✅ | ❌ | N/A |
+| Themezy | ✅ | ❌ | N/A |
+| Wix 템플릿 | ✅ | ❌ | N/A |
+| Pixso | ✅ | ✅ | ✅ |
+| 웹쟁이 | ✅ | ❌ | N/A |
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -79,5 +79,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 43개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 43개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료 (4개: Freepik, Coverr, Epidemic Sound, Pixso)

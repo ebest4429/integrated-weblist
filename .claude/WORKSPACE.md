@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-13 완료. 다음: P4-14 assets-templates |
+| 상태 | 🔄 진행중 — P4-14 완료. 13개 카테고리 전체 MCP 조사·구현 완료. Phase 4 완료 조건 확인 필요. |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-14-assets-templates.md` |
+| 현재 활성 MCP 조사 파일 | 없음 — 전체 카테고리(P4-2~P4-14) 조사 완료 |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,14 +25,14 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-14 assets-templates MCP 조사
+### Phase 4 완료 조건 점검 (사용자 확인 필요)
 
-P4-13 media-ai 완료 (29개 조사, 3개 MCP 구현).
-- MCP 구현: Runway Gen-3(remote mcp.runway.team), HeyGen(uvx heygen-mcp), ElevenLabs(uvx elevenlabs-mcp)
-- MCP 없음: 나머지 26개 (image-ai 12개 전체 포함)
-- 특이사항: Leonardo.ai 공식 remote MCP 있으나 Claude Desktop 문서 없어 없음 처리
+P4-14 assets-templates 완료 (43개 조사, 4개 MCP 구현).
+- MCP 구현: Freepik(uv run local), Coverr(remote mcp.coverr.co), Epidemic Sound(remote epidemicsound.com), Pixso(remote pixso.net)
+- MCP 없음: 나머지 39개
 
-다음 조사 파일: `plans/mcp/p4-14-assets-templates.md` (image-assets, video-assets, sound-assets, web-templates, 43개 서비스)
+13개 카테고리(P4-2~P4-14) 전체 조사·구현 완료.
+phase4-api-mcp.md 완료 조건 체크 및 배포 필요.
 
 ---
 

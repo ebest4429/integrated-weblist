@@ -73,7 +73,11 @@
           "Premiere·DaVinci·CapCut 플러그인 연동"
         ],
         "usage": "Personal 플랜(개인 채널 1개)·Commercial 플랜(클라이언트 작업 포함) 선택. 채널 등록 필수. 구독 해지 전 공개한 영상은 계속 유지.",
-        "notes": "유튜브 채널 등록 전에 음악 사용 시 Content ID 청구 받을 수 있음. 반드시 먼저 채널 등록."
+        "notes": "유튜브 채널 등록 전에 음악 사용 시 Content ID 청구 받을 수 있음. 반드시 먼저 채널 등록.",
+        "mcp": {
+          "desktop_config": "{\n  \"mcpServers\": {\n    \"epidemic-sound\": {\n      \"url\": \"https://www.epidemicsound.com/a/mcp-service/mcp\"\n    }\n  }\n}",
+          "info_url": "https://developers.epidemicsound.com/docs/mcp/"
+        }
       }
     },
     {
