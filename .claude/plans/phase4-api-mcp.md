@@ -113,7 +113,7 @@ Claude Desktop config(`claude_desktop_config.json`) 또는 `claude mcp add` CLI 
 | P4-3 | plans/mcp/p4-3-dev-tools.md | dev-tools.json | 24 | ✅ |
 | P4-4 | plans/mcp/p4-4-database.md | database.json | 13 | ✅ |
 | P4-5 | plans/mcp/p4-5-hosting-infra.md | hosting-infra.json | 18 | ✅ |
-| P4-6 | plans/mcp/p4-6-ai-platforms.md | ai-platforms.json | 18 | 🔲 |
+| P4-6 | plans/mcp/p4-6-ai-platforms.md | ai-platforms.json | 18 | ✅ |
 | P4-7 | plans/mcp/p4-7-api.md | api.json | 14 | 🔲 |
 | P4-8 | plans/mcp/p4-8-payment.md | payment.json | 13 | 🔲 |
 | P4-9 | plans/mcp/p4-9-nocode-collab.md | nocode-collab.json | 13 | 🔲 |

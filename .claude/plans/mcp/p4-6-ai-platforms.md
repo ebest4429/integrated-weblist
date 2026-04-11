@@ -12,24 +12,36 @@
 
 | 서비스명 | 조사 | MCP | 구현 |
 |---------|------|-----|------|
-| ChatGPT | 🔲 | - | 🔲 |
-| Claude | 🔲 | - | 🔲 |
-| Gemini | 🔲 | - | 🔲 |
-| Grok | 🔲 | - | 🔲 |
-| Perplexity | 🔲 | - | 🔲 |
-| Microsoft Copilot | 🔲 | - | 🔲 |
-| Mistral AI | 🔲 | - | 🔲 |
-| Hugging Face | 🔲 | - | 🔲 |
-| Ollama | 🔲 | - | 🔲 |
-| NotebookLM | 🔲 | - | 🔲 |
-| Phind | 🔲 | - | 🔲 |
-| Genspark | 🔲 | - | 🔲 |
-| Manus | 🔲 | - | 🔲 |
-| chat.z.ai | 🔲 | - | 🔲 |
-| Qwen | 🔲 | - | 🔲 |
-| Kimi | 🔲 | - | 🔲 |
-| Flowith | 🔲 | - | 🔲 |
-| abocado.ai | 🔲 | - | 🔲 |
+| ChatGPT | ✅ | ✅ | ✅ |
+| Claude | ✅ | ❌ | N/A |
+| Gemini | ✅ | ✅ | ✅ |
+| Grok | ✅ | ✅ | ✅ |
+| Perplexity | ✅ | ✅ | ✅ |
+| Microsoft Copilot | ✅ | ❌ | N/A |
+| Mistral AI | ✅ | ❌ | N/A |
+| Hugging Face | ✅ | ✅ | ✅ |
+| Ollama | ✅ | ✅ | ✅ |
+| NotebookLM | ✅ | ✅ | ✅ |
+| Phind | ✅ | ❌ | N/A |
+| Genspark | ✅ | ❌ | N/A |
+| Manus | ✅ | ❌ | N/A |
+| chat.z.ai | ✅ | ✅ | ✅ |
+| Qwen | ✅ | ❌ | N/A |
+| Kimi | ✅ | ✅ | ✅ |
+| Flowith | ✅ | ❌ | N/A |
+| abocado.ai | ✅ | ❌ | N/A |
+
+> MCP 결과 메모 (2026-04-11):
+> ✅ ChatGPT: @mzxrai/mcp-openai (community, npm)
+> ✅ Gemini: @rlabs-inc/gemini-mcp (community, npm)
+> ✅ Grok: guzus/grok-mcp (community, PyPI uvx) — X.com 실시간 검색
+> ✅ Perplexity: @perplexity-ai/mcp-server (공식) — "type":"stdio" 제거 필요
+> ✅ Hugging Face: huggingface.co/mcp (공식 HTTP) — auth 헤더 추가 필요
+> ✅ Ollama: rawveg/ollama-mcp (기존 데이터 정확)
+> ✅ NotebookLM: notebooklm-mcp (community, npx) — Google 인증 필요
+> ✅ chat.z.ai: @z_ai/mcp-server (공식 Z.AI, Vision)
+> ✅ Kimi: kimi-mcp-server (community, npx) — Kimi Code 멤버십 필요
+> ❌ Claude/Copilot/Mistral/Phind/Genspark/Manus/Qwen/Flowith/abocado.ai: MCP 없음
 
 > 조사 컬럼: ✅ 조사 완료 / 🔲 미조사
 > MCP 컬럼: ✅ 있음 / ❌ 없음 / `-` 미조사
@@ -39,5 +51,5 @@
 
 ## 완료 체크
 
-- [ ] 전체 18개 서비스 MCP 조사 완료
-- [ ] MCP 있는 서비스 JSON 구현 완료
+- [x] 전체 18개 서비스 MCP 조사 완료
+- [x] MCP 있는 서비스 JSON 구현 완료 (9개 MCP 있음: ChatGPT·Gemini·Grok·Perplexity·HuggingFace·Ollama·NotebookLM·chat.z.ai·Kimi)

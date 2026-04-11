@@ -12,10 +12,10 @@
 |------|-----|
 | PROJECT | 통합 웹 리소스 허브 |
 | 현재 Phase | Phase 4 — API·MCP 정보 보강 |
-| 상태 | 🔄 진행중 — P4-5 완료. 다음: P4-6 ai-platforms |
+| 상태 | 🔄 진행중 — P4-6 완료. 다음: P4-7 api |
 | 현재 플랜 | `.claude/plans/phase4-api-mcp.md` |
 | 전체 플랜 | `.claude/plans/weblist-master.md` |
-| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-6-ai-platforms.md` |
+| 현재 활성 MCP 조사 파일 | `plans/mcp/p4-7-api.md` |
 
 > 포인터 운용 방법: 파일이 지정되면 세션 시작 시 해당 파일을 반드시 읽을 것.
 > 카테고리 완료 시 AI가 확인 요청 → 사용자 승인 후 이 포인터를 다음 파일로 변경.
@@ -25,19 +25,14 @@
 
 ## 남은 과제
 
-### 다음 세션 최우선: P4-6 ai-platforms MCP 조사 + 전체 배포
+### 다음 세션 최우선: P4-7 api MCP 조사
 
-P4-5 hosting-infra 완료 (18개 조사, 13개 MCP 추가·업데이트).
-다음 조사 파일: `plans/mcp/p4-6-ai-platforms.md` (ai-platforms.json, 18개 서비스)
+P4-6 ai-platforms 완료 (18개 조사, 9개 MCP 구현).
+- MCP 추가: ChatGPT(@mzxrai/mcp-openai), Gemini(@rlabs-inc/gemini-mcp), Grok(uvx grok-mcp), NotebookLM(notebooklm-mcp), chat.z.ai(@z_ai/mcp-server), Kimi(kimi-mcp-server)
+- MCP 수정: Perplexity(type:stdio 제거), HuggingFace(auth 헤더 추가)
+- MCP 없음: Claude·Copilot·Mistral·Phind·Genspark·Manus·Qwen·Flowith·abocado.ai
 
-**이번 세션 컨텍스트 부족으로 중단. 다음 세션에서:**
-1. P4-6 ~ P4-14 순차 조사·구현 계속
-2. 전체 완료 후 `npm run deploy`로 GitHub Pages 배포
-
-**P4-6 참고 — 이미 MCP 데이터 있는 서비스 (재검증 필요):**
-- Perplexity: `@perplexity-ai/mcp-server` (npx)
-- Hugging Face: `https://huggingface.co/mcp` (HTTP Remote)
-- Ollama: `ollama-mcp` (npx, rawveg/ollama-mcp)
+다음 조사 파일: `plans/mcp/p4-7-api.md` (api.json, 14개 서비스)
 
 ---
 
