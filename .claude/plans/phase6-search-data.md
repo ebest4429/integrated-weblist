@@ -78,13 +78,53 @@
 | Aceternity UI | ui.aceternity.com | ✅ |
 | Ant Design | ant.design | ✅ |
 
-#### 개발 도구·코딩 섹션 통합 (환경 도구)
+#### frameworks-libs 카테고리 추가 추천 (기술 스택·백엔드 프레임워크)
 
-| 서비스 | 비고 | 상태 |
-|--------|------|------|
-| Anaconda | Python 환경 관리 | 🔲 |
-| WSL2 | Windows Linux 환경 | 🔲 |
-| Chocolatey | Windows 패키지 매니저 | 🔲 |
+> 신규추가.md 외 추천 항목. 다음 세션에서 JSON 추가.
+
+| 서비스 | URL | 분류 | 상태 |
+|--------|-----|------|------|
+| Svelte | svelte.dev | 컴파일러 기반 UI 프레임워크 | 🔲 |
+| Angular | angular.dev | Google 엔터프라이즈 프레임워크 | 🔲 |
+| Express.js | expressjs.com | Node.js 백엔드 프레임워크 표준 | 🔲 |
+| Fastify | fastify.dev | 고성능 Node.js 백엔드 프레임워크 | 🔲 |
+| Hono | hono.dev | 엣지 런타임용 경량 프레임워크 | 🔲 |
+| Bun | bun.sh | 빠른 JS 런타임 + 패키지 매니저 | 🔲 |
+| Deno | deno.com | 보안 중심 JS·TS 런타임 | 🔲 |
+| tRPC | trpc.io | End-to-end 타입 안전 API | 🔲 |
+| Prisma | prisma.io | TypeScript ORM | 🔲 |
+| Drizzle ORM | orm.drizzle.team | 경량 TypeScript ORM | 🔲 |
+
+#### frameworks-libs 카테고리 추가 추천 (UI·애니메이션·시각화 라이브러리)
+
+| 서비스 | URL | 분류 | 상태 |
+|--------|-----|------|------|
+| Chakra UI | chakra-ui.com | 접근성 중심 React UI | 🔲 |
+| Material UI (MUI) | mui.com | Google Material Design React | 🔲 |
+| Motion (Framer Motion) | motion.dev | React 애니메이션 라이브러리 | 🔲 |
+| GSAP | gsap.com | 프로 JS 애니메이션 라이브러리 | 🔲 |
+| Three.js | threejs.org | 3D 웹 그래픽 라이브러리 | 🔲 |
+| Chart.js | chartjs.org | 간결한 JS 차트 라이브러리 | 🔲 |
+| UnoCSS | unocss.dev | Tailwind 대안 원자적 CSS 엔진 | 🔲 |
+
+#### 개발 도구·코딩 섹션 추가 추천 (IDE·터미널·환경 도구)
+
+> dev-tools.json에 추가 또는 신규 카테고리 협의 후 결정.
+
+| 서비스 | URL | 분류 | 상태 |
+|--------|-----|------|------|
+| Anaconda | anaconda.org | Python 환경 관리 | 🔲 |
+| WSL2 | learn.microsoft.com/windows/wsl | Windows Linux 환경 | 🔲 |
+| Chocolatey | chocolatey.org | Windows 패키지 매니저 | 🔲 |
+| nvm | github.com/nvm-sh/nvm | Node.js 버전 관리 | 🔲 |
+| pnpm | pnpm.io | 빠른 JS 패키지 매니저 | 🔲 |
+| Poetry | python-poetry.org | Python 의존성 관리 | 🔲 |
+| Zed | zed.dev | Rust 기반 고성능 코드 에디터 | 🔲 |
+| Warp | warp.dev | AI 내장 터미널 | 🔲 |
+| JetBrains | jetbrains.com | IntelliJ·WebStorm·PyCharm IDE | 🔲 |
+| Insomnia | insomnia.rest | API 클라이언트 (Postman 대안) | 🔲 |
+| DevToys | devtoys.app | 개발자 유틸리티 모음 | 🔲 |
+| Git | git-scm.com | 분산 버전 관리 시스템 | 🔲 |
 
 #### 기타 섹션
 

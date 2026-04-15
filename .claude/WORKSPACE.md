@@ -41,9 +41,24 @@
 
 P6-2 검색 강화 전체 완료.
 
-### P6-3 프레임워크·라이브러리 신규 카테고리 — 완료
+### P6-3 프레임워크·라이브러리 신규 카테고리 — 완료 (1차)
 - categories.js: frameworks-libs 카테고리 + DATA_LOADERS 등록 (dev 그룹)
-- frameworks-libs.json: 17개 항목 생성 (React·Vue·Next.js·Nuxt·SvelteKit·Astro·Remix·Vite·Node.js·Electron + shadcn·Radix·DaisyUI·Mantine·Headless UI·Aceternity·Ant Design)
+- frameworks-libs.json: 17개 항목 (React·Vue·Next.js·Nuxt·SvelteKit·Astro·Remix·Vite·Node.js·Electron + shadcn·Radix·DaisyUI·Mantine·Headless UI·Aceternity·Ant Design)
+
+### P6-3 다음 세션 작업 목록 (플랜 반영 완료)
+
+**frameworks-libs 추가 예정 (기술스택·백엔드·UI·시각화):**
+Svelte·Angular·Express.js·Fastify·Hono·Bun·Deno·tRPC·Prisma·Drizzle ORM
+Chakra UI·MUI·Motion·GSAP·Three.js·Chart.js·UnoCSS
+
+**dev-tools 추가 예정 (IDE·터미널·환경도구):**
+Anaconda·WSL2·Chocolatey·nvm·pnpm·Poetry·Zed·Warp·JetBrains·Insomnia·DevToys·Git
+
+**MCP·에이전트·자동화 추가 예정:**
+Context7·sequential-thinking·fetch·Firecrawl·Playwright MCP·21st.dev·Magic UI·shadcn MCP·YouTube Data MCP·Fiddler MCP·NotebookLM MCP CLI
+
+**기타 섹션 추가 예정:**
+Notion(노코드·협업)·Bitly(마케팅)·GitHub tokens(개발도구)
 
 ### P6-2: 신규 데이터 추가 (신규추가.md 기반)
 
