@@ -1,6 +1,6 @@
 # 통합 웹 리소스 허브 — 마스터플랜
 
-**현재 활성 플랜:** `phase5-cli.md`
+**현재 활성 플랜:** `phase6-search-data.md`
 
 > 참조 소스: `ai_resource_hub/index.html`, `google-ecosystem-map/index.html`, `.Source-Files/소스.md`
 
@@ -25,6 +25,7 @@
 | Phase 3 | 검색 고도화 + 태그 필터 | `phase3-search-filter.md` | ✅ 완료 |
 | Phase 4 | API·MCP 정보 보강 | `phase4-api-mcp.md` | ✅ 완료 |
 | Phase 5 | CLI 정보 보강 + 가상 필터뷰 | `phase5-cli.md` | ✅ 완료 |
+| Phase 6 | 검색 강화 + 신규 데이터 추가 | `phase6-search-data.md` | 🔄 진행 중 |
 
 ---
 

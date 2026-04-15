@@ -301,8 +301,7 @@ export default function App() {
           onSelect={(id) => {
             setSelectedId(id)
             setSearchQuery('')
-            const group = GROUPS.find(g => g.categories.some(c => c.id === id))
-            if (group) setGroupFilter([group.id])
+            setGroupFilter([])
           }}
           favCount={favorites.length}
           onResizeStart={handleResizeStart}
