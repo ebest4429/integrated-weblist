@@ -27,6 +27,7 @@ export default function App() {
   const [sidebarWidth, setSidebarWidth] = useState(() => {
     return parseInt(localStorage.getItem(SIDEBAR_KEY)) || 300
   })
+  const [searchScope, setSearchScope] = useState('all') // 'all' | 'current' (P6-2③)
   const [badgeFilter, setBadgeFilter] = useState(() => {
     const url = getUrlParams().get('badge')
     if (url) return url.split(',').filter(Boolean)
@@ -81,10 +82,10 @@ export default function App() {
     }
   }, [selectedId]) // eslint-disable-line
 
-  // 검색·즐겨찾기·가상 뷰 진입 시 전체 로드
+  // 검색·즐겨찾기·가상 뷰 진입 시 전체 로드 (현재 카테고리 범위는 제외)
   useEffect(() => {
-    if (isSearching || isVirtual) loadAll()
-  }, [isSearching, isVirtual]) // eslint-disable-line
+    if ((isSearching && searchScope === 'all') || isVirtual) loadAll()
+  }, [isSearching, isVirtual, searchScope]) // eslint-disable-line
 
   const q = searchQuery.toLowerCase().trim()
 
@@ -107,7 +108,11 @@ export default function App() {
   let displayGroup = ''
 
   if (isSearching) {
-    Object.entries(catCache).forEach(([catId, items]) => {
+    // searchScope: 'all' → 전체 catCache, 'current' → 현재 카테고리만
+    const searchSource = searchScope === 'current' && !isVirtual
+      ? (catCache[selectedId] ? { [selectedId]: catCache[selectedId] } : {})
+      : catCache
+    Object.entries(searchSource).forEach(([catId, items]) => {
       items.forEach(item => {
         if (
           item.name.toLowerCase().includes(q) ||
@@ -260,8 +265,8 @@ export default function App() {
           <div style={{ minWidth: '240px' }} />
         </div>
 
-        {/* 2줄: 검색바 */}
-        <div style={{ display: 'flex', justifyContent: 'center', padding: '0 28px 10px' }}>
+        {/* 2줄: 검색바 + 범위 토글 */}
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', padding: '0 28px 10px' }}>
           <div style={{ position: 'relative', width: '100%', maxWidth: '560px' }}>
             <span style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)', color: '#888888', fontSize: '15px', pointerEvents: 'none' }}>🔍</span>
             <input
@@ -294,6 +299,29 @@ export default function App() {
               >✕</button>
             )}
           </div>
+
+          {/* 검색 범위 토글 — 전체 / 현재 카테고리 (P6-2③) */}
+          {!isVirtual && (
+            <div style={{ display: 'flex', flexShrink: 0, borderRadius: '8px', overflow: 'hidden', border: '1px solid #404042' }}>
+              {['all', 'current'].map(scope => {
+                const active = searchScope === scope
+                return (
+                  <button
+                    key={scope}
+                    onClick={() => setSearchScope(scope)}
+                    style={{
+                      padding: '6px 12px', fontSize: '12px', fontWeight: '500',
+                      background: active ? '#3b82f6' : 'transparent',
+                      color: active ? '#ffffff' : '#888888',
+                      border: 'none', cursor: 'pointer', whiteSpace: 'nowrap',
+                    }}
+                  >
+                    {scope === 'all' ? '🌐 전체' : '📂 현재'}
+                  </button>
+                )
+              })}
+            </div>
+          )}
         </div>
 
         {/* 3줄: 필터바 (P3-1, P3-2, P3-5) */}
