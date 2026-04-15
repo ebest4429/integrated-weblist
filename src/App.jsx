@@ -116,7 +116,7 @@ export default function App() {
           (item.detail?.intro && item.detail.intro.toLowerCase().includes(q)) ||
           (item.detail?.features && item.detail.features.some(f => f.toLowerCase().includes(q)))
         ) {
-          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId] })
+          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId], _catId: catId })
         }
       })
     })
@@ -127,7 +127,7 @@ export default function App() {
     Object.entries(catCache).forEach(([catId, items]) => {
       items.forEach(item => {
         if (favorites.includes(item.name)) {
-          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId] })
+          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId], _catId: catId })
         }
       })
     })
@@ -138,7 +138,7 @@ export default function App() {
     Object.entries(catCache).forEach(([catId, items]) => {
       items.forEach(item => {
         if (item.detail?.mcp) {
-          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId] })
+          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId], _catId: catId })
         }
       })
     })
@@ -149,7 +149,7 @@ export default function App() {
     Object.entries(catCache).forEach(([catId, items]) => {
       items.forEach(item => {
         if (item.cli) {
-          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId] })
+          displayItems.push({ ...item, _groupId: CAT_TO_GROUP[catId], _catId: catId })
         }
       })
     })

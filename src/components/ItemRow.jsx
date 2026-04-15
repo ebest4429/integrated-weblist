@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import CopyButton from './CopyButton'
+import { CAT_META_MAP } from '../data/categories'
 
 // 검색어 매칭 텍스트 하이라이트 (P3-3)
 function Highlight({ text, query }) {
@@ -185,6 +186,7 @@ export default function ItemRow({ item, isFav, onToggleFav, searchQuery }) {
   const [open, setOpen] = useState(false)
   const [hovered, setHovered] = useState(false)
   const badge = BADGE[item.badge] || BADGE.free
+  const catMeta = item._catId ? CAT_META_MAP[item._catId] : null
 
   return (
     <div style={{ border: '1px solid #404042', borderRadius: '8px', overflow: 'hidden' }}>
@@ -221,6 +223,20 @@ export default function ItemRow({ item, isFav, onToggleFav, searchQuery }) {
         <div style={{ flex: 1, minWidth: 0, fontSize: '15px', color: '#ffffff', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
           <Highlight text={item.desc} query={searchQuery} />
         </div>
+
+        {/* 카테고리 출처 — 검색·즐겨찾기·가상뷰에서만 표시 */}
+        {catMeta && (
+          <span style={{
+            flexShrink: 0, fontSize: '11px', fontWeight: '500',
+            padding: '2px 8px', borderRadius: '999px',
+            background: 'rgba(148,163,184,0.12)',
+            color: '#94a3b8',
+            border: '1px solid rgba(148,163,184,0.25)',
+            whiteSpace: 'nowrap',
+          }}>
+            {catMeta.icon} {catMeta.title}
+          </span>
+        )}
 
         {/* 뱃지 */}
         <span style={{
