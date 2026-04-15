@@ -1,0 +1,303 @@
+{
+  "items": [
+    {
+      "name": "React",
+      "url": "https://react.dev",
+      "desc": "Meta의 UI 라이브러리. 컴포넌트 기반 SPA·SSR 개발의 사실상 표준",
+      "badge": "open",
+      "detail": {
+        "intro": "Meta(Facebook)가 만든 오픈소스 UI 라이브러리. 컴포넌트 단위 개발·가상 DOM·단방향 데이터 흐름으로 대규모 앱에 최적화. Next.js·Remix 등 수많은 프레임워크의 기반.",
+        "features": [
+          "컴포넌트 기반 UI 구성 — 재사용 가능한 조각으로 분리",
+          "가상 DOM으로 효율적 렌더링 업데이트",
+          "React Hooks — useState·useEffect·useContext 등 함수형 상태관리",
+          "Next.js·Remix·Gatsby 등 다양한 프레임워크와 연동",
+          "React Native로 iOS·Android 앱 개발 가능"
+        ],
+        "usage": "npm create vite@latest my-app -- --template react 로 시작. 또는 Next.js 사용 시 npx create-next-app@latest."
+      }
+    },
+    {
+      "name": "Vue",
+      "url": "https://vuejs.org",
+      "desc": "점진적 채택 가능한 UI 프레임워크. 직관적 문법·반응형 시스템·낮은 학습곡선",
+      "badge": "open",
+      "detail": {
+        "intro": "Evan You가 만든 오픈소스 프론트엔드 프레임워크. 점진적으로 도입 가능한 설계로 소규모 페이지부터 대형 SPA까지 유연하게 활용. Composition API로 로직 재사용성 극대화.",
+        "features": [
+          "Options API · Composition API 두 방식 지원",
+          "반응형 데이터 바인딩 — 상태 변경 시 자동 UI 업데이트",
+          "Single File Component(.vue) — HTML·CSS·JS 한 파일에 통합",
+          "Nuxt.js와 결합해 SSR·SSG 지원",
+          "Vuex·Pinia 상태 관리 라이브러리 생태계"
+        ],
+        "usage": "npm create vue@latest 명령으로 프로젝트 생성. Vite 기반 개발 환경 자동 구성."
+      }
+    },
+    {
+      "name": "Next.js",
+      "url": "https://nextjs.org",
+      "desc": "React 기반 풀스택 프레임워크. SSR·SSG·App Router·API Routes 내장",
+      "badge": "open",
+      "detail": {
+        "intro": "Vercel이 개발한 React 기반 풀스택 프레임워크. 서버사이드 렌더링(SSR)·정적 생성(SSG)·ISR·App Router를 통한 파일 기반 라우팅 지원. 프로덕션 수준의 React 앱 표준 선택지.",
+        "features": [
+          "App Router — 파일 기반 라우팅·레이아웃·서버 컴포넌트",
+          "SSR·SSG·ISR 렌더링 방식 선택 가능",
+          "API Routes — 서버리스 백엔드 함수 내장",
+          "이미지 최적화·폰트 최적화·번들 분석 내장",
+          "Vercel 원클릭 배포·엣지 함수 지원"
+        ],
+        "usage": "npx create-next-app@latest 로 시작. TypeScript·ESLint·Tailwind 선택 옵션 제공."
+      }
+    },
+    {
+      "name": "Nuxt.js",
+      "url": "https://nuxt.com",
+      "desc": "Vue 기반 풀스택 프레임워크. SSR·SSG·자동 라우팅·모듈 생태계",
+      "badge": "open",
+      "detail": {
+        "intro": "Vue 기반 풀스택 프레임워크. 파일 기반 자동 라우팅·SSR·SSG·API 라우트를 내장하여 Vue로 프로덕션 앱을 빠르게 구축. 200+ 공식 모듈 생태계 보유.",
+        "features": [
+          "파일 기반 자동 라우팅 — pages/ 디렉토리 구조 그대로 라우트 생성",
+          "SSR·SSG·SPA·하이브리드 렌더링 모드 선택",
+          "Nuxt Modules — Auth·Image·Content·SEO 등 200+ 모듈",
+          "서버 API 라우트 내장 (server/api/)",
+          "자동 임포트 — 컴포넌트·Composable 자동 인식"
+        ],
+        "usage": "npx nuxi@latest init my-app 으로 프로젝트 생성."
+      }
+    },
+    {
+      "name": "SvelteKit",
+      "url": "https://kit.svelte.dev",
+      "desc": "Svelte 기반 풀스택 프레임워크. 컴파일 타임 최적화·초경량 번들·빠른 성능",
+      "badge": "open",
+      "detail": {
+        "intro": "Svelte 기반 풀스택 웹 프레임워크. 가상 DOM 없이 컴파일 타임에 반응형 코드를 생성하여 초경량 번들과 뛰어난 런타임 성능을 달성. 직관적인 문법으로 빠른 개발 가능.",
+        "features": [
+          "가상 DOM 없음 — 컴파일 타임 최적화로 빠른 렌더링",
+          "파일 기반 라우팅·레이아웃·중첩 라우트",
+          "SSR·CSR·SSG·프리렌더링 유연한 선택",
+          "내장 폼 액션·로드 함수로 서버-클라이언트 데이터 통합",
+          "Vite 기반 HMR·빠른 개발 환경"
+        ],
+        "usage": "npm create svelte@latest my-app 으로 시작."
+      }
+    },
+    {
+      "name": "Astro",
+      "url": "https://astro.build",
+      "desc": "콘텐츠 중심 정적 사이트 프레임워크. 아일랜드 아키텍처·멀티 프레임워크·Zero JS 기본",
+      "badge": "open",
+      "detail": {
+        "intro": "콘텐츠 중심 웹사이트에 최적화된 프레임워크. 아일랜드 아키텍처로 대부분의 콘텐츠를 정적 HTML로 제공하고 인터랙티브 컴포넌트만 선택적으로 하이드레이션. React·Vue·Svelte를 한 프로젝트에서 혼용 가능.",
+        "features": [
+          "아일랜드 아키텍처 — 인터랙티브 컴포넌트만 선택적 JS 로드",
+          "멀티 프레임워크 — React·Vue·Svelte·Solid 혼용 가능",
+          "Zero JS 기본값 — HTML/CSS만으로 렌더링, JS는 opt-in",
+          "콘텐츠 컬렉션 — Markdown·MDX 타입 안전 처리",
+          "View Transitions API 내장 지원"
+        ],
+        "usage": "npm create astro@latest 로 시작. 블로그·문서·마케팅 사이트에 최적."
+      }
+    },
+    {
+      "name": "Remix",
+      "url": "https://remix.run",
+      "desc": "React 기반 웹 표준 중심 풀스택 프레임워크. 중첩 라우팅·Loader/Action 데이터 패턴",
+      "badge": "open",
+      "detail": {
+        "intro": "웹 표준(fetch·FormData·Web API)에 충실한 React 풀스택 프레임워크. 중첩 라우팅·Loader·Action 패턴으로 서버-클라이언트 데이터 흐름을 명확하게 분리. Shopify 인수 후 오픈소스 유지.",
+        "features": [
+          "중첩 라우팅 — 레이아웃과 데이터를 계층적으로 구성",
+          "Loader·Action — 서버사이드 데이터 로딩·폼 처리 표준화",
+          "웹 표준 우선 — fetch·FormData·Web Streams 활용",
+          "Vite 기반 빌드·빠른 HMR",
+          "에러 바운더리·낙관적 UI 내장 지원"
+        ],
+        "usage": "npx create-remix@latest 로 시작. Vercel·Netlify·Cloudflare Workers 등 다양한 런타임 지원."
+      }
+    },
+    {
+      "name": "Vite",
+      "url": "https://vitejs.dev",
+      "desc": "차세대 프론트엔드 빌드 도구. ESM 기반 즉시 서버 시작·HMR·Rollup 프로덕션 빌드",
+      "badge": "open",
+      "detail": {
+        "intro": "Evan You(Vue 창시자)가 만든 고속 빌드 도구. 개발 서버는 ESM 네이티브로 번들 없이 즉시 시작하고 HMR은 파일 단위 갱신으로 빠름. 프로덕션 빌드는 Rollup 기반.",
+        "features": [
+          "ESM 네이티브 개발 서버 — 번들 없이 즉시 시작",
+          "빠른 HMR — 수정된 모듈만 교체·브라우저 상태 유지",
+          "Rollup 기반 최적화 프로덕션 빌드",
+          "React·Vue·Svelte·Vanilla JS 공식 템플릿 제공",
+          "플러그인 API — Rollup 호환 플러그인 생태계"
+        ],
+        "usage": "npm create vite@latest my-app — --template react 로 시작. 프레임워크 템플릿 선택 가능."
+      }
+    },
+    {
+      "name": "Node.js",
+      "url": "https://nodejs.org",
+      "desc": "서버사이드 JavaScript 런타임. V8 엔진 기반·npm 생태계·백엔드 API 서버 구축",
+      "badge": "open",
+      "detail": {
+        "intro": "Chrome V8 엔진으로 구동되는 서버사이드 JavaScript 런타임. 비동기 I/O·이벤트 루프 기반으로 고성능 네트워크 앱 구축. npm 생태계의 핵심이며 모든 JavaScript 도구의 기반.",
+        "features": [
+          "비동기 논블로킹 I/O — 높은 동시 접속 처리 성능",
+          "npm — 200만+ 패키지 세계 최대 오픈소스 생태계",
+          "Express·Fastify·Hono 등 백엔드 프레임워크 기반",
+          "LTS(장기 지원) 버전으로 안정적 프로덕션 운영",
+          "nvm으로 버전 관리 권장"
+        ],
+        "usage": "nodejs.org에서 LTS 버전 다운로드. Windows: winget install OpenJS.NodeJS"
+      },
+      "cli": {
+        "install_win": "winget install OpenJS.NodeJS",
+        "install_mac": "brew install node",
+        "commands": [
+          { "label": "버전 확인", "code": "node --version" },
+          { "label": "패키지 설치", "code": "npm install <package>" },
+          { "label": "스크립트 실행", "code": "npm run <script>" }
+        ],
+        "info_url": "https://nodejs.org/en/download"
+      }
+    },
+    {
+      "name": "Electron",
+      "url": "https://www.electronjs.org",
+      "desc": "웹 기술로 데스크탑 앱 개발. Chromium+Node.js 기반·Windows·macOS·Linux 크로스플랫폼",
+      "badge": "open",
+      "detail": {
+        "intro": "Chromium과 Node.js를 결합하여 HTML·CSS·JS로 데스크탑 앱을 만드는 프레임워크. VS Code·Slack·Figma·Discord 등 주요 앱이 Electron 기반. 하나의 코드로 세 플랫폼 배포 가능.",
+        "features": [
+          "HTML·CSS·JS로 Windows·macOS·Linux 앱 동시 개발",
+          "Node.js 통합 — 파일시스템·OS API 직접 접근",
+          "자동 업데이트·앱 패키징·코드 서명 내장",
+          "Chromium 렌더러 — 최신 웹 표준 완전 지원",
+          "React·Vue·Angular 등 모든 프론트엔드 프레임워크 호환"
+        ],
+        "usage": "npm init electron-app@latest my-app 으로 시작."
+      }
+    },
+    {
+      "name": "shadcn/ui",
+      "url": "https://ui.shadcn.com",
+      "desc": "복사·붙여넣기 방식 React 컴포넌트. Radix UI + Tailwind 기반·완전 커스텀 가능",
+      "badge": "open",
+      "detail": {
+        "intro": "npm 패키지가 아닌 '복사·붙여넣기' 방식의 컴포넌트 컬렉션. Radix UI 헤드리스 컴포넌트에 Tailwind CSS 스타일을 입혀 프로젝트 소스에 직접 추가. 완전한 소유권으로 자유로운 커스텀 가능.",
+        "features": [
+          "컴포넌트 소유 — 소스 코드가 내 프로젝트에 직접 포함",
+          "Radix UI 기반 완전한 접근성(ARIA) 보장",
+          "Tailwind 테마 변수로 다크모드·브랜드 컬러 간편 적용",
+          "CLI로 필요한 컴포넌트만 선택 설치",
+          "공식 MCP 서버 제공 — AI와 연동하여 컴포넌트 자동 생성"
+        ],
+        "usage": "npx shadcn@latest init 후 npx shadcn@latest add button 형태로 컴포넌트 추가."
+      }
+    },
+    {
+      "name": "Radix UI",
+      "url": "https://radix-ui.com",
+      "desc": "접근성 중심 헤드리스 React 컴포넌트. shadcn/ui의 기반 라이브러리·ARIA 완전 지원",
+      "badge": "open",
+      "detail": {
+        "intro": "스타일이 없는 헤드리스 React 컴포넌트 라이브러리. WAI-ARIA 표준을 완전히 구현하여 키보드 탐색·스크린 리더 호환성을 보장. shadcn/ui·Radix Themes의 기반 레이어.",
+        "features": [
+          "헤드리스 — 스타일 없이 기능과 접근성만 제공",
+          "WAI-ARIA 완전 구현 — 키보드·스크린 리더 완전 호환",
+          "Dialog·Dropdown·Tooltip·Select 등 30+ 프리미티브",
+          "비제어·제어 컴포넌트 모두 지원",
+          "shadcn/ui·Radix Themes의 기반 레이어"
+        ],
+        "usage": "npm install @radix-ui/react-dialog 등 컴포넌트별 개별 설치."
+      }
+    },
+    {
+      "name": "DaisyUI",
+      "url": "https://daisyui.com",
+      "desc": "Tailwind CSS 플러그인 컴포넌트. 35+ 테마·시멘틱 클래스명·가장 인기 있는 Tailwind 컴포넌트",
+      "badge": "open",
+      "detail": {
+        "intro": "Tailwind CSS 위에서 동작하는 컴포넌트 플러그인. 시멘틱한 클래스명(btn·card·modal)으로 HTML을 간결하게 작성하고 35개 이상의 내장 테마를 data-theme 속성 하나로 전환.",
+        "features": [
+          "시멘틱 클래스명 — btn·input·card 등 직관적 네이밍",
+          "35+ 내장 테마 — 다크·라이트·큐트 등 data-theme 전환",
+          "Tailwind CSS 플러그인 방식 — 기존 Tailwind 워크플로우 유지",
+          "React·Vue·Svelte·순수 HTML 모두 호환",
+          "CSS 변수 기반 완전한 커스텀 테마 제작 가능"
+        ],
+        "usage": "npm install daisyui 후 tailwind.config.js plugins에 추가."
+      }
+    },
+    {
+      "name": "Mantine",
+      "url": "https://mantine.dev",
+      "desc": "100+ React 컴포넌트 + 50+ 훅. 다크모드·폼·차트·날짜 피커 내장",
+      "badge": "open",
+      "detail": {
+        "intro": "100개 이상의 컴포넌트와 50개 이상의 훅을 제공하는 완성형 React UI 라이브러리. 폼 관리·날짜 피커·차트·알림·모달 등 실무에 필요한 컴포넌트를 별도 패키지 설치 없이 통합 제공.",
+        "features": [
+          "100+ 컴포넌트 — 버튼부터 데이터 테이블·차트까지",
+          "50+ 훅 — useForm·useDisclosure·useLocalStorage 등",
+          "다크모드 내장 — ColorSchemeProvider로 즉시 토글",
+          "@mantine/form — Zod 연동 폼 유효성 검사",
+          "@mantine/charts — Recharts 기반 차트 컴포넌트"
+        ],
+        "usage": "npm install @mantine/core @mantine/hooks 로 시작."
+      }
+    },
+    {
+      "name": "Headless UI",
+      "url": "https://headlessui.com",
+      "desc": "Tailwind Labs 공식 헤드리스 컴포넌트. React·Vue 지원·완전한 접근성·WAI-ARIA 구현",
+      "badge": "open",
+      "detail": {
+        "intro": "Tailwind CSS 제작팀(Tailwind Labs)이 만든 헤드리스 UI 컴포넌트. 스타일 없이 접근성 로직만 제공하여 Tailwind 클래스로 자유롭게 스타일링. React·Vue 공식 지원.",
+        "features": [
+          "완전한 WAI-ARIA 구현 — 키보드 탐색·포커스 관리",
+          "Listbox·Combobox·Dialog·Menu·Popover 등 핵심 컴포넌트",
+          "Tailwind CSS와 완벽한 통합",
+          "React·Vue 두 프레임워크 공식 지원",
+          "비제어·제어 모드 모두 지원"
+        ],
+        "usage": "npm install @headlessui/react (React) 또는 @headlessui/vue (Vue)."
+      }
+    },
+    {
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "desc": "애니메이션·인터랙션 특화 React 컴포넌트. Framer Motion 기반·고급 비주얼 효과",
+      "badge": "open",
+      "detail": {
+        "intro": "Framer Motion과 Tailwind CSS 기반의 고급 애니메이션 컴포넌트 컬렉션. 배경 입자 효과·텍스트 애니메이션·카드 호버 효과 등 시각적으로 인상적인 컴포넌트를 shadcn 방식으로 복사·붙여넣기 가능.",
+        "features": [
+          "Framer Motion 기반 고급 애니메이션 컴포넌트",
+          "Moving Cards·Spotlight·Typewriter 등 인터랙티브 효과",
+          "shadcn/ui 방식 — 소스 복사 후 프로젝트에 직접 포함",
+          "Tailwind CSS·다크모드 완전 지원",
+          "포트폴리오·랜딩 페이지 특화 컴포넌트"
+        ],
+        "usage": "aceternity.com에서 원하는 컴포넌트 선택 후 코드 복사. Framer Motion·clsx 의존성 필요."
+      }
+    },
+    {
+      "name": "Ant Design",
+      "url": "https://ant.design",
+      "desc": "Alibaba 엔터프라이즈 React UI 시스템. 60+ 컴포넌트·디자인 시스템·Form·Table 강점",
+      "badge": "open",
+      "detail": {
+        "intro": "Alibaba가 만든 엔터프라이즈급 React UI 라이브러리. 60개 이상의 컴포넌트로 복잡한 데이터 테이블·폼·대시보드를 빠르게 구축. 일관된 디자인 언어와 풍부한 비즈니스 컴포넌트 보유.",
+        "features": [
+          "60+ 컴포넌트 — Table·Form·DatePicker·Select 등 비즈니스 특화",
+          "디자인 시스템 — 일관된 시각 언어·디자인 토큰",
+          "Form 컴포넌트 — 복잡한 유효성·의존 관계 처리",
+          "Table 컴포넌트 — 가상 스크롤·정렬·필터·편집 내장",
+          "Ant Design Pro — 어드민 대시보드 템플릿 제공"
+        ],
+        "usage": "npm install antd 로 설치. import { Button } from 'antd' 형태로 사용."
+      }
+    }
+  ]
+}

@@ -41,6 +41,10 @@
 
 P6-2 검색 강화 전체 완료.
 
+### P6-3 프레임워크·라이브러리 신규 카테고리 — 완료
+- categories.js: frameworks-libs 카테고리 + DATA_LOADERS 등록 (dev 그룹)
+- frameworks-libs.json: 17개 항목 생성 (React·Vue·Next.js·Nuxt·SvelteKit·Astro·Remix·Vite·Node.js·Electron + shadcn·Radix·DaisyUI·Mantine·Headless UI·Aceternity·Ant Design)
+
 ### P6-2: 신규 데이터 추가 (신규추가.md 기반)
 
 **MCP·에이전트·자동화 섹션 추가 항목 (현재 13개 → 약 22개 예정):**

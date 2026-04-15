@@ -54,20 +54,37 @@
 | Nanobanana API MCP | URL 조사 필요 — 확인 후 추가 | 🔲 |
 | image-generation MCP | URL 조사 필요 — 확인 후 추가 | 🔲 |
 
-#### 개발 도구·코딩 섹션 통합
+#### 신규 카테고리: 프레임워크·라이브러리 (dev 그룹, 사이드바 추가)
+
+> 개발 도구 섹션 과부하 방지용 서브 분리. id: `frameworks-libs`, icon: 🧱
+
+| 서비스 | URL | 상태 |
+|--------|-----|------|
+| React | react.dev | ✅ |
+| Vue | vuejs.org | ✅ |
+| Next.js | nextjs.org | ✅ |
+| Nuxt.js | nuxt.com | ✅ |
+| SvelteKit | kit.svelte.dev | ✅ |
+| Astro | astro.build | ✅ |
+| Remix | remix.run | ✅ |
+| Vite | vitejs.dev | ✅ |
+| Node.js | nodejs.org | ✅ |
+| Electron | electronjs.org | ✅ |
+| shadcn/ui | ui.shadcn.com | ✅ |
+| Radix UI | radix-ui.com | ✅ |
+| DaisyUI | daisyui.com | ✅ |
+| Mantine | mantine.dev | ✅ |
+| Headless UI | headlessui.com | ✅ |
+| Aceternity UI | ui.aceternity.com | ✅ |
+| Ant Design | ant.design | ✅ |
+
+#### 개발 도구·코딩 섹션 통합 (환경 도구)
 
 | 서비스 | 비고 | 상태 |
 |--------|------|------|
-| Node.js | JS 런타임 기준 도구 | 🔲 |
-| Next.js | React 프레임워크 | 🔲 |
-| React | UI 라이브러리 | 🔲 |
-| Vue | UI 프레임워크 | 🔲 |
-| Electron | 데스크탑 앱 프레임워크 | 🔲 |
 | Anaconda | Python 환경 관리 | 🔲 |
 | WSL2 | Windows Linux 환경 | 🔲 |
 | Chocolatey | Windows 패키지 매니저 | 🔲 |
-
-> Vite: 현재 이미 사용 중 — JSON 중복 여부 확인 후 결정
 
 #### 기타 섹션
 
