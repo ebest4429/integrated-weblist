@@ -27,6 +27,10 @@
 - App.jsx: 검색·즐겨찾기·MCP·CLI 4개 루프에 `_catId` 필드 추가
 - ItemRow.jsx: CAT_META_MAP 활용 카테고리 칩 렌더링 (JSON 수정 없음)
 
+### P6-2 ②: Ctrl+K 단축키 — 완료
+- App.jsx: searchInputRef + keydown 핸들러 추가
+- placeholder에 "Ctrl+K" 힌트 표시
+
 ### P6-2: 신규 데이터 추가 (신규추가.md 기반)
 
 **MCP·에이전트·자동화 섹션 추가 항목 (현재 13개 → 약 22개 예정):**

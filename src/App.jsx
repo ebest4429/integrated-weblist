@@ -194,6 +194,21 @@ export default function App() {
     })
   }
 
+  const searchInputRef = useRef(null)
+
+  // Ctrl+K — 검색창 포커스 (P6-2②)
+  useEffect(() => {
+    const handler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault()
+        searchInputRef.current?.focus()
+        searchInputRef.current?.select()
+      }
+    }
+    document.addEventListener('keydown', handler)
+    return () => document.removeEventListener('keydown', handler)
+  }, [])
+
   const isResizing = useRef(false)
   const handleResizeStart = useCallback(() => {
     isResizing.current = true
@@ -250,8 +265,9 @@ export default function App() {
           <div style={{ position: 'relative', width: '100%', maxWidth: '560px' }}>
             <span style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)', color: '#888888', fontSize: '15px', pointerEvents: 'none' }}>🔍</span>
             <input
+              ref={searchInputRef}
               type="text"
-              placeholder="서비스 검색... (영문·한글 모두 가능)"
+              placeholder="서비스 검색... (영문·한글 모두 가능)  Ctrl+K"
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
               style={{
